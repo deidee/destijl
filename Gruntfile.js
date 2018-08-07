@@ -10,11 +10,22 @@ module.exports = grunt => {
         sass: {
             options: {
                 implementation: sass,
-                sourceMap: true
+                sourceMap: false
+            },
+            src: {
+                options: {
+                    outputStyle: 'expanded'
+                },
+                files: {
+                    'src/main.css': 'scss/main.scss'
+                }
             },
             dist: {
+                options: {
+                    outputStyle: 'compressed'
+                },
                 files: {
-                    'dist/main.css': 'scss/main.scss'
+                    'dist/main.min.css': 'scss/main.scss'
                 }
             }
         }
