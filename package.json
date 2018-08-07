@@ -1,6 +1,6 @@
 {
   "name": "destijl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "destijl is het digitale stijlblad van deidee voor websites van deidee. Het is de implementatie van de huisstijl van deidee voor online media.",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/deidee/destijl/issues"
   },
-  "homepage": "https://github.com/deidee/destijl#readme"
+  "homepage": "https://github.com/deidee/destijl#readme",
+  "private": true
 }
