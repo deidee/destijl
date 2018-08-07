@@ -1,0 +1,24 @@
+{
+  "name": "destijl",
+  "version": "0.0.1",
+  "description": "destijl is het digitale stijlblad van deidee voor websites van deidee. Het is de implementatie van de huisstijl van deidee voor online media.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deidee/destijl.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "flexbox"
+  ],
+  "author": "ACJ <ego@acjs.net>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/deidee/destijl/issues"
+  },
+  "homepage": "https://github.com/deidee/destijl#readme"
+}
