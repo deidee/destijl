@@ -27,6 +27,14 @@ module.exports = grunt => {
                 files: {
                     'dist/main.min.css': 'scss/main.scss'
                 }
+            },
+            test: {
+                options: {
+                    outputStyle: 'nested'
+                },
+                files: {
+                    'test/main.css': 'scss/main.scss'
+                }
             }
         }
     });
