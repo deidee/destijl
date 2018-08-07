@@ -21,5 +21,11 @@
     "url": "https://github.com/deidee/destijl/issues"
   },
   "homepage": "https://github.com/deidee/destijl#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.1",
+    "node-sass": "^4.9.2"
+  }
 }
