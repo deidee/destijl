@@ -3,3 +3,31 @@
 b, strong {
   font-weight: $font-weight-bold;
 }
+
+cite, i, var {
+  font-style: italic;
+}
+
+h1, .h1 {
+  font-size: $font-size-xxl;
+  line-height: rem(48px);
+  margin: rem(12px) 0;
+}
+
+h2, .h2 {
+  font-size: $font-size-xl;
+  line-height: rem(24px);
+  margin: rem(12px) 0;
+}
+
+// https://github.com/acjbizar/proper-text-indent
+
+p {
+  text-indent: 2em;
+}
+
+:not(p) + p,
+p:first-child,
+p:first-of-type {
+  text-indent: 0;
+}

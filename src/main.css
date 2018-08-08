@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: inherit;
   font-size: 1em;
+  font-weight: inherit;
   margin: 0;
   padding: 0;
   position: relative;
@@ -20,6 +21,7 @@ body {
 html {
   font: normal 100%/1.5 Calibri, sans-serif, serif;
   overflow-y: scroll;
+  text-rendering: optimizeLegibility;
 }
 
 main {
@@ -44,6 +46,10 @@ input:disabled[type=submit] {
   background-color: silver;
 }
 
+footer {
+  padding: 12px 0;
+}
+
 [class|=col] {
   padding-left: 12px;
   padding-right: 12px;
@@ -60,4 +66,34 @@ input:disabled[type=submit] {
 .row {
   margin-left: -12px;
   margin-right: -12px;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+cite, i, var {
+  font-style: italic;
+}
+
+h1, .h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 0.75rem 0;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+  line-height: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+p {
+  text-indent: 2em;
+}
+
+:not(p) + p,
+p:first-child,
+p:first-of-type {
+  text-indent: 0;
 }

@@ -4,8 +4,17 @@ $black: #000;
 $white: #fff;
 
 // Typography;
+$font-family-icons: sans-serif;
 $font-family-sans: Calibri, sans-serif, serif;
 $font-family-serif: 'Times New Roman', Times, serif, sans-serif;
+$font-size-xs: rem(10px);
+$font-size-sm: rem(12px);
+$font-size-m: rem(16px);
+$font-size-l: rem(24px);
+$font-size-xl: rem(32px);
+$font-size-xxl: rem(48px);
+$font-size-3xl: rem(64px);
+$font-weight-normal: normal;
 $font-weight-bold: bold;
 
 // Layout.
