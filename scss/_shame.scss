@@ -1,0 +1,14 @@
+
+// http://csswizardry.com/2013/04/shame-css/
+
+html {
+  -webkit-text-size-adjust: 100%; // Prevent adjustments of font size after orientation changes in iOS.
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+
+  &::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+}

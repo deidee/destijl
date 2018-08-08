@@ -31,6 +31,10 @@
 @include column(2, 3);
 @include column(1, 4);
 @include column(3, 4);
+@include column(1, 5);
+@include column(2, 5);
+@include column(3, 5);
+@include column(4, 5);
 
 .container {
   margin-left: auto;

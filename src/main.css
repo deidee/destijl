@@ -1,7 +1,7 @@
 /* Based on earlier work, and inspired by clear, reset, and normalize projects. */
 *, *::after, *::before {
   border: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
   font-family: inherit;
   font-size: 1em;
   font-weight: inherit;
@@ -9,6 +9,10 @@
   padding: 0;
   position: relative;
   text-decoration: none;
+}
+
+:root {
+  tab-size: 4;
 }
 
 body {
@@ -19,6 +23,7 @@ body {
 }
 
 html {
+  box-sizing: border-box;
   display: flex;
   font: normal 100%/1.5 Calibri, sans-serif, serif;
   overflow-y: scroll;
@@ -47,12 +52,12 @@ input:disabled[type=submit] {
   background-color: silver;
 }
 
-html {
+html:hover {
   background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, 0.5) 23px, rgba(0, 255, 255, 0.5) 24px);
   background-position: 0 1px;
 }
 
-[class|=col] {
+html:hover [class|=col] {
   background-color: rgba(255, 0, 0, 0.125);
   background-clip: content-box;
 }
@@ -63,10 +68,25 @@ html {
 }
 
 footer {
+  background-color: #000;
+  color: #fff;
   padding: 12px 0;
 }
 
-[class|=col], .col-1o2, .col-1o3, .col-2o3, .col-1o4, .col-3o4 {
+footer dl {
+  font-size: 0.75rem;
+  line-height: 2;
+}
+
+footer dl dd, footer dl dt {
+  display: inline-block;
+}
+
+footer dl dt {
+  margin: 0 0.75rem 0 1.5rem;
+}
+
+[class|=col], .col-1o2, .col-1o3, .col-2o3, .col-1o4, .col-3o4, .col-1o5, .col-2o5, .col-3o5, .col-4o5 {
   min-height: 1px;
   padding-right: 12px;
   padding-left: 12px;
@@ -98,6 +118,26 @@ footer {
   max-width: 75%;
 }
 
+.col-1o5 {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.col-2o5 {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.col-3o5 {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.col-4o5 {
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -110,6 +150,83 @@ footer {
   display: flex;
   margin-left: -12px;
   margin-right: -12px;
+}
+
+li {
+  margin: 0 0 0 2em;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol > li > ol {
+  list-style-type: lower-latin;
+}
+
+ol > li > ol > li > ol {
+  list-style-type: lower-roman;
+}
+
+ol > li > ol > li > ol > li > ol {
+  list-style-type: lower-latin;
+}
+
+ol[type="1"],
+li[type="1"] {
+  list-style-type: decimal;
+}
+
+ol[type=a],
+li[type=a] {
+  list-style-type: lower-alpha;
+}
+
+ol[type=A],
+li[type=A] {
+  list-style-type: upper-alpha;
+}
+
+ol[type=i],
+li[type=i] {
+  list-style-type: lower-roman;
+}
+
+ol[type=I],
+li[type=I] {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul > li > ul {
+  list-style-type: circle;
+}
+
+ul > li > ul > li > ul {
+  list-style-type: square;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.list-unstyled > li {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+}
+
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
 
 table {
@@ -139,6 +256,7 @@ h2, .h2 {
 }
 
 p {
+  font-family: "Times New Roman", Times, serif, sans-serif;
   text-indent: 2em;
 }
 
@@ -146,4 +264,20 @@ p {
 p:first-child,
 p:first-of-type {
   text-indent: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+:lang(zh) {
+  writing-mode: vertical-lr;
 }

@@ -3,7 +3,7 @@
 
 *, *::after, *::before {
   border: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
   font-family: inherit;
   font-size: 1em;
   font-weight: inherit;
@@ -11,6 +11,10 @@
   padding: 0;
   position: relative;
   text-decoration: none;
+}
+
+:root {
+  tab-size: 4;
 }
 
 body {
@@ -21,6 +25,7 @@ body {
 }
 
 html {
+  box-sizing: border-box;
   display: flex;
   font: normal 100%/1.5 $font-family-sans;
   overflow-y: scroll;

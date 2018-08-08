@@ -1,10 +1,11 @@
 
-html {
+html:hover {
   background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, .5) 23px, rgba(0, 255, 255, .5) 24px);
   background-position: 0 1px;
+
+  [class|=col] {
+    background-color: rgba(255, 0, 0, .125);
+    background-clip: content-box;
+  }
 }
 
-[class|=col] {
-  background-color: rgba(255, 0, 0, .125);
-  background-clip: content-box;
-}

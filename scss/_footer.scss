@@ -1,4 +1,19 @@
 
 footer {
+  background-color: $black;
+  color: $white;
   padding: $gutter / 2 0;
+
+  dl {
+    font-size: $font-size-s;
+    line-height: 2;
+
+    dd, dt {
+      display: inline-block;
+    }
+
+    dt {
+      margin: 0 rem(12px) 0 rem(24px);
+    }
+  }
 }

@@ -1,4 +1,6 @@
 
+// TODO: Consider https://www.bbc.co.uk/gel/guidelines/typography for naming inspiration.
+
 // Be strong!
 b, strong {
   font-weight: $font-weight-bold;
@@ -23,6 +25,7 @@ h2, .h2 {
 // https://github.com/acjbizar/proper-text-indent
 
 p {
+  font-family: $font-family-serif;
   text-indent: 2em;
 }
 
@@ -30,4 +33,20 @@ p {
 p:first-child,
 p:first-of-type {
   text-indent: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+:lang(zh) {
+  writing-mode: vertical-lr;
 }
