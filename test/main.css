@@ -17,6 +17,7 @@ body {
   min-height: 100vh; }
 
 html {
+  display: flex;
   font: normal 100%/1.5 Calibri, sans-serif, serif;
   overflow-y: scroll;
   text-rendering: optimizeLegibility; }
