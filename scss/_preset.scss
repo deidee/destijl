@@ -1,0 +1,30 @@
+
+/* Based on earlier work, and inspired by clear, reset, and normalize projects. */
+
+*, *::after, *::before {
+  border: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html {
+  font: normal 100%/1.5 $font-family-sans;
+  overflow-y: scroll;
+}
+
+main {
+  flex: 1 0 auto;
+}
+

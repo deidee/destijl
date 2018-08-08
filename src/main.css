@@ -1,6 +1,9 @@
+/* Based on earlier work, and inspired by clear, reset, and normalize projects. */
 *, *::after, *::before {
   border: 0;
   box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1em;
   margin: 0;
   padding: 0;
   position: relative;
@@ -21,6 +24,24 @@ html {
 
 main {
   flex: 1 0 auto;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  background-color: #000;
+  color: #fff;
+  height: 3rem;
+  line-height: 3;
+  padding: 0 12px;
+}
+
+button:disabled,
+input:disabled[type=button],
+input:disabled[type=reset],
+input:disabled[type=submit] {
+  background-color: silver;
 }
 
 [class|=col] {

@@ -1,47 +1,13 @@
 
 @import "variables";
 
-*, *::after, *::before {
-  border: 0;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  text-decoration: none;
-}
+@import "preset";
 
-body {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  min-height: 100vh;
-}
+@import "buttons";
+@import "grid";
+@import "icons";
 
-html {
-  font: normal 100%/1.5 Calibri, sans-serif, serif;
-  overflow-y: scroll;
-}
 
-main {
-  flex: 1 0 auto;
-}
 
-[class|=col] {
-  padding-left: $gutter / 2;
-  padding-right: $gutter / 2;
-}
 
-[class|=icon] {}
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1080px;
-  padding-left: $gutter / 2;
-  padding-right: $gutter / 2;
-}
-
-.row {
-  margin-left: $gutter / -2;
-  margin-right: $gutter / -2;
-}
