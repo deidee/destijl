@@ -36,8 +36,19 @@ module.exports = grunt => {
                     'test/main.css': 'scss/main.scss'
                 }
             }
+        },
+        watch: {
+            options: {
+                livereload: true,
+            },
+            css: {
+                files: ['scss/**/*.scss'],
+                tasks: ['sass']
+            }
         }
     });
+
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', ['sass']);
 };
