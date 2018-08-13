@@ -16,6 +16,7 @@
 }
 
 body {
+  color: #222;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -241,6 +242,10 @@ b, strong {
 
 cite, i, var {
   font-style: italic;
+}
+
+code, kbd, pre, samp {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace, sans-serif, serif;
 }
 
 h1, .h1 {
