@@ -68,6 +68,11 @@ html:hover [class|=col] {
   display: flex;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   background-color: #000;
   color: #fff;
@@ -151,6 +156,16 @@ footer dl dt {
   display: flex;
   margin-left: -12px;
   margin-right: -12px;
+}
+
+.mb-auto,
+.my-auto {
+  margin-bottom: auto;
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: auto;
 }
 
 li {
