@@ -26,6 +26,7 @@ body {
 }
 
 html {
+  background-color: $blank;
   box-sizing: border-box;
   display: flex;
   font: normal 100%/1.5 $font-family-sans;
