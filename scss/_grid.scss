@@ -36,6 +36,26 @@
 @include column(3, 5);
 @include column(4, 5);
 
+.cols-2 {
+  column-count: 2;
+  column-gap: $gutter;
+}
+
+.cols-3 {
+  column-count: 3;
+  column-gap: $gutter;
+}
+
+.cols-4 {
+  column-count: 4;
+  column-gap: $gutter;
+}
+
+.cols-6 {
+  column-count: 6;
+  column-gap: $gutter;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;

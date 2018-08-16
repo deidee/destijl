@@ -137,7 +137,7 @@ input:disabled[type=submit] {
 }
 
 :root {
-  --dejade: #f3f37d;
+  --dejade: #f4f43f;
 }
 
 .bg-black {
@@ -161,7 +161,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #f3f37d;
+  background-color: #f4f43f;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -270,6 +270,26 @@ footer dl dt {
 .col-4o5 {
   flex: 0 0 80%;
   max-width: 80%;
+}
+
+.cols-2 {
+  column-count: 2;
+  column-gap: 24px;
+}
+
+.cols-3 {
+  column-count: 3;
+  column-gap: 24px;
+}
+
+.cols-4 {
+  column-count: 4;
+  column-gap: 24px;
+}
+
+.cols-6 {
+  column-count: 6;
+  column-gap: 24px;
 }
 
 .container {
@@ -744,6 +764,11 @@ p:first-of-type {
 
 .text-right {
   text-align: right;
+}
+
+.text-s {
+  font-size: 14px;
+  line-height: 2;
 }
 
 :lang(zh) {

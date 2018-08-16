@@ -51,6 +51,11 @@ p:first-of-type {
   text-align: right;
 }
 
+.text-s {
+  font-size: 14px;
+  line-height: 2;
+}
+
 :lang(zh) {
   writing-mode: vertical-lr;
 }
