@@ -137,7 +137,7 @@ input:disabled[type=submit] {
 }
 
 :root {
-  --dejade: #9999bd;
+  --dejade: #f3f37d;
 }
 
 .bg-black {
@@ -161,7 +161,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #9999bd;
+  background-color: #f3f37d;
   background-color: var(--dejade);
   color: #fff;
 }
