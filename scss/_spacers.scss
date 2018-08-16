@@ -1,0 +1,11 @@
+
+@each $spacer in $spacers {
+  .m-#{$spacer}, .mx-#{$spacer}, .ml-#{$spacer} { margin-left: rem($spacer); }
+  .m-#{$spacer}, .mx-#{$spacer}, .mr-#{$spacer} { margin-right: rem($spacer); }
+  .m-#{$spacer}, .my-#{$spacer}, .mb-#{$spacer} { margin-bottom: rem($spacer); }
+  .m-#{$spacer}, .my-#{$spacer}, .mt-#{$spacer} { margin-top: rem($spacer); }
+  .p-#{$spacer}, .px-#{$spacer}, .pl-#{$spacer} { padding-left: rem($spacer); }
+  .p-#{$spacer}, .px-#{$spacer}, .pr-#{$spacer} { padding-right: rem($spacer); }
+  .p-#{$spacer}, .py-#{$spacer}, .pb-#{$spacer} { padding-bottom: rem($spacer); }
+  .p-#{$spacer}, .py-#{$spacer}, .pt-#{$spacer} { padding-top: rem($spacer); }
+}
