@@ -107,6 +107,7 @@ input[type=reset],
 input[type=submit] {
   background-color: #000;
   color: #fff;
+  cursor: pointer;
   height: 3rem;
   line-height: 3;
   padding: 0 12px; }
@@ -114,7 +115,44 @@ input[type=submit] {
   input:disabled[type=button],
   input:disabled[type=reset],
   input:disabled[type=submit] {
-    background-color: silver; }
+    background-color: silver;
+    cursor: default; }
+
+:root {
+  --dejade: #bbbb3f; }
+
+.bg-black {
+  background-color: #000;
+  color: #fff; }
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.875);
+  color: #fff; }
+
+.bg-white {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.875); }
+
+.bg-light {
+  background-color: #fafafa;
+  color: #222; }
+
+.bg-dejade {
+  background-color: #bbbb3f;
+  background-color: var(--dejade);
+  color: #fff; }
+
+.bg-facebook {
+  background-color: #3b5998;
+  color: #fff; }
+
+.bg-twitter {
+  background-color: #1da1f2;
+  color: #fff; }
+
+.bg-linkedin {
+  background-color: #0077b5;
+  color: #fff; }
 
 html:hover {
   background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, 0.5) 23px, rgba(0, 255, 255, 0.5) 24px);

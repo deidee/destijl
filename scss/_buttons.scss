@@ -2,12 +2,14 @@
 %button {
   background-color: $black;
   color: $white;
+  cursor: pointer;
   height: 3rem;
   line-height: 3;
   padding: 0 $gutter / 2;
 
   &:disabled {
     background-color: silver;
+    cursor: default;
   }
 }
 

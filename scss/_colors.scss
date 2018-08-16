@@ -1,0 +1,45 @@
+
+:root {
+  --dejade: #{$dejade};
+}
+
+.bg-black {
+  background-color: $black;
+  color: $white;
+}
+
+.bg-dark {
+  background-color: $dark;
+  color: $white;
+}
+
+.bg-white {
+  background-color: $white;
+  color: $dark;
+}
+
+.bg-light {
+  background-color: $blank;
+  color: $text;
+}
+
+.bg-dejade {
+  background-color: $dejade;
+  background-color: var(--dejade);
+  color: $white;
+}
+
+.bg-facebook {
+  background-color: $bc-facebook;
+  color: $white;
+}
+
+.bg-twitter {
+  background-color: $bc-twitter;
+  color: $white;
+}
+
+.bg-linkedin {
+  background-color: $bc-linkedin;
+  color: $white;
+}
