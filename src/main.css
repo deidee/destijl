@@ -137,7 +137,7 @@ input:disabled[type=submit] {
 }
 
 :root {
-  --dejade: #f4f43f;
+  --dejade: #c3c318;
 }
 
 .bg-black {
@@ -161,7 +161,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #f4f43f;
+  background-color: #c3c318;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -717,6 +717,16 @@ table {
   border-collapse: collapse;
   empty-cells: hide;
   width: 100%;
+}
+
+.top {
+  background: rgba(0, 0, 0, 0.875);
+  bottom: 0;
+  color: #fff;
+  height: 3rem;
+  padding: .75rem .5rem;
+  position: fixed;
+  right: .5rem;
 }
 
 b, strong {
