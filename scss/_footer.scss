@@ -2,7 +2,7 @@
 footer {
   background-color: $black;
   color: $white;
-  padding: $gutter / 2 0;
+  padding: rem(12px) 0;
 
   dl {
     font-size: $font-size-s;

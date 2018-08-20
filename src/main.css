@@ -125,7 +125,7 @@ input[type=submit] {
   cursor: pointer;
   height: 3rem;
   line-height: 3;
-  padding: 0 12px;
+  padding: 0 8px;
 }
 
 button:disabled,
@@ -137,7 +137,7 @@ input:disabled[type=submit] {
 }
 
 :root {
-  --dejade: #c3c318;
+  --dejade: #adad9f;
 }
 
 .bg-black {
@@ -161,7 +161,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #c3c318;
+  background-color: #adad9f;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -204,7 +204,7 @@ html:hover [class|=col] {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 12px 0;
+  padding: 0.75rem 0;
 }
 
 footer dl {
@@ -222,8 +222,8 @@ footer dl dt {
 
 [class|=col], .col-1o2, .col-1o3, .col-2o3, .col-1o4, .col-3o4, .col-1o5, .col-2o5, .col-3o5, .col-4o5 {
   min-height: 1px;
-  padding-right: 12px;
-  padding-left: 12px;
+  padding-right: 8px;
+  padding-left: 8px;
   width: 100%;
 }
 
@@ -274,36 +274,36 @@ footer dl dt {
 
 .cols-2 {
   column-count: 2;
-  column-gap: 24px;
+  column-gap: 16px;
 }
 
 .cols-3 {
   column-count: 3;
-  column-gap: 24px;
+  column-gap: 16px;
 }
 
 .cols-4 {
   column-count: 4;
-  column-gap: 24px;
+  column-gap: 16px;
 }
 
 .cols-6 {
   column-count: 6;
-  column-gap: 24px;
+  column-gap: 16px;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1080px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .row {
   display: flex;
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 .mb-auto,
@@ -778,7 +778,7 @@ p:first-of-type {
 
 .text-s {
   font-size: 14px;
-  line-height: 2;
+  line-height: 24px;
 }
 
 :lang(zh) {
