@@ -110,7 +110,7 @@ input[type=submit] {
   cursor: pointer;
   height: 3rem;
   line-height: 3;
-  padding: 0 8px; }
+  padding: 0 1rem; }
   button:disabled,
   input:disabled[type=button],
   input:disabled[type=reset],
@@ -119,7 +119,7 @@ input[type=submit] {
     cursor: default; }
 
 :root {
-  --dejade: #9e9e3f; }
+  --dejade: #8484a0; }
 
 .bg-black {
   background-color: #000;
@@ -138,7 +138,7 @@ input[type=submit] {
   color: #222; }
 
 .bg-dejade {
-  background-color: #9e9e3f;
+  background-color: #8484a0;
   background-color: var(--dejade);
   color: #fff; }
 
@@ -180,6 +180,9 @@ footer {
       display: inline-block; }
     footer dl dt {
       margin: 0 0.75rem 0 1.5rem; }
+
+.form-row {
+  padding-bottom: 0.5rem; }
 
 [class|=col], .col-1o2, .col-1o3, .col-2o3, .col-1o4, .col-3o4, .col-1o5, .col-2o5, .col-3o5, .col-4o5 {
   min-height: 1px;
@@ -244,7 +247,8 @@ footer {
   margin-right: auto;
   max-width: 1080px;
   padding-left: 8px;
-  padding-right: 8px; }
+  padding-right: 8px;
+  width: 100%; }
 
 .row {
   display: flex;
@@ -258,6 +262,25 @@ footer {
 .mt-auto,
 .my-auto {
   margin-top: auto; }
+
+input[type=email],
+input[type=search],
+input[type=text],
+input[type=url], input:not([type]), textarea {
+  background-color: #fff;
+  line-height: 1.5;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-indent: 1rem;
+  vertical-align: bottom;
+  width: 100%; }
+
+textarea {
+  min-height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  resize: vertical;
+  text-indent: 0; }
 
 li {
   margin: 0 0 0 2em; }

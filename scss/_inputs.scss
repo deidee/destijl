@@ -1,0 +1,30 @@
+
+%input {
+  background-color: $white;
+  line-height: 1.5;
+  padding-bottom: rem(8px);
+  padding-top: rem(8px);
+  text-indent: rem(16px);
+  vertical-align: bottom;
+  width: 100%;
+}
+
+input[type=email],
+input[type=search],
+input[type=text],
+input[type=url] {
+  @extend %input;
+}
+
+input:not([type]) {
+  @extend %input;
+}
+
+textarea{
+  @extend %input;
+  min-height: 3rem;
+  padding-left: rem(16px);
+  padding-right: rem(16px);
+  resize: vertical;
+  text-indent: 0;
+}

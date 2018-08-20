@@ -125,7 +125,7 @@ input[type=submit] {
   cursor: pointer;
   height: 3rem;
   line-height: 3;
-  padding: 0 8px;
+  padding: 0 1rem;
 }
 
 button:disabled,
@@ -137,7 +137,7 @@ input:disabled[type=submit] {
 }
 
 :root {
-  --dejade: #adad9f;
+  --dejade: #9f9f3b;
 }
 
 .bg-black {
@@ -161,7 +161,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #adad9f;
+  background-color: #9f9f3b;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -218,6 +218,10 @@ footer dl dd, footer dl dt {
 
 footer dl dt {
   margin: 0 0.75rem 0 1.5rem;
+}
+
+.form-row {
+  padding-bottom: 0.5rem;
 }
 
 [class|=col], .col-1o2, .col-1o3, .col-2o3, .col-1o4, .col-3o4, .col-1o5, .col-2o5, .col-3o5, .col-4o5 {
@@ -298,6 +302,7 @@ footer dl dt {
   max-width: 1080px;
   padding-left: 8px;
   padding-right: 8px;
+  width: 100%;
 }
 
 .row {
@@ -314,6 +319,27 @@ footer dl dt {
 .mt-auto,
 .my-auto {
   margin-top: auto;
+}
+
+input[type=email],
+input[type=search],
+input[type=text],
+input[type=url], input:not([type]), textarea {
+  background-color: #fff;
+  line-height: 1.5;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-indent: 1rem;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+textarea {
+  min-height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  resize: vertical;
+  text-indent: 0;
 }
 
 li {
