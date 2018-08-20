@@ -137,7 +137,7 @@ input:disabled[type=submit] {
 }
 
 :root {
-  --dejade: #f9f93c;
+  --dejade: #649460;
 }
 
 .bg-black {
@@ -161,7 +161,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #f9f93c;
+  background-color: #649460;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -347,6 +347,12 @@ textarea {
   padding-right: 1rem;
   resize: vertical;
   text-indent: 0;
+}
+
+a {
+  background-color: transparent;
+  color: #649460;
+  color: var(--dejade);
 }
 
 li {
