@@ -119,7 +119,7 @@ input[type=submit] {
     cursor: default; }
 
 :root {
-  --dejade: #19b32d; }
+  --dejade: #1d91ac; }
 
 .bg-black {
   background-color: #000;
@@ -138,7 +138,7 @@ input[type=submit] {
   color: #222; }
 
 .bg-dejade {
-  background-color: #19b32d;
+  background-color: #1d91ac;
   background-color: var(--dejade);
   color: #fff; }
 
@@ -289,7 +289,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #19b32d;
+  color: #1d91ac;
   color: var(--dejade); }
 
 li {
