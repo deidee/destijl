@@ -428,33 +428,23 @@
 <script>
     "use strict";
 
-    var html = document.getElementsByTagName('html')[0];
+    let html = document.getElementsByTagName('html')[0];
     html.style.setProperty("--dejade", "green");
 
-    window.onload = init;
-    function init() {
-        if (window.Event) {
-            document.captureEvents(Event.MOUSEMOVE);
-        }
-        document.onmousemove = getCursorXY;
-    }
+    document.addEventListener("DOMContentLoaded", function(e) {
+        let width = window.innerWidth;
+        let height = window.innerHeight;
 
-    function getCursorXY(e) {
-        var cursorX = (window.Event) ? e.pageX : event.clientX + (document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft);
-        var cursorY = (window.Event) ? e.pageY : event.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop);
+        document.onmousemove = function(e) {
+            let r = Math.round(127 * e.clientY / height);
+            let g = Math.round(((e.clientY / height) + (e.clientX / width)) / 2 * 128 + 127);
+            let b = Math.round(191 * e.clientX / width);
+            let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
 
-        var width = window.innerWidth;
-        var height = window.innerHeight;
+            html.style.setProperty("--dejade", rgb);
+        };
+    });
 
-        var r = Math.round(127 * cursorY / height);
-        var g = Math.round(((cursorY / height) + (cursorX / width)) / 2 * 128 + 127);
-        var b = Math.round(191 * cursorX / width);
-        var rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
-
-        html.style.setProperty("--dejade", rgb);
-
-        console.log(rgb);
-    }
 </script>
 </body>
 </html>

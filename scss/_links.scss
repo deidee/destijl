@@ -3,4 +3,15 @@ a {
   background-color: transparent;
   color: $dejade;
   color: var(--dejade);
+  display: inline-block;
+  position: relative;
+  //text-shadow: 0 0 0 rgba(0, 0, 0, .125);
+  //transition-duration: .25s;
+  // TODO: Consider also transitioning color. Perhaps only for touch?
+  //transition-property: text-shadow, transform;
+
+  &:hover {
+    //text-shadow: 0 rem(1px) 0 rgba(0, 0, 0, .125);
+    //transform: translateY(rem(-2px));
+  }
 }

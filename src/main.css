@@ -1,3 +1,116 @@
+/* Based on earlier work, and inspired by clear, reset, and normalize projects. */
+*, *::after, *::before {
+  border: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+}
+
+:root {
+  tab-size: 4;
+}
+
+body {
+  color: #222;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html {
+  background-color: #fafafa;
+  box-sizing: border-box;
+  display: flex;
+  font: normal 100%/1.5 "Avenir Next LT W04", Calibri, sans-serif, serif;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  height: 3rem;
+  line-height: 3;
+  padding: 0 1rem;
+}
+
+button:disabled,
+input:disabled[type=button],
+input:disabled[type=reset],
+input:disabled[type=submit] {
+  background-color: silver;
+  cursor: default;
+}
+
+:root {
+  --dejade: #74e93a;
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.875);
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.875);
+}
+
+.bg-light {
+  background-color: #fafafa;
+  color: #222;
+}
+
+.bg-dejade {
+  background-color: #74e93a;
+  background-color: var(--dejade);
+  color: #fff;
+}
+
+.bg-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.bg-twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.bg-linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.align-items-center {
+  align-items: center;
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 @font-face {
   font-family: "Avenir Next LT W04";
   font-style: normal;
@@ -76,129 +189,6 @@
   font-weight: bold;
   src: url("../fonts/adc453ac-6e04-4cd7-803a-86bdd48c9b17.eot?#iefix");
   src: url("../fonts/adc453ac-6e04-4cd7-803a-86bdd48c9b17.eot?#iefix") format("eot"), url("../fonts/e49c0d9a-ac0e-4c2d-aa84-b719e2d34e99.woff2") format("woff2"), url("../fonts/3a9ee7aa-c28b-4ad8-b2a0-e71f566099c2.woff") format("woff"), url("../fonts/76c865cd-c6c8-45fe-87d3-98817c4b4259.ttf") format("truetype");
-}
-
-/* Based on earlier work, and inspired by clear, reset, and normalize projects. */
-*, *::after, *::before {
-  border: 0;
-  box-sizing: inherit;
-  font-family: inherit;
-  font-size: 1em;
-  font-weight: inherit;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  text-decoration: none;
-}
-
-:root {
-  tab-size: 4;
-}
-
-body {
-  color: #222;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-html {
-  background-color: #fafafa;
-  box-sizing: border-box;
-  display: flex;
-  font: normal 100%/1.5 "Avenir Next LT W04", Calibri, sans-serif, serif;
-  overflow-y: scroll;
-  text-rendering: optimizeLegibility;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
-button,
-input[type=button],
-input[type=reset],
-input[type=submit] {
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
-  height: 3rem;
-  line-height: 3;
-  padding: 0 1rem;
-}
-
-button:disabled,
-input:disabled[type=button],
-input:disabled[type=reset],
-input:disabled[type=submit] {
-  background-color: silver;
-  cursor: default;
-}
-
-:root {
-  --dejade: #2b8ea5;
-}
-
-.bg-black {
-  background-color: #000;
-  color: #fff;
-}
-
-.bg-dark {
-  background-color: rgba(0, 0, 0, 0.875);
-  color: #fff;
-}
-
-.bg-white {
-  background-color: #fff;
-  color: rgba(0, 0, 0, 0.875);
-}
-
-.bg-light {
-  background-color: #fafafa;
-  color: #222;
-}
-
-.bg-dejade {
-  background-color: #2b8ea5;
-  background-color: var(--dejade);
-  color: #fff;
-}
-
-.bg-facebook {
-  background-color: #3b5998;
-  color: #fff;
-}
-
-.bg-twitter {
-  background-color: #1da1f2;
-  color: #fff;
-}
-
-.bg-linkedin {
-  background-color: #0077b5;
-  color: #fff;
-}
-
-html:hover {
-  background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, 0.5) 23px, rgba(0, 255, 255, 0.5) 24px);
-  background-position: 0 1px;
-}
-
-html:hover [class|=col] {
-  background-color: rgba(255, 0, 0, 0.125);
-  background-clip: content-box;
-}
-
-.align-items-center {
-  align-items: center;
-  display: flex;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
 }
 
 footer {
@@ -351,8 +341,10 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #2b8ea5;
+  color: #74e93a;
   color: var(--dejade);
+  display: inline-block;
+  position: relative;
 }
 
 li {
