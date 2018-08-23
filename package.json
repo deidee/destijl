@@ -23,6 +23,7 @@
   "homepage": "https://github.com/deidee/destijl#readme",
   "private": true,
   "dependencies": {
+    "@deidee/dejade": "^1.0.0",
     "grunt": "^1.0.3",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.0.1",

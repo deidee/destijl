@@ -1,3 +1,24 @@
+:root {
+  --dejade: #eaea9e;
+}
+
+.bg-dejade {
+  background-color: #eaea9e;
+  background-color: var(--dejade);
+}
+
+.border-dejade {
+  border-color: #eaea9e;
+  border-color: var(--dejade);
+  border-style: solid;
+  border-width: .0625rem;
+}
+
+.text-dejade {
+  color: #eaea9e;
+  color: var(--dejade);
+}
+
 /* Based on earlier work, and inspired by clear, reset, and normalize projects. */
 *, *::after, *::before {
   border: 0;
@@ -57,7 +78,7 @@ input:disabled[type=submit] {
 }
 
 :root {
-  --dejade: #74e93a;
+  --dejade: #eaea9e;
 }
 
 .bg-black {
@@ -81,7 +102,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #74e93a;
+  background-color: #eaea9e;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -341,7 +362,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #74e93a;
+  color: #eaea9e;
   color: var(--dejade);
   display: inline-block;
   position: relative;

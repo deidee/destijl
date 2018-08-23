@@ -1,9 +1,5 @@
 
 // Colors.
-$r: random(127);
-$g: 127 + random(128);
-$b: random(191);
-$dejade: rgb($r, $g, $b);
 $black: #000;
 $dark: transparentize($black, .125);
 $white: #fff;
