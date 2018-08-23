@@ -35,6 +35,8 @@
 @include column(2, 5);
 @include column(3, 5);
 @include column(4, 5);
+@include column(1, 6);
+@include column(5, 6);
 
 .cols-2 {
   column-count: 2;

@@ -1,18 +1,18 @@
 :root {
-  --dejade: #f4f40b; }
+  --dejade: #bfbf9d; }
 
 .bg-dejade {
-  background-color: #f4f40b;
+  background-color: #bfbf9d;
   background-color: var(--dejade); }
 
 .border-dejade {
-  border-color: #f4f40b;
+  border-color: #bfbf9d;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem; }
 
 .text-dejade {
-  color: #f4f40b;
+  color: #bfbf9d;
   color: var(--dejade); }
 
 /* Based on earlier work, and inspired by clear, reset, and normalize projects. */
@@ -66,7 +66,7 @@ input[type=submit] {
     cursor: default; }
 
 :root {
-  --dejade: #f4f40b; }
+  --dejade: #bfbf9d; }
 
 .bg-black {
   background-color: #000;
@@ -85,7 +85,7 @@ input[type=submit] {
   color: #222; }
 
 .bg-dejade {
-  background-color: #f4f40b;
+  background-color: #bfbf9d;
   background-color: var(--dejade);
   color: #fff; }
 
@@ -181,7 +181,7 @@ input[type=submit] {
 
 footer {
   background-color: #000;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   padding: 0.75rem 0; }
   footer dl {
     font-size: 0.75rem;
@@ -194,7 +194,7 @@ footer {
 .form-row {
   padding-bottom: 0.5rem; }
 
-[class|=col], .col-1o2, .col-1o3, .col-2o3, .col-1o4, .col-3o4, .col-1o5, .col-2o5, .col-3o5, .col-4o5 {
+[class|=col], .col-1o2, .col-1o3, .col-2o3, .col-1o4, .col-3o4, .col-1o5, .col-2o5, .col-3o5, .col-4o5, .col-1o6, .col-5o6 {
   min-height: 1px;
   padding-right: 8px;
   padding-left: 8px;
@@ -235,6 +235,14 @@ footer {
 .col-4o5 {
   flex: 0 0 80%;
   max-width: 80%; }
+
+.col-1o6 {
+  flex: 0 0 16.6666666667%;
+  max-width: 16.6666666667%; }
+
+.col-5o6 {
+  flex: 0 0 83.3333333333%;
+  max-width: 83.3333333333%; }
 
 .cols-2 {
   column-count: 2;
@@ -299,7 +307,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #f4f40b;
+  color: #bfbf9d;
   color: var(--dejade);
   display: inline-block;
   position: relative; }
