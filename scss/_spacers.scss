@@ -1,15 +1,20 @@
 
 @each $spacer in $spacers {
+  // Margins:
   .m-#{$spacer}, .mx-#{$spacer}, .ml-#{$spacer} { margin-left: rem($spacer); }
   .m-#{$spacer}, .mx-#{$spacer}, .mr-#{$spacer} { margin-right: rem($spacer); }
   .m-#{$spacer}, .my-#{$spacer}, .mb-#{$spacer} { margin-bottom: rem($spacer); }
   .m-#{$spacer}, .my-#{$spacer}, .mt-#{$spacer} { margin-top: rem($spacer); }
+  // Negative margins:
   .nm-#{$spacer}, .nmx-#{$spacer}, .nml-#{$spacer} { margin-left: rem($spacer * -1); }
   .nm-#{$spacer}, .nmx-#{$spacer}, .nmr-#{$spacer} { margin-right: rem($spacer * -1); }
   .nm-#{$spacer}, .nmy-#{$spacer}, .nmb-#{$spacer} { margin-bottom: rem($spacer * -1); }
   .nm-#{$spacer}, .nmy-#{$spacer}, .nmt-#{$spacer} { margin-top: rem($spacer * -1); }
+  // Paddings:
   .p-#{$spacer}, .px-#{$spacer}, .pl-#{$spacer} { padding-left: rem($spacer); }
   .p-#{$spacer}, .px-#{$spacer}, .pr-#{$spacer} { padding-right: rem($spacer); }
   .p-#{$spacer}, .py-#{$spacer}, .pb-#{$spacer} { padding-bottom: rem($spacer); }
   .p-#{$spacer}, .py-#{$spacer}, .pt-#{$spacer} { padding-top: rem($spacer); }
+  // Negative paddings:
+  // Just kidding. There's no such thing.
 }

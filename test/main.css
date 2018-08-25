@@ -1,18 +1,18 @@
 :root {
-  --dejade: #90903d; }
+  --dejade: #999922; }
 
 .bg-dejade {
-  background-color: #90903d;
+  background-color: #999922;
   background-color: var(--dejade); }
 
 .border-dejade {
-  border-color: #90903d;
+  border-color: #999922;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem; }
 
 .text-dejade {
-  color: #90903d;
+  color: #999922;
   color: var(--dejade); }
 
 /* Based on earlier work, and inspired by clear, reset, and normalize projects. */
@@ -82,7 +82,7 @@ input[type=submit] {
   color: #222; }
 
 .bg-dejade {
-  background-color: #90903d;
+  background-color: #999922;
   background-color: var(--dejade);
   color: #fff; }
 
@@ -304,7 +304,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #90903d;
+  color: #999922;
   color: var(--dejade);
   display: inline-block;
   position: relative; }
