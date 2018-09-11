@@ -1,4 +1,5 @@
 'use strict';
+
 const sass = require('node-sass');
 
 module.exports = grunt => {
@@ -17,7 +18,7 @@ module.exports = grunt => {
                     outputStyle: 'expanded'
                 },
                 files: {
-                    'src/main.css': 'scss/main.scss'
+                    'src/destijl.css': 'scss/main.scss'
                 }
             },
             dist: {
@@ -25,7 +26,7 @@ module.exports = grunt => {
                     outputStyle: 'compressed'
                 },
                 files: {
-                    'dist/main.min.css': 'scss/main.scss'
+                    'dist/destijl.min.css': 'scss/main.scss'
                 }
             },
             test: {
@@ -33,7 +34,7 @@ module.exports = grunt => {
                     outputStyle: 'nested'
                 },
                 files: {
-                    'test/main.css': 'scss/main.scss'
+                    'test/destijl.css': 'scss/main.scss'
                 }
             }
         },
