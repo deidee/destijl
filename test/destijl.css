@@ -1,18 +1,18 @@
 :root {
-  --dejade: #0aa282; }
+  --dejade: #138b35; }
 
 .bg-dejade {
-  background-color: #0aa282;
+  background-color: #138b35;
   background-color: var(--dejade); }
 
 .border-dejade {
-  border-color: #0aa282;
+  border-color: #138b35;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem; }
 
 .text-dejade {
-  color: #0aa282;
+  color: #138b35;
   color: var(--dejade); }
 
 /* Based on earlier work, and inspired by clear, reset, and normalize projects. */
@@ -82,7 +82,7 @@ input[type=submit] {
   color: #222; }
 
 .bg-dejade {
-  background-color: #0aa282;
+  background-color: #138b35;
   background-color: var(--dejade);
   color: #fff; }
 
@@ -105,6 +105,10 @@ input[type=submit] {
 .flex-column {
   display: flex;
   flex-direction: column; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
 
 @font-face {
   font-family: "Avenir Next LT W04";
@@ -307,7 +311,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #0aa282;
+  color: #138b35;
   color: var(--dejade);
   display: inline-block;
   position: relative; }

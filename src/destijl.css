@@ -1,21 +1,21 @@
 :root {
-  --dejade: #5fb159;
+  --dejade: #7cc06c;
 }
 
 .bg-dejade {
-  background-color: #5fb159;
+  background-color: #7cc06c;
   background-color: var(--dejade);
 }
 
 .border-dejade {
-  border-color: #5fb159;
+  border-color: #7cc06c;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
 }
 
 .text-dejade {
-  color: #5fb159;
+  color: #7cc06c;
   color: var(--dejade);
 }
 
@@ -98,7 +98,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #5fb159;
+  background-color: #7cc06c;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -126,6 +126,11 @@ input:disabled[type=submit] {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 @font-face {
@@ -372,7 +377,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #5fb159;
+  color: #7cc06c;
   color: var(--dejade);
   display: inline-block;
   position: relative;
