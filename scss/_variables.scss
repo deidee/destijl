@@ -27,18 +27,4 @@ $font-weight-black: 900;
 // Layout.
 $gutter: 16px;
 
-$breakpoints: (
-        xxs: 0,
-        xs: 300,
-        s: 600,
-        m: 900,
-        l: 1200,
-        xl: 1500,
-        xxl: 1800,
-        3xl: 2100
-);
-
-// TODO: Base container widths on breakpoints and devices in a sensible way.
-$containers: ();
-
 $spacers: (0, 1, 2, 4, 8, 12, 16, 24, 32, 48);
