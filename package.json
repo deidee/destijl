@@ -1,6 +1,6 @@
 {
   "name": "destijl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "destijl is het digitale stijlblad van deidee voor websites van deidee. Het is de implementatie van de huisstijl van deidee voor online media.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/deidee/destijl#readme",
   "private": true,
   "dependencies": {
-    "@deidee/deflex": "^1.0.2",
+    "@deidee/deflex": "^1.0.3",
     "@deidee/dejade": "^1.0.1",
     "grunt": "^1.0.3",
     "grunt-contrib-watch": "^1.1.0",
