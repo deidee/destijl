@@ -1,18 +1,18 @@
 :root {
-  --dejade: #1be88b; }
+  --dejade: #2281ad; }
 
 .bg-dejade {
-  background-color: #1be88b;
+  background-color: #2281ad;
   background-color: var(--dejade); }
 
 .border-dejade {
-  border-color: #1be88b;
+  border-color: #2281ad;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem; }
 
 .text-dejade {
-  color: #1be88b;
+  color: #2281ad;
   color: var(--dejade); }
 
 *,
@@ -3939,7 +3939,8 @@
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
-  padding-right: 0.5rem; }
+  padding-right: 0.5rem;
+  width: 100%; }
 
 @media (min-width: 600px) {
   .container {
@@ -4031,7 +4032,7 @@ input[type=submit] {
   color: #222; }
 
 .bg-dejade {
-  background-color: #1be88b;
+  background-color: #2281ad;
   background-color: var(--dejade);
   color: #fff; }
 
@@ -4189,7 +4190,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #1be88b;
+  color: #2281ad;
   color: var(--dejade);
   display: inline-block;
   position: relative; }
