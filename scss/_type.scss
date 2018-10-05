@@ -26,6 +26,19 @@ h2, .h2 {
   margin: rem(12px) 0;
 }
 
+h3, .h3 {
+  font-size: $font-size-l;
+  line-height: rem(24px);
+  margin: rem(12px) 0;
+}
+
+h4, .h4 {
+  font-size: $font-size-m;
+  font-weight: $font-weight-bold;
+  line-height: rem(24px);
+  margin: rem(12px) 0 0 0;
+}
+
 // https://github.com/acjbizar/proper-text-indent
 
 p {
@@ -45,6 +58,10 @@ p:first-of-type {
 
 .text-left {
   text-align: left;
+}
+
+.text-narrow {
+  word-spacing: -.125em;
 }
 
 .text-right {
