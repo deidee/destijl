@@ -1,5 +1,10 @@
 
 @each $spacer in $spacers {
+  // Borders:
+  .b-#{$spacer}, .bx-#{$spacer}, .bl-#{$spacer} { border-left: rem($spacer) solid; }
+  .b-#{$spacer}, .bx-#{$spacer}, .br-#{$spacer} { border-right: rem($spacer) solid; }
+  .b-#{$spacer}, .by-#{$spacer}, .bb-#{$spacer} { border-bottom: rem($spacer) solid; }
+  .b-#{$spacer}, .by-#{$spacer}, .bt-#{$spacer} { border-top: rem($spacer) solid; }
   // Margins:
   .m-#{$spacer}, .mx-#{$spacer}, .ml-#{$spacer} { margin-left: rem($spacer); }
   .m-#{$spacer}, .mx-#{$spacer}, .mr-#{$spacer} { margin-right: rem($spacer); }

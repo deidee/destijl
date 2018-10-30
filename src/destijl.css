@@ -1,21 +1,21 @@
 :root {
-  --dejade: #34da0b;
+  --dejade: #4cbd0b;
 }
 
 .bg-dejade {
-  background-color: #34da0b;
+  background-color: #4cbd0b;
   background-color: var(--dejade);
 }
 
 .border-dejade {
-  border-color: #34da0b;
+  border-color: #4cbd0b;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
 }
 
 .text-dejade {
-  color: #34da0b;
+  color: #4cbd0b;
   color: var(--dejade);
 }
 
@@ -4240,7 +4240,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #34da0b;
+  background-color: #4cbd0b;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4432,7 +4432,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #34da0b;
+  color: #4cbd0b;
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4503,6 +4503,22 @@ ul > li > ul > li > ul {
   margin: 0;
 }
 
+.rot-30 {
+  transform: rotate(30deg);
+}
+
+.rot-90 {
+  transform: rotate(90deg);
+}
+
+.rot-270 {
+  transform: rotate(270deg);
+}
+
+.rot-330 {
+  transform: rotate(330deg);
+}
+
 html {
   -webkit-text-size-adjust: 100%;
 }
@@ -4513,6 +4529,22 @@ input[type=search] {
 
 input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
+}
+
+.b-0, .bx-0, .bl-0 {
+  border-left: 0rem solid;
+}
+
+.b-0, .bx-0, .br-0 {
+  border-right: 0rem solid;
+}
+
+.b-0, .by-0, .bb-0 {
+  border-bottom: 0rem solid;
+}
+
+.b-0, .by-0, .bt-0 {
+  border-top: 0rem solid;
 }
 
 .m-0, .mx-0, .ml-0 {
@@ -4563,6 +4595,22 @@ input[type=search]::-webkit-search-decoration {
   padding-top: 0rem;
 }
 
+.b-1, .bx-1, .bl-1 {
+  border-left: 0.0625rem solid;
+}
+
+.b-1, .bx-1, .br-1 {
+  border-right: 0.0625rem solid;
+}
+
+.b-1, .by-1, .bb-1 {
+  border-bottom: 0.0625rem solid;
+}
+
+.b-1, .by-1, .bt-1 {
+  border-top: 0.0625rem solid;
+}
+
 .m-1, .mx-1, .ml-1 {
   margin-left: 0.0625rem;
 }
@@ -4609,6 +4657,22 @@ input[type=search]::-webkit-search-decoration {
 
 .p-1, .py-1, .pt-1 {
   padding-top: 0.0625rem;
+}
+
+.b-2, .bx-2, .bl-2 {
+  border-left: 0.125rem solid;
+}
+
+.b-2, .bx-2, .br-2 {
+  border-right: 0.125rem solid;
+}
+
+.b-2, .by-2, .bb-2 {
+  border-bottom: 0.125rem solid;
+}
+
+.b-2, .by-2, .bt-2 {
+  border-top: 0.125rem solid;
 }
 
 .m-2, .mx-2, .ml-2 {
@@ -4659,6 +4723,22 @@ input[type=search]::-webkit-search-decoration {
   padding-top: 0.125rem;
 }
 
+.b-4, .bx-4, .bl-4 {
+  border-left: 0.25rem solid;
+}
+
+.b-4, .bx-4, .br-4 {
+  border-right: 0.25rem solid;
+}
+
+.b-4, .by-4, .bb-4 {
+  border-bottom: 0.25rem solid;
+}
+
+.b-4, .by-4, .bt-4 {
+  border-top: 0.25rem solid;
+}
+
 .m-4, .mx-4, .ml-4 {
   margin-left: 0.25rem;
 }
@@ -4705,6 +4785,22 @@ input[type=search]::-webkit-search-decoration {
 
 .p-4, .py-4, .pt-4 {
   padding-top: 0.25rem;
+}
+
+.b-8, .bx-8, .bl-8 {
+  border-left: 0.5rem solid;
+}
+
+.b-8, .bx-8, .br-8 {
+  border-right: 0.5rem solid;
+}
+
+.b-8, .by-8, .bb-8 {
+  border-bottom: 0.5rem solid;
+}
+
+.b-8, .by-8, .bt-8 {
+  border-top: 0.5rem solid;
 }
 
 .m-8, .mx-8, .ml-8 {
@@ -4755,6 +4851,22 @@ input[type=search]::-webkit-search-decoration {
   padding-top: 0.5rem;
 }
 
+.b-12, .bx-12, .bl-12 {
+  border-left: 0.75rem solid;
+}
+
+.b-12, .bx-12, .br-12 {
+  border-right: 0.75rem solid;
+}
+
+.b-12, .by-12, .bb-12 {
+  border-bottom: 0.75rem solid;
+}
+
+.b-12, .by-12, .bt-12 {
+  border-top: 0.75rem solid;
+}
+
 .m-12, .mx-12, .ml-12 {
   margin-left: 0.75rem;
 }
@@ -4801,6 +4913,22 @@ input[type=search]::-webkit-search-decoration {
 
 .p-12, .py-12, .pt-12 {
   padding-top: 0.75rem;
+}
+
+.b-16, .bx-16, .bl-16 {
+  border-left: 1rem solid;
+}
+
+.b-16, .bx-16, .br-16 {
+  border-right: 1rem solid;
+}
+
+.b-16, .by-16, .bb-16 {
+  border-bottom: 1rem solid;
+}
+
+.b-16, .by-16, .bt-16 {
+  border-top: 1rem solid;
 }
 
 .m-16, .mx-16, .ml-16 {
@@ -4851,6 +4979,22 @@ input[type=search]::-webkit-search-decoration {
   padding-top: 1rem;
 }
 
+.b-24, .bx-24, .bl-24 {
+  border-left: 1.5rem solid;
+}
+
+.b-24, .bx-24, .br-24 {
+  border-right: 1.5rem solid;
+}
+
+.b-24, .by-24, .bb-24 {
+  border-bottom: 1.5rem solid;
+}
+
+.b-24, .by-24, .bt-24 {
+  border-top: 1.5rem solid;
+}
+
 .m-24, .mx-24, .ml-24 {
   margin-left: 1.5rem;
 }
@@ -4899,6 +5043,22 @@ input[type=search]::-webkit-search-decoration {
   padding-top: 1.5rem;
 }
 
+.b-32, .bx-32, .bl-32 {
+  border-left: 2rem solid;
+}
+
+.b-32, .bx-32, .br-32 {
+  border-right: 2rem solid;
+}
+
+.b-32, .by-32, .bb-32 {
+  border-bottom: 2rem solid;
+}
+
+.b-32, .by-32, .bt-32 {
+  border-top: 2rem solid;
+}
+
 .m-32, .mx-32, .ml-32 {
   margin-left: 2rem;
 }
@@ -4945,6 +5105,22 @@ input[type=search]::-webkit-search-decoration {
 
 .p-32, .py-32, .pt-32 {
   padding-top: 2rem;
+}
+
+.b-48, .bx-48, .bl-48 {
+  border-left: 3rem solid;
+}
+
+.b-48, .bx-48, .br-48 {
+  border-right: 3rem solid;
+}
+
+.b-48, .by-48, .bb-48 {
+  border-bottom: 3rem solid;
+}
+
+.b-48, .by-48, .bt-48 {
+  border-top: 3rem solid;
 }
 
 .m-48, .mx-48, .ml-48 {
