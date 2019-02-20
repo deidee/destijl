@@ -24,7 +24,7 @@
   "private": true,
   "dependencies": {
     "@deidee/deflex": "^1.1.0",
-    "@deidee/dejade": "^1.0.2",
+    "@deidee/dejade": "^1.0.3",
     "grunt": "^1.0.3",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.0.2",
