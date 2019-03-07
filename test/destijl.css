@@ -1,13 +1,13 @@
 :root {
-  --dejade: #388e9a;
-  --dejade-deklik: #388e9a;
-  --dejade-demuis: #388e9a;
-  --dejade-derand: #388e9a;
-  --dejade-detijd: #388e9a;
+  --dejade: #08db48;
+  --dejade-deklik: #08db48;
+  --dejade-demuis: #08db48;
+  --dejade-derand: #08db48;
+  --dejade-detijd: #08db48;
 }
 
 .bg-dejade {
-  background-color: #388e9a;
+  background-color: #08db48;
   background-color: var(--dejade);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .border-dejade {
-  border-color: #388e9a;
+  border-color: #08db48;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
@@ -51,7 +51,7 @@
 }
 
 .fill-dejade {
-  fill: #388e9a;
+  fill: #08db48;
   fill: var(--dejade);
 }
 
@@ -72,7 +72,7 @@
 }
 
 .text-dejade {
-  color: #388e9a;
+  color: #08db48;
   color: var(--dejade);
 }
 
@@ -4313,7 +4313,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #388e9a;
+  background-color: #08db48;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4507,7 +4507,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #388e9a;
+  color: #08db48;
   color: var(--dejade);
   display: inline-block;
   position: relative;

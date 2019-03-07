@@ -12,8 +12,10 @@
   },
   "keywords": [
     "css",
+    "sass",
     "scss",
-    "flexbox"
+    "flexbox",
+    "gulp"
   ],
   "author": "ACJ <ego@acjs.net>",
   "license": "UNLICENSED",
@@ -23,16 +25,11 @@
   "homepage": "https://github.com/deidee/destijl#readme",
   "private": true,
   "dependencies": {
-    "@deidee/deflex": "^1.1.0",
-    "@deidee/dejade": "^1.0.8",
-    "grunt": "^1.0.3",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-sass": "^3.0.2",
+    "@deidee/deflex": "latest",
+    "@deidee/dejade": "latest",
     "gulp": "^4.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "load-grunt-tasks": "^4.0.0",
-    "node-sass": "^4.11.0"
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
