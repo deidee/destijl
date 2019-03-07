@@ -1,26 +1,59 @@
 :root {
-  --dejade: #01df4f;
-  --dejade-demuis: #01df4f; }
+  --dejade: #7bc331;
+  --dejade-deklik: #7bc331;
+  --dejade-demuis: #7bc331;
+  --dejade-derand: #7bc331;
+  --dejade-detijd: #7bc331; }
 
 .bg-dejade {
-  background-color: #01df4f;
+  background-color: #7bc331;
   background-color: var(--dejade); }
+  .bg-dejade.ia-deklik {
+    background-color: var(--dejade-deklik); }
   .bg-dejade.ia-demuis {
     background-color: var(--dejade-demuis); }
+  .bg-dejade.ia-derand {
+    background-color: var(--dejade-derand); }
+  .bg-dejade.ia-detijd {
+    background-color: var(--dejade-detijd); }
 
 .border-dejade {
-  border-color: #01df4f;
+  border-color: #7bc331;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem; }
+  .border-dejade.ia-deklik {
+    border-color: var(--dejade-deklik); }
   .border-dejade.ia-demuis {
     border-color: var(--dejade-demuis); }
+  .border-dejade.ia-derand {
+    border-color: var(--dejade-derand); }
+  .border-dejade.ia-detijd {
+    border-color: var(--dejade-detijd); }
+
+.fill-dejade {
+  fill: #7bc331;
+  fill: var(--dejade); }
+  .fill-dejade.ia-deklik {
+    fill: var(--dejade-deklik); }
+  .fill-dejade.ia-demuis {
+    fill: var(--dejade-demuis); }
+  .fill-dejade.ia-derand {
+    fill: var(--dejade-derand); }
+  .fill-dejade.ia-detijd {
+    fill: var(--dejade-detijd); }
 
 .text-dejade {
-  color: #01df4f;
+  color: #7bc331;
   color: var(--dejade); }
+  .text-dejade.ia-deklik {
+    color: var(--dejade-deklik); }
   .text-dejade.ia-demuis {
     color: var(--dejade-demuis); }
+  .text-dejade.ia-derand {
+    color: var(--dejade-derand); }
+  .text-dejade.ia-detijd {
+    color: var(--dejade-detijd); }
 
 *,
 *::after,
@@ -3098,7 +3131,7 @@ input[type=submit] {
   color: #222; }
 
 .bg-dejade {
-  background-color: #01df4f;
+  background-color: #7bc331;
   background-color: var(--dejade);
   color: #fff; }
 
@@ -3232,6 +3265,7 @@ img {
 
 input[type=email],
 input[type=search],
+input[type=tel],
 input[type=text],
 input[type=url], input:not([type]), textarea {
   background-color: #fff;
@@ -3243,6 +3277,7 @@ input[type=url], input:not([type]), textarea {
   width: 100%; }
   input:not(:focus)[type=email],
   input:not(:focus)[type=search],
+  input:not(:focus)[type=tel],
   input:not(:focus)[type=text],
   input:not(:focus)[type=url], input:not(:focus):not([type]), textarea:not(:focus) {
     text-overflow: ellipsis; }
@@ -3256,7 +3291,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #01df4f;
+  color: #7bc331;
   color: var(--dejade);
   display: inline-block;
   position: relative; }

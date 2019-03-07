@@ -1,4 +1,4 @@
-#![destijl](https://deidee.com/logo.png?str=destijl)
+# ![destijl](https://deidee.com/logo.png?str=destijl)
 
 *deStijl* is het stijlblad van de websites van *deIdee* en aanverwante projecten, zoals *deMail* en *deChat*.
 
