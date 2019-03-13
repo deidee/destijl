@@ -1,13 +1,13 @@
 :root {
-  --dejade: #30f589;
-  --dejade-deklik: #30f589;
-  --dejade-demuis: #30f589;
-  --dejade-derand: #30f589;
-  --dejade-detijd: #30f589;
+  --dejade: #5ce7b8;
+  --dejade-deklik: #5ce7b8;
+  --dejade-demuis: #5ce7b8;
+  --dejade-derand: #5ce7b8;
+  --dejade-detijd: #5ce7b8;
 }
 
 .bg-dejade {
-  background-color: #30f589;
+  background-color: #5ce7b8;
   background-color: var(--dejade);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .border-dejade {
-  border-color: #30f589;
+  border-color: #5ce7b8;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
@@ -51,7 +51,7 @@
 }
 
 .fill-dejade {
-  fill: #30f589;
+  fill: #5ce7b8;
   fill: var(--dejade);
 }
 
@@ -72,7 +72,7 @@
 }
 
 .text-dejade {
-  color: #30f589;
+  color: #5ce7b8;
   color: var(--dejade);
 }
 
@@ -4272,6 +4272,10 @@ main {
   padding-bottom: 1.5rem;
 }
 
+blockquote {
+  margin: 1.50rem 0 1.5rem 2rem;
+}
+
 button,
 input[type=button],
 input[type=reset],
@@ -4313,7 +4317,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #30f589;
+  background-color: #5ce7b8;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4331,6 +4335,16 @@ input:disabled[type=submit] {
 .bg-linkedin {
   background-color: #0077b5;
   color: #fff;
+}
+
+html:hover {
+  background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, 0.5) 23px, rgba(0, 255, 255, 0.5) 24px);
+  background-position: 0 1px;
+}
+
+html:hover [class|=col] {
+  background-color: rgba(255, 0, 0, 0.125);
+  background-clip: content-box;
 }
 
 .align-items-center {
@@ -4508,7 +4522,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #30f589;
+  color: #5ce7b8;
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -5333,7 +5347,7 @@ h4, .h4 {
   font-size: 1rem;
   font-weight: bold;
   line-height: 1.5rem;
-  margin: 0.75rem 0 0 0;
+  margin: 0;
 }
 
 p {
