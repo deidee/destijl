@@ -1,0 +1,15 @@
+
+a, button {
+  transition-duration: $transition-duration;
+  transition-property: background-color, border, box-shadow, color, text-shadow;
+  transition-timing-function: $transition-timing-function;
+}
+
+circle,
+path,
+polygon,
+rect {
+  transition-duration: $transition-duration;
+  transition-property: fill, stroke;
+  transition-timing-function: $transition-timing-function;
+}

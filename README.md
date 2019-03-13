@@ -9,3 +9,15 @@
 Het is wél toegestaan (en zelfs aangemoedigd) om een eigen aftakking (*fork*) van het project te maken om hier vervolgens wijzigingen in aan te brengen. Wijzigingen kunnen vervolgens middels een *pull request* aan *deIdee* worden voorgesteld. Het is vervolgens aan deIdee of deze wijzigingen worden overgenomen en gebruikt.
 
 Oudere versies van *deStijl* zijn gearchiveerd in privérepositories op *GitLab*.
+
+## Installatie
+
+```Shell
+git clone git@github.com:deidee/destijl.git
+npm install
+```
+
+## Zie ook
+
+- [deJade](https://github.com/deidee/dejade)
+- [deFlex](https://github.com/deidee/deflex)

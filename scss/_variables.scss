@@ -26,5 +26,8 @@ $font-weight-black: 900;
 
 // Layout.
 $gutter: 16px;
-
 $spacers: (0, 1, 2, 4, 8, 12, 16, 24, 32, 48);
+
+// Interaction.
+$transition-duration: .5s;
+$transition-timing-function: ease-in-out;
