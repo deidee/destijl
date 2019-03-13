@@ -1,13 +1,13 @@
 :root {
-  --dejade: #5ce7b8;
-  --dejade-deklik: #5ce7b8;
-  --dejade-demuis: #5ce7b8;
-  --dejade-derand: #5ce7b8;
-  --dejade-detijd: #5ce7b8;
+  --dejade: #20a139;
+  --dejade-deklik: #20a139;
+  --dejade-demuis: #20a139;
+  --dejade-derand: #20a139;
+  --dejade-detijd: #20a139;
 }
 
 .bg-dejade {
-  background-color: #5ce7b8;
+  background-color: #20a139;
   background-color: var(--dejade);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .border-dejade {
-  border-color: #5ce7b8;
+  border-color: #20a139;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
@@ -51,7 +51,7 @@
 }
 
 .fill-dejade {
-  fill: #5ce7b8;
+  fill: #20a139;
   fill: var(--dejade);
 }
 
@@ -72,7 +72,7 @@
 }
 
 .text-dejade {
-  color: #5ce7b8;
+  color: #20a139;
   color: var(--dejade);
 }
 
@@ -4317,7 +4317,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #5ce7b8;
+  background-color: #20a139;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4335,16 +4335,6 @@ input:disabled[type=submit] {
 .bg-linkedin {
   background-color: #0077b5;
   color: #fff;
-}
-
-html:hover {
-  background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, 0.5) 23px, rgba(0, 255, 255, 0.5) 24px);
-  background-position: 0 1px;
-}
-
-html:hover [class|=col] {
-  background-color: rgba(255, 0, 0, 0.125);
-  background-clip: content-box;
 }
 
 .align-items-center {
@@ -4522,7 +4512,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #5ce7b8;
+  color: #20a139;
   color: var(--dejade);
   display: inline-block;
   position: relative;
