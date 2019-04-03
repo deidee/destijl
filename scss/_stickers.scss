@@ -1,0 +1,19 @@
+
+%sticker {
+  background-color: $dark;
+  color: $white;
+  height: 2rem;
+  line-height: 2;
+  margin: .25rem;
+  padding: 0 .75rem;
+
+  &:hover {
+    background: $white;
+    color: $text;
+  }
+}
+
+.stickers a,
+.sticker {
+  @extend %sticker;
+}

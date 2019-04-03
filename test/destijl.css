@@ -1,13 +1,13 @@
 :root {
-  --dejade: #20a139;
-  --dejade-deklik: #20a139;
-  --dejade-demuis: #20a139;
-  --dejade-derand: #20a139;
-  --dejade-detijd: #20a139;
+  --dejade: #7495bc;
+  --dejade-deklik: #7495bc;
+  --dejade-demuis: #7495bc;
+  --dejade-derand: #7495bc;
+  --dejade-detijd: #7495bc;
 }
 
 .bg-dejade {
-  background-color: #20a139;
+  background-color: #7495bc;
   background-color: var(--dejade);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .border-dejade {
-  border-color: #20a139;
+  border-color: #7495bc;
   border-color: var(--dejade);
   border-style: solid;
   border-width: .0625rem;
@@ -51,7 +51,7 @@
 }
 
 .fill-dejade {
-  fill: #20a139;
+  fill: #7495bc;
   fill: var(--dejade);
 }
 
@@ -72,7 +72,7 @@
 }
 
 .text-dejade {
-  color: #20a139;
+  color: #7495bc;
   color: var(--dejade);
 }
 
@@ -4317,7 +4317,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #20a139;
+  background-color: #7495bc;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4512,7 +4512,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #20a139;
+  color: #7495bc;
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -5269,6 +5269,22 @@ input[type=search]::-webkit-search-decoration {
 .mt-auto,
 .my-auto {
   margin-top: auto;
+}
+
+.stickers a,
+.sticker {
+  background-color: rgba(0, 0, 0, 0.875);
+  color: #fff;
+  height: 2rem;
+  line-height: 2;
+  margin: .25rem;
+  padding: 0 .75rem;
+}
+
+.stickers a:hover,
+.sticker:hover {
+  background: #fff;
+  color: #222;
 }
 
 table {
