@@ -1,95 +1,98 @@
 :root {
-  --dejade: #7495bc;
-  --dejade-deklik: #7495bc;
-  --dejade-demuis: #7495bc;
-  --dejade-derand: #7495bc;
-  --dejade-detijd: #7495bc;
+  --dejade: #1ddd95;
+  --dejade-deklik: #1ddd95;
+  --dejade-demuis: #1ddd95;
+  --dejade-derand: #1ddd95;
+  --dejade-detijd: #1ddd95;
 }
 
 .bg-dejade {
-  background-color: #7495bc;
+  background-color: #1ddd95;
   background-color: var(--dejade);
 }
 
-.bg-dejade.ia-deklik {
+.bg-dejade.js-deklik, .bg-dejadedata-deklik {
   background-color: var(--dejade-deklik);
 }
 
-.bg-dejade.ia-demuis {
+.bg-dejade.js-demuis, .bg-dejadedata-demuis {
   background-color: var(--dejade-demuis);
 }
 
-.bg-dejade.ia-derand {
+.bg-dejade.js-derand, .bg-dejadedata-derand {
   background-color: var(--dejade-derand);
 }
 
-.bg-dejade.ia-detijd {
+.bg-dejade.js-detijd, .bg-dejadedata-detijd {
   background-color: var(--dejade-detijd);
 }
 
 .border-dejade {
-  border-color: #7495bc;
+  border-color: #1ddd95;
   border-color: var(--dejade);
-  border-style: solid;
-  border-width: .0625rem;
 }
 
-.border-dejade.ia-deklik {
+.border-dejade.js-deklik, .border-dejadedata-deklik {
   border-color: var(--dejade-deklik);
 }
 
-.border-dejade.ia-demuis {
+.border-dejade.js-demuis, .border-dejadedata-demuis {
   border-color: var(--dejade-demuis);
 }
 
-.border-dejade.ia-derand {
+.border-dejade.js-derand, .border-dejadedata-derand {
   border-color: var(--dejade-derand);
 }
 
-.border-dejade.ia-detijd {
+.border-dejade.js-detijd, .border-dejadedata-detijd {
   border-color: var(--dejade-detijd);
 }
 
 .fill-dejade {
-  fill: #7495bc;
+  fill: #1ddd95;
   fill: var(--dejade);
 }
 
-.fill-dejade.ia-deklik {
+.fill-dejade.js-deklik, .fill-dejadedata-deklik {
   fill: var(--dejade-deklik);
 }
 
-.fill-dejade.ia-demuis {
+.fill-dejade.js-demuis, .fill-dejadedata-demuis {
   fill: var(--dejade-demuis);
 }
 
-.fill-dejade.ia-derand {
+.fill-dejade.js-derand, .fill-dejadedata-derand {
   fill: var(--dejade-derand);
 }
 
-.fill-dejade.ia-detijd {
+.fill-dejade.js-detijd, .fill-dejadedata-detijd {
   fill: var(--dejade-detijd);
 }
 
 .text-dejade {
-  color: #7495bc;
+  color: #1ddd95;
   color: var(--dejade);
 }
 
-.text-dejade.ia-deklik {
+.text-dejade.js-deklik, .text-dejadedata-deklik {
   color: var(--dejade-deklik);
 }
 
-.text-dejade.ia-demuis {
+.text-dejade.js-demuis, .text-dejadedata-demuis {
   color: var(--dejade-demuis);
 }
 
-.text-dejade.ia-derand {
+.text-dejade.js-derand, .text-dejadedata-derand {
   color: var(--dejade-derand);
 }
 
-.text-dejade.ia-detijd {
+.text-dejade.js-detijd, .text-dejadedata-detijd {
   color: var(--dejade-detijd);
+}
+
+.border-dejade {
+  border-style: solid;
+  border-width: .0625rem;
 }
 
 *,
@@ -99,11 +102,11 @@
 }
 
 [class|="col"] {
+  min-height: 1px;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
   position: relative;
   width: 100%;
-  min-height: 1px;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
 }
 
 .col {
@@ -4196,8 +4199,8 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   width: 100%;
 }
 
@@ -4222,8 +4225,8 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
 }
 
 .row.gutterless {
@@ -4317,7 +4320,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #7495bc;
+  background-color: #1ddd95;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4512,7 +4515,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #7495bc;
+  color: #1ddd95;
   color: var(--dejade);
   display: inline-block;
   position: relative;
