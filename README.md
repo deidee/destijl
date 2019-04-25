@@ -18,13 +18,6 @@ Oudere versies van *deStijl* zijn gearchiveerd in privérepositories op *GitLab*
 <link rel="stylesheet" href="dist/destijl.min.css">
 ```
 
-## Installatie
-
-```Shell
-git clone git@github.com:deidee/destijl.git
-npm install
-```
-
 ## Zie ook
 
 - [deJade](https://github.com/deidee/dejade)
