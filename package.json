@@ -1,6 +1,6 @@
 {
-  "name": "destijl",
-  "version": "0.1.4",
+  "name": "@deidee/destijl",
+  "version": "0.1.5",
   "description": "destijl is het digitale stijlblad van deidee voor websites van deidee. Het is de implementatie van de huisstijl van deidee voor online media.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "flexbox",
     "gulp"
   ],
-  "author": "ACJ <ego@acjs.net>",
+  "author": "ACJ",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/deidee/destijl/issues"

@@ -4,11 +4,11 @@
   color: $white;
   cursor: pointer;
   height: 3rem;
-  line-height: 3;
+  line-height: 3; // TODO: Consider what happens when a button spans multiple lines. (Unlikely scenario, but still.)
   padding: 0 rem(16px);
 
   &:disabled {
-    background-color: silver;
+    background-color: silver; // TODO: Get a proper color from _variables.
     cursor: default;
   }
 }
