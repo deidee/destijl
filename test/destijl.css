@@ -1,13 +1,13 @@
 :root {
-  --dejade: #1ddd95;
-  --dejade-deklik: #1ddd95;
-  --dejade-demuis: #1ddd95;
-  --dejade-derand: #1ddd95;
-  --dejade-detijd: #1ddd95;
+  --dejade: #4de734;
+  --dejade-deklik: #4de734;
+  --dejade-demuis: #4de734;
+  --dejade-derand: #4de734;
+  --dejade-detijd: #4de734;
 }
 
 .bg-dejade {
-  background-color: #1ddd95;
+  background-color: #4de734;
   background-color: var(--dejade);
 }
 
@@ -28,7 +28,7 @@
 }
 
 .border-dejade {
-  border-color: #1ddd95;
+  border-color: #4de734;
   border-color: var(--dejade);
 }
 
@@ -49,7 +49,7 @@
 }
 
 .fill-dejade {
-  fill: #1ddd95;
+  fill: #4de734;
   fill: var(--dejade);
 }
 
@@ -70,7 +70,7 @@
 }
 
 .text-dejade {
-  color: #1ddd95;
+  color: #4de734;
   color: var(--dejade);
 }
 
@@ -4276,7 +4276,7 @@ main {
 }
 
 blockquote {
-  margin: 1.50rem 0 1.5rem 2rem;
+  margin: 1.5rem 0 1.5rem 2rem;
 }
 
 button,
@@ -4320,7 +4320,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #1ddd95;
+  background-color: #4de734;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4515,7 +4515,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #1ddd95;
+  color: #4de734;
   color: var(--dejade);
   display: inline-block;
   position: relative;
