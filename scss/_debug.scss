@@ -1,7 +1,7 @@
 
 html:hover {
   background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, .5) 23px, rgba(0, 255, 255, .5) 24px);
-  background-position: 0 1px;
+  //background-position: 0 1px; // This makes the lines blurry somehow.
 
   [class|=col] {
     background-color: rgba(255, 0, 0, .125);
