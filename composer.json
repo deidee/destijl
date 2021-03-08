@@ -1,0 +1,16 @@
+{
+    "name": "deidee/destijl",
+    "description": "Stylesheet for deidee, and related brands.",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "ACJ",
+            "email": "gitlab@acjs.net"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "twig/twig": "^3.3"
+    }
+}
