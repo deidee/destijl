@@ -1,14 +1,14 @@
 :root {
-  --dejade: #0cee8e;
-  --dejade-degyro: #0cee8e;
-  --dejade-deklik: #0cee8e;
-  --dejade-demuis: #0cee8e;
-  --dejade-derand: #0cee8e;
-  --dejade-detijd: #0cee8e;
+  --dejade: #6b9e39;
+  --dejade-degyro: #6b9e39;
+  --dejade-deklik: #6b9e39;
+  --dejade-demuis: #6b9e39;
+  --dejade-derand: #6b9e39;
+  --dejade-detijd: #6b9e39;
 }
 
 .bg-dejade {
-  background-color: #0cee8e;
+  background-color: #6b9e39;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #0cee8e;
+  border-color: #6b9e39;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #0cee8e;
+  fill: #6b9e39;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #0cee8e;
+  stroke: #6b9e39;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #0cee8e;
+  color: #6b9e39;
   color: var(--dejade);
 }
 
@@ -4368,7 +4368,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #0cee8e;
+  background-color: #6b9e39;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4487,19 +4487,50 @@ footer {
   background-color: #000;
   color: rgba(255, 255, 255, 0.5);
   padding: 0.75rem 0;
+  text-align: center;
 }
 
 footer dl {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 0.75rem;
   line-height: 2;
 }
 
 footer dl dd, footer dl dt {
-  display: inline-block;
+  flex: 1 0 auto;
+}
+
+footer dl dd {
+  padding-left: 0.75rem;
+  text-align: left;
+  width: 75%;
 }
 
 footer dl dt {
-  margin: 0 0.75rem 0 1.5rem;
+  padding-right: 0.75rem;
+  text-align: right;
+  width: 25%;
+}
+
+@media (min-width: 900px) {
+  footer {
+    text-align: left;
+  }
+  footer dl {
+    display: block;
+    text-align: right;
+  }
+  footer dl dd, footer dl dt {
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    width: auto;
+  }
+  footer dl dt {
+    margin: 0 0.75rem 0 1.5rem;
+  }
 }
 
 .form-row {
@@ -4563,7 +4594,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #0cee8e;
+  color: #6b9e39;
   color: var(--dejade);
   display: inline-block;
   position: relative;
