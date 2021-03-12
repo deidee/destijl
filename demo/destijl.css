@@ -1,14 +1,14 @@
 :root {
-  --dejade: #75b286;
-  --dejade-degyro: #75b286;
-  --dejade-deklik: #75b286;
-  --dejade-demuis: #75b286;
-  --dejade-derand: #75b286;
-  --dejade-detijd: #75b286;
+  --dejade: #3e9158;
+  --dejade-degyro: #3e9158;
+  --dejade-deklik: #3e9158;
+  --dejade-demuis: #3e9158;
+  --dejade-derand: #3e9158;
+  --dejade-detijd: #3e9158;
 }
 
 .bg-dejade {
-  background-color: #75b286;
+  background-color: #3e9158;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #75b286;
+  border-color: #3e9158;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #75b286;
+  fill: #3e9158;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #75b286;
+  stroke: #3e9158;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #75b286;
+  color: #3e9158;
   color: var(--dejade);
 }
 
@@ -4368,7 +4368,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #75b286;
+  background-color: #3e9158;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4385,6 +4385,11 @@ input:disabled[type=submit] {
 
 .bg-linkedin {
   background-color: #0077b5;
+  color: #fff;
+}
+
+.bg-mimesia {
+  background-color: #2269ca;
   color: #fff;
 }
 
@@ -4605,7 +4610,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #75b286;
+  color: #3e9158;
   color: var(--dejade);
   display: inline-block;
   position: relative;
