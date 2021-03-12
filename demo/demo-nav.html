@@ -69,6 +69,9 @@
     let html = document.getElementsByTagName('html')[0];
     html.style.setProperty("--dejade", "green");
 
+    let devicePixelRatio = window.devicePixelRatio || 1;
+    html.style.setProperty("--dp", 1 / devicePixelRatio + 'px');
+
     document.addEventListener("DOMContentLoaded", function(e) {
         let width = window.innerWidth;
         let height = window.innerHeight;

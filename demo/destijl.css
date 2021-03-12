@@ -1,14 +1,14 @@
 :root {
-  --dejade: #3ea0a4;
-  --dejade-degyro: #3ea0a4;
-  --dejade-deklik: #3ea0a4;
-  --dejade-demuis: #3ea0a4;
-  --dejade-derand: #3ea0a4;
-  --dejade-detijd: #3ea0a4;
+  --dejade: #75b286;
+  --dejade-degyro: #75b286;
+  --dejade-deklik: #75b286;
+  --dejade-demuis: #75b286;
+  --dejade-derand: #75b286;
+  --dejade-detijd: #75b286;
 }
 
 .bg-dejade {
-  background-color: #3ea0a4;
+  background-color: #75b286;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #3ea0a4;
+  border-color: #75b286;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #3ea0a4;
+  fill: #75b286;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #3ea0a4;
+  stroke: #75b286;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #3ea0a4;
+  color: #75b286;
   color: var(--dejade);
 }
 
@@ -4368,7 +4368,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #3ea0a4;
+  background-color: #75b286;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4389,7 +4389,8 @@ input:disabled[type=submit] {
 }
 
 html:hover {
-  background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, 0.5) 23px, rgba(0, 255, 255, 0.5) 24px);
+  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px);
+  background-position: 0 var(--dp);
 }
 
 html:hover [class|=col] {
@@ -4604,7 +4605,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #3ea0a4;
+  color: #75b286;
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4673,6 +4674,10 @@ ul > li > ul > li > ul {
 
 .list-unstyled > li {
   margin: 0;
+}
+
+:root {
+  --dp: 1px;
 }
 
 .rot-30 {
