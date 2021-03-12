@@ -14,14 +14,14 @@ gulp.task('sass', function () {
     // TODO: Bring back sourcemap without breaking the pipeline.
     return gulp.src('./scss/**/*.scss')
         .pipe(sass({includePaths: ['node_modules'], outputStyle: 'expanded'}))
-        .pipe(gulp.dest('./tests'))
+        .pipe(gulp.dest('./demo'))
         .pipe(sass({includePaths: ['node_modules'], outputStyle: 'compressed'}))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('twig', function () {
-    return gulp.src(['./templates/*.twig', 'templates'])
+    return gulp.src(['./templates/[^_]*.twig', 'templates'])
         .pipe(twig({extname: false}))
         .pipe(gulp.dest('demo'));
 });
