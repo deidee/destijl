@@ -3,6 +3,7 @@
 
 var gulp = require('gulp');
 var pipeline = require('readable-stream').pipeline;
+var header = require('gulp-header');
 var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
@@ -13,8 +14,10 @@ sass.compiler = require('node-sass');
 gulp.task('sass', function () {
     // TODO: Bring back sourcemap without breaking the pipeline.
     return gulp.src('./scss/**/*.scss')
+        .pipe(header('$debug: true;\n'))
         .pipe(sass({includePaths: ['node_modules'], outputStyle: 'expanded'}))
         .pipe(gulp.dest('./demo'))
+        .pipe(header('$debug: false;\n'))
         .pipe(sass({includePaths: ['node_modules'], outputStyle: 'compressed'}))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('./dist'));
