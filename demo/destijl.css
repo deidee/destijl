@@ -1,14 +1,14 @@
 :root {
-  --dejade: #36a256;
-  --dejade-degyro: #36a256;
-  --dejade-deklik: #36a256;
-  --dejade-demuis: #36a256;
-  --dejade-derand: #36a256;
-  --dejade-detijd: #36a256;
+  --dejade: #34fb7d;
+  --dejade-degyro: #34fb7d;
+  --dejade-deklik: #34fb7d;
+  --dejade-demuis: #34fb7d;
+  --dejade-derand: #34fb7d;
+  --dejade-detijd: #34fb7d;
 }
 
 .bg-dejade {
-  background-color: #36a256;
+  background-color: #34fb7d;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #36a256;
+  border-color: #34fb7d;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #36a256;
+  fill: #34fb7d;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #36a256;
+  stroke: #34fb7d;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #36a256;
+  color: #34fb7d;
   color: var(--dejade);
 }
 
@@ -4368,7 +4368,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #36a256;
+  background-color: #34fb7d;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4395,7 +4395,6 @@ input:disabled[type=submit] {
 
 html:hover {
   background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px);
-  background-position: 0 var(--dp);
 }
 
 html:hover [class|=col] {
@@ -4610,7 +4609,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #36a256;
+  color: #34fb7d;
   color: var(--dejade);
   display: inline-block;
   position: relative;
