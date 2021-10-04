@@ -1,14 +1,14 @@
 :root {
-  --dejade: #61ce0a;
-  --dejade-degyro: #61ce0a;
-  --dejade-deklik: #61ce0a;
-  --dejade-demuis: #61ce0a;
-  --dejade-derand: #61ce0a;
-  --dejade-detijd: #61ce0a;
+  --dejade: #1ed61a;
+  --dejade-degyro: #1ed61a;
+  --dejade-deklik: #1ed61a;
+  --dejade-demuis: #1ed61a;
+  --dejade-derand: #1ed61a;
+  --dejade-detijd: #1ed61a;
 }
 
 .bg-dejade {
-  background-color: #61ce0a;
+  background-color: #1ed61a;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #61ce0a;
+  border-color: #1ed61a;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #61ce0a;
+  fill: #1ed61a;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #61ce0a;
+  stroke: #1ed61a;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #61ce0a;
+  color: #1ed61a;
   color: var(--dejade);
 }
 
@@ -4282,6 +4282,12 @@
   margin-right: 0;
 }
 
+/*
+* @preserve brand-colors 2.1.1
+* http://reimertz.github.io/brand-colors
+* (c) 2017 Pierre Reimertz
+* may be freely distributed under the MIT license.
+*/
 /* Based on earlier work, and inspired by clear, reset, and normalize projects. */
 *,
 *::after,
@@ -4368,7 +4374,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #61ce0a;
+  background-color: #1ed61a;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4609,7 +4615,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #61ce0a;
+  color: #1ed61a;
   color: var(--dejade);
   display: inline-block;
   position: relative;

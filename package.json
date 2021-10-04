@@ -1,6 +1,6 @@
 {
   "name": "@deidee/destijl",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "destijl is het digitale stijlblad van deidee voor websites van deidee. Het is de implementatie van de huisstijl van deidee voor online media.",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "@deidee/hetpalet": "^0.4.0",
+    "brand-colors": "^2.1.1",
     "gulp-header": "^2.0.9",
     "gulp-twig": "^1.2.0",
     "node-sass": "^6.0.1"
