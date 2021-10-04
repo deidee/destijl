@@ -5,7 +5,7 @@ var gulp = require('gulp');
 var pipeline = require('readable-stream').pipeline;
 var header = require('gulp-header');
 var rename = require('gulp-rename');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('node-sass'));
 var sourcemaps = require('gulp-sourcemaps');
 var twig = require('gulp-twig');
 

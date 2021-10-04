@@ -1,14 +1,14 @@
 :root {
-  --dejade: #34fb7d;
-  --dejade-degyro: #34fb7d;
-  --dejade-deklik: #34fb7d;
-  --dejade-demuis: #34fb7d;
-  --dejade-derand: #34fb7d;
-  --dejade-detijd: #34fb7d;
+  --dejade: #61ce0a;
+  --dejade-degyro: #61ce0a;
+  --dejade-deklik: #61ce0a;
+  --dejade-demuis: #61ce0a;
+  --dejade-derand: #61ce0a;
+  --dejade-detijd: #61ce0a;
 }
 
 .bg-dejade {
-  background-color: #34fb7d;
+  background-color: #61ce0a;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #34fb7d;
+  border-color: #61ce0a;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #34fb7d;
+  fill: #61ce0a;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #34fb7d;
+  stroke: #61ce0a;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #34fb7d;
+  color: #61ce0a;
   color: var(--dejade);
 }
 
@@ -4368,7 +4368,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #34fb7d;
+  background-color: #61ce0a;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4609,7 +4609,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #34fb7d;
+  color: #61ce0a;
   color: var(--dejade);
   display: inline-block;
   position: relative;
