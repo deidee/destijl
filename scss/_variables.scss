@@ -24,6 +24,9 @@ $font-weight-medium: 500;
 $font-weight-bold: bold;
 $font-weight-black: 900;
 
+// Units.
+$dp: var(--dp);
+
 // Layout.
 $gutter: 16px;
 $spacers: (0, 1, 2, 4, 8, 12, 16, 24, 32, 48);
@@ -40,3 +43,6 @@ $breakpoint-l: 900px;
 $breakpoint-xl: 1200px;
 $breakpoint-xxl: 1500px;
 $breakpoint-3xl: 1800px;
+
+// Debug.
+$debug: false !default;

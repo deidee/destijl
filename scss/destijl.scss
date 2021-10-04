@@ -1,5 +1,6 @@
 
 @import "@deidee/dejade/scss/dejade";
+@import "@deidee/hetpalet/scss/hetpalet";
 @import "@deidee/deflex/scss/deflex";
 @import "vendor/brandcolors-1534858195";
 
@@ -13,7 +14,7 @@
 @import "blockquotes";
 @import "buttons";
 @import "colors";
-//@import "debug";
+@import "debug";
 @import "flex";
 @import "fonts";
 @import "footer";
@@ -24,6 +25,7 @@
 @import "inputs";
 @import "links";
 @import "lists";
+@import "root";
 @import "rotation";
 @import "shame";
 @import "spacers";

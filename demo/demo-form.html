@@ -5,26 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Demo form</title>
     <link rel="stylesheet" href="destijl.css">
+    <script defer src="https://pro.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-yBZ34R8uZDBb7pIwm+whKmsCiRDZXCW1vPPn/3Gz0xm4E95frfRNrOmAUfGbSGqN" crossorigin="anonymous"></script>
 </head>
 <body id="top">
-<main class="align-items-center">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <form action="#">
-                    <div class="form-row">
-                        <input type="text">
-                    </div>
-                </form>
+
+
+    <main class="align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="#">
+                        <div class="form-row">
+                            <input type="text">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
+
+
 <script>
     "use strict";
 
     let html = document.getElementsByTagName('html')[0];
     html.style.setProperty("--dejade", "green");
+
+    let devicePixelRatio = window.devicePixelRatio || 1;
+    html.style.setProperty("--dp", 1 / devicePixelRatio + 'px');
 
     document.addEventListener("DOMContentLoaded", function(e) {
         let width = window.innerWidth;

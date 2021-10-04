@@ -1,0 +1,46 @@
+{% extends 'layout/default.html.twig' %}
+{% block title %}Demo contact{% endblock %}
+{% block header %}{% include '_header.html.twig' %}{% endblock %}
+{% block main %}
+<main class="align-items-center">
+    <div class="container">
+        <div class="row">
+            <section class="col-xl-1o2">
+                <h2>Gegevens</h2>
+                <h3 class="h4">Telefoon</h3>
+                <div style="font-size:5rem"><a class="text-narrow" href="tel:+31624699186">06 246 99 186</a></div>
+                <div style="font-size:75%;line-height:2">Tijdens kantooruren.</div>
+                <h3 class="h4">E-mail</h3>
+                <div style="font-size:4.5rem;line-height:1"><a href="mailto:info@deidee.nl">info@deidee.nl</a></div>
+                <div style="font-size:75%;line-height:2">24/7. Reactie binnen een dag.</div>
+                <div class="row">
+                    <div class="col-1o2">
+                        <h3 class="h4">Postadres</h3>
+                        <address>
+                            <div>Fahrenheitstraat 115</div>
+                            <div><data class="text-narrow" value="2514GH">2514 GH</data>  Den Haag</div>
+                        </address>
+                    </div>
+                    <div class="col-1o2">
+                        <h3 class="h4">Bezoekadres</h3>
+                        <address>
+                            <div>Noordeinde 14</div>
+                            <div>2561 DR Den Haag</div>
+                        </address>
+                        <div>Alleen op afspraak.</div>
+                    </div>
+                </div>
+            </section>
+            <section class="col-xl-1o2">
+                <h2>Formulier</h2>
+                <form action="/" method="post">
+                    <div hidden><label for="contact-email">E-mailadres</label></div>
+                    <div class="form-row"><input id="contact-email" name="email" type="email"></div>
+                    <div hidden><label for="contact-message">Bericht</label></div>
+                    <div class="form-row"><textarea name="message" id="contact-message" cols="30" rows="10"></textarea></div>
+                </form>
+            </section>
+        </div>
+    </div>
+</main>
+{% endblock %}

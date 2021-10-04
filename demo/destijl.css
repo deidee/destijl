@@ -1,14 +1,14 @@
 :root {
-  --dejade: #6b9e39;
-  --dejade-degyro: #6b9e39;
-  --dejade-deklik: #6b9e39;
-  --dejade-demuis: #6b9e39;
-  --dejade-derand: #6b9e39;
-  --dejade-detijd: #6b9e39;
+  --dejade: #61ce0a;
+  --dejade-degyro: #61ce0a;
+  --dejade-deklik: #61ce0a;
+  --dejade-demuis: #61ce0a;
+  --dejade-derand: #61ce0a;
+  --dejade-detijd: #61ce0a;
 }
 
 .bg-dejade {
-  background-color: #6b9e39;
+  background-color: #61ce0a;
   background-color: var(--dejade);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: #6b9e39;
+  border-color: #61ce0a;
   border-color: var(--dejade);
 }
 
@@ -58,7 +58,7 @@
 }
 
 .fill-dejade {
-  fill: #6b9e39;
+  fill: #61ce0a;
   fill: var(--dejade);
 }
 
@@ -83,7 +83,7 @@
 }
 
 .stroke-dejade {
-  stroke: #6b9e39;
+  stroke: #61ce0a;
   stroke: var(--dejade);
 }
 
@@ -108,7 +108,7 @@
 }
 
 .text-dejade {
-  color: #6b9e39;
+  color: #61ce0a;
   color: var(--dejade);
 }
 
@@ -4368,7 +4368,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #6b9e39;
+  background-color: #61ce0a;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4386,6 +4386,20 @@ input:disabled[type=submit] {
 .bg-linkedin {
   background-color: #0077b5;
   color: #fff;
+}
+
+.bg-mimesia {
+  background-color: #2269ca;
+  color: #fff;
+}
+
+html:hover {
+  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px);
+}
+
+html:hover [class|=col] {
+  background-color: rgba(255, 0, 0, 0.125);
+  background-clip: content-box;
 }
 
 .align-items-center {
@@ -4486,6 +4500,7 @@ input:disabled[type=submit] {
 footer {
   background-color: #000;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: auto;
   padding: 0.75rem 0;
   text-align: center;
 }
@@ -4594,7 +4609,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #6b9e39;
+  color: #61ce0a;
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4663,6 +4678,10 @@ ul > li > ul > li > ul {
 
 .list-unstyled > li {
   margin: 0;
+}
+
+:root {
+  --dp: 1px;
 }
 
 .rot-30 {

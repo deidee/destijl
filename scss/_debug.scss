@@ -1,11 +1,16 @@
+@if $debug {
 
-html:hover {
-  background-image: repeating-linear-gradient(transparent, transparent 23px, rgba(0, 255, 255, .5) 23px, rgba(0, 255, 255, .5) 24px);
-  background-position: 0 1px;
+  html:hover {
+    background-image: repeating-linear-gradient(
+                    transparent,
+                    transparent calc(24px - #{$dp}),
+                    rgba(0, 255, 255, .5) calc(24px - #{$dp}), rgba(0, 255, 255, .5) 24px);
 
-  [class|=col] {
-    background-color: rgba(255, 0, 0, .125);
-    background-clip: content-box;
+    //background-position: 0 $dp;
+
+    [class|=col] {
+      background-color: rgba(255, 0, 0, .125);
+      background-clip: content-box;
+    }
   }
 }
-

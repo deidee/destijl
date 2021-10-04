@@ -3,46 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demo home</title>
+    <title>Demo footer</title>
     <link rel="stylesheet" href="destijl.css">
     <script defer src="https://pro.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-yBZ34R8uZDBb7pIwm+whKmsCiRDZXCW1vPPn/3Gz0xm4E95frfRNrOmAUfGbSGqN" crossorigin="anonymous"></script>
 </head>
 <body id="top">
-<header class="py-12">
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <div class="text-left">
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="text-right">
-                    <a href="#"><i class="fas fa-search"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<main class="align-items-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-1o1 text-center">
-                <img src="https://deidee.com/logo.svg?str=deidee" alt="deidee">
-                <div class="nmt-24">ontwerp en ontwikkeling op maat</div>
-                <div>sinds 2007</div>
-            </div>
-        </div>
-    </div>
-</main>
+
+
 <footer>
     <a href="#top" class="top">▲</a>
     <div class="container">
         <div class="row">
-            <div class="col-1o6">
-                <div>☺ 2018 deidee</div>
+            <div class="col-1o4">
+                <div>☺ 2021 <a href="https://deidee.nl/">deidee</a></div>
             </div>
-            <div class="col-5o6">
+            <div class="col-3o4">
                 <dl class="text-right">
                     <dt><abbr>KvK</abbr></dt>
                     <dd>27313269</dd>
@@ -50,8 +25,6 @@
                     <dd><data value="NL14ABNA0413695026">NL14 ABNA0413 6950 26</data></dd>
                     <dt><abbr>BTW</abbr></dt>
                     <dd>NL144413784B01</dd>
-                    <dt><abbr>BTC</abbr></dt>
-                    <dd>14PHr9MooRotrVpqAztYJ9BCAgZCDWT9hY</dd>
                 </dl>
             </div>
         </div>
@@ -62,6 +35,9 @@
 
     let html = document.getElementsByTagName('html')[0];
     html.style.setProperty("--dejade", "green");
+
+    let devicePixelRatio = window.devicePixelRatio || 1;
+    html.style.setProperty("--dp", 1 / devicePixelRatio + 'px');
 
     document.addEventListener("DOMContentLoaded", function(e) {
         let width = window.innerWidth;

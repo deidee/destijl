@@ -3,40 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demo footer</title>
+    <title>{% block title %}Demo{% endblock %}</title>
     <link rel="stylesheet" href="destijl.css">
+    <script defer src="https://pro.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-yBZ34R8uZDBb7pIwm+whKmsCiRDZXCW1vPPn/3Gz0xm4E95frfRNrOmAUfGbSGqN" crossorigin="anonymous"></script>
 </head>
 <body id="top">
-<main class="align-items-center">
-
-</main>
-<footer>
-    <a href="#top" class="top">▲</a>
-    <div class="container">
-        <div class="row">
-            <div class="col-m-1o6">
-                <div>☺ 2018 deidee</div>
-            </div>
-            <div class="col-m-5o6">
-                <dl>
-                    <dt><abbr>KvK</abbr></dt>
-                    <dd>27313269</dd>
-                    <dt><abbr>IBAN</abbr></dt>
-                    <dd><data value="NL14ABNA0413695026">NL14 ABNA0413 6950 26</data></dd>
-                    <dt><abbr>BTW</abbr></dt>
-                    <dd>NL144413784B01</dd>
-                    <dt><abbr>BTC</abbr></dt>
-                    <dd>14PHr9MooRotrVpqAztYJ9BCAgZCDWT9hY</dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-</footer>
+{% block header %}{% endblock %}
+{% block main %}{% endblock %}
+{% block footer %}{% include '../_footer.html.twig' %}{% endblock %}
 <script>
     "use strict";
 
     let html = document.getElementsByTagName('html')[0];
     html.style.setProperty("--dejade", "green");
+
+    let devicePixelRatio = window.devicePixelRatio || 1;
+    html.style.setProperty("--dp", 1 / devicePixelRatio + 'px');
 
     document.addEventListener("DOMContentLoaded", function(e) {
         let width = window.innerWidth;
