@@ -1,6 +1,6 @@
 # ![deStijl](https://deidee.com/logo.png?str=deStijl)
 
-*deStijl* is het stijlblad van de websites van *deIdee* en aanverwante projecten, zoals *deMail* en *deChat*.
+*deStijl* is het stijlblad van de websites van [deIdee](https://deidee.nl/) en aanverwante projecten, zoals [deMail](https://demail.nl/) en [deChat](https://dechat.nl/).
 
 De versie in deze repository is nog niet in gebruik. Het is de bedoeling dat deze de huidige stijlbladen gaat vervangen.
 
@@ -10,9 +10,9 @@ De versie in deze repository is nog niet in gebruik. Het is de bedoeling dat dez
 
 Het is wél toegestaan (en zelfs aangemoedigd) om een eigen aftakking (*fork*) van het project te maken om hier vervolgens wijzigingen in aan te brengen. Wijzigingen kunnen vervolgens middels een *pull request* aan *deIdee* worden voorgesteld. Het is vervolgens aan deIdee of deze wijzigingen worden overgenomen en gebruikt.
 
-Oudere versies van *deStijl* zijn gearchiveerd in privérepositories op *GitLab*.
+Oudere versies van *deStijl* zijn gearchiveerd in privérepositories op [GitLab](https://gitlab.com/).
 
-## Gebruik
+## Implementatie
 
 ```HTML
 <link rel="stylesheet" href="dist/destijl.min.css">
@@ -20,5 +20,6 @@ Oudere versies van *deStijl* zijn gearchiveerd in privérepositories op *GitLab*
 
 ## Zie ook
 
-- [deJade](https://github.com/deidee/dejade)
 - [deFlex](https://github.com/deidee/deflex)
+- [deGrid](https://github.com/deidee/degrid)
+- [deJade](https://github.com/deidee/dejade)

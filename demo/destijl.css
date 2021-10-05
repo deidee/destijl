@@ -1,14 +1,15 @@
 :root {
-  --dejade: #1ed61a;
-  --dejade-degyro: #1ed61a;
-  --dejade-deklik: #1ed61a;
-  --dejade-demuis: #1ed61a;
-  --dejade-derand: #1ed61a;
-  --dejade-detijd: #1ed61a;
+  --dejade: #6ef404;
+  --dejade-degyro: #6ef404;
+  --dejade-deklik: #6ef404;
+  --dejade-demuis: #6ef404;
+  --dejade-deplek: #6ef404;
+  --dejade-derand: #6ef404;
+  --dejade-detijd: #6ef404;
 }
 
 .bg-dejade {
-  background-color: #1ed61a;
+  background-color: #6ef404;
   background-color: var(--dejade);
 }
 
@@ -24,6 +25,10 @@
   background-color: var(--dejade-demuis);
 }
 
+.bg-dejade.js-deplek, .bg-dejade[data-deplek] {
+  background-color: var(--dejade-deplek);
+}
+
 .bg-dejade.js-derand, .bg-dejade[data-derand] {
   background-color: var(--dejade-derand);
 }
@@ -33,7 +38,7 @@
 }
 
 .border-dejade {
-  border-color: #1ed61a;
+  border-color: #6ef404;
   border-color: var(--dejade);
 }
 
@@ -49,6 +54,10 @@
   border-color: var(--dejade-demuis);
 }
 
+.border-dejade.js-deplek, .border-dejade[data-deplek] {
+  border-color: var(--dejade-deplek);
+}
+
 .border-dejade.js-derand, .border-dejade[data-derand] {
   border-color: var(--dejade-derand);
 }
@@ -58,7 +67,7 @@
 }
 
 .fill-dejade {
-  fill: #1ed61a;
+  fill: #6ef404;
   fill: var(--dejade);
 }
 
@@ -74,6 +83,10 @@
   fill: var(--dejade-demuis);
 }
 
+.fill-dejade.js-deplek, .fill-dejade[data-deplek] {
+  fill: var(--dejade-deplek);
+}
+
 .fill-dejade.js-derand, .fill-dejade[data-derand] {
   fill: var(--dejade-derand);
 }
@@ -83,7 +96,7 @@
 }
 
 .stroke-dejade {
-  stroke: #1ed61a;
+  stroke: #6ef404;
   stroke: var(--dejade);
 }
 
@@ -99,6 +112,10 @@
   stroke: var(--dejade-demuis);
 }
 
+.stroke-dejade.js-deplek, .stroke-dejade[data-deplek] {
+  stroke: var(--dejade-deplek);
+}
+
 .stroke-dejade.js-derand, .stroke-dejade[data-derand] {
   stroke: var(--dejade-derand);
 }
@@ -108,7 +125,7 @@
 }
 
 .text-dejade {
-  color: #1ed61a;
+  color: #6ef404;
   color: var(--dejade);
 }
 
@@ -122,6 +139,10 @@
 
 .text-dejade.js-demuis, .text-dejade[data-demuis] {
   color: var(--dejade-demuis);
+}
+
+.text-dejade.js-deplek, .text-dejade[data-deplek] {
+  color: var(--dejade-deplek);
 }
 
 .text-dejade.js-derand, .text-dejade[data-derand] {
@@ -4374,7 +4395,7 @@ input:disabled[type=submit] {
 }
 
 .bg-dejade {
-  background-color: #1ed61a;
+  background-color: #6ef404;
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4615,7 +4636,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: #1ed61a;
+  color: #6ef404;
   color: var(--dejade);
   display: inline-block;
   position: relative;
