@@ -1,4 +1,24 @@
 
-// TODO: Add code, pre, samp...
+code,
+pre,
+samp,
+tt {
+  font-family: $font-family-monospace;
+}
+
+code,
+pre {
+  &[class*=language-] {
+    @extend code;
+  }
+}
+
+pre {
+  &[class*=language-] {
+    border-radius: 0;
+    margin: .75rem auto;
+    padding: .75rem 1.5rem;
+  }
+}
 
 // TODO: Consider including Prism styling.

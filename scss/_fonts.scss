@@ -1,101 +1,41 @@
 
-// TODO: Put font path in a variable.
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+          url('https://hetcdn.nl/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+          url('https://hetcdn.nl/fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
 
-@font-face{
-  font-family:"Avenir Next LT W04";
-  font-style: normal;
-  font-weight: 100;
-  src:url("../fonts/b0751211-e805-4138-b7f2-a31031582ce2.eot?#iefix");
-  src:url("../fonts/b0751211-e805-4138-b7f2-a31031582ce2.eot?#iefix") format("eot"),
-  url("../fonts/178ff15e-1d83-46d6-a191-80d443177813.woff2") format("woff2"),
-  url("../fonts/6a091542-e5b3-4c09-ad72-8aed56a6581e.woff") format("woff"),
-  url("../fonts/4130ee5f-67da-4bcd-bde2-e97df5e49432.ttf") format("truetype");
-}
-@font-face{
-  font-family:"Avenir Next LT W04";
-  font-style: italic;
-  font-weight: 100;
-  src:url("../fonts/f89e2b09-b4b9-49f7-b2bd-f3c1132027ae.eot?#iefix");
-  src:url("../fonts/f89e2b09-b4b9-49f7-b2bd-f3c1132027ae.eot?#iefix") format("eot"),
-  url("../fonts/76fbbcea-1a18-431c-b538-3e25c93115bb.woff2") format("woff2"),url("../fonts/2bf2aec1-8e1e-4ffd-838c-1941c424fca6.woff") format("woff"),url("../fonts/0f9a3482-d166-4d11-bd70-f9c4de2e81c3.ttf") format("truetype");
-}
-@font-face{
-  font-family:"Avenir Next LT W04";
+@font-face {
+  font-family: 'JetBrains Mono';
+  src:
+          url('https://hetcdn.nl/fonts/JetBrainsMono-Regular.woff2') format('woff2');
   font-style: normal;
   font-weight: normal;
-  src:url("../fonts/483d8937-5e17-4378-9c51-aa91a3d9e1eb.eot?#iefix");
-  src:url("../fonts/483d8937-5e17-4378-9c51-aa91a3d9e1eb.eot?#iefix") format("eot"),
-  url("../fonts/ed4b9060-b5ab-4379-8840-0b50a15258b7.woff2") format("woff2"),
-  url("../fonts/9b47db0b-77fb-4bb0-b5c2-3c131a36fc4d.woff") format("woff"),
-  url("../fonts/9c8b7e5f-b3ca-435d-a197-b3dfeae277a1.ttf") format("truetype");
 }
-@font-face{
-  font-family:"Avenir Next LT W04";
-  font-style: italic;
-  font-weight: normal;
-  src:url("../fonts/eb8f1f26-ac99-4771-ac55-0e5d7d834a98.eot?#iefix");
-  src:url("../fonts/eb8f1f26-ac99-4771-ac55-0e5d7d834a98.eot?#iefix") format("eot"),
-  url("../fonts/f60e2b7d-0ea4-439d-b66a-09effe26288e.woff2") format("woff2"),
-  url("../fonts/05dcf61d-bba5-4570-abb4-563bd8dc1da2.woff") format("woff"),
-  url("../fonts/55c10d5e-65ca-42f0-98d7-fb2161ac50e7.ttf") format("truetype");
-}
-@font-face{
-  font-family:"Avenir Next LT W04";
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src:
+          url('https://hetcdn.nl/fonts/JetBrainsMono-Bold.woff2') format('woff2');
   font-style: normal;
   font-weight: bold;
-  src:url("../fonts/aa8f537e-7081-4c0e-9236-0f9fcfac4541.eot?#iefix");
-  src:url("../fonts/aa8f537e-7081-4c0e-9236-0f9fcfac4541.eot?#iefix") format("eot"),
-  url("../fonts/89f00a92-1c94-43f4-9b5d-a9a7d3573805.woff2") format("woff2"),
-  url("../fonts/97f8a201-6c8c-4ab9-9427-7dac9cb31534.woff") format("woff"),
-  url("../fonts/7e15ebeb-7336-4881-b9fd-14d423ae42d3.ttf") format("truetype");
 }
-@font-face{
-  font-family:"Avenir Next LT W04";
-  font-style: italic;
-  font-weight: bold;
-  src:url("../fonts/30b26cb3-ecb5-4b15-bea0-7f254d2dca26.eot?#iefix");
-  src:url("../fonts/30b26cb3-ecb5-4b15-bea0-7f254d2dca26.eot?#iefix") format("eot"),
-  url("../fonts/4846d8fe-58cc-4a97-a866-d20c5a5344b9.woff2") format("woff2"),
-  url("../fonts/70d0d6c1-91be-42b2-a798-f0ce873c2dfb.woff") format("woff"),
-  url("../fonts/414a2baf-242d-43dc-a989-a1152ee757dd.ttf") format("truetype");
-}
-@font-face{
-  font-family:"Sabon LT W04";
-  font-style: normal;
-  font-weight: normal;
-  src:url("../fonts/f00e8fff-ad0d-4360-836d-cd75fdf5f843.eot?#iefix");
-  src:url("../fonts/f00e8fff-ad0d-4360-836d-cd75fdf5f843.eot?#iefix") format("eot"),
-  url("../fonts/e5cdb1e0-3941-4e11-a22f-1c21c8f0d6e6.woff2") format("woff2"),
-  url("../fonts/d525e124-901f-486f-af10-4d962181b5f9.woff") format("woff"),
-  url("../fonts/431add66-a411-4434-ad66-0f65bccf73e8.ttf") format("truetype");
-}
-@font-face{
-  font-family:"Sabon LT W04";
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src:
+          url('https://hetcdn.nl/fonts/JetBrainsMono-Italic.woff2') format('woff2');
   font-style: italic;
   font-weight: normal;
-  src:url("../fonts/248c9a58-5f74-4965-91e0-9aa6deb3d830.eot?#iefix");
-  src:url("../fonts/248c9a58-5f74-4965-91e0-9aa6deb3d830.eot?#iefix") format("eot"),
-  url("../fonts/3c1aed17-e127-4e11-9bd5-b267dc83db0e.woff2") format("woff2"),
-  url("../fonts/2671f774-560b-4d73-9cc6-043a1c193052.woff") format("woff"),
-  url("../fonts/ac175e70-dc43-44d5-8da5-14873f965998.ttf") format("truetype");
 }
-@font-face{
-  font-family:"Sabon LT W04";
-  font-style: normal;
-  font-weight: bold;
-  src:url("../fonts/205a2cb8-f4dd-41d0-9131-90486809e8cb.eot?#iefix");
-  src:url("../fonts/205a2cb8-f4dd-41d0-9131-90486809e8cb.eot?#iefix") format("eot"),
-  url("../fonts/5227221d-8d06-42c1-ac7c-202feaa8c218.woff2") format("woff2"),
-  url("../fonts/25c9f52e-823d-4f22-b2fc-8a84eaeb2469.woff") format("woff"),
-  url("../fonts/653da22b-c5e0-465b-ac13-214ae725b401.ttf") format("truetype");
-}
-@font-face{
-  font-family:"Sabon LT W04";
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src:
+          url('https://hetcdn.nl/fonts/JetBrainsMono-BoldItalic.woff2') format('woff2');
   font-style: italic;
   font-weight: bold;
-  src:url("../fonts/adc453ac-6e04-4cd7-803a-86bdd48c9b17.eot?#iefix");
-  src:url("../fonts/adc453ac-6e04-4cd7-803a-86bdd48c9b17.eot?#iefix") format("eot"),
-  url("../fonts/e49c0d9a-ac0e-4c2d-aa84-b719e2d34e99.woff2") format("woff2"),
-  url("../fonts/3a9ee7aa-c28b-4ad8-b2a0-e71f566099c2.woff") format("woff"),
-  url("../fonts/76c865cd-c6c8-45fe-87d3-98817c4b4259.ttf") format("truetype");
 }
