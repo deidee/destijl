@@ -1,15 +1,13 @@
 
 'use strict';
 
-var gulp = require('gulp');
-var pipeline = require('readable-stream').pipeline;
-var header = require('gulp-header');
-var rename = require('gulp-rename');
-var sass = require('gulp-sass')(require('node-sass'));
-var sourcemaps = require('gulp-sourcemaps');
-var twig = require('gulp-twig');
-
-sass.compiler = require('node-sass');
+let gulp = require('gulp');
+let pipeline = require('readable-stream').pipeline;
+let header = require('gulp-header');
+let rename = require('gulp-rename');
+let sass = require('gulp-sass')(require('sass'));
+let sourcemaps = require('gulp-sourcemaps');
+let twig = require('gulp-twig');
 
 gulp.task('sass', function () {
     // TODO: Bring back sourcemap without breaking the pipeline.

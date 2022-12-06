@@ -1,10 +1,9 @@
 
 @import "@deidee/dejade/scss/dejade";
+@import "@deidee/desass/src/sass/style";
 @import "@deidee/hetpalet/scss/hetpalet";
 @import "@deidee/deflex/scss/deflex"; // TODO: Phase out (and replace with deGrid via hetCDN).
 @import "brand-colors/dist/latest/scss/brand-colors.latest";
-
-@import "functions";
 
 @import "variables";
 

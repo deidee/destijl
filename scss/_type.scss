@@ -69,8 +69,8 @@ p:first-of-type {
 }
 
 .text-s {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: rem(14);
+  line-height: rem(24);
 }
 
 :lang(zh) {

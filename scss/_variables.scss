@@ -7,9 +7,19 @@ $blank: #fafafa;
 $text: #222;
 
 // Typography;
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+          url('https://hetcdn.nl/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+          url('https://hetcdn.nl/fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
 $font-family-icons: sans-serif;
 $font-family-monospace: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace, sans-serif, serif;
-$font-family-sans: 'Avenir Next LT W04', Calibri, sans-serif, serif;
+$font-family-sans: 'Mona Sans', 'Avenir Next LT W04', Calibri, sans-serif, serif;
 $font-family-serif: 'Sabon LT W04', 'Times New Roman', Times, serif, sans-serif;
 $font-size-xs: rem(10px);
 $font-size-s: rem(12px);
