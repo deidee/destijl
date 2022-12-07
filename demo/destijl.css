@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(68, 149, 171);
-  --dejade-degyro: rgb(68, 149, 171);
-  --dejade-deklik: rgb(68, 149, 171);
-  --dejade-demuis: rgb(68, 149, 171);
-  --dejade-deplek: rgb(68, 149, 171);
-  --dejade-derand: rgb(68, 149, 171);
-  --dejade-detijd: rgb(68, 149, 171);
+  --dejade: rgb(18, 171, 112);
+  --dejade-degyro: rgb(18, 171, 112);
+  --dejade-deklik: rgb(18, 171, 112);
+  --dejade-demuis: rgb(18, 171, 112);
+  --dejade-deplek: rgb(18, 171, 112);
+  --dejade-derand: rgb(18, 171, 112);
+  --dejade-detijd: rgb(18, 171, 112);
 }
 
 .bg-dejade {
-  background-color: rgb(68, 149, 171);
+  background-color: rgb(18, 171, 112);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(68, 149, 171);
+  border-color: rgb(18, 171, 112);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(68, 149, 171);
+  fill: rgb(18, 171, 112);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(68, 149, 171);
+  stroke: rgb(18, 171, 112);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(68, 149, 171);
+  color: rgb(18, 171, 112);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4423,7 +4423,7 @@ pre[class*=language-] {
 }
 
 .bg-dejade {
-  background-color: rgb(68, 149, 171);
+  background-color: rgb(18, 171, 112);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4449,7 +4449,7 @@ pre[class*=language-] {
 }
 
 html:hover {
-  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px);
+  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dppx)), rgba(0, 255, 255, 0.5) calc(24px - var(--dppx)), rgba(0, 255, 255, 0.5) 24px);
 }
 html:hover [class|=col] {
   background-color: rgba(255, 0, 0, 0.125);
@@ -4607,7 +4607,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(68, 149, 171);
+  color: rgb(18, 171, 112);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4673,7 +4673,7 @@ ul > li > ul > li > ul {
 }
 
 :root {
-  --dp: 1px;
+  --dppx: 1px;
 }
 
 .rot-30 {
