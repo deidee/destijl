@@ -13,6 +13,17 @@
   }
 }
 
+.stickers {
+  display: flex;
+  flex-wrap: wrap;
+  margin: .5rem -.25rem;
+
+  li {
+    list-style: none;
+    margin: 0;
+  }
+}
+
 .stickers a,
 .sticker {
   @extend %sticker;

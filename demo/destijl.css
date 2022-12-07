@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(85, 244, 146);
-  --dejade-degyro: rgb(85, 244, 146);
-  --dejade-deklik: rgb(85, 244, 146);
-  --dejade-demuis: rgb(85, 244, 146);
-  --dejade-deplek: rgb(85, 244, 146);
-  --dejade-derand: rgb(85, 244, 146);
-  --dejade-detijd: rgb(85, 244, 146);
+  --dejade: rgb(68, 149, 171);
+  --dejade-degyro: rgb(68, 149, 171);
+  --dejade-deklik: rgb(68, 149, 171);
+  --dejade-demuis: rgb(68, 149, 171);
+  --dejade-deplek: rgb(68, 149, 171);
+  --dejade-derand: rgb(68, 149, 171);
+  --dejade-detijd: rgb(68, 149, 171);
 }
 
 .bg-dejade {
-  background-color: rgb(85, 244, 146);
+  background-color: rgb(68, 149, 171);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(85, 244, 146);
+  border-color: rgb(68, 149, 171);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(85, 244, 146);
+  fill: rgb(68, 149, 171);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(85, 244, 146);
+  stroke: rgb(68, 149, 171);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(85, 244, 146);
+  color: rgb(68, 149, 171);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4423,7 +4423,7 @@ pre[class*=language-] {
 }
 
 .bg-dejade {
-  background-color: rgb(85, 244, 146);
+  background-color: rgb(68, 149, 171);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4607,7 +4607,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(85, 244, 146);
+  color: rgb(68, 149, 171);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -5384,6 +5384,16 @@ input[type=search]::-webkit-search-decoration {
 .sticker:hover {
   background: #fff;
   color: #222;
+}
+
+.stickers {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem -0.25rem;
+}
+.stickers li {
+  list-style: none;
+  margin: 0;
 }
 
 table {
