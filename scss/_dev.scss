@@ -3,10 +3,10 @@
   html:hover {
     background-image: repeating-linear-gradient(
                     transparent,
-                    transparent calc(24px - #{$dppx}),
-                    rgba(0, 255, 255, .5) calc(24px - #{$dppx}), rgba(0, 255, 255, .5) 24px);
+                    transparent calc(24px - #{$dp}),
+                    rgba(0, 255, 255, .5) calc(24px - #{$dp}), rgba(0, 255, 255, .5) 24px);
 
-    //background-position: 0 $dppx;
+    //background-position: 0 $dp;
 
     [class|=col] {
       background-color: rgba(255, 0, 0, .125);

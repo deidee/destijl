@@ -76,7 +76,8 @@
     html.style.setProperty("--dejade", "green");
 
     const devicePixelRatio = window.devicePixelRatio || 1;
-    html.style.setProperty("--dppx", 1 / devicePixelRatio + 'px');
+    html.style.setProperty("--dppx", devicePixelRatio.toString());
+    html.style.setProperty("--dp", 1 / devicePixelRatio + 'px');
 
     document.addEventListener("DOMContentLoaded", function() {
         let width = window.innerWidth;
