@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(54, 170, 167);
-  --dejade-degyro: rgb(54, 170, 167);
-  --dejade-deklik: rgb(54, 170, 167);
-  --dejade-demuis: rgb(54, 170, 167);
-  --dejade-deplek: rgb(54, 170, 167);
-  --dejade-derand: rgb(54, 170, 167);
-  --dejade-detijd: rgb(54, 170, 167);
+  --dejade: rgb(116, 178, 177);
+  --dejade-degyro: rgb(116, 178, 177);
+  --dejade-deklik: rgb(116, 178, 177);
+  --dejade-demuis: rgb(116, 178, 177);
+  --dejade-deplek: rgb(116, 178, 177);
+  --dejade-derand: rgb(116, 178, 177);
+  --dejade-detijd: rgb(116, 178, 177);
 }
 
 .bg-dejade {
-  background-color: rgb(54, 170, 167);
+  background-color: rgb(116, 178, 177);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(54, 170, 167);
+  border-color: rgb(116, 178, 177);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(54, 170, 167);
+  fill: rgb(116, 178, 177);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(54, 170, 167);
+  stroke: rgb(116, 178, 177);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(54, 170, 167);
+  color: rgb(116, 178, 177);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4344,7 +4344,7 @@ Use these techniques judiciously! Keep in mind that many screen reader users hav
 }
 
 body {
-  color: #222;
+  color: var(--text);
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -4352,7 +4352,7 @@ body {
 }
 
 html {
-  background-color: #fafafa;
+  background-color: var(--bgcolor);
   box-sizing: border-box;
   display: flex;
   font: normal 100%/1.5 "Mona Sans", "Avenir Next LT W04", Calibri, sans-serif, serif;
@@ -4395,11 +4395,11 @@ main {
 
 .bg--light {
   background-color: #dedede;
-  color: #222;
+  color: var(--text);
 }
 
 .bg--dejade {
-  background-color: rgb(54, 170, 167);
+  background-color: rgb(116, 178, 177);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4459,22 +4459,6 @@ pre[class*=language-] {
   border-radius: 0;
   margin: 0.75rem auto;
   padding: 0.75rem 1.5rem;
-}
-
-@media screen and (prefers-color-scheme: dark) {
-  html {
-    background-color: #000;
-    color: #fafafa;
-  }
-}
-[data-mode=dark] {
-  background-color: #000;
-}
-[data-mode=dark] body {
-  color: #fafafa;
-}
-[data-mode=dark] h1, [data-mode=dark] h2, [data-mode=dark] h3, [data-mode=dark] h4, [data-mode=dark] h5, [data-mode=dark] h6 {
-  color: #fff;
 }
 
 html:hover {
@@ -4648,7 +4632,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(54, 170, 167);
+  color: rgb(116, 178, 177);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4716,6 +4700,8 @@ ul > li > ul > li > ul {
 :root {
   --dppx: 1;
   --dp: 1px;
+  --bgcolor: #fafafa;
+  --text: #222;
 }
 
 .rot-30 {
@@ -5425,7 +5411,7 @@ input[type=search]::-webkit-search-decoration {
 .stickers a:hover,
 .sticker:hover {
   background: #fff;
-  color: #222;
+  color: var(--text);
 }
 
 .stickers {
@@ -5542,4 +5528,18 @@ p:first-of-type {
 
 :lang(zh) {
   writing-mode: vertical-lr;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --bgcolor: #222;
+    --text: #dedede;
+  }
+}
+[data-mode=dark] {
+  --bgcolor: #222;
+  --text: #dedede;
+}
+[data-mode=dark] h1, [data-mode=dark] h2, [data-mode=dark] h3, [data-mode=dark] h4, [data-mode=dark] h5, [data-mode=dark] h6 {
+  color: #fff;
 }

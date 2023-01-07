@@ -1,17 +1,14 @@
 
 @media screen and (prefers-color-scheme: dark) {
-  html {
-    background-color: $black;
-    color: $blank;
+  :root {
+    --bgcolor: #{$dark};
+    --text: #{$light};
   }
 }
 
 [data-mode="dark"] {
-  background-color: $black;
-
-  body {
-    color: $blank;
-  }
+  --bgcolor: #{$dark};
+  --text: #{$light};
 
   h1, h2, h3, h4, h5, h6 {
     color: $white;

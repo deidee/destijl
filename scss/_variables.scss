@@ -6,7 +6,9 @@ $darken: transparentize($black, .125);
 $white: #fff;
 $blank: #fafafa;
 $light: #dedede;
-$text: #222;
+
+$bgcolor: var(--bgcolor);
+$text: var(--text);
 
 // Typography;
 $font-family-icons: sans-serif;
