@@ -1,10 +1,26 @@
 
 footer {
-  background-color: $black;
-  color: transparentize($white, .5);
-  margin-top: auto; // Make sure footer is at the bottom, even when there is not <main>.
+  //background-color: $black;
+  //color: transparentize($white, .5);
+  margin-top: auto; // Make sure footer is at the bottom, even when there is no <main>.
   padding: rem(12px) 0;
   text-align: center;
+
+  [class^="col"] {
+    padding-top: rem(12);
+    position: relative;
+
+    &::before {
+      background-color: $dark;
+      content: '';
+      display: block;
+      height: rem(1);
+      left: $half-gutter;
+      position: absolute;
+      right: $half-gutter;
+      top: 0;
+    }
+  }
 
   dl {
     display: flex;

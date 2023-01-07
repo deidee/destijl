@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(7, 191, 135);
-  --dejade-degyro: rgb(7, 191, 135);
-  --dejade-deklik: rgb(7, 191, 135);
-  --dejade-demuis: rgb(7, 191, 135);
-  --dejade-deplek: rgb(7, 191, 135);
-  --dejade-derand: rgb(7, 191, 135);
-  --dejade-detijd: rgb(7, 191, 135);
+  --dejade: rgb(34, 163, 158);
+  --dejade-degyro: rgb(34, 163, 158);
+  --dejade-deklik: rgb(34, 163, 158);
+  --dejade-demuis: rgb(34, 163, 158);
+  --dejade-deplek: rgb(34, 163, 158);
+  --dejade-derand: rgb(34, 163, 158);
+  --dejade-detijd: rgb(34, 163, 158);
 }
 
 .bg-dejade {
-  background-color: rgb(7, 191, 135);
+  background-color: rgb(34, 163, 158);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(7, 191, 135);
+  border-color: rgb(34, 163, 158);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(7, 191, 135);
+  fill: rgb(34, 163, 158);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(7, 191, 135);
+  stroke: rgb(34, 163, 158);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(7, 191, 135);
+  color: rgb(34, 163, 158);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4365,6 +4365,60 @@ main {
   padding-bottom: 1.5rem;
 }
 
+.bg--black {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg--contain {
+  background-size: contain;
+}
+
+.bg--cover {
+  background-size: cover;
+}
+
+.bg--dark {
+  background-color: rgba(0, 0, 0, 0.875);
+  color: #fff;
+}
+
+.bg--white {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.875);
+}
+
+.bg--light {
+  background-color: #dedede;
+  color: #222;
+}
+
+.bg--dejade {
+  background-color: rgb(34, 163, 158);
+  background-color: var(--dejade);
+  color: #fff;
+}
+
+.bg--facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.bg--twitter {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.bg--linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.bg--mimesia {
+  background-color: #2269ca;
+  color: #fff;
+}
+
 blockquote {
   margin: 1.5rem 0 1.5rem 2rem;
 }
@@ -4400,52 +4454,6 @@ pre[class*=language-] {
   border-radius: 0;
   margin: 0.75rem auto;
   padding: 0.75rem 1.5rem;
-}
-
-.bg-black {
-  background-color: #000;
-  color: #fff;
-}
-
-.bg-dark {
-  background-color: rgba(0, 0, 0, 0.875);
-  color: #fff;
-}
-
-.bg-white {
-  background-color: #fff;
-  color: rgba(0, 0, 0, 0.875);
-}
-
-.bg-light {
-  background-color: #fafafa;
-  color: #222;
-}
-
-.bg-dejade {
-  background-color: rgb(7, 191, 135);
-  background-color: var(--dejade);
-  color: #fff;
-}
-
-.bg-facebook {
-  background-color: #3b5998;
-  color: #fff;
-}
-
-.bg-twitter {
-  background-color: #1da1f2;
-  color: #fff;
-}
-
-.bg-linkedin {
-  background-color: #0077b5;
-  color: #fff;
-}
-
-.bg-mimesia {
-  background-color: #2269ca;
-  color: #fff;
 }
 
 html:hover {
@@ -4502,11 +4510,23 @@ html:hover [class|=col] {
   font-weight: bold;
 }
 footer {
-  background-color: #000;
-  color: rgba(255, 255, 255, 0.5);
   margin-top: auto;
   padding: 0.75rem 0;
   text-align: center;
+}
+footer [class^=col] {
+  padding-top: 0.75rem;
+  position: relative;
+}
+footer [class^=col]::before {
+  background-color: rgba(0, 0, 0, 0.875);
+  content: "";
+  display: block;
+  height: 0.0625rem;
+  left: 0.75rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 0;
 }
 footer dl {
   display: flex;
@@ -4607,7 +4627,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(7, 191, 135);
+  color: rgb(34, 163, 158);
   color: var(--dejade);
   display: inline-block;
   position: relative;

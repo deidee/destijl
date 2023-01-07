@@ -1,0 +1,54 @@
+
+.bg--black {
+  background-color: $black;
+  color: $white;
+}
+
+.bg--contain {
+  background-size: contain;
+}
+
+.bg--cover {
+  background-size: cover;
+}
+
+.bg--dark {
+  background-color: $dark;
+  color: $white;
+}
+
+.bg--white {
+  background-color: $white;
+  color: $dark;
+}
+
+.bg--light {
+  background-color: $light;
+  color: $text;
+}
+
+.bg--dejade {
+  background-color: $dejade;
+  background-color: var(--dejade);
+  color: $white;
+}
+
+.bg--facebook {
+  background-color: $bc-facebook;
+  color: $white;
+}
+
+.bg--twitter {
+  background-color: $bc-twitter;
+  color: $white;
+}
+
+.bg--linkedin {
+  background-color: $bc-linkedin;
+  color: $white;
+}
+
+.bg--mimesia {
+  background-color: $bc-mimesia-blue;
+  color: $white;
+}
