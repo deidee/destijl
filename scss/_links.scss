@@ -5,4 +5,14 @@ a {
   color: var(--dejade);
   display: inline-block;
   position: relative;
+
+  &:hover {
+    color: deJade();
+  }
+}
+
+:root:not(:hover) {
+  a {
+    color: $text;
+  }
 }

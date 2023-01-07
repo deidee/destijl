@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(116, 178, 177);
-  --dejade-degyro: rgb(116, 178, 177);
-  --dejade-deklik: rgb(116, 178, 177);
-  --dejade-demuis: rgb(116, 178, 177);
-  --dejade-deplek: rgb(116, 178, 177);
-  --dejade-derand: rgb(116, 178, 177);
-  --dejade-detijd: rgb(116, 178, 177);
+  --dejade: rgb(86, 185, 173);
+  --dejade-degyro: rgb(86, 185, 173);
+  --dejade-deklik: rgb(86, 185, 173);
+  --dejade-demuis: rgb(86, 185, 173);
+  --dejade-deplek: rgb(86, 185, 173);
+  --dejade-derand: rgb(86, 185, 173);
+  --dejade-detijd: rgb(86, 185, 173);
 }
 
 .bg-dejade {
-  background-color: rgb(116, 178, 177);
+  background-color: rgb(86, 185, 173);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(116, 178, 177);
+  border-color: rgb(86, 185, 173);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(116, 178, 177);
+  fill: rgb(86, 185, 173);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(116, 178, 177);
+  stroke: rgb(86, 185, 173);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(116, 178, 177);
+  color: rgb(86, 185, 173);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4399,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(116, 178, 177);
+  background-color: rgb(86, 185, 173);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4459,14 +4459,6 @@ pre[class*=language-] {
   border-radius: 0;
   margin: 0.75rem auto;
   padding: 0.75rem 1.5rem;
-}
-
-html:hover {
-  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px);
-}
-html:hover [class|=col] {
-  background-color: rgba(255, 0, 0, 0.125);
-  background-clip: content-box;
 }
 
 .align-items-center {
@@ -4632,10 +4624,17 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(116, 178, 177);
+  color: rgb(86, 185, 173);
   color: var(--dejade);
   display: inline-block;
   position: relative;
+}
+a:hover {
+  color: rgb(64, 206, 43);
+}
+
+:root:not(:hover) a {
+  color: var(--text);
 }
 
 li {
