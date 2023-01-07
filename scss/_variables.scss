@@ -1,7 +1,8 @@
 
 // Colors.
 $black: #000;
-$dark: transparentize($black, .125);
+$dark: #222;
+$darken: transparentize($black, .125);
 $white: #fff;
 $blank: #fafafa;
 $light: #dedede;

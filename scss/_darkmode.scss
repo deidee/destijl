@@ -1,0 +1,19 @@
+
+@media screen and (prefers-color-scheme: dark) {
+  html {
+    background-color: $black;
+    color: $blank;
+  }
+}
+
+[data-mode="dark"] {
+  background-color: $black;
+
+  body {
+    color: $blank;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+}

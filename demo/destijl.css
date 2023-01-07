@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(34, 163, 158);
-  --dejade-degyro: rgb(34, 163, 158);
-  --dejade-deklik: rgb(34, 163, 158);
-  --dejade-demuis: rgb(34, 163, 158);
-  --dejade-deplek: rgb(34, 163, 158);
-  --dejade-derand: rgb(34, 163, 158);
-  --dejade-detijd: rgb(34, 163, 158);
+  --dejade: rgb(54, 170, 167);
+  --dejade-degyro: rgb(54, 170, 167);
+  --dejade-deklik: rgb(54, 170, 167);
+  --dejade-demuis: rgb(54, 170, 167);
+  --dejade-deplek: rgb(54, 170, 167);
+  --dejade-derand: rgb(54, 170, 167);
+  --dejade-detijd: rgb(54, 170, 167);
 }
 
 .bg-dejade {
-  background-color: rgb(34, 163, 158);
+  background-color: rgb(54, 170, 167);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(34, 163, 158);
+  border-color: rgb(54, 170, 167);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(34, 163, 158);
+  fill: rgb(54, 170, 167);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(34, 163, 158);
+  stroke: rgb(54, 170, 167);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(34, 163, 158);
+  color: rgb(54, 170, 167);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4379,13 +4379,18 @@ main {
 }
 
 .bg--dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.bg--darken {
   background-color: rgba(0, 0, 0, 0.875);
   color: #fff;
 }
 
 .bg--white {
   background-color: #fff;
-  color: rgba(0, 0, 0, 0.875);
+  color: #222;
 }
 
 .bg--light {
@@ -4394,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(34, 163, 158);
+  background-color: rgb(54, 170, 167);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4454,6 +4459,22 @@ pre[class*=language-] {
   border-radius: 0;
   margin: 0.75rem auto;
   padding: 0.75rem 1.5rem;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  html {
+    background-color: #000;
+    color: #fafafa;
+  }
+}
+[data-mode=dark] {
+  background-color: #000;
+}
+[data-mode=dark] body {
+  color: #fafafa;
+}
+[data-mode=dark] h1, [data-mode=dark] h2, [data-mode=dark] h3, [data-mode=dark] h4, [data-mode=dark] h5, [data-mode=dark] h6 {
+  color: #fff;
 }
 
 html:hover {
@@ -4519,7 +4540,7 @@ footer [class^=col] {
   position: relative;
 }
 footer [class^=col]::before {
-  background-color: rgba(0, 0, 0, 0.875);
+  background-color: #222;
   content: "";
   display: block;
   height: 0.0625rem;
@@ -4627,7 +4648,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(34, 163, 158);
+  color: rgb(54, 170, 167);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -5394,7 +5415,7 @@ input[type=search]::-webkit-search-decoration {
 
 .stickers a,
 .sticker {
-  background-color: rgba(0, 0, 0, 0.875);
+  background-color: #222;
   color: #fff;
   height: 2rem;
   line-height: 2;
@@ -5425,7 +5446,7 @@ table {
 }
 
 .top {
-  background: rgba(0, 0, 0, 0.875);
+  background: #222;
   bottom: 0;
   color: #fff;
   height: 3rem;
