@@ -5,9 +5,36 @@ a {
   color: var(--dejade);
   display: inline-block;
   position: relative;
+  transition-duration: $transition-duration;
+  transition-property: color;
+  transition-timing-function: $transition-timing-function;
 
   &:hover {
     color: deJade();
+  }
+
+  &[href*="alexanderchristiaanjacob"] {
+    &:hover {
+      color: #f4c !important;
+    }
+  }
+
+  &[href*="facebook"] {
+    &:hover {
+      color: $bc-facebook !important;
+    }
+  }
+
+  &[href*="linkedin"] {
+    &:hover {
+      color: $bc-linkedin !important;
+    }
+  }
+
+  &[href*="twitter"] {
+    &:hover {
+      color: $bc-twitter !important;
+    }
   }
 }
 

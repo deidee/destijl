@@ -66,4 +66,27 @@ footer {
       }
     }
   }
+
+  &.footer-complex {
+    .container {
+      a {
+        color: $black;
+
+        &:hover {
+          color: deJade();
+        }
+      }
+    }
+
+    dl {
+      font-size: 1em;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    dt {
+      margin: 0;
+      width: 3rem;
+    }
+  }
 }

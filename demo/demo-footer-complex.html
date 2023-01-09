@@ -1,0 +1,83 @@
+<!doctype html>
+<html dir="ltr" lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo footer</title>
+    <link rel="publisher" href="https://deidee.nl/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="destijl.css">
+    <script defer src="https://pro.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-yBZ34R8uZDBb7pIwm+whKmsCiRDZXCW1vPPn/3Gz0xm4E95frfRNrOmAUfGbSGqN" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+
+
+
+<footer class="footer-complex">
+    <a href="#top" class="top">▲</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-l-1o4">
+                <div><a href="#">Privacy</a></div>
+                <div><a href="#">Voorwaarden</a></div>
+                <div><a href="#">Cookies</a></div>
+                <!--<div class="mt-24">☺ 2023 <a href="https://deidee.nl/">deidee</a></div>-->
+            </div>
+            <div class="col-l-1o4">
+                <div>tel: <a href="tel:+31624699186"><data value="0624699186">06 246 99 186</data></a></div>
+                <div>mailto: <a href="mailto:info@deidee.nl">info@deidee.nl</a></div>
+                <div>https: <a href="https://deidee.nl/">//deidee.nl/</a></div>
+            </div>
+            <div class="col-l-1o4">
+                <dl>
+                    <dt><abbr title="Kamer van Koophandel">KvK</abbr></dt>
+                    <dd>27313269</dd>
+                </dl>
+                <dl>
+                    <dt><abbr lang="en" title="International Bank Account Number">IBAN</abbr></dt>
+                    <dd><data value="NL14ABNA0413695026">NL14 ABNA0413 6950 26</data></dd>
+                </dl>
+                <dl>
+                    <dt><abbr>BTW</abbr></dt>
+                    <dd>NL144413784B01</dd>
+                </dl>
+            </div>
+            <div class="col-l-1o4">
+                <div><a href="https://www.linkedin.com/company/deidee">LinkedIn</a></div>
+                <div><a href="https://twitter.com/deideenl">Twitter</a></div>
+                <div><a href="https://www.facebook.com/deideecom">Facebook</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    "use strict";
+
+    const html = document.documentElement;
+    html.style.setProperty("--dejade", "green");
+
+    const devicePixelRatio = window.devicePixelRatio || 1;
+    html.style.setProperty("--dppx", devicePixelRatio.toString());
+    html.style.setProperty("--dp", 1 / devicePixelRatio + 'px');
+
+    document.addEventListener("DOMContentLoaded", function() {
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+
+        document.onmousemove = function(e) {
+            let r = Math.round(127 * e.clientY / height);
+            let g = Math.round(((e.clientY / height) + (e.clientX / width)) / 2 * 128 + 127);
+            let b = Math.round(191 * e.clientX / width);
+            let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+
+            html.style.setProperty("--dejade", rgb);
+        };
+    });
+
+</script>
+</body>
+</html>
