@@ -1,0 +1,132 @@
+{% extends 'layout/default.html.twig' %}
+{% block class %}acj{% endblock %}
+{% block title %}Demo ACJ{% endblock %}
+{% block header %}
+    {% include '_header.html.twig' %}
+    {% include '_page-title.html.twig' with { site: 'deidee', page: 'ACJ' } %}
+{% endblock %}
+{% block main %}
+    <main class="align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-l-1o2 offset-l-1o2">
+                    <div class="introduction">
+                        <p>Goedenavond,
+                            mijn naam is Alexander en ik ben de persoon achter deidee.
+                            Mijn specialisme ligt in het gebied waar ontwerp en ontwikkeling &mdash; of in bredere zin esthetiek en techniek &mdash; overlappen.
+                            <!--Zie <a href="#">deidee van diensten</a> voor wat dit precies inhoudt.-->
+                        </p>
+                    </div>
+                    <section class="py-24">
+                        <h2>Biografie</h2>
+                        <p>Ik ben in 1980 in Den Haag geboren en al van kleins af aan heb ik een onverzadigbare drang om te creëren.
+                            Ik laat mij inspireren door exacte wetenschap, filosofie, de natuur, maar ook popcultuur en uit mijzelf via kunst, muziek, sport, ontwerp en programmatuur.
+                            Toen ik klaar was met studeren richtte ik deidee op om hier ook mijn werk van te maken.
+                        </p>
+                    </section>
+                    <section class="py-24" id="cv">
+                        <h2>Curriculum vitæ</h2>
+                        <p>Hoewel deidee al heel lang de basis is van waaruit ik opereer, heb ik ook andere dingen ondernomen.</p>
+                        <section class="py-24" id="werkervaring">
+                            <h3>Werkervaring</h3>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>Mimesia Gallery</strong></div>
+                                    <div>Mede-oprichter, voorzitter, curator</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2016 &mdash;</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>deidee</strong></div>
+                                    <div>Oprichter, ontwerper, ontwikkelaar</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2007 &mdash;</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>DPI</strong></div>
+                                    <div>Lead front-end, senior front-end-ontwikkelaar</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2016 &mdash; 2022</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>Dekker Chen</strong></div>
+                                    <div>Mede-oprichter, technisch directeur</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2013 &mdash; 2015</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>Watch Me Work</strong></div>
+                                    <div>Mede-oprichter, partner</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2011 &mdash; 2014</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>Message2Market</strong></div>
+                                    <div>Projectmanager (online marketing)</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2009 &mdash; 2011</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>Bizzmark</strong></div>
+                                    <div>Projectmanager (online marketing)</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2008 &mdash; 2009</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>Gum</strong></div>
+                                    <div>Voorzitter, co-curator</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2007 &mdash; 2012</div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-s-3o4">
+                                    <div><strong>VormVijf</strong></div>
+                                    <div>Stagiair grafisch ontwerp</div>
+                                </div>
+                                <div class="col-s-1o4">
+                                    <div>2005</div>
+                                </div>
+                            </div>
+
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+{% block footer %}
+{% include '_footer-complex.html.twig' %}
+{% endblock %}

@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(106, 245, 74);
-  --dejade-degyro: rgb(106, 245, 74);
-  --dejade-deklik: rgb(106, 245, 74);
-  --dejade-demuis: rgb(106, 245, 74);
-  --dejade-deplek: rgb(106, 245, 74);
-  --dejade-derand: rgb(106, 245, 74);
-  --dejade-detijd: rgb(106, 245, 74);
+  --dejade: rgb(75, 173, 48);
+  --dejade-degyro: rgb(75, 173, 48);
+  --dejade-deklik: rgb(75, 173, 48);
+  --dejade-demuis: rgb(75, 173, 48);
+  --dejade-deplek: rgb(75, 173, 48);
+  --dejade-derand: rgb(75, 173, 48);
+  --dejade-detijd: rgb(75, 173, 48);
 }
 
 .bg-dejade {
-  background-color: rgb(106, 245, 74);
+  background-color: rgb(75, 173, 48);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(106, 245, 74);
+  border-color: rgb(75, 173, 48);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(106, 245, 74);
+  fill: rgb(75, 173, 48);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(106, 245, 74);
+  stroke: rgb(75, 173, 48);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(106, 245, 74);
+  color: rgb(75, 173, 48);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4395,7 +4395,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(106, 245, 74);
+  background-color: rgb(75, 173, 48);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4660,7 +4660,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(106, 245, 74);
+  color: rgb(75, 173, 48);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4669,7 +4669,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(64, 251, 50);
+  color: rgb(75, 236, 5);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5689,6 +5689,24 @@ html.home header {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+#cv .row {
+  margin-bottom: 0.75rem;
+}
+#cv .row [class^=col] {
+  padding-bottom: 0.75rem;
+  position: relative;
+}
+#cv .row [class^=col]::before {
+  background-color: #222;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.0625rem;
+  left: 0.75rem;
+  position: absolute;
+  right: 0.75rem;
 }
 
 @media screen and (prefers-color-scheme: dark) {

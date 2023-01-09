@@ -1,0 +1,22 @@
+
+#cv {
+  .row {
+    margin-bottom: rem(12);
+
+    [class^="col"] {
+      padding-bottom: rem(12);
+      position: relative;
+
+      &::before {
+        background-color: $dark;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: rem(1);
+        left: $half-gutter;
+        position: absolute;
+        right: $half-gutter;
+      }
+    }
+  }
+}
