@@ -11,8 +11,10 @@ a {
   }
 }
 
-:root:not(:hover) {
-  a {
-    color: $text;
+@media (hover: hover) {
+  :root:not(:hover) {
+    a {
+      color: $text;
+    }
   }
 }
