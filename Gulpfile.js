@@ -51,7 +51,21 @@ gulp.task('twig', function () {
                         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
                     ],
                     size: 48
-                }
+                },
+                logos: [
+                    'mimesia',
+                    'allrgb',
+                    'e-overheid',
+                    'dopewebsites',
+                    'dova',
+                    'sentrading',
+                    'nederland',
+                    'internet',
+                    'netplasticism',
+                    'utterlyrandom',
+                    'unst',
+                    'deidee'
+                ]
             }}))
         .pipe(gulp.dest('demo'));
 });

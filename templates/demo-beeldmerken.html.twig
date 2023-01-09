@@ -9,56 +9,11 @@
     <main class="align-items-center">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: black">
-                        <img src="https://delogo.nl/allrgb.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: white">
-                        <img src="https://delogo.nl/mimesia.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: gray">
-                        <img src="https://delogo.nl/internet.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: white">
-                        <img src="https://delogo.nl/nederland.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: darkslategrey">
-                        <img src="https://delogo.nl/dopewebsites.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: white">
-                        <img src="https://delogo.nl/e-overheid.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: #f0c">
-                        <img src="https://delogo.nl/acj.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: mediumpurple">
-                        <img src="https://delogo.nl/utterlyrandom.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container" style="background-color: white">
-                        <img src="https://delogo.nl/unst.svg" alt="">
-                    </figure>
-                </div>
-                <div class="col-m-1o2">
-                    <figure class="logo-container">
-                        <img src="https://deidee.com/logo.svg" alt="">
-                    </figure>
-                </div>
+                {% for logo in logos %}
+                    <div class="col-m-1o2">
+                        {% include '_logo.html.twig' %}
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </main>
