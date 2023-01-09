@@ -17,7 +17,7 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('./demo'))
         .pipe(header('$debug: false;\n'))
         .pipe(sass({includePaths: ['node_modules'], outputStyle: 'compressed'}))
-        .pipe(rename({ suffix: '.min' }))
+        .pipe(rename({ basename: 'de2023', suffix: '.min' }))
         .pipe(gulp.dest('./dist'));
 });
 
