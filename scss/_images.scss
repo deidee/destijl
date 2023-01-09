@@ -2,6 +2,13 @@
 // TODO: Define various redenring methods, optimized for gif, svg, and jpg.
 
 img {
+  height: auto;
   max-width: 100%;
   vertical-align: bottom;
+}
+
+svg {
+  height: auto;
+  vertical-align: bottom;
+  width: 100%;
 }

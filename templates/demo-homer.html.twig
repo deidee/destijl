@@ -21,11 +21,12 @@
 {% block main %}
     <main class="align-items-center">
         <div class="container">
-            <div class="row">
-                <div class="col-1o1 text-center">
-                    <img src="https://deidee.com/logo.svg?str=deidee" alt="deidee">
-                    <div class="nmt-24">ontwerp en ontwikkeling op maat</div>
-                    <div>sinds 2007</div>
+            <div class="row align-items-center">
+                <div class="col-2o3">
+                    {% include '_heticoon.html.twig' %}
+                </div>
+                <div class="col-1o3">
+                    {% include '_introduction.html.twig' %}
                 </div>
             </div>
         </div>

@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(11, 231, 8);
-  --dejade-degyro: rgb(11, 231, 8);
-  --dejade-deklik: rgb(11, 231, 8);
-  --dejade-demuis: rgb(11, 231, 8);
-  --dejade-deplek: rgb(11, 231, 8);
-  --dejade-derand: rgb(11, 231, 8);
-  --dejade-detijd: rgb(11, 231, 8);
+  --dejade: rgb(117, 223, 156);
+  --dejade-degyro: rgb(117, 223, 156);
+  --dejade-deklik: rgb(117, 223, 156);
+  --dejade-demuis: rgb(117, 223, 156);
+  --dejade-deplek: rgb(117, 223, 156);
+  --dejade-derand: rgb(117, 223, 156);
+  --dejade-detijd: rgb(117, 223, 156);
 }
 
 .bg-dejade {
-  background-color: rgb(11, 231, 8);
+  background-color: rgb(117, 223, 156);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(11, 231, 8);
+  border-color: rgb(117, 223, 156);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(11, 231, 8);
+  fill: rgb(117, 223, 156);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(11, 231, 8);
+  stroke: rgb(117, 223, 156);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(11, 231, 8);
+  color: rgb(117, 223, 156);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4399,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(11, 231, 8);
+  background-color: rgb(117, 223, 156);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4589,8 +4589,15 @@ footer dl dt {
 }
 
 img {
+  height: auto;
   max-width: 100%;
   vertical-align: bottom;
+}
+
+svg {
+  height: auto;
+  vertical-align: bottom;
+  width: 100%;
 }
 
 textarea, input:not([type]), input[type=email],
@@ -4622,15 +4629,23 @@ textarea {
   text-indent: 0;
 }
 
+.introduction {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.introduction p {
+  font-family: "Mona Sans", "Avenir Next LT W04", Calibri, sans-serif, serif;
+}
+
 a {
   background-color: transparent;
-  color: rgb(11, 231, 8);
+  color: rgb(117, 223, 156);
   color: var(--dejade);
   display: inline-block;
   position: relative;
 }
 a:hover {
-  color: rgb(32, 146, 189);
+  color: rgb(86, 198, 16);
 }
 
 @media (hover: hover) {
@@ -5528,6 +5543,11 @@ p:first-of-type {
 
 :lang(zh) {
   writing-mode: vertical-lr;
+}
+
+.heticoon rect {
+  stroke: rgba(0, 0, 0, 0.875);
+  stroke-width: 0.125rem;
 }
 
 @media screen and (prefers-color-scheme: dark) {
