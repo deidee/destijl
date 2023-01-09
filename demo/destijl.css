@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(73, 253, 135);
-  --dejade-degyro: rgb(73, 253, 135);
-  --dejade-deklik: rgb(73, 253, 135);
-  --dejade-demuis: rgb(73, 253, 135);
-  --dejade-deplek: rgb(73, 253, 135);
-  --dejade-derand: rgb(73, 253, 135);
-  --dejade-detijd: rgb(73, 253, 135);
+  --dejade: rgb(60, 191, 118);
+  --dejade-degyro: rgb(60, 191, 118);
+  --dejade-deklik: rgb(60, 191, 118);
+  --dejade-demuis: rgb(60, 191, 118);
+  --dejade-deplek: rgb(60, 191, 118);
+  --dejade-derand: rgb(60, 191, 118);
+  --dejade-detijd: rgb(60, 191, 118);
 }
 
 .bg-dejade {
-  background-color: rgb(73, 253, 135);
+  background-color: rgb(60, 191, 118);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(73, 253, 135);
+  border-color: rgb(60, 191, 118);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(73, 253, 135);
+  fill: rgb(60, 191, 118);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(73, 253, 135);
+  stroke: rgb(60, 191, 118);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(73, 253, 135);
+  color: rgb(60, 191, 118);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4394,7 +4394,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(73, 253, 135);
+  background-color: rgb(60, 191, 118);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4586,22 +4586,22 @@ footer.footer-complex dt {
 
 .cols-2 {
   column-count: 2;
-  column-gap: 16px;
+  column-gap: 1.5rem;
 }
 
 .cols-3 {
   column-count: 3;
-  column-gap: 16px;
+  column-gap: 1.5rem;
 }
 
 .cols-4 {
   column-count: 4;
-  column-gap: 16px;
+  column-gap: 1.5rem;
 }
 
 .cols-6 {
   column-count: 6;
-  column-gap: 16px;
+  column-gap: 1.5rem;
 }
 
 img {
@@ -4655,7 +4655,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(73, 253, 135);
+  color: rgb(60, 191, 118);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4664,7 +4664,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(74, 205, 69);
+  color: rgb(68, 179, 163);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5523,14 +5523,42 @@ table {
   height: calc(100% - 3rem);
   margin-left: 0;
   padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+  transition-duration: 0.25s;
+  transition-property: border-color;
+  transition-timing-function: ease-in;
+}
+.testimonial--brunounostudio {
+  border-color: #563a24;
+}
+.testimonial--brunounostudio a {
+  color: #563a24;
+}
+.testimonial--miktorenmolf {
+  border-color: red;
+}
+.testimonial--miktorenmolf a {
+  color: red;
+}
+.testimonial--presstige {
+  border-color: #006600;
+}
+.testimonial--presstige a {
+  color: #006600;
 }
 .testimonial address {
   margin-top: 1.5rem;
+  padding-left: 3rem;
 }
 .testimonial address::before {
   content: "⸻";
+  margin-left: -3rem;
 }
 
+@media (hover: hover) {
+  :root:not(:hover) .testimonial {
+    border-color: var(--text);
+  }
+}
 .top {
   background: #222;
   bottom: 0;

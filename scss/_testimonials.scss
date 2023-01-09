@@ -5,12 +5,49 @@
   height: calc(100% - #{rem(48)});
   margin-left: 0;
   padding: rem(24) rem(24) rem(24) rem(40);
+  transition-duration: $transition-duration;
+  transition-property: border-color;
+  transition-timing-function: $transition-timing-function;
+
+  &--brunounostudio {
+    border-color: $bc-brunounostudio-1;
+
+    a {
+      color: $bc-brunounostudio-1;
+    }
+  }
+
+  &--miktorenmolf {
+    border-color: red;
+
+    a {
+      color: red;
+    }
+  }
+
+  &--presstige {
+    border-color: $bc-presstige-green;
+
+    a {
+      color: $bc-presstige-green;
+    }
+  }
 
   address {
     margin-top: rem(24);
+    padding-left: 3rem;
 
     &::before {
       content: '⸻';
+      margin-left: -3rem;
+    }
+  }
+}
+
+@media (hover: hover) {
+  :root:not(:hover) {
+    .testimonial {
+      border-color: $text;
     }
   }
 }
