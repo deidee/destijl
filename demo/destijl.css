@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(60, 191, 118);
-  --dejade-degyro: rgb(60, 191, 118);
-  --dejade-deklik: rgb(60, 191, 118);
-  --dejade-demuis: rgb(60, 191, 118);
-  --dejade-deplek: rgb(60, 191, 118);
-  --dejade-derand: rgb(60, 191, 118);
-  --dejade-detijd: rgb(60, 191, 118);
+  --dejade: rgb(106, 245, 74);
+  --dejade-degyro: rgb(106, 245, 74);
+  --dejade-deklik: rgb(106, 245, 74);
+  --dejade-demuis: rgb(106, 245, 74);
+  --dejade-deplek: rgb(106, 245, 74);
+  --dejade-derand: rgb(106, 245, 74);
+  --dejade-detijd: rgb(106, 245, 74);
 }
 
 .bg-dejade {
-  background-color: rgb(60, 191, 118);
+  background-color: rgb(106, 245, 74);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(60, 191, 118);
+  border-color: rgb(106, 245, 74);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(60, 191, 118);
+  fill: rgb(106, 245, 74);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(60, 191, 118);
+  stroke: rgb(106, 245, 74);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(60, 191, 118);
+  color: rgb(106, 245, 74);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4357,6 +4357,7 @@ html {
   display: flex;
   font: normal 100%/1.5 "Mona Sans", "Avenir Next LT W04", Calibri, sans-serif, serif;
   overflow-y: scroll;
+  scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
 }
 
@@ -4394,7 +4395,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(60, 191, 118);
+  background-color: rgb(106, 245, 74);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4469,6 +4470,10 @@ pre[class*=language-] {
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 @font-face {
@@ -4655,7 +4660,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(60, 191, 118);
+  color: rgb(106, 245, 74);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4664,7 +4669,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(68, 179, 163);
+  color: rgb(64, 251, 50);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5660,7 +5665,9 @@ p:first-of-type {
 }
 
 .heticoon {
+  margin: 3rem;
   overflow: visible;
+  width: auto;
 }
 .heticoon rect {
   stroke: rgba(0, 0, 0, 0.875);
