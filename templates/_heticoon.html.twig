@@ -3,22 +3,24 @@
     {%- include '_75.txt.twig' %}
 {% endset %}
 
+{% set urlset = urls|split("\r") %}
+
 <svg class="heticoon" viewBox="0 0 {{ (heticoon.data.length + 1) * heticoon.size }} {{ (heticoon.data.length + 1) * heticoon.size }}">
-    {% set i = 0 %}
-    {% set x = heticoon.size %}
-    {% set y = heticoon.size %}
-    {% for line in heticoon.data %}
-        {% for col in line %}
-            {% if col %}
-                <a xlink:href="{{- urls|split("\r")[i] }}">
+    {%- set i = 0 %}
+    {%- set x = heticoon.size %}
+    {%- set y = heticoon.size %}
+    {%- for line in heticoon.data %}
+        {%- for col in line %}
+            {%- if col %}
+                <a xlink:href="{{- urlset[i] }}">
                     <rect x="{{ x }}" y="{{ y }}" width="{{ heticoon.size + random(2) }}" height="{{ heticoon.size + random(2) }}"></rect>
                 </a>
-                {% set i = i + 1 %}
-            {% endif %}
-            {% set x = x + heticoon.size %}
-        {% endfor %}
-        {% set y = y + heticoon.size %}
-        {% set x = heticoon.size %}
+                {%- set i = i + 1 %}
+            {%- endif %}
+            {%- set x = x + heticoon.size %}
+        {%- endfor %}
+        {%- set y = y + heticoon.size %}
+        {%- set x = heticoon.size %}
     {% endfor %}
 </svg>
 
