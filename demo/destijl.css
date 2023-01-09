@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(1, 128, 91);
-  --dejade-degyro: rgb(1, 128, 91);
-  --dejade-deklik: rgb(1, 128, 91);
-  --dejade-demuis: rgb(1, 128, 91);
-  --dejade-deplek: rgb(1, 128, 91);
-  --dejade-derand: rgb(1, 128, 91);
-  --dejade-detijd: rgb(1, 128, 91);
+  --dejade: rgb(93, 203, 63);
+  --dejade-degyro: rgb(93, 203, 63);
+  --dejade-deklik: rgb(93, 203, 63);
+  --dejade-demuis: rgb(93, 203, 63);
+  --dejade-deplek: rgb(93, 203, 63);
+  --dejade-derand: rgb(93, 203, 63);
+  --dejade-detijd: rgb(93, 203, 63);
 }
 
 .bg-dejade {
-  background-color: rgb(1, 128, 91);
+  background-color: rgb(93, 203, 63);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(1, 128, 91);
+  border-color: rgb(93, 203, 63);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(1, 128, 91);
+  fill: rgb(93, 203, 63);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(1, 128, 91);
+  stroke: rgb(93, 203, 63);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(1, 128, 91);
+  color: rgb(93, 203, 63);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4399,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(1, 128, 91);
+  background-color: rgb(93, 203, 63);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4564,11 +4564,16 @@ footer dl dt {
     margin: 0 0.75rem 0 1.5rem;
   }
 }
-footer.footer-complex .container a {
-  color: #000;
-}
-footer.footer-complex .container a:hover {
-  color: rgb(16, 208, 156);
+footer.footer-complex {
+  /*    .container {
+        a {
+          color: $black;
+
+          &:hover {
+            color: deJade();
+          }
+        }
+      }*/
 }
 footer.footer-complex dl {
   font-size: 1em;
@@ -4655,7 +4660,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(1, 128, 91);
+  color: rgb(93, 203, 63);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4664,7 +4669,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(106, 243, 57);
+  color: rgb(90, 169, 90);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;

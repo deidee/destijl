@@ -24,13 +24,34 @@ gulp.task('sass', function () {
 gulp.task('twig', function () {
     return gulp.src(['./templates/[^_]*.twig', 'templates'])
         .pipe(twig({extname: false, data: {
-            link: {
-                a22b: "https://alexanderchristiaanjacob.com/",
-                deidee: "https://deidee.nl/",
-                facebook: 'https://www.facebook.com/deideecom',
-                linkedin: 'https://www.linkedin.com/company/deidee',
-                twitter: 'https://twitter.com/deideenl'
-            }
+                link: {
+                    a22b: "https://alexanderchristiaanjacob.com/",
+                    deidee: "https://deidee.nl/",
+                    facebook: 'https://www.facebook.com/deideecom',
+                    linkedin: 'https://www.linkedin.com/company/deidee',
+                    twitter: 'https://twitter.com/deideenl'
+                },
+                heticoon: {
+                    data: [
+                        [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],
+                        [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],
+                        [0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,0],
+                        [0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0],
+                        [0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,0],
+                        [0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0],
+                        [0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,0],
+                        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                        [1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0],
+                        [0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0],
+                        [0,1,0,0,1,1,1,0,1,1,1,0,1,1,1,0],
+                        [0,1,0,0,1,0,1,0,1,0,1,0,1,0,1,0],
+                        [0,1,0,0,1,0,1,0,1,1,1,0,1,1,1,0],
+                        [0,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0],
+                        [1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0],
+                        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+                    ],
+                    size: 48
+                }
             }}))
         .pipe(gulp.dest('demo'));
 });
