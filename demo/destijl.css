@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(57, 204, 54);
-  --dejade-degyro: rgb(57, 204, 54);
-  --dejade-deklik: rgb(57, 204, 54);
-  --dejade-demuis: rgb(57, 204, 54);
-  --dejade-deplek: rgb(57, 204, 54);
-  --dejade-derand: rgb(57, 204, 54);
-  --dejade-detijd: rgb(57, 204, 54);
+  --dejade: rgb(82, 150, 135);
+  --dejade-degyro: rgb(82, 150, 135);
+  --dejade-deklik: rgb(82, 150, 135);
+  --dejade-demuis: rgb(82, 150, 135);
+  --dejade-deplek: rgb(82, 150, 135);
+  --dejade-derand: rgb(82, 150, 135);
+  --dejade-detijd: rgb(82, 150, 135);
 }
 
 .bg-dejade {
-  background-color: rgb(57, 204, 54);
+  background-color: rgb(82, 150, 135);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(57, 204, 54);
+  border-color: rgb(82, 150, 135);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(57, 204, 54);
+  fill: rgb(82, 150, 135);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(57, 204, 54);
+  stroke: rgb(82, 150, 135);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(57, 204, 54);
+  color: rgb(82, 150, 135);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4394,7 +4394,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(57, 204, 54);
+  background-color: rgb(82, 150, 135);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4655,7 +4655,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(57, 204, 54);
+  color: rgb(82, 150, 135);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4664,7 +4664,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(6, 151, 100);
+  color: rgb(86, 196, 23);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4766,6 +4766,18 @@ main {
   padding-top: 1.5rem;
 }
 
+.quicksearch {
+  display: flex;
+}
+.quicksearch a,
+.quicksearch button {
+  flex: 0 1 auto;
+  margin-left: auto;
+}
+.quicksearch label {
+  display: none;
+  flex: 1 0 100%;
+}
 :root {
   --dppx: 1;
   --dp: 1px;

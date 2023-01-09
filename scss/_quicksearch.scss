@@ -1,0 +1,19 @@
+
+.quicksearch {
+  display: flex;
+
+  a,
+  button {
+    flex: 0 1 auto;
+    margin-left: auto;
+  }
+
+  label {
+    display: none;
+    flex: 1 0 100%;
+
+    input {
+      //
+    }
+  }
+}
