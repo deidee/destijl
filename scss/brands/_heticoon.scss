@@ -3,5 +3,10 @@
   rect {
     stroke: $darken;
     stroke-width: rem(2);
+    transform-box: fill-box;
+    transform-origin: center;
+    transition-duration: $transition-duration;
+    transition-property: fill, fill-opacity, transform;
+    transition-timing-function: $transition-timing-function;
   }
 }

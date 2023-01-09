@@ -82,7 +82,16 @@
 
     for (const blok of hetIcoon.children) {
         blok.style.fill = deJade();
-        blok.style.fillOpacity = .5;
+        blok.style.fillOpacity = ".5";
+        blok.addEventListener('mouseenter', function(e){
+            e.preventDefault();
+            e.target.style.fill = deJade();
+            e.target.style.transform = 'scale(' + (1 + Math.random()) + ') rotate(' + (Math.random() * 30) + 'deg)';
+        });
+        blok.addEventListener('mouseleave', function(e){
+            e.preventDefault();
+            e.target.style.transform = 'none';
+        });
     }
 
     function deJade()
@@ -90,8 +99,6 @@
         let r = Math.round(127 * Math.random());
         let g = Math.round(Math.random() * 128 + 127);
         let b = Math.round(191 * Math.random());
-        let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
-
-        return rgb;
+        return 'rgb(' + r + ', ' + g + ', ' + b + ')';
     }
 </script>
