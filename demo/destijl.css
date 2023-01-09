@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(64, 187, 135);
-  --dejade-degyro: rgb(64, 187, 135);
-  --dejade-deklik: rgb(64, 187, 135);
-  --dejade-demuis: rgb(64, 187, 135);
-  --dejade-deplek: rgb(64, 187, 135);
-  --dejade-derand: rgb(64, 187, 135);
-  --dejade-detijd: rgb(64, 187, 135);
+  --dejade: rgb(73, 253, 135);
+  --dejade-degyro: rgb(73, 253, 135);
+  --dejade-deklik: rgb(73, 253, 135);
+  --dejade-demuis: rgb(73, 253, 135);
+  --dejade-deplek: rgb(73, 253, 135);
+  --dejade-derand: rgb(73, 253, 135);
+  --dejade-detijd: rgb(73, 253, 135);
 }
 
 .bg-dejade {
-  background-color: rgb(64, 187, 135);
+  background-color: rgb(73, 253, 135);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(64, 187, 135);
+  border-color: rgb(73, 253, 135);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(64, 187, 135);
+  fill: rgb(73, 253, 135);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(64, 187, 135);
+  stroke: rgb(73, 253, 135);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(64, 187, 135);
+  color: rgb(73, 253, 135);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4394,7 +4394,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(64, 187, 135);
+  background-color: rgb(73, 253, 135);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4655,7 +4655,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(64, 187, 135);
+  color: rgb(73, 253, 135);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4664,7 +4664,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(70, 227, 71);
+  color: rgb(74, 205, 69);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5515,6 +5515,20 @@ table {
   display: table;
   empty-cells: hide;
   width: 100%;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-left: 0.5rem solid rgba(0, 0, 0, 0.875);
+  height: calc(100% - 3rem);
+  margin-left: 0;
+  padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+}
+.testimonial address {
+  margin-top: 1.5rem;
+}
+.testimonial address::before {
+  content: "⸻";
 }
 
 .top {
