@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(93, 203, 63);
-  --dejade-degyro: rgb(93, 203, 63);
-  --dejade-deklik: rgb(93, 203, 63);
-  --dejade-demuis: rgb(93, 203, 63);
-  --dejade-deplek: rgb(93, 203, 63);
-  --dejade-derand: rgb(93, 203, 63);
-  --dejade-detijd: rgb(93, 203, 63);
+  --dejade: rgb(53, 234, 21);
+  --dejade-degyro: rgb(53, 234, 21);
+  --dejade-deklik: rgb(53, 234, 21);
+  --dejade-demuis: rgb(53, 234, 21);
+  --dejade-deplek: rgb(53, 234, 21);
+  --dejade-derand: rgb(53, 234, 21);
+  --dejade-detijd: rgb(53, 234, 21);
 }
 
 .bg-dejade {
-  background-color: rgb(93, 203, 63);
+  background-color: rgb(53, 234, 21);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(93, 203, 63);
+  border-color: rgb(53, 234, 21);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(93, 203, 63);
+  fill: rgb(53, 234, 21);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(93, 203, 63);
+  stroke: rgb(53, 234, 21);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(93, 203, 63);
+  color: rgb(53, 234, 21);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4399,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(93, 203, 63);
+  background-color: rgb(53, 234, 21);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4660,7 +4660,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(93, 203, 63);
+  color: rgb(53, 234, 21);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4669,7 +4669,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(90, 169, 90);
+  color: rgb(60, 176, 157);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5582,6 +5582,9 @@ p:first-of-type {
   writing-mode: vertical-lr;
 }
 
+.heticoon {
+  overflow: visible;
+}
 .heticoon rect {
   stroke: rgba(0, 0, 0, 0.875);
   stroke-width: 0.125rem;
@@ -5590,6 +5593,11 @@ p:first-of-type {
   transition-duration: 0.25s;
   transition-property: fill, fill-opacity, transform;
   transition-timing-function: ease-in;
+}
+
+html.home header {
+  position: sticky;
+  top: 0;
 }
 
 @media screen and (prefers-color-scheme: dark) {

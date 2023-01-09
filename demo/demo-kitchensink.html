@@ -1,5 +1,5 @@
 <!doctype html>
-<html dir="ltr" lang="nl">
+<html class="page" dir="ltr" lang="nl">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -378,6 +378,11 @@ image.save("shuffled_colors.png")</code></pre>
     document.addEventListener("DOMContentLoaded", function() {
         let width = window.innerWidth;
         let height = window.innerHeight;
+
+        window.addEventListener('resize', function() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+        });
 
         document.onmousemove = function(e) {
             let r = Math.round(127 * e.clientY / height);

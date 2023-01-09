@@ -1,5 +1,5 @@
 <!doctype html>
-<html dir="ltr" lang="nl">
+<html class="page" dir="ltr" lang="nl">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,13 +15,15 @@
     <div class="container">
         <div class="row py-12">
             <div class="col-1o2">
-                <div class="flex-row">
-                    <a class="mr-12" href="#">Web</a>
-                    <a class="mr-12" href="#">Beelmerken</a>
-                    <a class="mr-12" href="#">Vragen</a>
-                    <a class="mr-12" href="#">Opdrachtgevers</a>
-                    <a class="mr-12" href="#">Contact</a>
-                </div>
+                
+                    <div class="flex-row">
+                        <a class="mr-12" href="#">Web</a>
+                        <a class="mr-12" href="#">Beelmerken</a>
+                        <a class="mr-12" href="#">Vragen</a>
+                        <a class="mr-12" href="#">Opdrachtgevers</a>
+                        <a class="mr-12" href="#">Contact</a>
+                    </div>
+                
             </div>
             <div class="col-1o2">
                 <div class="text-right">
@@ -88,6 +90,11 @@
     document.addEventListener("DOMContentLoaded", function() {
         let width = window.innerWidth;
         let height = window.innerHeight;
+
+        window.addEventListener('resize', function() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+        });
 
         document.onmousemove = function(e) {
             let r = Math.round(127 * e.clientY / height);

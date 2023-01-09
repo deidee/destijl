@@ -1,5 +1,5 @@
 <!doctype html>
-<html dir="ltr" lang="nl">
+<html class="page" dir="ltr" lang="nl">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,18 +17,18 @@
     <a href="#top" class="top">▲</a>
     <div class="container">
         <div class="row">
-            <div class="col-l-1o4">
+            <div class="col-s-1o2 col-l-1o4">
                 <div><a href="#">Privacy</a></div>
                 <div><a href="#">Voorwaarden</a></div>
                 <div><a href="#">Cookies</a></div>
                 <!--<div class="mt-24">☺ 2023 <a href="https://deidee.nl/">deidee</a></div>-->
             </div>
-            <div class="col-l-1o4">
+            <div class="col-s-1o2 col-l-1o4">
                 <div>tel: <a href="tel:+31624699186"><data value="0624699186">06 246 99 186</data></a></div>
                 <div>mailto: <a href="mailto:info@deidee.nl">info@deidee.nl</a></div>
                 <div>https: <a href="https://deidee.nl/">//deidee.nl/</a></div>
             </div>
-            <div class="col-l-1o4">
+            <div class="col-s-1o2 col-l-1o4">
                 <dl>
                     <dt><abbr title="Kamer van Koophandel">KvK</abbr></dt>
                     <dd>27313269</dd>
@@ -42,7 +42,7 @@
                     <dd>NL144413784B01</dd>
                 </dl>
             </div>
-            <div class="col-l-1o4">
+            <div class="col-s-1o2 col-l-1o4">
                 <div><a href="https://www.linkedin.com/company/deidee">LinkedIn</a></div>
                 <div><a href="https://twitter.com/deideenl">Twitter</a></div>
                 <div><a href="https://www.facebook.com/deideecom">Facebook</a></div>
@@ -67,6 +67,11 @@
     document.addEventListener("DOMContentLoaded", function() {
         let width = window.innerWidth;
         let height = window.innerHeight;
+
+        window.addEventListener('resize', function() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+        });
 
         document.onmousemove = function(e) {
             let r = Math.round(127 * e.clientY / height);
