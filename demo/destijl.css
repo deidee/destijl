@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(53, 234, 21);
-  --dejade-degyro: rgb(53, 234, 21);
-  --dejade-deklik: rgb(53, 234, 21);
-  --dejade-demuis: rgb(53, 234, 21);
-  --dejade-deplek: rgb(53, 234, 21);
-  --dejade-derand: rgb(53, 234, 21);
-  --dejade-detijd: rgb(53, 234, 21);
+  --dejade: rgb(57, 140, 71);
+  --dejade-degyro: rgb(57, 140, 71);
+  --dejade-deklik: rgb(57, 140, 71);
+  --dejade-demuis: rgb(57, 140, 71);
+  --dejade-deplek: rgb(57, 140, 71);
+  --dejade-derand: rgb(57, 140, 71);
+  --dejade-detijd: rgb(57, 140, 71);
 }
 
 .bg-dejade {
-  background-color: rgb(53, 234, 21);
+  background-color: rgb(57, 140, 71);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(53, 234, 21);
+  border-color: rgb(57, 140, 71);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(53, 234, 21);
+  fill: rgb(57, 140, 71);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(53, 234, 21);
+  stroke: rgb(57, 140, 71);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(53, 234, 21);
+  color: rgb(57, 140, 71);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4399,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(53, 234, 21);
+  background-color: rgb(57, 140, 71);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4660,7 +4660,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(53, 234, 21);
+  color: rgb(57, 140, 71);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4669,7 +4669,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(60, 176, 157);
+  color: rgb(36, 199, 80);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4746,6 +4746,19 @@ ul > li > ul > li > ul {
 }
 .list-unstyled > li {
   margin: 0;
+}
+
+.logo-container {
+  align-items: center;
+  display: flex;
+  height: 27rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 3.75rem;
+}
+.logo-container img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 :root {

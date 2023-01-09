@@ -1,0 +1,68 @@
+{% extends 'layout/default.html.twig' %}
+{% block class %}beeldmerken{% endblock %}
+{% block title %}Demo beeldmerken{% endblock %}
+{% block header %}
+    {% include '_header.html.twig' %}
+    {% include '_page-title.html.twig' with { site: 'deidee', page: 'beeldmerken' } %}
+{% endblock %}
+{% block main %}
+    <main class="align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: black">
+                        <img src="https://delogo.nl/allrgb.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: white">
+                        <img src="https://delogo.nl/mimesia.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: gray">
+                        <img src="https://delogo.nl/internet.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: white">
+                        <img src="https://delogo.nl/nederland.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: darkslategrey">
+                        <img src="https://delogo.nl/dopewebsites.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: white">
+                        <img src="https://delogo.nl/e-overheid.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: #f0c">
+                        <img src="https://delogo.nl/acj.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: mediumpurple">
+                        <img src="https://delogo.nl/utterlyrandom.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container" style="background-color: white">
+                        <img src="https://delogo.nl/unst.svg" alt="">
+                    </figure>
+                </div>
+                <div class="col-m-1o2">
+                    <figure class="logo-container">
+                        <img src="https://deidee.com/logo.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+{% block footer %}
+{% include '_footer-complex.html.twig' %}
+{% endblock %}
