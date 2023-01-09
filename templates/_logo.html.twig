@@ -1,7 +1,9 @@
-<figure class="logo-container">
-    {% if logo == 'deidee' %}
-        <img src="https://deidee.com/logo.svg" alt="">
-    {% else %}
-        <img src="https://delogo.nl/{{ logo }}.svg" alt="">
-    {% endif %}
-</figure>
+<a href="https://delogo.nl/{{ logo }}" class="logo-container">
+        <figure>
+                {% if logo == 'deidee' %}
+                        <img src="https://deidee.com/logo.svg" alt="">
+                {% else %}
+                        <img src="https://delogo.nl/{{ logo }}.svg" alt="">
+                {% endif %}
+        </figure>
+</a>

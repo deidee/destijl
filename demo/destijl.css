@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(17, 196, 56);
-  --dejade-degyro: rgb(17, 196, 56);
-  --dejade-deklik: rgb(17, 196, 56);
-  --dejade-demuis: rgb(17, 196, 56);
-  --dejade-deplek: rgb(17, 196, 56);
-  --dejade-derand: rgb(17, 196, 56);
-  --dejade-detijd: rgb(17, 196, 56);
+  --dejade: rgb(9, 181, 22);
+  --dejade-degyro: rgb(9, 181, 22);
+  --dejade-deklik: rgb(9, 181, 22);
+  --dejade-demuis: rgb(9, 181, 22);
+  --dejade-deplek: rgb(9, 181, 22);
+  --dejade-derand: rgb(9, 181, 22);
+  --dejade-detijd: rgb(9, 181, 22);
 }
 
 .bg-dejade {
-  background-color: rgb(17, 196, 56);
+  background-color: rgb(9, 181, 22);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(17, 196, 56);
+  border-color: rgb(9, 181, 22);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(17, 196, 56);
+  fill: rgb(9, 181, 22);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(17, 196, 56);
+  stroke: rgb(9, 181, 22);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(17, 196, 56);
+  color: rgb(9, 181, 22);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4399,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(17, 196, 56);
+  background-color: rgb(9, 181, 22);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4660,7 +4660,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(17, 196, 56);
+  color: rgb(9, 181, 22);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4669,7 +4669,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(110, 245, 14);
+  color: rgb(53, 192, 55);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4749,6 +4749,9 @@ ul > li > ul > li > ul {
 }
 
 .logo-container {
+  display: block;
+}
+.logo-container figure {
   background-color: #fff;
   align-items: center;
   display: flex;
