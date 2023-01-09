@@ -1,23 +1,6 @@
 {% extends 'layout/default.html.twig' %}
 {% block title %}Demo home{% endblock %}
-{% block header %}
-    <header class="py-12">
-        <div class="container">
-            <div class="row">
-                <div class="col-1o2">
-                    <div class="text-left">
-                        <a href="#"><i class="fas fa-bars"></i></a>
-                    </div>
-                </div>
-                <div class="col-1o2">
-                    <div class="text-right">
-                        <a href="#"><i class="fas fa-search"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-{% endblock %}
+{% block header %}{% include '_header.html.twig' %}{% endblock %}
 {% block main %}
     <main class="align-items-center">
         <div class="container">
