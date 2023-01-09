@@ -1,11 +1,19 @@
 
+{%- set urls %}
+    {%- include '_75.txt.twig' %}
+{% endset %}
+
 <svg class="heticoon" viewBox="0 0 {{ (heticoon.data.length + 1) * heticoon.size }} {{ (heticoon.data.length + 1) * heticoon.size }}">
+    {% set i = 0 %}
     {% set x = heticoon.size %}
     {% set y = heticoon.size %}
     {% for line in heticoon.data %}
         {% for col in line %}
             {% if col %}
-                <rect x="{{ x }}" y="{{ y }}" width="{{ heticoon.size + random(2) }}" height="{{ heticoon.size + random(2) }}"></rect>
+                <a xlink:href="{{- urls|split("\r")[i] }}">
+                    <rect x="{{ x }}" y="{{ y }}" width="{{ heticoon.size + random(2) }}" height="{{ heticoon.size + random(2) }}"></rect>
+                </a>
+                {% set i = i + 1 %}
             {% endif %}
             {% set x = x + heticoon.size %}
         {% endfor %}
@@ -20,14 +28,15 @@
     const hetIcoon = document.querySelector('.heticoon');
 
     for (const blok of hetIcoon.children) {
-        blok.style.fill = deJade();
-        blok.style.fillOpacity = ".5";
-        blok.addEventListener('mouseenter', function(e){
+        const rect = blok.querySelector('rect');
+        rect.style.fill = deJade();
+        rect.style.fillOpacity = ".5";
+        rect.addEventListener('mouseenter', function(e){
             e.preventDefault();
             e.target.style.fill = deJade();
             e.target.style.transform = 'scale(' + (1 + Math.random()) + ') rotate(' + (Math.random() * 30) + 'deg)';
         });
-        blok.addEventListener('mouseleave', function(e){
+        rect.addEventListener('mouseleave', function(e){
             e.preventDefault();
             e.target.style.transform = 'none';
         });
