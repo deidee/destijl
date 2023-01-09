@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(9, 181, 22);
-  --dejade-degyro: rgb(9, 181, 22);
-  --dejade-deklik: rgb(9, 181, 22);
-  --dejade-demuis: rgb(9, 181, 22);
-  --dejade-deplek: rgb(9, 181, 22);
-  --dejade-derand: rgb(9, 181, 22);
-  --dejade-detijd: rgb(9, 181, 22);
+  --dejade: rgb(57, 204, 54);
+  --dejade-degyro: rgb(57, 204, 54);
+  --dejade-deklik: rgb(57, 204, 54);
+  --dejade-demuis: rgb(57, 204, 54);
+  --dejade-deplek: rgb(57, 204, 54);
+  --dejade-derand: rgb(57, 204, 54);
+  --dejade-detijd: rgb(57, 204, 54);
 }
 
 .bg-dejade {
-  background-color: rgb(9, 181, 22);
+  background-color: rgb(57, 204, 54);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(9, 181, 22);
+  border-color: rgb(57, 204, 54);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(9, 181, 22);
+  fill: rgb(57, 204, 54);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(9, 181, 22);
+  stroke: rgb(57, 204, 54);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(9, 181, 22);
+  color: rgb(57, 204, 54);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4360,11 +4360,6 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-main {
-  flex: 1 0 auto;
-  padding-bottom: 1.5rem;
-}
-
 .bg--black {
   background-color: #000;
   color: #fff;
@@ -4399,7 +4394,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(9, 181, 22);
+  background-color: rgb(57, 204, 54);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4660,7 +4655,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(9, 181, 22);
+  color: rgb(57, 204, 54);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4669,7 +4664,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(53, 192, 55);
+  color: rgb(6, 151, 100);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4763,6 +4758,12 @@ ul > li > ul > li > ul {
 .logo-container img {
   max-height: 100%;
   max-width: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 :root {
@@ -5604,7 +5605,7 @@ p:first-of-type {
 }
 .heticoon rect {
   stroke: rgba(0, 0, 0, 0.875);
-  stroke-width: 0.125rem;
+  stroke-width: 0.1875rem;
   transform-box: fill-box;
   transform-origin: center;
   transition-duration: 0.25s;
@@ -5612,9 +5613,16 @@ p:first-of-type {
   transition-timing-function: ease-in;
 }
 
+html.beeldmerken header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 html.home header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 @media screen and (prefers-color-scheme: dark) {

@@ -1,9 +1,9 @@
 
-{%- set urls %}
-    {%- include '_75.txt.twig' %}
-{% endset %}
+{%- set urls -%}
+    {%- include '_75.txt.twig' -%}
+{%- endset -%}
 
-{% set urlset = urls|split("\r") %}
+{%- set urlset = urls|split("\r\n") -%}
 
 <svg class="heticoon" viewBox="0 0 {{ (heticoon.data.length + 1) * heticoon.size }} {{ (heticoon.data.length + 1) * heticoon.size }}">
     {%- set i = 0 %}
@@ -13,7 +13,7 @@
         {%- for col in line %}
             {%- if col %}
                 <a xlink:href="{{- urlset[i] }}">
-                    <rect x="{{ x }}" y="{{ y }}" width="{{ heticoon.size + random(2) }}" height="{{ heticoon.size + random(2) }}"></rect>
+                    <rect x="{{ x }}" y="{{ y }}" width="{{ heticoon.size + random(heticoon.random) }}" height="{{ heticoon.size + random(heticoon.random) }}"></rect>
                 </a>
                 {%- set i = i + 1 %}
             {%- endif %}
