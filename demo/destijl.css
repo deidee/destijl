@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(32, 153, 111);
-  --dejade-degyro: rgb(32, 153, 111);
-  --dejade-deklik: rgb(32, 153, 111);
-  --dejade-demuis: rgb(32, 153, 111);
-  --dejade-deplek: rgb(32, 153, 111);
-  --dejade-derand: rgb(32, 153, 111);
-  --dejade-detijd: rgb(32, 153, 111);
+  --dejade: rgb(92, 173, 119);
+  --dejade-degyro: rgb(92, 173, 119);
+  --dejade-deklik: rgb(92, 173, 119);
+  --dejade-demuis: rgb(92, 173, 119);
+  --dejade-deplek: rgb(92, 173, 119);
+  --dejade-derand: rgb(92, 173, 119);
+  --dejade-detijd: rgb(92, 173, 119);
 }
 
 .bg-dejade {
-  background-color: rgb(32, 153, 111);
+  background-color: rgb(92, 173, 119);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(32, 153, 111);
+  border-color: rgb(92, 173, 119);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(32, 153, 111);
+  fill: rgb(92, 173, 119);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(32, 153, 111);
+  stroke: rgb(92, 173, 119);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(32, 153, 111);
+  color: rgb(92, 173, 119);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4399,7 +4399,7 @@ main {
 }
 
 .bg--dejade {
-  background-color: rgb(32, 153, 111);
+  background-color: rgb(92, 173, 119);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4640,13 +4640,13 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(32, 153, 111);
+  color: rgb(92, 173, 119);
   color: var(--dejade);
   display: inline-block;
   position: relative;
 }
 a:hover {
-  color: rgb(117, 241, 157);
+  color: rgb(38, 231, 169);
 }
 
 @media (hover: hover) {
@@ -5513,7 +5513,6 @@ h4, .h4 {
 }
 
 p {
-  font-family: "Sabon LT W04", "Times New Roman", Times, serif, sans-serif;
   text-indent: 2em;
 }
 
