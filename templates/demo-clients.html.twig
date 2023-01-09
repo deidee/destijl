@@ -1,10 +1,46 @@
 {% extends 'layout/default.html.twig' %}
 {% block title %}Demo clients{% endblock %}
 {% block header %}
-    {% include '_header-minimal.html.twig' %}
+    {% include '_header.html.twig' %}
+    {% include '_page-title.html.twig' with { site: 'deidee', page: 'opdrachtgevers' } %}
 {% endblock %}
 {% block main %}
     <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <blockquote class="testimonial">
+                        <p>Wij (<cite translate="no">Miktor &amp; Molf</cite>) hebben veel gekke shit bedacht, maar er is nooit iets geweest wat DeIdee niet heeft kunnen realiseren.
+                            Dat wil behoorlijk wat zeggen.
+                            Wat ik als ontwerper prettig vind aan samenwerken met DeIdee is dat ze zelf ook ontwerpen.
+                            Ze kijken dus niet alleen als programmeur of eindgebruiker naar een website/online project, maar ook als ontwerper.
+                            Dat is zeldzaam en enorm waardevol en het communiceert ontspannen. Daarnaast zijn de <abbr>cms</abbr>-interfaces voor iedereen te behappen.
+                            Ook dat hebben we weleens anders gezien…</p>
+                        <address><a class="n" href="http://mickjohan.com/" translate="no">Mick Johan</a>,
+                            <cite translate="no">Miktor &amp; Molf</cite></address>
+                    </blockquote>
+                </div>
+                <div class="col">
+                    <blockquote class="testimonial">
+                        <p>Een paar -niet onbelangrijke- zaken spreekt ons aan.
+                            Jong, niet de hoofdprijs vragend, meedenkers en vooral willen luisteren naar waar een website vanuit public relations/huisstijl oogpunt en marketinginbreng aan dient te voldoen.
+                            Wat willen we als communicatieadviseurs nog meer?
+                            Prima club, aanbevolen.</p>
+                        <address>Frank D.P.M. Lether, directeur / sr. adviseur, <cite lang="en"><a href="https://presstige.nl/">Presstige Public Relations</a></cite></address>
+                    </blockquote>
+                </div>
+                <div class="col">
+                    <blockquote class="testimonial">
+                        <p>Onlangs ontving ik een subtiele reminder dat <cite translate="no">Bruno Uno Studio</cite> al 11 jaar(!)
+                            de meest waanzinnige en uiteenlopende projecten heeft gerealiseerd met de Idee. Dat is knap.
+                            Dat zegt meer dan iets. Knappe websites, applicaties, eigen <abbr>cms</abbr> en huisstijlen.
+                            Op naar de volgende 11 jaar en dan zitten wij op zijn favoriete 22! Bedankt Alexander!</p>
+                        <address translate="no">Bruno Driessen, <cite><a href="http://www.brunounostudio.com/">Bruno Uno Studio</a></cite></address>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col">

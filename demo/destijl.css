@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(51, 236, 28);
-  --dejade-degyro: rgb(51, 236, 28);
-  --dejade-deklik: rgb(51, 236, 28);
-  --dejade-demuis: rgb(51, 236, 28);
-  --dejade-deplek: rgb(51, 236, 28);
-  --dejade-derand: rgb(51, 236, 28);
-  --dejade-detijd: rgb(51, 236, 28);
+  --dejade: rgb(64, 187, 135);
+  --dejade-degyro: rgb(64, 187, 135);
+  --dejade-deklik: rgb(64, 187, 135);
+  --dejade-demuis: rgb(64, 187, 135);
+  --dejade-deplek: rgb(64, 187, 135);
+  --dejade-derand: rgb(64, 187, 135);
+  --dejade-detijd: rgb(64, 187, 135);
 }
 
 .bg-dejade {
-  background-color: rgb(51, 236, 28);
+  background-color: rgb(64, 187, 135);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(51, 236, 28);
+  border-color: rgb(64, 187, 135);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(51, 236, 28);
+  fill: rgb(64, 187, 135);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(51, 236, 28);
+  stroke: rgb(64, 187, 135);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(51, 236, 28);
+  color: rgb(64, 187, 135);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4394,7 +4394,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(51, 236, 28);
+  background-color: rgb(64, 187, 135);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4655,7 +4655,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(51, 236, 28);
+  color: rgb(64, 187, 135);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4664,7 +4664,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(89, 247, 34);
+  color: rgb(70, 227, 71);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
