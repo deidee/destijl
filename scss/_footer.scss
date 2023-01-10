@@ -78,15 +78,39 @@ footer {
       }
     }*/
 
+    dd {
+      padding-left: 0;
+      text-align: center;
+    }
+
     dl {
       font-size: 1em;
       line-height: 1.5;
-      text-align: left;
+      text-align: center;
     }
 
     dt {
       margin: 0;
-      width: 3rem;
+      padding-right: 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    @media (min-width: $breakpoint-l) {
+      dd {
+        padding-left: .75rem;
+        text-align: left;
+      }
+
+      dl {
+        text-align: left;
+      }
+
+      dt {
+        padding-right: .75rem;
+        text-align: left;
+        width: 3rem;
+      }
     }
   }
 }
