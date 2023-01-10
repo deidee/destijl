@@ -9,14 +9,29 @@
     <main class="align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col-l-5o12">
+                <div class="col-l-5o12 pb-48 flex-column">
                     <div class="a22b">
                         {% include '_a22b.html.twig' %}
                     </div>
 
-                    <div>
-                        <p>Meer geïnteresseerd in mijn autonome werk? Zie <a href="{{ link.a22b }}">mijn persoonlijke website</a>.</p>
+                    <div id="personalia">
+                        <div>tel: <a href="tel:+31624699186"><data value="0624699186">06 246 99 186</data></a></div>
+                        <div>mailto: <a href="mailto:alexander@deidee.nl">alexander@deidee.nl</a></div>
+                        <div>https: <a href="{{ link.a22b }}">//alexanderchristiaanjacob.com/</a></div>
                     </div>
+
+{#                    <aside style="bottom:0;padding-bottom:1.5rem;position:sticky;top:auto">
+                        <h2>Zie ook</h2>
+                        <ul>
+                            <li><a href="https://hetportfolio.nl/acj">hetportfolio van ACJ</a></li>
+                            <li><a href="https://delogo.nl/acj">delogo van ACJ</a></li>
+                            <li><a href="{{ link.a22b }}">persoonlijke homepage</a></li>
+                        </ul>
+                    </aside>#}
+
+       {#             <div>
+                        <p>Meer geïnteresseerd in mijn autonome werk? Zie <a href="{{ link.a22b }}">mijn persoonlijke website</a>.</p>
+                    </div>#}
 
                     {#
                     <section class="py-24" id="profielen">

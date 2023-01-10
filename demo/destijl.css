@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(98, 195, 38);
-  --dejade-degyro: rgb(98, 195, 38);
-  --dejade-deklik: rgb(98, 195, 38);
-  --dejade-demuis: rgb(98, 195, 38);
-  --dejade-deplek: rgb(98, 195, 38);
-  --dejade-derand: rgb(98, 195, 38);
-  --dejade-detijd: rgb(98, 195, 38);
+  --dejade: rgb(102, 169, 36);
+  --dejade-degyro: rgb(102, 169, 36);
+  --dejade-deklik: rgb(102, 169, 36);
+  --dejade-demuis: rgb(102, 169, 36);
+  --dejade-deplek: rgb(102, 169, 36);
+  --dejade-derand: rgb(102, 169, 36);
+  --dejade-detijd: rgb(102, 169, 36);
 }
 
 .bg-dejade {
-  background-color: rgb(98, 195, 38);
+  background-color: rgb(102, 169, 36);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(98, 195, 38);
+  border-color: rgb(102, 169, 36);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(98, 195, 38);
+  fill: rgb(102, 169, 36);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(98, 195, 38);
+  stroke: rgb(102, 169, 36);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(98, 195, 38);
+  color: rgb(102, 169, 36);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4395,7 +4395,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(98, 195, 38);
+  background-color: rgb(102, 169, 36);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4680,7 +4680,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(98, 195, 38);
+  color: rgb(102, 169, 36);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4694,7 +4694,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(110, 137, 7);
+  color: rgb(84, 186, 134);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5712,7 +5712,7 @@ p:first-of-type {
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
   position: sticky;
-  top: 0;
+  top: 1.5rem;
 }
 
 .heticoon {
@@ -5758,6 +5758,13 @@ html.home header {
   left: 0.75rem;
   position: absolute;
   right: 0.75rem;
+}
+
+#personalia {
+  bottom: 0;
+  margin-top: auto;
+  padding-bottom: 1.5rem;
+  position: sticky;
 }
 
 @media screen and (prefers-color-scheme: dark) {
