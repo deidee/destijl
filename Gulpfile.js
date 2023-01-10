@@ -57,6 +57,7 @@ gulp.task('twig', function () {
                     'mimesia',
                     'allrgb',
                     'e-overheid',
+                    'morerecoffee',
                     'dopewebsites',
                     'dova',
                     'sentrading',
