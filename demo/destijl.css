@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(49, 144, 31);
-  --dejade-degyro: rgb(49, 144, 31);
-  --dejade-deklik: rgb(49, 144, 31);
-  --dejade-demuis: rgb(49, 144, 31);
-  --dejade-deplek: rgb(49, 144, 31);
-  --dejade-derand: rgb(49, 144, 31);
-  --dejade-detijd: rgb(49, 144, 31);
+  --dejade: rgb(91, 174, 16);
+  --dejade-degyro: rgb(91, 174, 16);
+  --dejade-deklik: rgb(91, 174, 16);
+  --dejade-demuis: rgb(91, 174, 16);
+  --dejade-deplek: rgb(91, 174, 16);
+  --dejade-derand: rgb(91, 174, 16);
+  --dejade-detijd: rgb(91, 174, 16);
 }
 
 .bg-dejade {
-  background-color: rgb(49, 144, 31);
+  background-color: rgb(91, 174, 16);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(49, 144, 31);
+  border-color: rgb(91, 174, 16);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(49, 144, 31);
+  fill: rgb(91, 174, 16);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(49, 144, 31);
+  stroke: rgb(91, 174, 16);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(49, 144, 31);
+  color: rgb(91, 174, 16);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4339,6 +4339,11 @@ Use these techniques judiciously! Keep in mind that many screen reader users hav
   text-decoration: none;
 }
 
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 :root {
   tab-size: 4;
 }
@@ -4395,7 +4400,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(49, 144, 31);
+  background-color: rgb(91, 174, 16);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4680,7 +4685,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(49, 144, 31);
+  color: rgb(91, 174, 16);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4694,7 +4699,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(104, 210, 118);
+  color: rgb(18, 181, 55);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
