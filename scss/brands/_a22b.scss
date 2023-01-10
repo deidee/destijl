@@ -3,6 +3,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: rem(24);
-  position: sticky;
-  top: rem(24);
+
+  @include breakpoint-up(l) {
+    margin-bottom: rem(24);
+    position: sticky;
+    top: rem(24);
+  }
 }

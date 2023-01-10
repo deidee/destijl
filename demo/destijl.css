@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(102, 169, 36);
-  --dejade-degyro: rgb(102, 169, 36);
-  --dejade-deklik: rgb(102, 169, 36);
-  --dejade-demuis: rgb(102, 169, 36);
-  --dejade-deplek: rgb(102, 169, 36);
-  --dejade-derand: rgb(102, 169, 36);
-  --dejade-detijd: rgb(102, 169, 36);
+  --dejade: rgb(76, 150, 121);
+  --dejade-degyro: rgb(76, 150, 121);
+  --dejade-deklik: rgb(76, 150, 121);
+  --dejade-demuis: rgb(76, 150, 121);
+  --dejade-deplek: rgb(76, 150, 121);
+  --dejade-derand: rgb(76, 150, 121);
+  --dejade-detijd: rgb(76, 150, 121);
 }
 
 .bg-dejade {
-  background-color: rgb(102, 169, 36);
+  background-color: rgb(76, 150, 121);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(102, 169, 36);
+  border-color: rgb(76, 150, 121);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(102, 169, 36);
+  fill: rgb(76, 150, 121);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(102, 169, 36);
+  stroke: rgb(76, 150, 121);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(102, 169, 36);
+  color: rgb(76, 150, 121);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4395,7 +4395,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(102, 169, 36);
+  background-color: rgb(76, 150, 121);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4680,7 +4680,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(102, 169, 36);
+  color: rgb(76, 150, 121);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4694,7 +4694,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(84, 186, 134);
+  color: rgb(77, 171, 162);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5617,6 +5617,7 @@ table {
   right: 0.5rem;
   text-align: center;
   width: 3rem;
+  z-index: 2;
 }
 
 a, button {
@@ -5711,8 +5712,13 @@ p:first-of-type {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
-  position: sticky;
-  top: 1.5rem;
+}
+@media (min-width: 900px) {
+  .a22b {
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 1.5rem;
+  }
 }
 
 .heticoon {
@@ -5728,6 +5734,11 @@ p:first-of-type {
   transition-duration: 0.25s;
   transition-property: fill, fill-opacity, transform;
   transition-timing-function: ease-in;
+}
+
+img[src^="https://x5.acjs.net/images/x5-n2"] {
+  image-rendering: pixelated;
+  image-resolution: 72dpi snap;
 }
 
 html.beeldmerken header {
@@ -5763,8 +5774,12 @@ html.home header {
 #personalia {
   bottom: 0;
   margin-top: auto;
-  padding-bottom: 1.5rem;
-  position: sticky;
+}
+@media (min-width: 900px) {
+  #personalia {
+    padding-bottom: 1.5rem;
+    position: sticky;
+  }
 }
 
 @media screen and (prefers-color-scheme: dark) {
