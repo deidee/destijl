@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(74, 248, 177);
-  --dejade-degyro: rgb(74, 248, 177);
-  --dejade-deklik: rgb(74, 248, 177);
-  --dejade-demuis: rgb(74, 248, 177);
-  --dejade-deplek: rgb(74, 248, 177);
-  --dejade-derand: rgb(74, 248, 177);
-  --dejade-detijd: rgb(74, 248, 177);
+  --dejade: rgb(63, 238, 68);
+  --dejade-degyro: rgb(63, 238, 68);
+  --dejade-deklik: rgb(63, 238, 68);
+  --dejade-demuis: rgb(63, 238, 68);
+  --dejade-deplek: rgb(63, 238, 68);
+  --dejade-derand: rgb(63, 238, 68);
+  --dejade-detijd: rgb(63, 238, 68);
 }
 
 .bg-dejade {
-  background-color: rgb(74, 248, 177);
+  background-color: rgb(63, 238, 68);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(74, 248, 177);
+  border-color: rgb(63, 238, 68);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(74, 248, 177);
+  fill: rgb(63, 238, 68);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(74, 248, 177);
+  stroke: rgb(63, 238, 68);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(74, 248, 177);
+  color: rgb(63, 238, 68);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4395,7 +4395,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(74, 248, 177);
+  background-color: rgb(63, 238, 68);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4660,25 +4660,48 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(74, 248, 177);
+  color: rgb(63, 238, 68);
   color: var(--dejade);
   display: inline-block;
   position: relative;
   transition-duration: 0.25s;
   transition-property: color;
   transition-timing-function: ease-in;
+  /*  &[href*="letteretters"] {
+      &:hover {
+        color: $bc-letteretters !important;
+      }
+    }*/
 }
 a:hover {
-  color: rgb(122, 150, 34);
+  color: rgb(69, 202, 179);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
 }
+a[href*=behance]:hover {
+  color: #1769ff !important;
+}
+a[href*=dribbble]:hover {
+  color: #ea4c89 !important;
+}
 a[href*=facebook]:hover {
   color: #3b5998 !important;
 }
+a[href*=github]:hover {
+  color: #4078c0 !important;
+}
+a[href*=gitlab]:hover {
+  color: #fca326 !important;
+}
+a[href*=instagram]:hover {
+  color: #c13584 !important;
+}
 a[href*=linkedin]:hover {
   color: #0077b5 !important;
+}
+a[href*=stackoverflow]:hover {
+  color: #f48024 !important;
 }
 a[href*=twitter]:hover {
   color: #1da1f2 !important;
@@ -5667,6 +5690,7 @@ p:first-of-type {
 .a22b {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 1.5rem;
   position: sticky;
   top: 0;
 }

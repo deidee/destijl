@@ -19,15 +19,57 @@ a {
     }
   }
 
+  &[href*="behance"] {
+    &:hover {
+      color: $bc-behance !important;
+    }
+  }
+
+  &[href*="dribbble"] {
+    &:hover {
+      color: $bc-dribbble-2 !important;
+    }
+  }
+
   &[href*="facebook"] {
     &:hover {
       color: $bc-facebook !important;
     }
   }
 
+  &[href*="github"] {
+    &:hover {
+      color: $bc-github !important;
+    }
+  }
+
+  &[href*="gitlab"] {
+    &:hover {
+      color: $bc-gitlab !important;
+    }
+  }
+
+  &[href*="instagram"] {
+    &:hover {
+      color: $bc-instagram-4 !important;
+    }
+  }
+
+/*  &[href*="letteretters"] {
+    &:hover {
+      color: $bc-letteretters !important;
+    }
+  }*/
+
   &[href*="linkedin"] {
     &:hover {
       color: $bc-linkedin !important;
+    }
+  }
+
+  &[href*="stackoverflow"] {
+    &:hover {
+      color: $bc-stackoverflow !important;
     }
   }
 
