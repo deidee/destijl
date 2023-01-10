@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(75, 173, 48);
-  --dejade-degyro: rgb(75, 173, 48);
-  --dejade-deklik: rgb(75, 173, 48);
-  --dejade-demuis: rgb(75, 173, 48);
-  --dejade-deplek: rgb(75, 173, 48);
-  --dejade-derand: rgb(75, 173, 48);
-  --dejade-detijd: rgb(75, 173, 48);
+  --dejade: rgb(125, 254, 159);
+  --dejade-degyro: rgb(125, 254, 159);
+  --dejade-deklik: rgb(125, 254, 159);
+  --dejade-demuis: rgb(125, 254, 159);
+  --dejade-deplek: rgb(125, 254, 159);
+  --dejade-derand: rgb(125, 254, 159);
+  --dejade-detijd: rgb(125, 254, 159);
 }
 
 .bg-dejade {
-  background-color: rgb(75, 173, 48);
+  background-color: rgb(125, 254, 159);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(75, 173, 48);
+  border-color: rgb(125, 254, 159);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(75, 173, 48);
+  fill: rgb(125, 254, 159);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(75, 173, 48);
+  stroke: rgb(125, 254, 159);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(75, 173, 48);
+  color: rgb(125, 254, 159);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4395,7 +4395,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(75, 173, 48);
+  background-color: rgb(125, 254, 159);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4660,7 +4660,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(75, 173, 48);
+  color: rgb(125, 254, 159);
   color: var(--dejade);
   display: inline-block;
   position: relative;
@@ -4669,7 +4669,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(75, 236, 5);
+  color: rgb(91, 201, 184);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
