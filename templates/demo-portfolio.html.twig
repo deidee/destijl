@@ -1,18 +1,20 @@
 {% extends 'layout/default.html.twig' %}
-{% block title %}Demo form{% endblock %}
+{% block title %}het portfolio van ACJ{% endblock %}
 {% block header %}
     {% include '_header.html.twig' %}
-    {% include '_page-title.html.twig' with {site: 'hetportfolio', 'page': 'deidee'} %}
+    {% include '_page-title.html.twig' with {site: 'hetportfolio', 'page': 'ACJ'} %}
 {% endblock %}
 {% block main %}
-    <main class="align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-l-1o3 offset-l-1o3">
-                    <img src="https://delogo.nl/mimesia.svg" alt="">
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="h2">Website Galerie Helder</div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 {% endblock %}
-{% block footer %}{% include '_footer.html.twig' %}{% endblock %}
+{% block footer %}{% include '_footer-complex.html.twig' %}{% endblock %}
