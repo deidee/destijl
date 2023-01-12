@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(3, 218, 112);
-  --dejade-degyro: rgb(3, 218, 112);
-  --dejade-deklik: rgb(3, 218, 112);
-  --dejade-demuis: rgb(3, 218, 112);
-  --dejade-deplek: rgb(3, 218, 112);
-  --dejade-derand: rgb(3, 218, 112);
-  --dejade-detijd: rgb(3, 218, 112);
+  --dejade: rgb(72, 217, 162);
+  --dejade-degyro: rgb(72, 217, 162);
+  --dejade-deklik: rgb(72, 217, 162);
+  --dejade-demuis: rgb(72, 217, 162);
+  --dejade-deplek: rgb(72, 217, 162);
+  --dejade-derand: rgb(72, 217, 162);
+  --dejade-detijd: rgb(72, 217, 162);
 }
 
 .bg-dejade {
-  background-color: rgb(3, 218, 112);
+  background-color: rgb(72, 217, 162);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(3, 218, 112);
+  border-color: rgb(72, 217, 162);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(3, 218, 112);
+  fill: rgb(72, 217, 162);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(3, 218, 112);
+  stroke: rgb(72, 217, 162);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(3, 218, 112);
+  color: rgb(72, 217, 162);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4400,7 +4400,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(3, 218, 112);
+  background-color: rgb(72, 217, 162);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4685,9 +4685,8 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(3, 218, 112);
+  color: rgb(72, 217, 162);
   color: var(--dejade);
-  display: inline-block;
   position: relative;
   transition-duration: 0.25s;
   transition-property: color;
@@ -4699,7 +4698,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(29, 249, 4);
+  color: rgb(10, 213, 3);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5551,6 +5550,7 @@ input[type=search]::-webkit-search-decoration {
 .sticker {
   background-color: #222;
   color: #fff;
+  display: inline-block;
   height: 2rem;
   line-height: 2;
   margin: 0.25rem;
