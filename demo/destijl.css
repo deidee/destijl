@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(54, 215, 83);
-  --dejade-degyro: rgb(54, 215, 83);
-  --dejade-deklik: rgb(54, 215, 83);
-  --dejade-demuis: rgb(54, 215, 83);
-  --dejade-deplek: rgb(54, 215, 83);
-  --dejade-derand: rgb(54, 215, 83);
-  --dejade-detijd: rgb(54, 215, 83);
+  --dejade: rgb(2, 135, 112);
+  --dejade-degyro: rgb(2, 135, 112);
+  --dejade-deklik: rgb(2, 135, 112);
+  --dejade-demuis: rgb(2, 135, 112);
+  --dejade-deplek: rgb(2, 135, 112);
+  --dejade-derand: rgb(2, 135, 112);
+  --dejade-detijd: rgb(2, 135, 112);
 }
 
 .bg-dejade {
-  background-color: rgb(54, 215, 83);
+  background-color: rgb(2, 135, 112);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(54, 215, 83);
+  border-color: rgb(2, 135, 112);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(54, 215, 83);
+  fill: rgb(2, 135, 112);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(54, 215, 83);
+  stroke: rgb(2, 135, 112);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(54, 215, 83);
+  color: rgb(2, 135, 112);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4400,7 +4400,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(54, 215, 83);
+  background-color: rgb(2, 135, 112);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4685,7 +4685,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(54, 215, 83);
+  color: rgb(2, 135, 112);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4698,7 +4698,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(11, 141, 79);
+  color: rgb(14, 210, 37);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4819,6 +4819,29 @@ main {
   justify-content: center;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
+}
+
+.portfolio-description {
+  bottom: 0;
+  margin-top: auto;
+  position: sticky;
+}
+.portfolio-details {
+  position: sticky;
+  top: 0;
+}
+.portfolio-figure {
+  margin-bottom: 1.5rem;
+}
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.portfolio-screenshot {
+  aspect-ratio: 16/9;
+  height: auto;
+  width: 100%;
 }
 
 .quicksearch {

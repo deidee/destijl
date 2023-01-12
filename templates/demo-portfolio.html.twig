@@ -6,15 +6,9 @@
 {% endblock %}
 {% block main %}
     <main>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="h2">Website Galerie Helder</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        {% for i in 1 .. 5 %}
+            {% include '_portfolio-item.html.twig' %}
+        {% endfor %}
     </main>
 {% endblock %}
 {% block footer %}{% include '_footer-complex.html.twig' %}{% endblock %}
