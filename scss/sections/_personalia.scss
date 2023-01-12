@@ -2,9 +2,9 @@
 #personalia {
   bottom: 0;
   margin-top: auto;
+  padding-bottom: rem(24);
 
   @include breakpoint-up(l) {
-    padding-bottom: rem(24);
     position: sticky;
   }
 }

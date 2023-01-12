@@ -1,16 +1,16 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(13, 247, 127);
-  --dejade-degyro: rgb(13, 247, 127);
-  --dejade-deklik: rgb(13, 247, 127);
-  --dejade-demuis: rgb(13, 247, 127);
-  --dejade-deplek: rgb(13, 247, 127);
-  --dejade-derand: rgb(13, 247, 127);
-  --dejade-detijd: rgb(13, 247, 127);
+  --dejade: rgb(54, 215, 83);
+  --dejade-degyro: rgb(54, 215, 83);
+  --dejade-deklik: rgb(54, 215, 83);
+  --dejade-demuis: rgb(54, 215, 83);
+  --dejade-deplek: rgb(54, 215, 83);
+  --dejade-derand: rgb(54, 215, 83);
+  --dejade-detijd: rgb(54, 215, 83);
 }
 
 .bg-dejade {
-  background-color: rgb(13, 247, 127);
+  background-color: rgb(54, 215, 83);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -33,7 +33,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(13, 247, 127);
+  border-color: rgb(54, 215, 83);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -56,7 +56,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(13, 247, 127);
+  fill: rgb(54, 215, 83);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -79,7 +79,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(13, 247, 127);
+  stroke: rgb(54, 215, 83);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -102,7 +102,7 @@
 }
 
 .text-dejade {
-  color: rgb(13, 247, 127);
+  color: rgb(54, 215, 83);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4400,7 +4400,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(13, 247, 127);
+  background-color: rgb(54, 215, 83);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4685,7 +4685,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(13, 247, 127);
+  color: rgb(54, 215, 83);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4698,7 +4698,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(49, 193, 124);
+  color: rgb(11, 141, 79);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5791,10 +5791,10 @@ html.home header {
 #personalia {
   bottom: 0;
   margin-top: auto;
+  padding-bottom: 1.5rem;
 }
 @media (min-width: 900px) {
   #personalia {
-    padding-bottom: 1.5rem;
     position: sticky;
   }
 }
