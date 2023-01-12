@@ -5,7 +5,7 @@
     {% include '_page-title.html.twig' with {site: 'hetportfolio', 'page': 'ACJ'} %}
 {% endblock %}
 {% block main %}
-    <main>
+    <main id="content">
         {% for i in 1 .. 5 %}
             {% include '_portfolio-item.html.twig' %}
         {% endfor %}
