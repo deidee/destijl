@@ -4,4 +4,8 @@ img[src^="https://x5.acjs.net/images/x5-n2"] {
   image-rendering: pixelated;
   image-resolution: 72dpi snap;
   //width: calc(var(--dp) * 48);
+
+  @media screen and (prefers-color-scheme: dark) {
+    filter: invert(1);
+  }
 }
