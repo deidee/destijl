@@ -1,14 +1,14 @@
 
-:root {
-  tab-size: 4;
-}
-
 body {
   color: $text;
   display: flex;
   flex: 1;
   flex-direction: column;
   min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $contrast;
 }
 
 html {

@@ -3,14 +3,12 @@
   :root {
     --bgcolor: #{$dark};
     --text: #{$light};
+    --contrast: #{$white};
   }
 }
 
 [data-mode="dark"] {
   --bgcolor: #{$dark};
   --text: #{$light};
-
-  h1, h2, h3, h4, h5, h6 {
-    color: $white;
-  }
+  --contrast: #{$white};
 }

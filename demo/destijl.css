@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(46, 231, 23);
-  --dejade-deselectie: rgba(105, 184, 60, 0.5);
-  --dejade-degyro: rgb(46, 231, 23);
-  --dejade-deklik: rgb(46, 231, 23);
-  --dejade-demuis: rgb(46, 231, 23);
-  --dejade-deplek: rgb(46, 231, 23);
-  --dejade-derand: rgb(46, 231, 23);
-  --dejade-detijd: rgb(46, 231, 23);
+  --dejade: rgb(2, 172, 95);
+  --dejade-deselectie: rgba(34, 237, 32, 0.5);
+  --dejade-degyro: rgb(2, 172, 95);
+  --dejade-deklik: rgb(2, 172, 95);
+  --dejade-demuis: rgb(2, 172, 95);
+  --dejade-deplek: rgb(2, 172, 95);
+  --dejade-derand: rgb(2, 172, 95);
+  --dejade-detijd: rgb(2, 172, 95);
 }
 
 .bg-dejade {
-  background-color: rgb(46, 231, 23);
+  background-color: rgb(2, 172, 95);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(46, 231, 23);
+  border-color: rgb(2, 172, 95);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(46, 231, 23);
+  fill: rgb(2, 172, 95);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(46, 231, 23);
+  stroke: rgb(2, 172, 95);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(46, 231, 23);
+  color: rgb(2, 172, 95);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4345,16 +4345,16 @@ Use these techniques judiciously! Keep in mind that many screen reader users hav
   overflow: hidden;
 }
 
-:root {
-  tab-size: 4;
-}
-
 body {
   color: var(--text);
   display: flex;
   flex: 1;
   flex-direction: column;
   min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--contrast);
 }
 
 html {
@@ -4401,7 +4401,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(46, 231, 23);
+  background-color: rgb(2, 172, 95);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4686,7 +4686,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(46, 231, 23);
+  color: rgb(2, 172, 95);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4699,7 +4699,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(87, 147, 12);
+  color: rgb(110, 178, 151);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4865,6 +4865,8 @@ main {
   --dp: 1px;
   --bgcolor: #fafafa;
   --text: #222;
+  --contrast: #000;
+  tab-size: 4;
 }
 
 .rot-30 {
@@ -5834,12 +5836,11 @@ html.home header {
   :root {
     --bgcolor: #222;
     --text: #dedede;
+    --contrast: #fff;
   }
 }
 [data-mode=dark] {
   --bgcolor: #222;
   --text: #dedede;
-}
-[data-mode=dark] h1, [data-mode=dark] h2, [data-mode=dark] h3, [data-mode=dark] h4, [data-mode=dark] h5, [data-mode=dark] h6 {
-  color: #fff;
+  --contrast: #fff;
 }
