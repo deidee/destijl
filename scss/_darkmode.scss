@@ -4,6 +4,7 @@
     --bgcolor: #{$dark};
     --text: #{$light};
     --contrast: #{$white};
+    --contrast-inverse: #{$black};
   }
 }
 
@@ -11,4 +12,5 @@
   --bgcolor: #{$dark};
   --text: #{$light};
   --contrast: #{$white};
+  --contrast-inverse: #{$black};
 }

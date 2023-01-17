@@ -1,6 +1,12 @@
 
 // TODO: Consider https://www.bbc.co.uk/gel/guidelines/typography for naming inspiration.
 
+abbr {
+  font-feature-settings: 'smcp' 1;
+  font-variant-caps: small-caps;
+  letter-spacing: rem(1);
+}
+
 // Be strong!
 b, strong {
   font-weight: $font-weight-bold;
