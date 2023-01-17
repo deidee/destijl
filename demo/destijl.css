@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(40, 253, 168);
-  --dejade-deselectie: rgba(115, 155, 137, 0.5);
-  --dejade-degyro: rgb(40, 253, 168);
-  --dejade-deklik: rgb(40, 253, 168);
-  --dejade-demuis: rgb(40, 253, 168);
-  --dejade-deplek: rgb(40, 253, 168);
-  --dejade-derand: rgb(40, 253, 168);
-  --dejade-detijd: rgb(40, 253, 168);
+  --dejade: rgb(98, 223, 44);
+  --dejade-deselectie: rgba(57, 233, 122, 0.5);
+  --dejade-degyro: rgb(98, 223, 44);
+  --dejade-deklik: rgb(98, 223, 44);
+  --dejade-demuis: rgb(98, 223, 44);
+  --dejade-deplek: rgb(98, 223, 44);
+  --dejade-derand: rgb(98, 223, 44);
+  --dejade-detijd: rgb(98, 223, 44);
 }
 
 .bg-dejade {
-  background-color: rgb(40, 253, 168);
+  background-color: rgb(98, 223, 44);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(40, 253, 168);
+  border-color: rgb(98, 223, 44);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(40, 253, 168);
+  fill: rgb(98, 223, 44);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(40, 253, 168);
+  stroke: rgb(98, 223, 44);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(40, 253, 168);
+  color: rgb(98, 223, 44);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4401,7 +4401,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(40, 253, 168);
+  background-color: rgb(98, 223, 44);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4686,7 +4686,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(40, 253, 168);
+  color: rgb(98, 223, 44);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4699,7 +4699,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(33, 137, 191);
+  color: rgb(50, 237, 108);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4826,9 +4826,7 @@ main {
   margin-bottom: 3rem;
 }
 .portfolio-description {
-  bottom: 0;
   margin-top: auto;
-  position: sticky;
 }
 .portfolio-details {
   position: sticky;
@@ -4841,6 +4839,10 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5rem;
+}
+.portfolio-item {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 .portfolio-screenshot {
   aspect-ratio: 16/9;
