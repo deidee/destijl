@@ -1,0 +1,11 @@
+
+.product {
+  &-details {
+    position: sticky;
+    top: rem(24);
+  }
+
+  &-group {
+    margin-bottom: rem(24);
+  }
+}

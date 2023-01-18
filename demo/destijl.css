@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(103, 174, 19);
-  --dejade-deselectie: rgba(125, 184, 23, 0.5);
-  --dejade-degyro: rgb(103, 174, 19);
-  --dejade-deklik: rgb(103, 174, 19);
-  --dejade-demuis: rgb(103, 174, 19);
-  --dejade-deplek: rgb(103, 174, 19);
-  --dejade-derand: rgb(103, 174, 19);
-  --dejade-detijd: rgb(103, 174, 19);
+  --dejade: rgb(127, 138, 166);
+  --dejade-deselectie: rgba(74, 143, 172, 0.5);
+  --dejade-degyro: rgb(127, 138, 166);
+  --dejade-deklik: rgb(127, 138, 166);
+  --dejade-demuis: rgb(127, 138, 166);
+  --dejade-deplek: rgb(127, 138, 166);
+  --dejade-derand: rgb(127, 138, 166);
+  --dejade-detijd: rgb(127, 138, 166);
 }
 
 .bg-dejade {
-  background-color: rgb(103, 174, 19);
+  background-color: rgb(127, 138, 166);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(103, 174, 19);
+  border-color: rgb(127, 138, 166);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(103, 174, 19);
+  fill: rgb(127, 138, 166);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(103, 174, 19);
+  stroke: rgb(127, 138, 166);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(103, 174, 19);
+  color: rgb(127, 138, 166);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(103, 174, 19);
+  background-color: rgb(127, 138, 166);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4695,7 +4695,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(103, 174, 19);
+  color: rgb(127, 138, 166);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4708,7 +4708,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(37, 203, 60);
+  color: rgb(30, 214, 4);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4862,6 +4862,14 @@ main {
   aspect-ratio: 16/9;
   height: auto;
   width: 100%;
+}
+
+.product-details {
+  position: sticky;
+  top: 1.5rem;
+}
+.product-group {
+  margin-bottom: 1.5rem;
 }
 
 .quicksearch {
