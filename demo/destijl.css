@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(80, 199, 74);
-  --dejade-deselectie: rgba(69, 195, 104, 0.5);
-  --dejade-degyro: rgb(80, 199, 74);
-  --dejade-deklik: rgb(80, 199, 74);
-  --dejade-demuis: rgb(80, 199, 74);
-  --dejade-deplek: rgb(80, 199, 74);
-  --dejade-derand: rgb(80, 199, 74);
-  --dejade-detijd: rgb(80, 199, 74);
+  --dejade: rgb(126, 220, 76);
+  --dejade-deselectie: rgba(65, 242, 107, 0.5);
+  --dejade-degyro: rgb(126, 220, 76);
+  --dejade-deklik: rgb(126, 220, 76);
+  --dejade-demuis: rgb(126, 220, 76);
+  --dejade-deplek: rgb(126, 220, 76);
+  --dejade-derand: rgb(126, 220, 76);
+  --dejade-detijd: rgb(126, 220, 76);
 }
 
 .bg-dejade {
-  background-color: rgb(80, 199, 74);
+  background-color: rgb(126, 220, 76);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(80, 199, 74);
+  border-color: rgb(126, 220, 76);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(80, 199, 74);
+  fill: rgb(126, 220, 76);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(80, 199, 74);
+  stroke: rgb(126, 220, 76);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(80, 199, 74);
+  color: rgb(126, 220, 76);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4401,7 +4401,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(80, 199, 74);
+  background-color: rgb(126, 220, 76);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4571,30 +4571,23 @@ footer dl dt {
   }
 }
 footer.footer-complex {
-  /*    .container {
-        a {
-          color: $black;
-
-          &:hover {
-            color: deJade();
-          }
-        }
-      }*/
+  text-align: left;
 }
 footer.footer-complex dd {
   padding-left: 0;
-  text-align: center;
 }
 footer.footer-complex dl {
   font-size: 1em;
   line-height: 1.5;
-  text-align: center;
+}
+footer.footer-complex dl dd, footer.footer-complex dl dt {
+  display: inline-block;
 }
 footer.footer-complex dt {
   margin: 0;
   padding-right: 0;
-  text-align: center;
-  width: 100%;
+  text-align: left;
+  width: 1.5rem;
 }
 @media (min-width: 900px) {
   footer.footer-complex dd {
@@ -4686,7 +4679,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(80, 199, 74);
+  color: rgb(126, 220, 76);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4699,7 +4692,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(17, 160, 176);
+  color: rgb(109, 255, 108);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -5781,7 +5774,6 @@ p:first-of-type {
 }
 
 .heticoon {
-  margin: 3rem;
   overflow: visible;
   width: auto;
 }
@@ -5793,6 +5785,11 @@ p:first-of-type {
   transition-duration: 0.25s;
   transition-property: fill, fill-opacity, transform;
   transition-timing-function: ease-in;
+}
+@media (min-width: 900px) {
+  .heticoon {
+    margin: 3rem;
+  }
 }
 
 img[src^="https://x5.acjs.net/images/x5-n2"] {

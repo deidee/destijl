@@ -68,32 +68,28 @@ footer {
   }
 
   &.footer-complex {
-/*    .container {
-      a {
-        color: $black;
-
-        &:hover {
-          color: deJade();
-        }
-      }
-    }*/
+    text-align: left;
 
     dd {
       padding-left: 0;
-      text-align: center;
+      //text-align: center;
     }
 
     dl {
       font-size: 1em;
       line-height: 1.5;
-      text-align: center;
+      //text-align: center;
+
+      dd, dt {
+        display: inline-block;
+      }
     }
 
     dt {
       margin: 0;
       padding-right: 0;
-      text-align: center;
-      width: 100%;
+      text-align: left;
+      width: 1.5rem;
     }
 
     @media (min-width: $breakpoint-l) {

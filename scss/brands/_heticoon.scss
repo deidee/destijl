@@ -1,6 +1,5 @@
 
 .heticoon {
-  margin: rem(48);
   overflow: visible;
   width: auto;
 
@@ -15,5 +14,9 @@
     transition-duration: $transition-duration;
     transition-property: fill, fill-opacity, transform;
     transition-timing-function: $transition-timing-function;
+  }
+
+  @include media-breakpoint-up(l) {
+    margin: rem(48);
   }
 }
