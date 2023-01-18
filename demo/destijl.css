@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(90, 218, 8);
-  --dejade-deselectie: rgba(126, 204, 186, 0.5);
-  --dejade-degyro: rgb(90, 218, 8);
-  --dejade-deklik: rgb(90, 218, 8);
-  --dejade-demuis: rgb(90, 218, 8);
-  --dejade-deplek: rgb(90, 218, 8);
-  --dejade-derand: rgb(90, 218, 8);
-  --dejade-detijd: rgb(90, 218, 8);
+  --dejade: rgb(62, 150, 147);
+  --dejade-deselectie: rgba(84, 247, 91, 0.5);
+  --dejade-degyro: rgb(62, 150, 147);
+  --dejade-deklik: rgb(62, 150, 147);
+  --dejade-demuis: rgb(62, 150, 147);
+  --dejade-deplek: rgb(62, 150, 147);
+  --dejade-derand: rgb(62, 150, 147);
+  --dejade-detijd: rgb(62, 150, 147);
 }
 
 .bg-dejade {
-  background-color: rgb(90, 218, 8);
+  background-color: rgb(62, 150, 147);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(90, 218, 8);
+  border-color: rgb(62, 150, 147);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(90, 218, 8);
+  fill: rgb(62, 150, 147);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(90, 218, 8);
+  stroke: rgb(62, 150, 147);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(90, 218, 8);
+  color: rgb(62, 150, 147);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(90, 218, 8);
+  background-color: rgb(62, 150, 147);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4695,7 +4695,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(90, 218, 8);
+  color: rgb(62, 150, 147);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4708,7 +4708,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(32, 152, 41);
+  color: rgb(41, 224, 144);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4870,6 +4870,11 @@ main {
 }
 .product-group {
   margin-bottom: 1.5rem;
+}
+.product-image {
+  background-color: var(--contrast-inverse);
+  height: 6rem;
+  width: 100%;
 }
 
 .quicksearch {

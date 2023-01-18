@@ -72,17 +72,44 @@ gulp.task('twig', function () {
                 product_groups: [
                     {
                         title: 'Publiek',
-                        description: 'Informatieve en/of commerciële producten die een eigen website hebben en door consumenten te gebruiken zijn.'
+                        description: 'Informatieve en/of commerciële producten die een eigen website hebben en door consumenten te gebruiken zijn.',
+                        products: [
+                            'delogo',
+                            'detint',
+                            'devlag',
+                            'hetwachtwoord',
+                            'demoji'
+                        ]
                     },
                     {
                         title: 'Opensource',
-                        description: 'Producten die wij als opensourcepakket aanbieden zijn te vinden op GitHub. Hier is geen speciale toegang, maar wel technische kennis voor nodig.'
+                        description: 'Producten die wij als opensourcepakket aanbieden zijn te vinden op GitHub. Hier is geen speciale toegang, maar wel technische kennis voor nodig.',
+                        products: [
+                            'deimage',
+                            'hetpalet',
+                            'hetthema',
+                            'hetcanvas',
+                            'dejade',
+                            'dedate',
+                            'detijd',
+                            'desass',
+                            'deflex',
+                            'dehtml'
+                        ]
                     },
                     {
                         title: 'Intern',
-                        description: 'Sommige producten gebruiken wij (vooralsnog) alleen intern. Deze staan op GitLab en kunnen door aangewezen personen worden benaderd.'
+                        description: 'Sommige producten gebruiken wij (vooralsnog) alleen intern. Deze staan op GitLab en kunnen door aangewezen personen worden benaderd.',
+                        products: [
+                            'decake',
+                            'dedocumentatie'
+                        ]
                     }
-                ]
+                ],
+                products: {
+                    demoji: {},
+                    hetwachtwoord: {}
+                }
             }}))
         .pipe(gulp.dest('demo'));
 });

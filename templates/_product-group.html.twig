@@ -9,9 +9,9 @@
             </div>
             <div class="col-l-3o4">
                 <div class="row">
-                    {% for i in 1 .. 5 %}
+                    {% for product in products %}
                         <div class="col-m-1o2 col-l-1o3">
-                            {% include '_product.html.twig' %}
+                            {% include '_product.html.twig' with {slug: product} %}
                         </div>
                     {% endfor %}
                 </div>

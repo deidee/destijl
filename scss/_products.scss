@@ -8,4 +8,10 @@
   &-group {
     margin-bottom: rem(24);
   }
+
+  &-image {
+    background-color: $contrast-inverse;
+    height: 6rem;
+    width: 100%;
+  }
 }
