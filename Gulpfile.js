@@ -68,6 +68,20 @@ gulp.task('twig', function () {
                     'utterlyrandom',
                     'unst',
                     'deidee'
+                ],
+                product_groups: [
+                    {
+                        title: 'Publiek',
+                        description: 'Informatieve en/of commerciële producten die een eigen website hebben en door consumenten te gebruiken zijn.'
+                    },
+                    {
+                        title: 'Opensource',
+                        description: 'Producten die wij als opensourcepakket aanbieden zijn te vinden op GitHub. Hier is geen speciale toegang, maar wel technische kennis voor nodig.'
+                    },
+                    {
+                        title: 'Intern',
+                        description: 'Sommige producten gebruiken wij (vooralsnog) alleen intern. Deze staan op GitLab en kunnen door aangewezen personen worden benaderd.'
+                    }
                 ]
             }}))
         .pipe(gulp.dest('demo'));

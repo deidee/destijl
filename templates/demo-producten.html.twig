@@ -6,8 +6,8 @@
 {% endblock %}
 {% block main %}
     <main id="content">
-        {% for i in 1 .. 3 %}
-            {% include '_product-group.html.twig' %}
+        {% for product_group in product_groups %}
+            {% include '_product-group.html.twig' with product_group %}
         {% endfor %}
     </main>
 {% endblock %}
