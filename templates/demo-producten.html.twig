@@ -1,0 +1,14 @@
+{% extends 'layout/default.html.twig' %}
+{% block title %}deidee van producten{% endblock %}
+{% block header %}
+    {% include '_header.html.twig' %}
+    {% include '_page-title.html.twig' with {site: 'deidee', 'page': 'producten'} %}
+{% endblock %}
+{% block main %}
+    <main id="content">
+        {% for i in 1 .. 3 %}
+            {% include '_product-group.html.twig' %}
+        {% endfor %}
+    </main>
+{% endblock %}
+{% block footer %}{% include '_footer-complex.html.twig' %}{% endblock %}

@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(100, 241, 165);
-  --dejade-deselectie: rgba(76, 132, 121, 0.5);
-  --dejade-degyro: rgb(100, 241, 165);
-  --dejade-deklik: rgb(100, 241, 165);
-  --dejade-demuis: rgb(100, 241, 165);
-  --dejade-deplek: rgb(100, 241, 165);
-  --dejade-derand: rgb(100, 241, 165);
-  --dejade-detijd: rgb(100, 241, 165);
+  --dejade: rgb(103, 174, 19);
+  --dejade-deselectie: rgba(125, 184, 23, 0.5);
+  --dejade-degyro: rgb(103, 174, 19);
+  --dejade-deklik: rgb(103, 174, 19);
+  --dejade-demuis: rgb(103, 174, 19);
+  --dejade-deplek: rgb(103, 174, 19);
+  --dejade-derand: rgb(103, 174, 19);
+  --dejade-detijd: rgb(103, 174, 19);
 }
 
 .bg-dejade {
-  background-color: rgb(100, 241, 165);
+  background-color: rgb(103, 174, 19);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(100, 241, 165);
+  border-color: rgb(103, 174, 19);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(100, 241, 165);
+  fill: rgb(103, 174, 19);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(100, 241, 165);
+  stroke: rgb(103, 174, 19);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(100, 241, 165);
+  color: rgb(103, 174, 19);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(100, 241, 165);
+  background-color: rgb(103, 174, 19);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4695,7 +4695,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(100, 241, 165);
+  color: rgb(103, 174, 19);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4708,7 +4708,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(89, 180, 161);
+  color: rgb(37, 203, 60);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;

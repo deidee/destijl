@@ -1,0 +1,21 @@
+<section class="product-group">
+    <div class="container">
+        <div class="row">
+            <div class="col-l-1o4">
+                <div class="product-details mb-24">
+                    <h2>Categorie</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="col-l-3o4">
+                <div class="row">
+                    {% for i in 1 .. 5 %}
+                        <div class="col-m-1o2 col-l-1o3">
+                            {% include '_product.html.twig' %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
