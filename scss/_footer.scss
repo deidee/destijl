@@ -1,5 +1,5 @@
 
-footer {
+body > footer {
   //background-color: $black;
   //color: transparentize($white, .5);
   margin-top: auto; // Make sure footer is at the bottom, even when there is no <main>.
@@ -108,5 +108,9 @@ footer {
         width: 3rem;
       }
     }
+  }
+
+  @media print {
+    display: none;
   }
 }

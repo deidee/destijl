@@ -1,0 +1,6 @@
+
+body > header {
+  @media print {
+    display: none;
+  }
+}
