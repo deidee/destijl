@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(18, 208, 119);
-  --dejade-deselectie: rgba(127, 167, 161, 0.5);
-  --dejade-degyro: rgb(18, 208, 119);
-  --dejade-deklik: rgb(18, 208, 119);
-  --dejade-demuis: rgb(18, 208, 119);
-  --dejade-deplek: rgb(18, 208, 119);
-  --dejade-derand: rgb(18, 208, 119);
-  --dejade-detijd: rgb(18, 208, 119);
+  --dejade: rgb(79, 208, 101);
+  --dejade-deselectie: rgba(84, 147, 2, 0.5);
+  --dejade-degyro: rgb(79, 208, 101);
+  --dejade-deklik: rgb(79, 208, 101);
+  --dejade-demuis: rgb(79, 208, 101);
+  --dejade-deplek: rgb(79, 208, 101);
+  --dejade-derand: rgb(79, 208, 101);
+  --dejade-detijd: rgb(79, 208, 101);
 }
 
 .bg-dejade {
-  background-color: rgb(18, 208, 119);
+  background-color: rgb(79, 208, 101);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(18, 208, 119);
+  border-color: rgb(79, 208, 101);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(18, 208, 119);
+  fill: rgb(79, 208, 101);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(18, 208, 119);
+  stroke: rgb(79, 208, 101);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(18, 208, 119);
+  color: rgb(79, 208, 101);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(18, 208, 119);
+  background-color: rgb(79, 208, 101);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4695,7 +4695,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(18, 208, 119);
+  color: rgb(79, 208, 101);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4708,7 +4708,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(123, 189, 134);
+  color: rgb(58, 235, 58);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4827,6 +4827,7 @@ ol.leading-double-zero {
   justify-content: center;
   margin-bottom: 1.5rem;
   padding: 3.75rem;
+  pointer-events: none;
   transition: background-color ease-in 0.25s;
 }
 .logo-container:hover figure {
