@@ -1,9 +1,9 @@
 <a href="https://delogo.nl/{{ logo }}" class="logo-container">
-        <figure>
-                {% if logo == 'deidee' %}
-                        <img src="https://deidee.com/logo.svg" alt="" loading="lazy">
-                {% else %}
-                        <img src="https://delogo.nl/{{ logo }}.svg" alt="" loading="lazy">
-                {% endif %}
-        </figure>
+    <figure>
+        {% if logo == 'deidee' %}
+            <iframe src="https://deidee.com/logo.svg" loading="lazy"></iframe>
+        {% else %}
+            <iframe src="https://delogo.nl/{{ logo }}.svg" loading="lazy"></iframe>
+        {% endif %}
+    </figure>
 </a>

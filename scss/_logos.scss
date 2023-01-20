@@ -13,6 +13,7 @@
     justify-content: center;
     margin-bottom: rem(24);
     padding: rem(48 + 12);
+    pointer-events: none;
     transition: background-color $transition-timing-function $transition-duration;
   }
 
