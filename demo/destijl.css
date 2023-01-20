@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(9, 212, 152);
-  --dejade-deselectie: rgba(53, 167, 170, 0.5);
-  --dejade-degyro: rgb(9, 212, 152);
-  --dejade-deklik: rgb(9, 212, 152);
-  --dejade-demuis: rgb(9, 212, 152);
-  --dejade-deplek: rgb(9, 212, 152);
-  --dejade-derand: rgb(9, 212, 152);
-  --dejade-detijd: rgb(9, 212, 152);
+  --dejade: rgb(20, 193, 92);
+  --dejade-deselectie: rgba(114, 168, 89, 0.5);
+  --dejade-degyro: rgb(20, 193, 92);
+  --dejade-deklik: rgb(20, 193, 92);
+  --dejade-demuis: rgb(20, 193, 92);
+  --dejade-deplek: rgb(20, 193, 92);
+  --dejade-derand: rgb(20, 193, 92);
+  --dejade-detijd: rgb(20, 193, 92);
 }
 
 .bg-dejade {
-  background-color: rgb(9, 212, 152);
+  background-color: rgb(20, 193, 92);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(9, 212, 152);
+  border-color: rgb(20, 193, 92);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(9, 212, 152);
+  fill: rgb(20, 193, 92);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(9, 212, 152);
+  stroke: rgb(20, 193, 92);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(9, 212, 152);
+  color: rgb(20, 193, 92);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(9, 212, 152);
+  background-color: rgb(20, 193, 92);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4695,7 +4695,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(9, 212, 152);
+  color: rgb(20, 193, 92);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4708,7 +4708,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(12, 217, 1);
+  color: rgb(40, 218, 50);
 }
 a[href*=alexanderchristiaanjacob]:hover {
   color: #f4c !important;
@@ -4815,6 +4815,8 @@ ol.leading-double-zero {
 }
 
 .logo-container {
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M0%200h8v16h8V8H0z%22%20opacity%3D%22.07%22%2F%3E%3C%2Fsvg%3E");
   display: block;
 }
 .logo-container figure {
@@ -4825,6 +4827,10 @@ ol.leading-double-zero {
   justify-content: center;
   margin-bottom: 1.5rem;
   padding: 3.75rem;
+  transition: background-color ease-in 0.25s;
+}
+.logo-container:hover figure {
+  background-color: transparent;
 }
 .logo-container iframe,
 .logo-container object {

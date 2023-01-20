@@ -1,5 +1,7 @@
 
 .logo-container {
+  background-color: $white;
+  background-image: inline-svg('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M0 0h8v16h8V8H0z" opacity=".07"/></svg>');
   display: block;
 
   figure {
@@ -11,6 +13,13 @@
     justify-content: center;
     margin-bottom: rem(24);
     padding: rem(48 + 12);
+    transition: background-color $transition-timing-function $transition-duration;
+  }
+
+  &:hover {
+    figure {
+      background-color: transparent;
+    }
   }
 
   iframe,
