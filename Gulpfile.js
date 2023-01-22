@@ -109,6 +109,15 @@ gulp.task('twig', function () {
                 products: {
                     demoji: {},
                     hetwachtwoord: {}
+                },
+                nav: {
+                    web: 'Web',
+                    beeldmerken: 'Beeldmerken',
+                    diensten: 'Diensten',
+                    producten: 'Producten',
+                    vragen: 'Vragen',
+                    clients: 'Opdrachtgevers',
+                    contact: 'Contact'
                 }
             }}))
         .pipe(gulp.dest('demo'));

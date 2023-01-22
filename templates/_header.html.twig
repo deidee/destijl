@@ -4,11 +4,9 @@
             <div class="col-s-3o4">
                 {% block menu %}
                     <div class="flex-row flex-wrap">
-                        <a class="mr-12" href="#">Web</a>
-                        <a class="mr-12" href="./demo-beeldmerken.html">Beelmerken</a>
-                        <a class="mr-12" href="#">Vragen</a>
-                        <a class="mr-12" href="./demo-clients.html">Opdrachtgevers</a>
-                        <a class="mr-12" href="./demo-contact.html">Contact</a>
+                        {% for key, value in nav %}
+                            <a{% if key == current %} aria-current="page"{% endif %} class="mr-12" href="./demo-{{ key }}.html">{{ value }}</a>
+                        {% endfor %}
                     </div>
                 {% endblock %}
             </div>

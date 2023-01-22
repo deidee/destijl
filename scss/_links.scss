@@ -13,6 +13,10 @@ a {
     color: deJade();
   }
 
+  &[aria-current] {
+    color: $contrast;
+  }
+
   &[href*="alexanderchristiaanjacob"] {
     &:hover {
       color: #f4c !important;

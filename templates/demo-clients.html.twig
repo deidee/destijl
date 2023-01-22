@@ -1,7 +1,7 @@
 {% extends 'layout/default.html.twig' %}
 {% block title %}Demo clients{% endblock %}
 {% block header %}
-    {% include '_header.html.twig' %}
+    {% include '_header.html.twig' with {current: 'clients'} %}
     {% include '_page-title.html.twig' with { site: 'deidee', page: 'opdrachtgevers' } %}
 {% endblock %}
 {% block main %}

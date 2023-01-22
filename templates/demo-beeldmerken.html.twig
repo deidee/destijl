@@ -2,7 +2,7 @@
 {% block class %}beeldmerken{% endblock %}
 {% block title %}Demo beeldmerken{% endblock %}
 {% block header %}
-    {% include '_header.html.twig' %}
+    {% include '_header.html.twig' with { current: 'beeldmerken' } %}
     {% include '_page-title.html.twig' with { site: 'deidee', page: 'beeldmerken' } %}
 {% endblock %}
 {% block main %}
