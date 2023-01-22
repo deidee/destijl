@@ -17,6 +17,14 @@
     }
   }
 
+  &--galeriehelder {
+    border-color: $bc-galeriehelder;
+
+    a {
+      color: $bc-galeriehelder;
+    }
+  }
+
   &--miktorenmolf {
     border-color: red;
 
