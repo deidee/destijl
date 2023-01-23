@@ -1,0 +1,32 @@
+
+.client {
+  &-logo {
+    align-content: center;
+    display: flex;
+    filter: grayscale(1);
+    height: 6rem;
+    justify-content: center;
+    opacity: .75;
+    transition-duration: $transition-duration;
+    transition-property: filter, opacity;
+    transition-timing-function: $transition-timing-function;
+
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+
+    > * {
+      height: auto;
+      margin: auto;
+      max-height: 6rem;
+      max-width: 9rem;
+      width: auto;
+    }
+  }
+
+  &-logos {
+    margin-bottom: 9rem;
+    margin-top: 6rem;
+  }
+}

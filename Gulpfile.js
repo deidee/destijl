@@ -118,7 +118,14 @@ gulp.task('twig', function () {
                     vragen: 'Vragen',
                     clients: 'Opdrachtgevers',
                     contact: 'Contact'
-                }
+                },
+                client_logos: [
+                    'vv',
+                    'galeriehelder',
+                    'dpi',
+                    'soemo-fine-arts',
+                    'thefashionweek'
+                ]
             }}))
         .pipe(gulp.dest('demo'));
 });

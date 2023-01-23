@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(113, 161, 116);
-  --dejade-deselectie: rgba(70, 157, 56, 0.5);
-  --dejade-degyro: rgb(113, 161, 116);
-  --dejade-deklik: rgb(113, 161, 116);
-  --dejade-demuis: rgb(113, 161, 116);
-  --dejade-deplek: rgb(113, 161, 116);
-  --dejade-derand: rgb(113, 161, 116);
-  --dejade-detijd: rgb(113, 161, 116);
+  --dejade: rgb(37, 255, 83);
+  --dejade-deselectie: rgba(104, 239, 144, 0.5);
+  --dejade-degyro: rgb(37, 255, 83);
+  --dejade-deklik: rgb(37, 255, 83);
+  --dejade-demuis: rgb(37, 255, 83);
+  --dejade-deplek: rgb(37, 255, 83);
+  --dejade-derand: rgb(37, 255, 83);
+  --dejade-detijd: rgb(37, 255, 83);
 }
 
 .bg-dejade {
-  background-color: rgb(113, 161, 116);
+  background-color: rgb(37, 255, 83);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(113, 161, 116);
+  border-color: rgb(37, 255, 83);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(113, 161, 116);
+  fill: rgb(37, 255, 83);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(113, 161, 116);
+  stroke: rgb(37, 255, 83);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(113, 161, 116);
+  color: rgb(37, 255, 83);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(113, 161, 116);
+  background-color: rgb(37, 255, 83);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4452,6 +4452,33 @@ input[type=reset]:disabled,
 input[type=submit]:disabled {
   background-color: silver;
   cursor: default;
+}
+
+.client-logo {
+  align-content: center;
+  display: flex;
+  filter: grayscale(1);
+  height: 6rem;
+  justify-content: center;
+  opacity: 0.75;
+  transition-duration: 0.25s;
+  transition-property: filter, opacity;
+  transition-timing-function: ease-in;
+}
+.client-logo:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+.client-logo > * {
+  height: auto;
+  margin: auto;
+  max-height: 6rem;
+  max-width: 9rem;
+  width: auto;
+}
+.client-logos {
+  margin-bottom: 9rem;
+  margin-top: 6rem;
 }
 
 code, code[class*=language-],
@@ -4695,7 +4722,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(113, 161, 116);
+  color: rgb(37, 255, 83);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4708,7 +4735,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(115, 230, 119);
+  color: rgb(16, 238, 74);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -5650,6 +5677,11 @@ input[type=search]::-webkit-search-decoration {
 .stickers li {
   list-style: none;
   margin: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 1.5rem;
 }
 
 table {
