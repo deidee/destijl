@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(80, 132, 105);
-  --dejade-deselectie: rgba(30, 167, 45, 0.5);
-  --dejade-degyro: rgb(80, 132, 105);
-  --dejade-deklik: rgb(80, 132, 105);
-  --dejade-demuis: rgb(80, 132, 105);
-  --dejade-deplek: rgb(80, 132, 105);
-  --dejade-derand: rgb(80, 132, 105);
-  --dejade-detijd: rgb(80, 132, 105);
+  --dejade: rgb(63, 240, 118);
+  --dejade-deselectie: rgba(92, 243, 126, 0.5);
+  --dejade-degyro: rgb(63, 240, 118);
+  --dejade-deklik: rgb(63, 240, 118);
+  --dejade-demuis: rgb(63, 240, 118);
+  --dejade-deplek: rgb(63, 240, 118);
+  --dejade-derand: rgb(63, 240, 118);
+  --dejade-detijd: rgb(63, 240, 118);
 }
 
 .bg-dejade {
-  background-color: rgb(80, 132, 105);
+  background-color: rgb(63, 240, 118);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(80, 132, 105);
+  border-color: rgb(63, 240, 118);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(80, 132, 105);
+  fill: rgb(63, 240, 118);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(80, 132, 105);
+  stroke: rgb(63, 240, 118);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(80, 132, 105);
+  color: rgb(63, 240, 118);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(80, 132, 105);
+  background-color: rgb(63, 240, 118);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4460,6 +4460,7 @@ input[type=submit]:disabled {
   filter: grayscale(1);
   height: 6rem;
   justify-content: center;
+  margin-bottom: 3rem;
   opacity: 0.75;
   transition-duration: 0.25s;
   transition-property: filter, opacity;
@@ -4488,7 +4489,7 @@ input[type=submit]:disabled {
   }
 }
 .client-logos {
-  margin-bottom: 9rem;
+  margin-bottom: 6rem;
   margin-top: 6rem;
 }
 
@@ -4733,7 +4734,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(80, 132, 105);
+  color: rgb(63, 240, 118);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4746,7 +4747,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(86, 216, 181);
+  color: rgb(42, 219, 181);
 }
 a[aria-current] {
   color: var(--contrast);

@@ -6,6 +6,7 @@
     filter: grayscale(1);
     height: 6rem;
     justify-content: center;
+    margin-bottom: 3rem;
     opacity: .75;
     transition-duration: $transition-duration;
     transition-property: filter, opacity;
@@ -35,7 +36,7 @@
   }
 
   &-logos {
-    margin-bottom: 9rem;
+    margin-bottom: 6rem;
     margin-top: 6rem;
   }
 }
