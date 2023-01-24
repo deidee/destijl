@@ -1,5 +1,12 @@
+{% if group == 'Publiek' %}
+    {% set url = 'https://' ~ slug ~ '.nl/' %}
+{% elseif group == 'Opensource' %}
+    {% set url = 'https://github.com/deidee/' ~ slug %}
+{% elseif group == 'Intern' %}
+    {% set url = 'https://gitlab.com/deidee/' ~ slug %}
+{% endif %}
 <figure class="product mb-24">
-    <img class="product-image" src="https://deidee.com/logo.svg?str={{ slug }}" alt="{{ slug }}">
+    <a href="{{ url }}"><img class="product-image" src="https://deidee.com/logo.svg?str={{ slug }}" alt="{{ slug }}"></a>
     <figcaption>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </figcaption>

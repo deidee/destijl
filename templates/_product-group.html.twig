@@ -11,7 +11,7 @@
                 <div class="row">
                     {% for product in products %}
                         <div class="col-m-1o2 col-l-1o3">
-                            {% include '_product.html.twig' with {slug: product} %}
+                            {% include '_product.html.twig' with {slug: product, group: title} %}
                         </div>
                     {% endfor %}
                 </div>

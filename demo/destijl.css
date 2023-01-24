@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(63, 240, 118);
-  --dejade-deselectie: rgba(92, 243, 126, 0.5);
-  --dejade-degyro: rgb(63, 240, 118);
-  --dejade-deklik: rgb(63, 240, 118);
-  --dejade-demuis: rgb(63, 240, 118);
-  --dejade-deplek: rgb(63, 240, 118);
-  --dejade-derand: rgb(63, 240, 118);
-  --dejade-detijd: rgb(63, 240, 118);
+  --dejade: rgb(100, 145, 23);
+  --dejade-deselectie: rgba(122, 224, 142, 0.5);
+  --dejade-degyro: rgb(100, 145, 23);
+  --dejade-deklik: rgb(100, 145, 23);
+  --dejade-demuis: rgb(100, 145, 23);
+  --dejade-deplek: rgb(100, 145, 23);
+  --dejade-derand: rgb(100, 145, 23);
+  --dejade-detijd: rgb(100, 145, 23);
 }
 
 .bg-dejade {
-  background-color: rgb(63, 240, 118);
+  background-color: rgb(100, 145, 23);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(63, 240, 118);
+  border-color: rgb(100, 145, 23);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(63, 240, 118);
+  fill: rgb(100, 145, 23);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(63, 240, 118);
+  stroke: rgb(100, 145, 23);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(63, 240, 118);
+  color: rgb(100, 145, 23);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4406,7 +4406,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(63, 240, 118);
+  background-color: rgb(100, 145, 23);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4734,7 +4734,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(63, 240, 118);
+  color: rgb(100, 145, 23);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4747,7 +4747,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(42, 219, 181);
+  color: rgb(78, 213, 103);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -4922,6 +4922,18 @@ main {
   width: 100%;
 }
 
+.product {
+  background-color: var(--contrast);
+  color: #dedede;
+}
+@media screen and (prefers-color-scheme: dark) {
+  .product {
+    color: #222;
+  }
+}
+.product figcaption {
+  padding: 0.75rem;
+}
 .product-details {
   position: sticky;
   top: 1.5rem;
@@ -4931,7 +4943,7 @@ main {
 }
 .product-image {
   background-color: var(--contrast-inverse);
-  height: 6rem;
+  height: 12rem;
   width: 100%;
 }
 

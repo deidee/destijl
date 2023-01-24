@@ -1,5 +1,16 @@
 
 .product {
+  background-color: $contrast;
+  color: $light;
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: $dark;
+  }
+
+  figcaption {
+    padding: rem(12);
+  }
+
   &-details {
     position: sticky;
     top: rem(24);
@@ -11,7 +22,7 @@
 
   &-image {
     background-color: $contrast-inverse;
-    height: 6rem;
+    height: 12rem;
     width: 100%;
   }
 }
