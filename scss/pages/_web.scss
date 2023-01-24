@@ -3,6 +3,7 @@ html.web {
   .stickers {
     @include media-breakpoint-up(l) {
       transform: rotate(345deg);
+      z-index: 1;
     }
   }
 }

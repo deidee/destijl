@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(59, 163, 129);
-  --dejade-deselectie: rgba(90, 148, 78, 0.5);
-  --dejade-degyro: rgb(59, 163, 129);
-  --dejade-deklik: rgb(59, 163, 129);
-  --dejade-demuis: rgb(59, 163, 129);
-  --dejade-deplek: rgb(59, 163, 129);
-  --dejade-derand: rgb(59, 163, 129);
-  --dejade-detijd: rgb(59, 163, 129);
+  --dejade: rgb(84, 180, 162);
+  --dejade-deselectie: rgba(110, 195, 125, 0.5);
+  --dejade-degyro: rgb(84, 180, 162);
+  --dejade-deklik: rgb(84, 180, 162);
+  --dejade-demuis: rgb(84, 180, 162);
+  --dejade-deplek: rgb(84, 180, 162);
+  --dejade-derand: rgb(84, 180, 162);
+  --dejade-detijd: rgb(84, 180, 162);
 }
 
 .bg-dejade {
-  background-color: rgb(59, 163, 129);
+  background-color: rgb(84, 180, 162);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(59, 163, 129);
+  border-color: rgb(84, 180, 162);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(59, 163, 129);
+  fill: rgb(84, 180, 162);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(59, 163, 129);
+  stroke: rgb(84, 180, 162);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(59, 163, 129);
+  color: rgb(84, 180, 162);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4408,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(59, 163, 129);
+  background-color: rgb(84, 180, 162);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4736,7 +4736,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(59, 163, 129);
+  color: rgb(84, 180, 162);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4749,7 +4749,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(48, 233, 153);
+  color: rgb(27, 158, 153);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -5933,6 +5933,7 @@ html.home header {
 @media (min-width: 900px) {
   html.web .stickers {
     transform: rotate(345deg);
+    z-index: 1;
   }
 }
 
