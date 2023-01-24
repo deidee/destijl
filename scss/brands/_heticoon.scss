@@ -1,5 +1,6 @@
 
 .heticoon {
+  max-width: 100%; // Fix for old iPad. TODO: Consider adding this for all SVG.
   overflow: visible;
   width: auto;
 
