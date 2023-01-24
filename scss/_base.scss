@@ -19,6 +19,8 @@ html {
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+  transition-duration: .5s;
+  transition-property: background-color, color;
 
   @media print {
     background-color: transparent;

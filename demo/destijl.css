@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(100, 145, 23);
-  --dejade-deselectie: rgba(122, 224, 142, 0.5);
-  --dejade-degyro: rgb(100, 145, 23);
-  --dejade-deklik: rgb(100, 145, 23);
-  --dejade-demuis: rgb(100, 145, 23);
-  --dejade-deplek: rgb(100, 145, 23);
-  --dejade-derand: rgb(100, 145, 23);
-  --dejade-detijd: rgb(100, 145, 23);
+  --dejade: rgb(38, 147, 185);
+  --dejade-deselectie: rgba(68, 204, 124, 0.5);
+  --dejade-degyro: rgb(38, 147, 185);
+  --dejade-deklik: rgb(38, 147, 185);
+  --dejade-demuis: rgb(38, 147, 185);
+  --dejade-deplek: rgb(38, 147, 185);
+  --dejade-derand: rgb(38, 147, 185);
+  --dejade-detijd: rgb(38, 147, 185);
 }
 
 .bg-dejade {
-  background-color: rgb(100, 145, 23);
+  background-color: rgb(38, 147, 185);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(100, 145, 23);
+  border-color: rgb(38, 147, 185);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(100, 145, 23);
+  fill: rgb(38, 147, 185);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(100, 145, 23);
+  stroke: rgb(38, 147, 185);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(100, 145, 23);
+  color: rgb(38, 147, 185);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4365,6 +4365,8 @@ html {
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+  transition-duration: 0.5s;
+  transition-property: background-color, color;
 }
 @media print {
   html {
@@ -4406,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(100, 145, 23);
+  background-color: rgb(38, 147, 185);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4734,7 +4736,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(100, 145, 23);
+  color: rgb(38, 147, 185);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4747,7 +4749,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(78, 213, 103);
+  color: rgb(65, 198, 191);
 }
 a[aria-current] {
   color: var(--contrast);
