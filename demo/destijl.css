@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(88, 212, 165);
-  --dejade-deselectie: rgba(39, 185, 170, 0.5);
-  --dejade-degyro: rgb(88, 212, 165);
-  --dejade-deklik: rgb(88, 212, 165);
-  --dejade-demuis: rgb(88, 212, 165);
-  --dejade-deplek: rgb(88, 212, 165);
-  --dejade-derand: rgb(88, 212, 165);
-  --dejade-detijd: rgb(88, 212, 165);
+  --dejade: rgb(59, 163, 129);
+  --dejade-deselectie: rgba(90, 148, 78, 0.5);
+  --dejade-degyro: rgb(59, 163, 129);
+  --dejade-deklik: rgb(59, 163, 129);
+  --dejade-demuis: rgb(59, 163, 129);
+  --dejade-deplek: rgb(59, 163, 129);
+  --dejade-derand: rgb(59, 163, 129);
+  --dejade-detijd: rgb(59, 163, 129);
 }
 
 .bg-dejade {
-  background-color: rgb(88, 212, 165);
+  background-color: rgb(59, 163, 129);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(88, 212, 165);
+  border-color: rgb(59, 163, 129);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(88, 212, 165);
+  fill: rgb(59, 163, 129);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(88, 212, 165);
+  stroke: rgb(59, 163, 129);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(88, 212, 165);
+  color: rgb(59, 163, 129);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4408,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(88, 212, 165);
+  background-color: rgb(59, 163, 129);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4736,7 +4736,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(88, 212, 165);
+  color: rgb(59, 163, 129);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4749,7 +4749,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(126, 146, 55);
+  color: rgb(48, 233, 153);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -4788,6 +4788,9 @@ a[href*=twitter]:hover {
 @media (hover: hover) {
   :root:not(:hover) a {
     color: var(--text);
+  }
+  :root:not(:hover) .bg--dark a {
+    color: var(--contrast-inverse);
   }
 }
 li {
@@ -4927,6 +4930,7 @@ main {
 .product {
   background-color: var(--contrast);
   color: #dedede;
+  height: 100%;
 }
 @media screen and (prefers-color-scheme: dark) {
   .product {
