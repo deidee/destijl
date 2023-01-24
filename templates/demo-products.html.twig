@@ -1,0 +1,33 @@
+{% extends 'layout/default.html.twig' %}
+{% block title %}deidee van producten{% endblock %}
+{% block header %}
+    {% include '_header.html.twig' with {current: 'producten'} %}
+    {% include '_page-title.html.twig' with {site: 'deidee', 'page': 'producten'} %}
+{% endblock %}
+{% block main %}
+    <main id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-l-1o2 offset-l-1o4">
+                    <div class="mb-48">
+                        <p>De corebusiness van de idee is het leveren van maatwerk <a href="#">ontwerp</a> en <a
+                                    href="#">ontwikkeling</a> als <a href="#">diensten</a>.
+                            Wij gebruiken onze 15+ jaar ervaring echter ook voor het ontwikkelen van producten.
+                            Deze kunnen vervolgens weer worden gebruikt om onze diensten makkelijker realiseerbaar te maken en de mogelijkheden te vergroten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% for product_group in product_groups %}
+            {% include '_product-group.html.twig' with product_group %}
+        {% endfor %}
+        <div class="container">
+            <div class="row">
+                <div class="col-l-3o4 offset-l-1o4">
+                    <p>De logo’s van onze producten worden gegenereerd met de <a href="#">de logo van deidee</a>.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+{% block footer %}{% include '_footer-complex.html.twig' %}{% endblock %}

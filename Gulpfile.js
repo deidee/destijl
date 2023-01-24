@@ -22,7 +22,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('twig', function () {
-    return gulp.src(['./templates/[^_]*.twig', 'templates'])
+    return gulp.src(['./templates/[^_]*.twig', '!templates'])
         .pipe(twig({extname: false, data: {
                 link: {
                     a22b: "https://alexanderchristiaanjacob.com/",
@@ -107,6 +107,7 @@ gulp.task('twig', function () {
                     }
                 ],
                 products: {
+                    delogo: {},
                     demoji: {},
                     hetwachtwoord: {}
                 },
@@ -114,7 +115,7 @@ gulp.task('twig', function () {
                     web: 'Web',
                     beeldmerken: 'Beeldmerken',
                     diensten: 'Diensten',
-                    producten: 'Producten',
+                    products: 'Producten',
                     vragen: 'Vragen',
                     clients: 'Opdrachtgevers',
                     contact: 'Contact'
