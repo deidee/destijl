@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(49, 136, 29);
-  --dejade-deselectie: rgba(85, 176, 33, 0.5);
-  --dejade-degyro: rgb(49, 136, 29);
-  --dejade-deklik: rgb(49, 136, 29);
-  --dejade-demuis: rgb(49, 136, 29);
-  --dejade-deplek: rgb(49, 136, 29);
-  --dejade-derand: rgb(49, 136, 29);
-  --dejade-detijd: rgb(49, 136, 29);
+  --dejade: rgb(16, 147, 184);
+  --dejade-deselectie: rgba(77, 152, 30, 0.5);
+  --dejade-degyro: rgb(16, 147, 184);
+  --dejade-deklik: rgb(16, 147, 184);
+  --dejade-demuis: rgb(16, 147, 184);
+  --dejade-deplek: rgb(16, 147, 184);
+  --dejade-derand: rgb(16, 147, 184);
+  --dejade-detijd: rgb(16, 147, 184);
 }
 
 .bg-dejade {
-  background-color: rgb(49, 136, 29);
+  background-color: rgb(16, 147, 184);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(49, 136, 29);
+  border-color: rgb(16, 147, 184);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(49, 136, 29);
+  fill: rgb(16, 147, 184);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(49, 136, 29);
+  stroke: rgb(16, 147, 184);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(49, 136, 29);
+  color: rgb(16, 147, 184);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4408,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(49, 136, 29);
+  background-color: rgb(16, 147, 184);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4736,7 +4736,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(49, 136, 29);
+  color: rgb(16, 147, 184);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4749,7 +4749,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(63, 169, 180);
+  color: rgb(44, 134, 39);
 }
 a[aria-current] {
   color: var(--contrast);
