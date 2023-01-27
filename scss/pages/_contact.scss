@@ -1,10 +1,28 @@
 
 .type-email {
-  font-size: 4.5rem;
+  font-size: 1.5rem;
   line-height: 1;
+
+  @include media-breakpoint-up(s) {
+    font-size: 3rem;
+  }
+
+  @include media-breakpoint-up(m) {
+    font-size: 4.5rem;
+  }
 }
 
 .type-tel {
-  font-size: 5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+
+  @include media-breakpoint-up(s) {
+    font-size: 3rem;
+  }
+
+  @include media-breakpoint-up(m) {
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
 }
 

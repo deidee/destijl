@@ -59,30 +59,33 @@
     <div class="container">
         <div class="row">
             <section class="col-l-3o4 col-xl-1o2">
-                <h2 class="mb-24">Gegevens</h2>
+                <h2 class="mb-24 pb-12">Gegevens</h2>
                 <h3 class="h4">Telefoon</h3>
                 <div class="type-tel"><a class="text-narrow" href="tel:+31624699186">06 246 99 186</a></div>
-                <div class="mb-24 nmt-24" style="font-size:75%;line-height:2">Tijdens kantooruren.</div>
+                <div class="mb-24" style="font-size:75%;line-height:2">Tijdens kantooruren.</div>
                 <h3 class="h4">E-mail</h3>
                 <div class="type-email"><a href="mailto:info@deidee.nl">info@deidee.nl</a></div>
                 <div class="mb-24" style="font-size:75%;line-height:2">24/7. Reactie binnen een dag.</div>
                 <div class="row">
-                    <div class="col-1o2">
+                    <div class="col-m-1o2">
                         <h3 class="h4">Postadres</h3>
-                        <address>
+                        <address class="mb-24">
                             <div>Fahrenheitstraat 115</div>
-                            <div><data class="text-narrow" value="2514GH">2514 GH</data>  Den Haag</div>
+                            <div><data class="text-narrow" value="2514GH">2514 GH</data> Den Haag</div>
+                            <div>Nederland</div>
                         </address>
                     </div>
-                    <div class="col-1o2">
+                    <div class="col-m-1o2">
                         <h3 class="h4">Bezoekadres</h3>
-                        <div>Tijdelijk geen vast adres.</div>
-                        <div>Afspraak op locatie mogelijk in overleg.</div>
+                        <div class="mb-24">
+                            <div>Tijdelijk geen vast adres.</div>
+                            <div>Afspraak op locatie mogelijk in overleg.</div>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="col-l-1o4 offset-xl-1o4">
-                <h2 class="mb-24">Elders</h2>
+                <h2>Elders</h2>
                 <ul>
                     <li><a href="https://www.linkedin.com/company/deidee/">LinkedIn</a></li>
                     <li><a href="https://twitter.com/deideenl">Twitter</a></li>
@@ -97,28 +100,45 @@
     </div>
 </main>
 
-<footer>
+
+    <footer class="footer-complex">
     <a href="#top" class="top">▲</a>
     <div class="container">
         <div class="row">
-            <div class="col-l-1o4">
-                <div>☺ 2023 <a href="https://deidee.nl/">deidee</a></div>
+            <div class="col-m-1o2 col-l-1o4">
+                <div><a href="#">Privacy</a></div>
+                <div><a href="#">Voorwaarden</a></div>
+                <div><a href="#">Cookies</a></div>
+                <!--<div class="mt-24">☺ 2023 <a href="https://deidee.nl/">deidee</a></div>-->
             </div>
-            <div class="col-l-3o4">
-                <dl class="text-right">
-                    <dt><abbr title="Kamer van Koophandel">KvK</abbr></dt>
-                    <dd>27313269</dd>
-                    <dt><abbr lang="en" title="International Bank Account Number">IBAN</abbr></dt>
-                    <dd><data value="NL14ABNA0413695026">NL14 ABNA0413 6950 26</data></dd>
-                    <dt><abbr>BTW</abbr></dt>
-                    <dd>NL144413784B01</dd>
-                    <dt><abbr lang="en" title="Bitcoin">BTC</abbr></dt>
-                    <dd>14PHr9MooRotrVpqAztYJ9BCAgZCDWT9hY</dd>
+            <div class="col-m-1o2 col-l-1o4">
+                <div>tel: <a href="tel:+31624699186"><data value="0624699186">06 246 99 186</data></a></div>
+                <div>mailto: <a href="mailto:info@deidee.nl">info@deidee.nl</a></div>
+                <div>https: <a href="https://deidee.nl/">//deidee.nl/</a></div>
+            </div>
+            <div class="col-m-1o2 col-l-3o8 col-xl-1o4">
+                <dl>
+                    <dt><abbr title="Kamer van Koophandel">kvk</abbr></dt>
+                    <dd><a href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=273132690000">27313269</a></dd>
                 </dl>
+                <dl>
+                    <dt><abbr lang="en" title="International Bank Account Number">iban</abbr></dt>
+                    <dd><data value="NL14ABNA0413695026">NL14 ABNA0413 6950 26</data></dd>
+                </dl>
+                <dl>
+                    <dt><abbr>btw</abbr></dt>
+                    <dd>NL144413784B01</dd>
+                </dl>
+            </div>
+            <div class="col-m-1o2 col-l-1o8 col-xl-1o4">
+                <div><a href="https://www.linkedin.com/company/deidee">LinkedIn</a></div>
+                <div><a href="https://twitter.com/deideenl">Twitter</a></div>
+                <div><a href="https://www.facebook.com/deideecom">Facebook</a></div>
             </div>
         </div>
     </div>
 </footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

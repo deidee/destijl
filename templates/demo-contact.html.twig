@@ -9,30 +9,33 @@
     <div class="container">
         <div class="row">
             <section class="col-l-3o4 col-xl-1o2">
-                <h2 class="mb-24">Gegevens</h2>
+                <h2 class="mb-24 pb-12">Gegevens</h2>
                 <h3 class="h4">Telefoon</h3>
                 <div class="type-tel"><a class="text-narrow" href="tel:+31624699186">06 246 99 186</a></div>
-                <div class="mb-24 nmt-24" style="font-size:75%;line-height:2">Tijdens kantooruren.</div>
+                <div class="mb-24" style="font-size:75%;line-height:2">Tijdens kantooruren.</div>
                 <h3 class="h4">E-mail</h3>
                 <div class="type-email"><a href="mailto:info@deidee.nl">info@deidee.nl</a></div>
                 <div class="mb-24" style="font-size:75%;line-height:2">24/7. Reactie binnen een dag.</div>
                 <div class="row">
-                    <div class="col-1o2">
+                    <div class="col-m-1o2">
                         <h3 class="h4">Postadres</h3>
-                        <address>
+                        <address class="mb-24">
                             <div>Fahrenheitstraat 115</div>
-                            <div><data class="text-narrow" value="2514GH">2514 GH</data>  Den Haag</div>
+                            <div><data class="text-narrow" value="2514GH">2514 GH</data> Den Haag</div>
+                            <div>Nederland</div>
                         </address>
                     </div>
-                    <div class="col-1o2">
+                    <div class="col-m-1o2">
                         <h3 class="h4">Bezoekadres</h3>
-                        <div>Tijdelijk geen vast adres.</div>
-                        <div>Afspraak op locatie mogelijk in overleg.</div>
+                        <div class="mb-24">
+                            <div>Tijdelijk geen vast adres.</div>
+                            <div>Afspraak op locatie mogelijk in overleg.</div>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="col-l-1o4 offset-xl-1o4">
-                <h2 class="mb-24">Elders</h2>
+                <h2>Elders</h2>
                 <ul>
                     <li><a href="https://www.linkedin.com/company/deidee/">LinkedIn</a></li>
                     <li><a href="https://twitter.com/deideenl">Twitter</a></li>
@@ -46,4 +49,7 @@
         </div>
     </div>
 </main>
+{% endblock %}
+{% block footer %}
+    {% include '_footer-complex.html.twig' %}
 {% endblock %}

@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(80, 184, 134);
-  --dejade-deselectie: rgba(103, 248, 110, 0.5);
-  --dejade-degyro: rgb(80, 184, 134);
-  --dejade-deklik: rgb(80, 184, 134);
-  --dejade-demuis: rgb(80, 184, 134);
-  --dejade-deplek: rgb(80, 184, 134);
-  --dejade-derand: rgb(80, 184, 134);
-  --dejade-detijd: rgb(80, 184, 134);
+  --dejade: rgb(108, 149, 91);
+  --dejade-deselectie: rgba(125, 157, 29, 0.5);
+  --dejade-degyro: rgb(108, 149, 91);
+  --dejade-deklik: rgb(108, 149, 91);
+  --dejade-demuis: rgb(108, 149, 91);
+  --dejade-deplek: rgb(108, 149, 91);
+  --dejade-derand: rgb(108, 149, 91);
+  --dejade-detijd: rgb(108, 149, 91);
 }
 
 .bg-dejade {
-  background-color: rgb(80, 184, 134);
+  background-color: rgb(108, 149, 91);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(80, 184, 134);
+  border-color: rgb(108, 149, 91);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(80, 184, 134);
+  fill: rgb(108, 149, 91);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(80, 184, 134);
+  stroke: rgb(108, 149, 91);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(80, 184, 134);
+  color: rgb(108, 149, 91);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4408,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(80, 184, 134);
+  background-color: rgb(108, 149, 91);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4736,7 +4736,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(80, 184, 134);
+  color: rgb(108, 149, 91);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4749,7 +4749,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(62, 172, 6);
+  color: rgb(5, 219, 6);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -5932,12 +5932,34 @@ html.beeldmerken header {
 }
 
 .type-email {
-  font-size: 4.5rem;
+  font-size: 1.5rem;
   line-height: 1;
+}
+@media (min-width: 300px) {
+  .type-email {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  .type-email {
+    font-size: 4.5rem;
+  }
 }
 
 .type-tel {
-  font-size: 5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+@media (min-width: 300px) {
+  .type-tel {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  .type-tel {
+    font-size: 5rem;
+    line-height: 4.5rem;
+  }
 }
 
 html.home header {
