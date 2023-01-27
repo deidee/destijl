@@ -17,43 +17,43 @@ a {
     color: $contrast;
   }
 
-  &[href*="alexanderchristiaanjacob"] {
+  &[href*="alexanderchristiaanjacob.com"] {
     &:hover {
       color: #f4c !important;
     }
   }
 
-  &[href*="behance"] {
+  &[href*="behance.net"] {
     &:hover {
       color: $bc-behance !important;
     }
   }
 
-  &[href*="dribbble"] {
+  &[href*="dribbble.com"] {
     &:hover {
       color: $bc-dribbble-2 !important;
     }
   }
 
-  &[href*="facebook"] {
+  &[href*="facebook.com"] {
     &:hover {
       color: $bc-facebook !important;
     }
   }
 
-  &[href*="github"] {
+  &[href*="github.com"] {
     &:hover {
       color: $bc-github-5 !important;
     }
   }
 
-  &[href*="gitlab"] {
+  &[href*="gitlab.com"] {
     &:hover {
       color: $bc-gitlab !important;
     }
   }
 
-  &[href*="instagram"] {
+  &[href*="instagram.com"] {
     &:hover {
       color: $bc-instagram-4 !important;
     }
@@ -65,19 +65,31 @@ a {
     }
   }*/
 
-  &[href*="linkedin"] {
+  &[href*="linkedin.com"] {
     &:hover {
       color: $bc-linkedin !important;
     }
   }
 
-  &[href*="stackoverflow"] {
+  &[href*="npmjs.com"] {
+    &:hover {
+      color: $bc-npm !important;
+    }
+  }
+
+  &[href*="packagist.org"] {
+    &:hover {
+      color: #f28d1a !important;
+    }
+  }
+
+  &[href*="stackoverflow.com"] {
     &:hover {
       color: $bc-stackoverflow !important;
     }
   }
 
-  &[href*="twitter"] {
+  &[href*="twitter.com"] {
     &:hover {
       color: $bc-twitter !important;
     }

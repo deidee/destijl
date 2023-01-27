@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(16, 147, 184);
-  --dejade-deselectie: rgba(77, 152, 30, 0.5);
-  --dejade-degyro: rgb(16, 147, 184);
-  --dejade-deklik: rgb(16, 147, 184);
-  --dejade-demuis: rgb(16, 147, 184);
-  --dejade-deplek: rgb(16, 147, 184);
-  --dejade-derand: rgb(16, 147, 184);
-  --dejade-detijd: rgb(16, 147, 184);
+  --dejade: rgb(80, 184, 134);
+  --dejade-deselectie: rgba(103, 248, 110, 0.5);
+  --dejade-degyro: rgb(80, 184, 134);
+  --dejade-deklik: rgb(80, 184, 134);
+  --dejade-demuis: rgb(80, 184, 134);
+  --dejade-deplek: rgb(80, 184, 134);
+  --dejade-derand: rgb(80, 184, 134);
+  --dejade-detijd: rgb(80, 184, 134);
 }
 
 .bg-dejade {
-  background-color: rgb(16, 147, 184);
+  background-color: rgb(80, 184, 134);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(16, 147, 184);
+  border-color: rgb(80, 184, 134);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(16, 147, 184);
+  fill: rgb(80, 184, 134);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(16, 147, 184);
+  stroke: rgb(80, 184, 134);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(16, 147, 184);
+  color: rgb(80, 184, 134);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4408,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(16, 147, 184);
+  background-color: rgb(80, 184, 134);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4736,7 +4736,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(16, 147, 184);
+  color: rgb(80, 184, 134);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4749,39 +4749,45 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(44, 134, 39);
+  color: rgb(62, 172, 6);
 }
 a[aria-current] {
   color: var(--contrast);
 }
-a[href*=alexanderchristiaanjacob]:hover {
+a[href*="alexanderchristiaanjacob.com"]:hover {
   color: #f4c !important;
 }
-a[href*=behance]:hover {
+a[href*="behance.net"]:hover {
   color: #1769ff !important;
 }
-a[href*=dribbble]:hover {
+a[href*="dribbble.com"]:hover {
   color: #ea4c89 !important;
 }
-a[href*=facebook]:hover {
+a[href*="facebook.com"]:hover {
   color: #3b5998 !important;
 }
-a[href*=github]:hover {
+a[href*="github.com"]:hover {
   color: #6e5494 !important;
 }
-a[href*=gitlab]:hover {
+a[href*="gitlab.com"]:hover {
   color: #fca326 !important;
 }
-a[href*=instagram]:hover {
+a[href*="instagram.com"]:hover {
   color: #c13584 !important;
 }
-a[href*=linkedin]:hover {
+a[href*="linkedin.com"]:hover {
   color: #0077b5 !important;
 }
-a[href*=stackoverflow]:hover {
+a[href*="npmjs.com"]:hover {
+  color: #cb3837 !important;
+}
+a[href*="packagist.org"]:hover {
+  color: #f28d1a !important;
+}
+a[href*="stackoverflow.com"]:hover {
   color: #f48024 !important;
 }
-a[href*=twitter]:hover {
+a[href*="twitter.com"]:hover {
   color: #1da1f2 !important;
 }
 
@@ -5923,6 +5929,15 @@ html.beeldmerken header {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.type-email {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.type-tel {
+  font-size: 5rem;
 }
 
 html.home header {
