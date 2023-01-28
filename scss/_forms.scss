@@ -1,4 +1,10 @@
 
 .form-row {
-  padding-bottom: rem(8px);
+  padding-bottom: rem(8);
+}
+
+label {
+  display: flex;
+  padding-bottom: rem(12);
+  padding-top: rem(12);
 }
