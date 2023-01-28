@@ -12,6 +12,6 @@ path,
 polygon,
 rect {
   transition-duration: $transition-duration;
-  transition-property: fill, stroke;
+  transition-property: fill, fill-opacity, stroke;
   transition-timing-function: $transition-timing-function;
 }
