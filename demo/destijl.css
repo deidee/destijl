@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(23, 244, 122);
-  --dejade-deselectie: rgba(90, 210, 56, 0.5);
-  --dejade-degyro: rgb(23, 244, 122);
-  --dejade-deklik: rgb(23, 244, 122);
-  --dejade-demuis: rgb(23, 244, 122);
-  --dejade-deplek: rgb(23, 244, 122);
-  --dejade-derand: rgb(23, 244, 122);
-  --dejade-detijd: rgb(23, 244, 122);
+  --dejade: rgb(58, 145, 84);
+  --dejade-deselectie: rgba(7, 230, 184, 0.5);
+  --dejade-degyro: rgb(58, 145, 84);
+  --dejade-deklik: rgb(58, 145, 84);
+  --dejade-demuis: rgb(58, 145, 84);
+  --dejade-deplek: rgb(58, 145, 84);
+  --dejade-derand: rgb(58, 145, 84);
+  --dejade-detijd: rgb(58, 145, 84);
 }
 
 .bg-dejade {
-  background-color: rgb(23, 244, 122);
+  background-color: rgb(58, 145, 84);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(23, 244, 122);
+  border-color: rgb(58, 145, 84);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(23, 244, 122);
+  fill: rgb(58, 145, 84);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(23, 244, 122);
+  stroke: rgb(58, 145, 84);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(23, 244, 122);
+  color: rgb(58, 145, 84);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4401,6 +4401,9 @@ html {
   background-color: #fff;
   color: #222;
 }
+.bg--white h1, .bg--white h2, .bg--white h3, .bg--white h4, .bg--white h5, .bg--white h6 {
+  color: #000;
+}
 
 .bg--light {
   background-color: #dedede;
@@ -4408,7 +4411,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(23, 244, 122);
+  background-color: rgb(58, 145, 84);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4750,7 +4753,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(23, 244, 122);
+  color: rgb(58, 145, 84);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4763,7 +4766,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(8, 218, 36);
+  color: rgb(16, 212, 160);
 }
 a[aria-current] {
   color: var(--contrast);
