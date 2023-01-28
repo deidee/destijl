@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(57, 232, 125);
-  --dejade-deselectie: rgba(80, 153, 44, 0.5);
-  --dejade-degyro: rgb(57, 232, 125);
-  --dejade-deklik: rgb(57, 232, 125);
-  --dejade-demuis: rgb(57, 232, 125);
-  --dejade-deplek: rgb(57, 232, 125);
-  --dejade-derand: rgb(57, 232, 125);
-  --dejade-detijd: rgb(57, 232, 125);
+  --dejade: rgb(66, 249, 31);
+  --dejade-deselectie: rgba(102, 135, 19, 0.5);
+  --dejade-degyro: rgb(66, 249, 31);
+  --dejade-deklik: rgb(66, 249, 31);
+  --dejade-demuis: rgb(66, 249, 31);
+  --dejade-deplek: rgb(66, 249, 31);
+  --dejade-derand: rgb(66, 249, 31);
+  --dejade-detijd: rgb(66, 249, 31);
 }
 
 .bg-dejade {
-  background-color: rgb(57, 232, 125);
+  background-color: rgb(66, 249, 31);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(57, 232, 125);
+  border-color: rgb(66, 249, 31);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(57, 232, 125);
+  fill: rgb(66, 249, 31);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(57, 232, 125);
+  stroke: rgb(66, 249, 31);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(57, 232, 125);
+  color: rgb(66, 249, 31);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4408,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(57, 232, 125);
+  background-color: rgb(66, 249, 31);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4507,6 +4507,14 @@ pre[class*=language-] {
   border-radius: 0;
   margin: 0.75rem auto;
   padding: 0.75rem 1.5rem;
+}
+
+html[data-mode~=dev] {
+  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px), url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M0%200h8v16h8V8H0z%22%20opacity%3D%22.07%22%2F%3E%3C%2Fsvg%3E");
+}
+html[data-mode~=dev] [class|=col] {
+  background-color: rgba(255, 0, 0, 0.125);
+  background-clip: content-box;
 }
 
 .align-items-center {
@@ -4736,7 +4744,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(57, 232, 125);
+  color: rgb(66, 249, 31);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4749,7 +4757,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(28, 200, 174);
+  color: rgb(112, 217, 56);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -4957,6 +4965,21 @@ main {
   background-color: var(--contrast-inverse);
   height: 12rem;
   width: 100%;
+}
+
+.question {
+  background: var(--contrast-inverse);
+}
+.question h3 {
+  background: var(--contrast);
+  color: var(--contrast-inverse);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0.75rem 2rem;
+}
+.question .answer {
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .quicksearch {
@@ -5981,6 +6004,11 @@ html.home header {
   z-index: 1;
 }
 
+html.vragen .question {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
 @media (min-width: 900px) {
   html.web .stickers {
     transform: rotate(345deg);
@@ -6025,7 +6053,7 @@ html.home header {
     --contrast-inverse: #000;
   }
 }
-[data-mode=dark] {
+[data-mode~=dark] {
   --bgcolor: #222;
   --text: #dedede;
   --contrast: #fff;

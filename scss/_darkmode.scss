@@ -8,7 +8,7 @@
   }
 }
 
-[data-mode="dark"] {
+[data-mode~="dark"] {
   --bgcolor: #{$dark};
   --text: #{$light};
   --contrast: #{$white};
