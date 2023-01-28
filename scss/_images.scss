@@ -1,5 +1,5 @@
 
-// TODO: Define various redenring methods, optimized for gif, svg, and jpg.
+// TODO: Define various rendering methods, optimized for gif, svg, and jpg.
 
 img {
   height: auto;
@@ -9,6 +9,7 @@ img {
 
 svg {
   height: auto;
+  max-width: 100%;
   vertical-align: bottom;
-  width: 100%;
 }
+
