@@ -2,7 +2,7 @@
 
 *deStijl* is het stijlblad van de websites van [deIdee](https://deidee.nl/) en aanverwante projecten, zoals [deMail](https://demail.nl/) en [deChat](https://dechat.nl/).
 
-De versie in deze repository is nog niet in gebruik. Het is de bedoeling dat deze de huidige stijlbladen gaat vervangen.
+De versie in deze repository is nog niet overal in gebruik. Het is de bedoeling dat deze de oude stijlbladen gaat vervangen.
 
 ## Opensource
 
@@ -15,7 +15,7 @@ Oudere versies van *deStijl* zijn gearchiveerd in privérepositories op [GitLab]
 ## Implementatie
 
 ```HTML
-<link rel="stylesheet" href="dist/destijl.min.css">
+<link rel="stylesheet" href="dist/de2023.min.css">
 ```
 
 ## Zie ook
@@ -23,3 +23,4 @@ Oudere versies van *deStijl* zijn gearchiveerd in privérepositories op [GitLab]
 - [deFlex](https://github.com/deidee/deflex)
 - [deGrid](https://github.com/deidee/degrid)
 - [deJade](https://github.com/deidee/dejade)
+- [Default.style](https://github.com/acjbizar/default.style)
