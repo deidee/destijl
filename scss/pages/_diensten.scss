@@ -1,0 +1,17 @@
+
+html.diensten {
+  .legend {
+    margin-top: rem(24);
+
+    &-line {
+      align-items: center;
+      display: flex;
+    }
+
+    svg {
+      margin-right: rem(12);
+      vertical-align: center;
+      width: auto;
+    }
+  }
+}

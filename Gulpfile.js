@@ -113,12 +113,12 @@ gulp.task('twig', function () {
                 },
                 nav: {
                     web: 'Web',
-                    beeldmerken: 'Beeldmerken',
-                    diensten: 'Diensten',
-                    products: 'Producten',
-                    vragen: 'Vragen',
-                    clients: 'Opdrachtgevers',
-                    contact: 'Contact'
+                    beeldmerken: 'beeldmerken',
+                    diensten: 'diensten',
+                    products: 'producten',
+                    vragen: 'vragen',
+                    clients: 'opdrachtgevers',
+                    contact: 'contact'
                 },
                 client_logos: [
                     'vv',

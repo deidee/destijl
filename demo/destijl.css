@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(108, 149, 91);
-  --dejade-deselectie: rgba(125, 157, 29, 0.5);
-  --dejade-degyro: rgb(108, 149, 91);
-  --dejade-deklik: rgb(108, 149, 91);
-  --dejade-demuis: rgb(108, 149, 91);
-  --dejade-deplek: rgb(108, 149, 91);
-  --dejade-derand: rgb(108, 149, 91);
-  --dejade-detijd: rgb(108, 149, 91);
+  --dejade: rgb(2, 235, 186);
+  --dejade-deselectie: rgba(73, 224, 61, 0.5);
+  --dejade-degyro: rgb(2, 235, 186);
+  --dejade-deklik: rgb(2, 235, 186);
+  --dejade-demuis: rgb(2, 235, 186);
+  --dejade-deplek: rgb(2, 235, 186);
+  --dejade-derand: rgb(2, 235, 186);
+  --dejade-detijd: rgb(2, 235, 186);
 }
 
 .bg-dejade {
-  background-color: rgb(108, 149, 91);
+  background-color: rgb(2, 235, 186);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(108, 149, 91);
+  border-color: rgb(2, 235, 186);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(108, 149, 91);
+  fill: rgb(2, 235, 186);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(108, 149, 91);
+  stroke: rgb(2, 235, 186);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(108, 149, 91);
+  color: rgb(2, 235, 186);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4408,7 +4408,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(108, 149, 91);
+  background-color: rgb(2, 235, 186);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4736,7 +4736,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(108, 149, 91);
+  color: rgb(2, 235, 186);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4749,7 +4749,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(5, 219, 6);
+  color: rgb(48, 182, 179);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -5960,6 +5960,19 @@ html.beeldmerken header {
     font-size: 5rem;
     line-height: 4.5rem;
   }
+}
+
+html.diensten .legend {
+  margin-top: 1.5rem;
+}
+html.diensten .legend-line {
+  align-items: center;
+  display: flex;
+}
+html.diensten .legend svg {
+  margin-right: 0.75rem;
+  vertical-align: center;
+  width: auto;
 }
 
 html.home header {

@@ -1,0 +1,103 @@
+{% extends 'layout/default.html.twig' %}
+{% block class %}diensten{% endblock %}
+{% block title %}Demo services{% endblock %}
+{% block header %}
+    {% include '_header.html.twig' with {current: 'diensten'} %}
+    {% include '_page-title.html.twig' with {page: 'diensten'} %}
+{% endblock %}
+{% block main %}
+<main>
+    <div class="container">
+        <section class="row mb-24 pb-24">
+            <div class="col-l-1o4">
+                <h2>Primair</h2>
+            </div>
+            <div class="col-l-3o4">
+                <div class="row">
+                    <div class="col-l-2o3">
+                        <div class="introduction mb-24">
+                            <p>Onze core business bestaat uit het bieden van ontwerp en ontwikkeling op maat.</p>
+                        </div>
+                        <p>Ons <abbr>usp</abbr> (unique selling point) is hoe wij deze disciplines combineren.
+                            Denk hierbij bijvoorbeeld aan toegankelijke webapplicaties, interactieve infographics en dynamische identiteiten.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-l-2o3">
+                        <figure class="my-24">
+                            {% include '_venn-oo.svg.twig' %}
+                            <figcaption class="mt-24">
+                                Figuur 1. Een venndiagram van <a href="#" title="de idee van ontwerp">ontwerp</a> en <a href="#" title="de idee van ontwikkeling">ontwikkeling</a> (en tevens een ligatuur van de afkorting <abbr>oo</abbr>).
+                                Het overlappende deel is waar ons specialisme zit.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-l-1o3">
+                        <div class="legend">
+                            <div class="legend-line">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     viewBox="0 0 32 12" height="12" width="32">
+                                    <rect height="12" width="32" stroke="black" stroke-width="4" fill="yellow" fill-opacity=".5"/>
+                                </svg>
+                                ontwerp
+                            </div>
+                            <div class="legend-line">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     viewBox="0 0 32 12" height="12" width="32">
+                                    <rect height="12" width="32" stroke="black" stroke-width="4" fill="blue" fill-opacity=".5"/>
+                                </svg>
+                                ontwikkeling
+                            </div>
+                            <div class="legend-line">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     viewBox="0 0 32 12" height="12" width="32">
+                                    <rect class="fill-dejade" data-demuis height="12" width="32" stroke="black" stroke-width="4"/>
+                                </svg>
+                                <i lang="en">magic</i> ✨
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row mb-24 pb-24">
+            <div class="col-l-1o4">
+                <h2>Secundair</h2>
+            </div>
+            <div class="col-l-1o2">
+                <p>Onze secundaire diensten zijn disciplines waarbij ontwerp en ontwikkeling een belangrijke rol spelen, maar waarbij ook nog andere inzichten nodig zijn.
+                    Kleinere projecten van dit soort doen we in huis, maar bij grotere projecten werken we samen met bedrijven uit ons netwerk.</p>
+                <ul class="mt-24">
+                    <li>(online) Marketing;</li>
+                    <li>advertenties;</li>
+                    <li>domeinregistratie;</li>
+                    <li>e-commerce;</li>
+                    <li>e-learning;</li>
+                    <li>toegankelijkheidsaudits;</li>
+                    <li>koffiezetten.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="row mb-24 pb-24">
+            <div class="col-l-1o4">
+                <h2>Tertiair</h2>
+            </div>
+            <div class="col-l-1o2">
+                <p>Dit zijn diensten die we weliswaar aanbieden, maar waarbij we altijd dankbaar gebruiken maken van specialisten uit ons netwerk.</p>
+                <ul class="mt-24">
+                    <li>Fotografie en film;</li>
+                    <li>illustratie;</li>
+                    <li>animatie;</li>
+                    <li>letterontwerp;</li>
+                    <li>belettering;</li>
+                    <li>webhosting;</li>
+                    <li>tekstschrijven.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</main>
+{% endblock %}
+{% block footer %}
+    {% include '_footer-complex.html.twig' %}
+{% endblock %}
