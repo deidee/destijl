@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(58, 145, 84);
-  --dejade-deselectie: rgba(7, 230, 184, 0.5);
-  --dejade-degyro: rgb(58, 145, 84);
-  --dejade-deklik: rgb(58, 145, 84);
-  --dejade-demuis: rgb(58, 145, 84);
-  --dejade-deplek: rgb(58, 145, 84);
-  --dejade-derand: rgb(58, 145, 84);
-  --dejade-detijd: rgb(58, 145, 84);
+  --dejade: rgb(106, 154, 40);
+  --dejade-deselectie: rgba(118, 238, 92, 0.5);
+  --dejade-degyro: rgb(106, 154, 40);
+  --dejade-deklik: rgb(106, 154, 40);
+  --dejade-demuis: rgb(106, 154, 40);
+  --dejade-deplek: rgb(106, 154, 40);
+  --dejade-derand: rgb(106, 154, 40);
+  --dejade-detijd: rgb(106, 154, 40);
 }
 
 .bg-dejade {
-  background-color: rgb(58, 145, 84);
+  background-color: rgb(106, 154, 40);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(58, 145, 84);
+  border-color: rgb(106, 154, 40);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(58, 145, 84);
+  fill: rgb(106, 154, 40);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(58, 145, 84);
+  stroke: rgb(106, 154, 40);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(58, 145, 84);
+  color: rgb(106, 154, 40);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4411,7 +4411,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(58, 145, 84);
+  background-color: rgb(106, 154, 40);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4753,11 +4753,11 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(58, 145, 84);
+  color: rgb(106, 154, 40);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
-  transition-property: color;
+  transition-property: color, text-shadow;
   transition-timing-function: ease-in;
   /*  &[href*="letteretters"] {
       &:hover {
@@ -4766,7 +4766,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(16, 212, 160);
+  color: rgb(105, 128, 49);
 }
 a[aria-current] {
   color: var(--contrast);

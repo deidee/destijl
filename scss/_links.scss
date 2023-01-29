@@ -6,11 +6,12 @@ a {
   //display: inline-block;
   position: relative;
   transition-duration: $transition-duration;
-  transition-property: color;
+  transition-property: color, text-shadow;
   transition-timing-function: $transition-timing-function;
 
   &:hover {
     color: deJade();
+    //text-shadow: 0 rem(1) rem(1) transparentize($black, .5);
   }
 
   &[aria-current] {
