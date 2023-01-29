@@ -31,6 +31,12 @@ gulp.task('twig', function () {
                     linkedin: 'https://www.linkedin.com/company/deidee',
                     twitter: 'https://twitter.com/deideenl'
                 },
+                dejade: (function() {
+                    let r = Math.round(127 * Math.random());
+                    let g = Math.round(Math.random() * 128 + 127);
+                    let b = Math.round(191 * Math.random());
+                    return 'rgb(' + r + ', ' + g + ', ' + b + ')';
+                }),
                 heticoon: {
                     data: [
                         [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],
