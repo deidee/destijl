@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(106, 154, 40);
-  --dejade-deselectie: rgba(118, 238, 92, 0.5);
-  --dejade-degyro: rgb(106, 154, 40);
-  --dejade-deklik: rgb(106, 154, 40);
-  --dejade-demuis: rgb(106, 154, 40);
-  --dejade-deplek: rgb(106, 154, 40);
-  --dejade-derand: rgb(106, 154, 40);
-  --dejade-detijd: rgb(106, 154, 40);
+  --dejade: rgb(23, 255, 175);
+  --dejade-deselectie: rgba(82, 176, 188, 0.5);
+  --dejade-degyro: rgb(23, 255, 175);
+  --dejade-deklik: rgb(23, 255, 175);
+  --dejade-demuis: rgb(23, 255, 175);
+  --dejade-deplek: rgb(23, 255, 175);
+  --dejade-derand: rgb(23, 255, 175);
+  --dejade-detijd: rgb(23, 255, 175);
 }
 
 .bg-dejade {
-  background-color: rgb(106, 154, 40);
+  background-color: rgb(23, 255, 175);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(106, 154, 40);
+  border-color: rgb(23, 255, 175);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(106, 154, 40);
+  fill: rgb(23, 255, 175);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(106, 154, 40);
+  stroke: rgb(23, 255, 175);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(106, 154, 40);
+  color: rgb(23, 255, 175);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4411,7 +4411,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(106, 154, 40);
+  background-color: rgb(23, 255, 175);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4753,7 +4753,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(106, 154, 40);
+  color: rgb(23, 255, 175);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4766,7 +4766,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(105, 128, 49);
+  color: rgb(47, 161, 41);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -4794,6 +4794,9 @@ a[href*="instagram.com"]:hover {
 }
 a[href*="linkedin.com"]:hover {
   color: #0077b5 !important;
+}
+a[href*="mimesia.biz"]:hover, a[href*="mimesia.blue"]:hover, a[href*="mimesia.church"]:hover, a[href*="mimesia.com"]:hover, a[href*="mimesia.community"]:hover, a[href*="mimesia.company"]:hover, a[href*="mimesia.info"]:hover, a[href*="mimesia.gallery"]:hover, a[href*="mimesia.link"]:hover, a[href*="mimesia.name"]:hover, a[href*="mimesia.nl"]:hover, a[href*="mimesia.net"]:hover, a[href*="mimesia.org"]:hover, a[href*="mimesia.science"]:hover, a[href*="mimesia.shop"]:hover, a[href*="mimesia.us"]:hover, a[href*="mimesia.work"]:hover, a[href*="mimesia.xyz"]:hover {
+  color: #2269ca !important;
 }
 a[href*="npmjs.com"]:hover {
   color: #cb3837 !important;

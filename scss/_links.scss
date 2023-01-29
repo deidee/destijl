@@ -72,6 +72,29 @@ a {
     }
   }
 
+  &[href*="mimesia.biz"],
+  &[href*="mimesia.blue"],
+  &[href*="mimesia.church"],
+  &[href*="mimesia.com"],
+  &[href*="mimesia.community"],
+  &[href*="mimesia.company"],
+  &[href*="mimesia.info"],
+  &[href*="mimesia.gallery"],
+  &[href*="mimesia.link"],
+  &[href*="mimesia.name"],
+  &[href*="mimesia.nl"],
+  &[href*="mimesia.net"],
+  &[href*="mimesia.org"],
+  &[href*="mimesia.science"],
+  &[href*="mimesia.shop"],
+  &[href*="mimesia.us"],
+  &[href*="mimesia.work"],
+  &[href*="mimesia.xyz"] {
+    &:hover {
+      color: $bc-mimesia-blue !important;
+    }
+  }
+
   &[href*="npmjs.com"] {
     &:hover {
       color: $bc-npm !important;
