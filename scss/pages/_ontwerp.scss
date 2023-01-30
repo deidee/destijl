@@ -1,0 +1,102 @@
+
+
+// Source: https://www.flickr.com/photos/20745656@N00/2871369182.
+$ontwerp-dutch-red: #ec4125;
+$ontwerp-dutch-pale: #f0e4bc;
+$ontwerp-dutch-black: #171611;
+
+$ontwerp-web-blue: blue;
+$ontwerp-web-purple: purple;
+$ontwerp-web-red: red;
+$ontwerp-web-gray: #c6c8c7;
+
+html.ontwerp {
+  *[data-ontwerp] {
+    cursor: crosshair;
+
+    &::before {
+      content: '#';
+      opacity: .25;
+    }
+  }
+
+  &[data-ontwerp="dutch"] {
+    background-color: $ontwerp-dutch-pale;
+    color: $ontwerp-dutch-black;
+
+    a {
+      color: $ontwerp-dutch-red;
+    }
+
+    svg.triangle,
+    svg.square {
+      fill: $ontwerp-dutch-red;
+    }
+
+    svg.circle {
+      fill: $ontwerp-dutch-black;
+    }
+  }
+
+  &[data-ontwerp="identiteiten"] {
+    svg.triangle {
+      fill: deJade();
+    }
+
+    svg.square {
+      fill: deJade();
+    }
+
+    svg.circle {
+      fill: deJade();
+    }
+  }
+
+  &[data-ontwerp="interactie"] {
+    svg.triangle {
+      fill: var(--dejade-demuis);
+    }
+
+    svg.square {
+      fill: var(--dejade-deklik);
+    }
+
+    svg.circle {
+      fill: var(--dejade-detijd);
+    }
+  }
+
+  &[data-ontwerp="web"] {
+    background-color: $ontwerp-web-gray;
+    color: black;
+
+    a {
+      color: $ontwerp-web-blue;
+    }
+
+    svg.triangle {
+      fill: $ontwerp-web-blue;
+    }
+
+    svg.square {
+      fill: $ontwerp-web-purple;
+    }
+
+    svg.circle {
+      fill: $ontwerp-web-red;
+    }
+  }
+
+  *[data-ontwerp] {
+    &::before {
+      content: '#';
+      opacity: .25;
+    }
+  }
+
+  .triangle,
+  .square,
+  .circle {
+    width: 100%;
+  }
+}
