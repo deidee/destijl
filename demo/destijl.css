@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(8, 197, 59);
-  --dejade-deselectie: rgba(1, 202, 104, 0.5);
-  --dejade-degyro: rgb(8, 197, 59);
-  --dejade-deklik: rgb(8, 197, 59);
-  --dejade-demuis: rgb(8, 197, 59);
-  --dejade-deplek: rgb(8, 197, 59);
-  --dejade-derand: rgb(8, 197, 59);
-  --dejade-detijd: rgb(8, 197, 59);
+  --dejade: rgb(46, 199, 127);
+  --dejade-deselectie: rgba(35, 187, 178, 0.5);
+  --dejade-degyro: rgb(46, 199, 127);
+  --dejade-deklik: rgb(46, 199, 127);
+  --dejade-demuis: rgb(46, 199, 127);
+  --dejade-deplek: rgb(46, 199, 127);
+  --dejade-derand: rgb(46, 199, 127);
+  --dejade-detijd: rgb(46, 199, 127);
 }
 
 .bg-dejade {
-  background-color: rgb(8, 197, 59);
+  background-color: rgb(46, 199, 127);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(8, 197, 59);
+  border-color: rgb(46, 199, 127);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(8, 197, 59);
+  fill: rgb(46, 199, 127);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(8, 197, 59);
+  stroke: rgb(46, 199, 127);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(8, 197, 59);
+  color: rgb(46, 199, 127);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4411,7 +4411,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(8, 197, 59);
+  background-color: rgb(46, 199, 127);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4753,7 +4753,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(8, 197, 59);
+  color: rgb(46, 199, 127);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -4766,7 +4766,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(31, 132, 135);
+  color: rgb(86, 180, 101);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -5893,9 +5893,14 @@ p:first-of-type {
 }
 
 .overstated {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 100;
   line-height: 1;
+}
+@media (min-width: 900px) {
+  .overstated {
+    font-size: 4.5rem;
+  }
 }
 
 .text-center {
@@ -6044,13 +6049,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(40, 190, 170);
+  fill: rgb(84, 236, 10);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(37, 137, 79);
+  fill: rgb(55, 230, 85);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(4, 201, 75);
+  fill: rgb(47, 172, 75);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
@@ -6085,6 +6090,14 @@ html.ontwerp .triangle,
 html.ontwerp .square,
 html.ontwerp .circle {
   width: 100%;
+}
+html.ontwerp .primitive svg {
+  fill: var(--contrast);
+}
+@media (min-width: 900px) {
+  html.ontwerp .primitive {
+    padding: 3rem;
+  }
 }
 
 html.vragen .question {

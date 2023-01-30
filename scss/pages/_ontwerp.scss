@@ -99,4 +99,14 @@ html.ontwerp {
   .circle {
     width: 100%;
   }
+
+  .primitive {
+    svg {
+      fill: $contrast;
+    }
+
+    @include media-breakpoint-up(l) {
+      padding: rem(48);
+    }
+  }
 }
