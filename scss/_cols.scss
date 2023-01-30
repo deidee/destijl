@@ -1,0 +1,27 @@
+
+%cols {
+  column-count: 2;
+  column-gap: rem(24);
+  margin-bottom: rem(24);
+  margin-top: rem(24);
+}
+
+.cols,
+[class|="cols"],
+[class*=" cols-"] {
+  @extend %cols;
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+
+    $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+    @for $c from 1 through 12 {
+      .cols#{$infix}-#{$c} {
+        column-count: $c;
+      }
+    }
+  }
+}

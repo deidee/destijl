@@ -10,5 +10,7 @@ table {
 
 td, th {
   display: table-cell;
+  padding-left: rem(8);
+  padding-right: rem(8);
   text-align: start;
 }
