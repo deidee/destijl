@@ -3,5 +3,12 @@ table {
   border-collapse: collapse;
   display: table;
   empty-cells: hide;
+  margin-bottom: rem(24);
+  margin-top: rem(24);
   width: 100%;
+}
+
+td, th {
+  display: table-cell;
+  text-align: start;
 }
