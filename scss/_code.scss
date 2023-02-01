@@ -14,6 +14,9 @@ pre {
 }
 
 pre {
+  max-width: 100%;
+  overflow: auto;
+
   &[class*=language-] {
     border-radius: 0;
     margin: .75rem auto;

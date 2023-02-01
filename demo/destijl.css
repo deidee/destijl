@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(15, 215, 134);
-  --dejade-deselectie: rgba(64, 235, 59, 0.5);
-  --dejade-degyro: rgb(15, 215, 134);
-  --dejade-deklik: rgb(15, 215, 134);
-  --dejade-demuis: rgb(15, 215, 134);
-  --dejade-deplek: rgb(15, 215, 134);
-  --dejade-derand: rgb(15, 215, 134);
-  --dejade-detijd: rgb(15, 215, 134);
+  --dejade: rgb(86, 179, 8);
+  --dejade-deselectie: rgba(6, 169, 60, 0.5);
+  --dejade-degyro: rgb(86, 179, 8);
+  --dejade-deklik: rgb(86, 179, 8);
+  --dejade-demuis: rgb(86, 179, 8);
+  --dejade-deplek: rgb(86, 179, 8);
+  --dejade-derand: rgb(86, 179, 8);
+  --dejade-detijd: rgb(86, 179, 8);
 }
 
 .bg-dejade {
-  background-color: rgb(15, 215, 134);
+  background-color: rgb(86, 179, 8);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(15, 215, 134);
+  border-color: rgb(86, 179, 8);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(15, 215, 134);
+  fill: rgb(86, 179, 8);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(15, 215, 134);
+  stroke: rgb(86, 179, 8);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(15, 215, 134);
+  color: rgb(86, 179, 8);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4351,6 +4351,7 @@ body {
   flex: 1;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -4411,7 +4412,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(15, 215, 134);
+  background-color: rgb(86, 179, 8);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4506,6 +4507,10 @@ tt {
   font-family: "JetBrains Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace, sans-serif, serif;
 }
 
+pre {
+  max-width: 100%;
+  overflow: auto;
+}
 pre[class*=language-] {
   border-radius: 0;
   margin: 0.75rem auto;
@@ -5018,7 +5023,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(15, 215, 134);
+  color: rgb(86, 179, 8);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5031,7 +5036,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(26, 233, 117);
+  color: rgb(10, 175, 191);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -6319,13 +6324,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(68, 195, 13);
+  fill: rgb(93, 156, 143);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(79, 177, 9);
+  fill: rgb(106, 222, 150);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(126, 214, 168);
+  fill: rgb(127, 235, 135);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
