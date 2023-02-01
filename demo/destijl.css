@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(86, 179, 8);
-  --dejade-deselectie: rgba(6, 169, 60, 0.5);
-  --dejade-degyro: rgb(86, 179, 8);
-  --dejade-deklik: rgb(86, 179, 8);
-  --dejade-demuis: rgb(86, 179, 8);
-  --dejade-deplek: rgb(86, 179, 8);
-  --dejade-derand: rgb(86, 179, 8);
-  --dejade-detijd: rgb(86, 179, 8);
+  --dejade: rgb(127, 149, 33);
+  --dejade-deselectie: rgba(87, 246, 50, 0.5);
+  --dejade-degyro: rgb(127, 149, 33);
+  --dejade-deklik: rgb(127, 149, 33);
+  --dejade-demuis: rgb(127, 149, 33);
+  --dejade-deplek: rgb(127, 149, 33);
+  --dejade-derand: rgb(127, 149, 33);
+  --dejade-detijd: rgb(127, 149, 33);
 }
 
 .bg-dejade {
-  background-color: rgb(86, 179, 8);
+  background-color: rgb(127, 149, 33);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(86, 179, 8);
+  border-color: rgb(127, 149, 33);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(86, 179, 8);
+  fill: rgb(127, 149, 33);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(86, 179, 8);
+  stroke: rgb(127, 149, 33);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(86, 179, 8);
+  color: rgb(127, 149, 33);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4412,7 +4412,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(86, 179, 8);
+  background-color: rgb(127, 149, 33);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4961,7 +4961,7 @@ body > footer.footer-complex dt {
 }
 
 label {
-  display: flex;
+  display: inline-flex;
   padding-bottom: 0.75rem;
   padding-top: 0.75rem;
 }
@@ -5023,7 +5023,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(86, 179, 8);
+  color: rgb(127, 149, 33);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5036,7 +5036,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(10, 175, 191);
+  color: rgb(72, 204, 10);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -6324,13 +6324,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(93, 156, 143);
+  fill: rgb(60, 191, 164);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(106, 222, 150);
+  fill: rgb(59, 209, 46);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(127, 235, 135);
+  fill: rgb(44, 241, 49);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
