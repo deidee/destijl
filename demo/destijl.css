@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(127, 149, 33);
-  --dejade-deselectie: rgba(87, 246, 50, 0.5);
-  --dejade-degyro: rgb(127, 149, 33);
-  --dejade-deklik: rgb(127, 149, 33);
-  --dejade-demuis: rgb(127, 149, 33);
-  --dejade-deplek: rgb(127, 149, 33);
-  --dejade-derand: rgb(127, 149, 33);
-  --dejade-detijd: rgb(127, 149, 33);
+  --dejade: rgb(71, 195, 151);
+  --dejade-deselectie: rgba(44, 174, 186, 0.5);
+  --dejade-degyro: rgb(71, 195, 151);
+  --dejade-deklik: rgb(71, 195, 151);
+  --dejade-demuis: rgb(71, 195, 151);
+  --dejade-deplek: rgb(71, 195, 151);
+  --dejade-derand: rgb(71, 195, 151);
+  --dejade-detijd: rgb(71, 195, 151);
 }
 
 .bg-dejade {
-  background-color: rgb(127, 149, 33);
+  background-color: rgb(71, 195, 151);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(127, 149, 33);
+  border-color: rgb(71, 195, 151);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(127, 149, 33);
+  fill: rgb(71, 195, 151);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(127, 149, 33);
+  stroke: rgb(71, 195, 151);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(127, 149, 33);
+  color: rgb(71, 195, 151);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4412,7 +4412,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(127, 149, 33);
+  background-color: rgb(71, 195, 151);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4978,12 +4978,6 @@ img {
   vertical-align: bottom;
 }
 
-svg {
-  height: auto;
-  max-width: 100%;
-  vertical-align: bottom;
-}
-
 textarea, input:not([type]), input[type=email],
 input[type=search],
 input[type=tel],
@@ -5023,7 +5017,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(127, 149, 33);
+  color: rgb(71, 195, 151);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5036,7 +5030,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(72, 204, 10);
+  color: rgb(37, 196, 26);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -6025,6 +6019,14 @@ input[type=search]::-webkit-search-decoration {
   top: 1.5rem;
 }
 
+svg {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+svg:not([height]) {
+  height: auto;
+}
+
 table {
   border-collapse: collapse;
   display: table;
@@ -6324,13 +6326,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(60, 191, 164);
+  fill: rgb(117, 178, 167);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(59, 209, 46);
+  fill: rgb(84, 208, 117);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(44, 241, 49);
+  fill: rgb(56, 239, 54);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
