@@ -1,5 +1,6 @@
 
 code,
+kbd,
 pre,
 samp,
 tt {
@@ -7,9 +8,16 @@ tt {
 }
 
 code,
+kbd,
+samp,
+tt {
+  font-size: .9em; // Hack the size down for inline elements because the font is messing up the base rhythm, and `font-size-adjust` is still not widely supported. Sigh.
+}
+
+code,
 pre {
   &[class*=language-] {
-    @extend code;
+    font-family: $font-family-monospace;
   }
 }
 

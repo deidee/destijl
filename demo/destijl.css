@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(96, 156, 186);
-  --dejade-deselectie: rgba(40, 226, 139, 0.5);
-  --dejade-degyro: rgb(96, 156, 186);
-  --dejade-deklik: rgb(96, 156, 186);
-  --dejade-demuis: rgb(96, 156, 186);
-  --dejade-deplek: rgb(96, 156, 186);
-  --dejade-derand: rgb(96, 156, 186);
-  --dejade-detijd: rgb(96, 156, 186);
+  --dejade: rgb(115, 215, 67);
+  --dejade-deselectie: rgba(85, 229, 146, 0.5);
+  --dejade-degyro: rgb(115, 215, 67);
+  --dejade-deklik: rgb(115, 215, 67);
+  --dejade-demuis: rgb(115, 215, 67);
+  --dejade-deplek: rgb(115, 215, 67);
+  --dejade-derand: rgb(115, 215, 67);
+  --dejade-detijd: rgb(115, 215, 67);
 }
 
 .bg-dejade {
-  background-color: rgb(96, 156, 186);
+  background-color: rgb(115, 215, 67);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(96, 156, 186);
+  border-color: rgb(115, 215, 67);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(96, 156, 186);
+  fill: rgb(115, 215, 67);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(96, 156, 186);
+  stroke: rgb(115, 215, 67);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(96, 156, 186);
+  color: rgb(115, 215, 67);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4412,7 +4412,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(96, 156, 186);
+  background-color: rgb(115, 215, 67);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4499,11 +4499,23 @@ input[type=submit]:disabled {
   margin-top: 6rem;
 }
 
-code, code[class*=language-],
-pre[class*=language-],
+code,
+kbd,
 pre,
 samp,
 tt {
+  font-family: "JetBrains Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace, sans-serif, serif;
+}
+
+code,
+kbd,
+samp,
+tt {
+  font-size: 0.9em;
+}
+
+code[class*=language-],
+pre[class*=language-] {
   font-family: "JetBrains Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace, sans-serif, serif;
 }
 
@@ -5031,7 +5043,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(96, 156, 186);
+  color: rgb(115, 215, 67);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5044,7 +5056,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(29, 153, 140);
+  color: rgb(58, 179, 35);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -6148,11 +6160,6 @@ cite, i, var {
   font-style: italic;
 }
 
-code, code[class*=language-],
-pre[class*=language-], kbd, pre, samp {
-  font-family: "JetBrains Mono", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace, sans-serif, serif;
-}
-
 h1, .h1 {
   font-size: 3rem;
   line-height: 3rem;
@@ -6341,13 +6348,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(61, 255, 166);
+  fill: rgb(68, 221, 185);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(75, 242, 75);
+  fill: rgb(57, 139, 11);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(110, 139, 103);
+  fill: rgb(75, 169, 144);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
