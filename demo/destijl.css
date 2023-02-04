@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(71, 195, 151);
-  --dejade-deselectie: rgba(44, 174, 186, 0.5);
-  --dejade-degyro: rgb(71, 195, 151);
-  --dejade-deklik: rgb(71, 195, 151);
-  --dejade-demuis: rgb(71, 195, 151);
-  --dejade-deplek: rgb(71, 195, 151);
-  --dejade-derand: rgb(71, 195, 151);
-  --dejade-detijd: rgb(71, 195, 151);
+  --dejade: rgb(96, 156, 186);
+  --dejade-deselectie: rgba(40, 226, 139, 0.5);
+  --dejade-degyro: rgb(96, 156, 186);
+  --dejade-deklik: rgb(96, 156, 186);
+  --dejade-demuis: rgb(96, 156, 186);
+  --dejade-deplek: rgb(96, 156, 186);
+  --dejade-derand: rgb(96, 156, 186);
+  --dejade-detijd: rgb(96, 156, 186);
 }
 
 .bg-dejade {
-  background-color: rgb(71, 195, 151);
+  background-color: rgb(96, 156, 186);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(71, 195, 151);
+  border-color: rgb(96, 156, 186);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(71, 195, 151);
+  fill: rgb(96, 156, 186);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(71, 195, 151);
+  stroke: rgb(96, 156, 186);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(71, 195, 151);
+  color: rgb(96, 156, 186);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4412,7 +4412,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(71, 195, 151);
+  background-color: rgb(96, 156, 186);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4966,6 +4966,20 @@ label {
   padding-top: 0.75rem;
 }
 
+.graphics {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0.75rem;
+}
+.graphics svg {
+  margin: auto 0.25rem;
+  width: 1.5rem;
+}
+.graphics svg:last-child {
+  margin-left: 0;
+}
+
 @media print {
   body > header {
     display: none;
@@ -5017,7 +5031,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(71, 195, 151);
+  color: rgb(96, 156, 186);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5030,7 +5044,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(37, 196, 26);
+  color: rgb(29, 153, 140);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -6020,6 +6034,7 @@ input[type=search]::-webkit-search-decoration {
 }
 
 svg {
+  fill: currentColor;
   max-width: 100%;
   vertical-align: bottom;
 }
@@ -6326,13 +6341,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(117, 178, 167);
+  fill: rgb(61, 255, 166);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(84, 208, 117);
+  fill: rgb(75, 242, 75);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(56, 239, 54);
+  fill: rgb(110, 139, 103);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);

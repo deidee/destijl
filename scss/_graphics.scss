@@ -1,0 +1,16 @@
+
+.graphics {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: rem(48) rem(12);
+
+    svg {
+        margin: auto rem(4);
+        width: rem(24);
+
+        &:last-child {
+            margin-left: 0;
+        }
+    }
+}
