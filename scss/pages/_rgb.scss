@@ -1,0 +1,16 @@
+
+html.rgb {
+  h2,
+  h3 {
+    margin-bottom: rem(24);
+    margin-top: rem(24);
+  }
+
+  .fail {
+    color: $fail;
+  }
+
+  .pass {
+    color: $pass;
+  }
+}
