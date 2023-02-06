@@ -16,6 +16,7 @@ a {
 
   &[aria-current] {
     color: $contrast;
+    font-weight: 600;
   }
 
   &[href*="alexanderchristiaanjacob.com"] {

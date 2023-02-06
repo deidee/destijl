@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(107, 152, 182);
-  --dejade-deselectie: rgba(42, 150, 175, 0.5);
-  --dejade-degyro: rgb(107, 152, 182);
-  --dejade-deklik: rgb(107, 152, 182);
-  --dejade-demuis: rgb(107, 152, 182);
-  --dejade-deplek: rgb(107, 152, 182);
-  --dejade-derand: rgb(107, 152, 182);
-  --dejade-detijd: rgb(107, 152, 182);
+  --dejade: rgb(102, 173, 14);
+  --dejade-deselectie: rgba(84, 203, 174, 0.5);
+  --dejade-degyro: rgb(102, 173, 14);
+  --dejade-deklik: rgb(102, 173, 14);
+  --dejade-demuis: rgb(102, 173, 14);
+  --dejade-deplek: rgb(102, 173, 14);
+  --dejade-derand: rgb(102, 173, 14);
+  --dejade-detijd: rgb(102, 173, 14);
 }
 
 .bg-dejade {
-  background-color: rgb(107, 152, 182);
+  background-color: rgb(102, 173, 14);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(107, 152, 182);
+  border-color: rgb(102, 173, 14);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(107, 152, 182);
+  fill: rgb(102, 173, 14);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(107, 152, 182);
+  stroke: rgb(102, 173, 14);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(107, 152, 182);
+  color: rgb(102, 173, 14);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4412,7 +4412,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(107, 152, 182);
+  background-color: rgb(102, 173, 14);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -5043,7 +5043,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(107, 152, 182);
+  color: rgb(102, 173, 14);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5056,10 +5056,11 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(8, 148, 137);
+  color: rgb(11, 250, 96);
 }
 a[aria-current] {
   color: var(--contrast);
+  font-weight: 600;
 }
 a[href*="alexanderchristiaanjacob.com"]:hover {
   color: #f4c !important;
@@ -6348,13 +6349,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(117, 140, 110);
+  fill: rgb(74, 173, 80);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(13, 205, 108);
+  fill: rgb(80, 206, 94);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(61, 221, 171);
+  fill: rgb(85, 157, 38);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
