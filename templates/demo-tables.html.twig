@@ -1,0 +1,109 @@
+{% extends 'layout/default.html.twig' %}
+{% block class %}default{% endblock %}
+{% block title %}Demo tables{% endblock %}
+{% block header %}
+    {% include '_header.html.twig' with {current: 'diensten'} %}
+    {% include '_page-title.html.twig' with {page: 'diensten'} %}
+{% endblock %}
+{% block main %}
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table>
+                    <colgroup>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>Naam</th>
+                        <th>Aanbieder</th>
+                        <th>Doel</th>
+                        <th>Vervaldatum</th>
+                        <th>Type</th>
+                    </tr>
+                    </thead>
+                    <tbody id="noodzakelijk">
+                    <tr>
+                        <td><code>__cfduid</code></td>
+                        <td>
+                            <ul class="unstyled" lang="en" translate="no">
+                                <li><code>allrgb.com</code></li>
+                                <li><code>deidee.com</code></li>
+                                <li><code>netplasticism.com</code></li>
+                            </ul>
+                        </td>
+                        <td><p>Gebruikt door het inhoudsnetwerk, <cite lang="en" translate="no">Cloudflare</cite>, om vertrouwd webverkeer te identificeren.</p></td>
+                        <td>1 jaar</td>
+                        <td><abbr>http</abbr></td>
+                    </tr>
+
+                    <tr>
+                        <td><code>CAKEPHP</code></td>
+                        <td><code>deidee.nl</code></td>
+                        <td><p>Houdt gebruikersstatussen over paginabezoeken bij.</p></td>
+                        <td>1 jaar</td>
+                        <td><abbr>http</abbr></td>
+                    </tr>
+
+                    <tr>
+                        <td><code>csrfToken</code></td>
+                        <td><code>deidee.nl</code></td>
+                        <td><p>Helpt <dfn lang="en" translate="no">Cross-Site Request Forgery</dfn> (<abbr>csrf</abbr>)-aanvallen te voorkomen.</p></td>
+                        <td>1 jaar</td>
+                        <td><abbr>http</abbr></td>
+                    </tr>
+                    </tbody>
+
+                    <tbody id="statistieken">
+                    <tr>
+                        <td><code>_ga</code></td>
+                        <td><code>deidee.nl</code></td>
+                        <td><p>Registreert een uniek <abbr>id</abbr> die wordt gebruikt om statistische gegevens te genereren over hoe de bezoeker de website gebruikt.</p></td>
+                        <td>2 jaar</td>
+                        <td><abbr>http</abbr></td>
+                    </tr>
+                    <tr>
+                        <td><code>_gat</code></td>
+                        <td><code>deidee.nl</code></td>
+                        <td><p>Gebruikt door <cite lang="en" translate="no">Google Analytics</cite> om verzoeksnelheid te vertragen.</p></td>
+                        <td>Sessie</td>
+                        <td><abbr>http</abbr></td>
+                    </tr>
+                    <tr>
+                        <td><code>_gid</code></td>
+                        <td><code>deidee.nl</code></td>
+                        <td><p>Registreert een uniek <abbr>id</abbr> die wordt gebruikt om statistische gegevens te genereren over hoe de bezoeker de website gebruikt.</p></td>
+                        <td>Sessie</td>
+                        <td><abbr>http</abbr></td>
+                    </tr>
+                    <tr>
+                        <td><code>collect</code></td>
+                        <td><code>google-analytics.com</code></td>
+                        <td><p>Gebruikt om gegevens naar <cite lang="en" translate="no">Google Analytics</cite> te verzenden over het apparaat en het gedrag van de bezoeker. Traceert de bezoeker op verschillende apparaten en marketingkanalen.</p></td>
+                        <td>Sessie</td>
+                        <td>Pixel</td>
+                    </tr>
+
+                    <tr>
+                        <td><code>p.gif</code></td>
+                        <td><code>typekit.net</code></td>
+                        <td><p>Gebruikt om gegevens naar <cite lang="en" translate="no">Adobe</cite> te verzenden over het gebruik van lettertypes op onze websites.</p></td>
+                        <td>Sessie</td>
+                        <td>Pixel</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block footer %}
+    {% include '_footer-complex.html.twig' %}
+{% endblock %}

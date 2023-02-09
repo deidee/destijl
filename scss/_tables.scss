@@ -1,4 +1,21 @@
 
+@use "sass:math";
+
+$table-hover-color: transparentize($black, 1 - math.div(1, 16));
+
+col,
+tr {
+  transition: background-color .25s $transition-timing-function;
+}
+
+col {
+  background-color: transparent;
+
+  &:nth-of-type(even) {
+    background-color: $table-hover-color;
+  }
+}
+
 table {
   border-collapse: collapse;
   display: table;
@@ -6,6 +23,12 @@ table {
   margin-bottom: rem(24);
   margin-top: rem(24);
   width: 100%;
+
+  &:hover {
+    col {
+      background-color: transparent;
+    }
+  }
 }
 
 td, th {
@@ -32,4 +55,10 @@ thead {
       right: 0;
     }
   }*/
+}
+
+tr {
+  &:hover {
+    background-color: $table-hover-color;
+  }
 }
