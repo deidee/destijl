@@ -12,5 +12,24 @@ td, th {
   display: table-cell;
   padding-left: rem(8);
   padding-right: rem(8);
+  position: relative;
   text-align: start;
+  vertical-align: baseline;
+}
+
+thead {
+  display: table-header-group;
+
+/*  th {
+    &::before {
+      background-color: $text;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: rem(1);
+      left: 0;
+      position: absolute;
+      right: 0;
+    }
+  }*/
 }
