@@ -54,6 +54,11 @@ p:first-of-type {
   text-indent: 0;
 }
 
+sub, sup {
+  font-size: rem(12);
+  line-height: 0;
+}
+
 .overstated {
   font-size: 3rem;
   font-weight: 100;

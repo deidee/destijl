@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(78, 226, 173);
-  --dejade-deselectie: rgba(90, 191, 187, 0.5);
-  --dejade-degyro: rgb(78, 226, 173);
-  --dejade-deklik: rgb(78, 226, 173);
-  --dejade-demuis: rgb(78, 226, 173);
-  --dejade-deplek: rgb(78, 226, 173);
-  --dejade-derand: rgb(78, 226, 173);
-  --dejade-detijd: rgb(78, 226, 173);
+  --dejade: rgb(104, 186, 43);
+  --dejade-deselectie: rgba(115, 240, 135, 0.5);
+  --dejade-degyro: rgb(104, 186, 43);
+  --dejade-deklik: rgb(104, 186, 43);
+  --dejade-demuis: rgb(104, 186, 43);
+  --dejade-deplek: rgb(104, 186, 43);
+  --dejade-derand: rgb(104, 186, 43);
+  --dejade-detijd: rgb(104, 186, 43);
 }
 
 .bg-dejade {
-  background-color: rgb(78, 226, 173);
+  background-color: rgb(104, 186, 43);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -34,7 +34,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(78, 226, 173);
+  border-color: rgb(104, 186, 43);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -57,7 +57,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(78, 226, 173);
+  fill: rgb(104, 186, 43);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -80,7 +80,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(78, 226, 173);
+  stroke: rgb(104, 186, 43);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -103,7 +103,7 @@
 }
 
 .text-dejade {
-  color: rgb(78, 226, 173);
+  color: rgb(104, 186, 43);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4412,7 +4412,7 @@ html {
 }
 
 .bg--dejade {
-  background-color: rgb(78, 226, 173);
+  background-color: rgb(104, 186, 43);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -5043,7 +5043,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(78, 226, 173);
+  color: rgb(104, 186, 43);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5056,7 +5056,7 @@ a {
     }*/
 }
 a:hover {
-  color: rgb(15, 229, 157);
+  color: rgb(23, 139, 168);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -5110,6 +5110,15 @@ a[href*="twitter.com"]:hover {
     color: var(--contrast-inverse);
   }
 }
+dd {
+  margin: 0 0 0 1rem;
+  padding: 0 0 0 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
 li {
   margin: 0 0 0 2em;
 }
@@ -6235,6 +6244,11 @@ p:first-of-type {
   text-indent: 0;
 }
 
+sub, sup {
+  font-size: 0.75rem;
+  line-height: 0;
+}
+
 .overstated {
   font-size: 3rem;
   font-weight: 100;
@@ -6316,6 +6330,126 @@ html.beeldmerken header {
   z-index: 1;
 }
 
+html.begrippen .index li {
+  line-height: 2;
+  list-style: none;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+html.begrippen .index li:nth-of-type(1) a:not(:hover) {
+  background-color: rgba(118, 140, 131, 0.5);
+}
+html.begrippen .index li:nth-of-type(2) a:not(:hover) {
+  background-color: rgba(25, 251, 87, 0.5);
+}
+html.begrippen .index li:nth-of-type(3) a:not(:hover) {
+  background-color: rgba(5, 231, 167, 0.5);
+}
+html.begrippen .index li:nth-of-type(4) a:not(:hover) {
+  background-color: rgba(59, 163, 71, 0.5);
+}
+html.begrippen .index li:nth-of-type(5) a:not(:hover) {
+  background-color: rgba(125, 128, 149, 0.5);
+}
+html.begrippen .index li:nth-of-type(6) a:not(:hover) {
+  background-color: rgba(107, 148, 28, 0.5);
+}
+html.begrippen .index li:nth-of-type(7) a:not(:hover) {
+  background-color: rgba(59, 249, 119, 0.5);
+}
+html.begrippen .index li:nth-of-type(8) a:not(:hover) {
+  background-color: rgba(48, 133, 61, 0.5);
+}
+html.begrippen .index li:nth-of-type(9) a:not(:hover) {
+  background-color: rgba(39, 232, 78, 0.5);
+}
+html.begrippen .index li:nth-of-type(10) a:not(:hover) {
+  background-color: rgba(96, 206, 73, 0.5);
+}
+html.begrippen .index li:nth-of-type(11) a:not(:hover) {
+  background-color: rgba(10, 131, 105, 0.5);
+}
+html.begrippen .index li:nth-of-type(12) a:not(:hover) {
+  background-color: rgba(78, 173, 13, 0.5);
+}
+html.begrippen .index li:nth-of-type(13) a:not(:hover) {
+  background-color: rgba(109, 206, 149, 0.5);
+}
+html.begrippen .index li:nth-of-type(14) a:not(:hover) {
+  background-color: rgba(25, 184, 19, 0.5);
+}
+html.begrippen .index li:nth-of-type(15) a:not(:hover) {
+  background-color: rgba(41, 238, 96, 0.5);
+}
+html.begrippen .index li:nth-of-type(16) a:not(:hover) {
+  background-color: rgba(123, 175, 136, 0.5);
+}
+html.begrippen .index li:nth-of-type(17) a:not(:hover) {
+  background-color: rgba(55, 242, 113, 0.5);
+}
+html.begrippen .index li:nth-of-type(18) a:not(:hover) {
+  background-color: rgba(80, 189, 46, 0.5);
+}
+html.begrippen .index li:nth-of-type(19) a:not(:hover) {
+  background-color: rgba(75, 140, 127, 0.5);
+}
+html.begrippen .index li:nth-of-type(20) a:not(:hover) {
+  background-color: rgba(28, 188, 67, 0.5);
+}
+html.begrippen .index li:nth-of-type(21) a:not(:hover) {
+  background-color: rgba(22, 170, 105, 0.5);
+}
+html.begrippen .index li:nth-of-type(22) a:not(:hover) {
+  background-color: rgba(36, 237, 156, 0.5);
+}
+html.begrippen .index li:nth-of-type(23) a:not(:hover) {
+  background-color: rgba(34, 160, 101, 0.5);
+}
+html.begrippen .index li:nth-of-type(24) a:not(:hover) {
+  background-color: rgba(68, 156, 55, 0.5);
+}
+html.begrippen .index li:nth-of-type(25) a:not(:hover) {
+  background-color: rgba(93, 248, 33, 0.5);
+}
+html.begrippen .index li:nth-of-type(26) a:not(:hover) {
+  background-color: rgba(17, 152, 156, 0.5);
+}
+html.begrippen .index li:nth-of-type(27) a:not(:hover) {
+  background-color: rgba(115, 255, 122, 0.5);
+}
+html.begrippen .index a {
+  background-color: rgb(123, 187, 131);
+  border: 0.25rem solid rgba(0, 0, 0, 0.875);
+  color: #fff;
+  display: block;
+  height: 2rem;
+  line-height: 1.5;
+  transition-duration: 0.25s;
+  transition-property: background-color, color;
+}
+html.begrippen .index a:hover {
+  background-color: #fff !important;
+  color: rgba(0, 0, 0, 0.875);
+}
+@media (min-width: 1200px) {
+  html.begrippen section h2 {
+    background: var(--contrast);
+    color: var(--contrast-inverse);
+    margin-right: 3rem;
+    margin-top: 0;
+    overflow: visible;
+    padding: 0.75rem;
+    position: absolute;
+    right: 100%;
+    text-align: right;
+    width: 1.5em;
+  }
+  html.begrippen section header {
+    position: sticky;
+    top: 0;
+  }
+}
+
 .type-email {
   font-size: 1.5rem;
   line-height: 1;
@@ -6388,13 +6522,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(72, 150, 89);
+  fill: rgb(5, 155, 71);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(38, 191, 29);
+  fill: rgb(84, 137, 6);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(24, 240, 79);
+  fill: rgb(104, 193, 151);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
