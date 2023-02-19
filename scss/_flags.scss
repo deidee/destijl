@@ -1,0 +1,23 @@
+
+.flags {
+    list-style: none;
+
+    li {
+        display: block;
+        margin: 0 0 rem(24) 0;
+    }
+
+    svg {
+        height: auto;
+        vertical-align: bottom;
+        width: 100%;
+    }
+}
+
+.flag {
+    svg {
+        height: auto;
+        vertical-align: bottom;
+        width: 100%;
+    }
+}
