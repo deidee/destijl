@@ -19,5 +19,9 @@
         height: auto;
         vertical-align: bottom;
         width: 100%;
+
+        * {
+            transition: none;
+        }
     }
 }
