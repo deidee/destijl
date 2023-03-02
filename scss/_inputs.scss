@@ -15,6 +15,11 @@
   }
 }
 
+input[type=checkbox],
+input[type=radio] {
+  margin-right: rem(8);
+}
+
 input[type=email],
 input[type=search],
 input[type=tel],
