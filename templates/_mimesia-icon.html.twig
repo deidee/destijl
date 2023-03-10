@@ -1,0 +1,25 @@
+
+{%- set urls -%}
+    {%- include '_97.txt.twig' -%}
+{%- endset -%}
+
+{%- set urlset = urls|split("\r\n") -%}
+
+<svg class="heticoon--mimesia" viewBox="0 0 {{ (heticoon.mimesia.length + 1) * heticoon.size }} {{ (heticoon.mimesia.length + 1) * heticoon.size }}" fill-opacity="0.5">
+    {%- set i = 0 %}
+    {%- set x = heticoon.size %}
+    {%- set y = heticoon.size %}
+    {%- for line in heticoon.mimesia %}
+        {%- for col in line %}
+            {%- if col %}
+                <a xlink:href="{{- urlset[i] }}">
+                    <rect x="{{ x }}" y="{{ y }}" width="{{ heticoon.size + random(heticoon.random) }}" height="{{ heticoon.size + random(heticoon.random) }}" fill="{{ dejade }}"></rect>
+                </a>
+                {%- set i = i + 1 -%}
+            {%- endif %}
+            {%- set x = x + heticoon.size %}
+        {%- endfor %}
+        {%- set y = y + heticoon.size -%}
+        {%- set x = heticoon.size -%}
+    {% endfor %}
+</svg>

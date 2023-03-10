@@ -1,0 +1,18 @@
+{% extends 'layout/default.html.twig' %}
+{% block class %}mimesia{% endblock %}
+{% block title %}Demo Mimesia{% endblock %}
+{% block header %}{% include '_header.html.twig' %}{% endblock %}
+{% block main %}
+    <main>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-l-2o3">
+                    {% include '_mimesia-icon.html.twig' %}
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+{% block footer %}
+{% include '_footer-complex.html.twig' %}
+{% endblock %}
