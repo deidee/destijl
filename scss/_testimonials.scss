@@ -9,6 +9,14 @@
   transition-property: border-color;
   transition-timing-function: $transition-timing-function;
 
+  &--ammerlaanopleidingen {
+    border-color: $bc-ammerlaanopleidingen;
+
+    a {
+      color: $bc-ammerlaanopleidingen;
+    }
+  }
+
   &--brunounostudio {
     border-color: $bc-brunounostudio-1;
 
