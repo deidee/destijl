@@ -1,7 +1,27 @@
 
 html.delogos {
+
+  .introduction {
+    margin-bottom: rem(48);
+    margin-top: rem(-48);
+  }
+
   main > section {
     padding-bottom: 3rem;
     padding-top: 2rem;
+
+    h2 {
+      margin-bottom: rem(32);
+      margin-top: rem(32);
+    }
+
+    h3 {
+      margin-bottom: rem(24);
+      margin-top: rem(24);
+    }
+
+    .row {
+      flex-direction: row-reverse;
+    }
   }
 }

@@ -22,8 +22,6 @@
   .p-#{$spacer}, .px-#{$spacer}, .pr-#{$spacer} { padding-right: rem($spacer); }
   .p-#{$spacer}, .py-#{$spacer}, .pb-#{$spacer} { padding-bottom: rem($spacer); }
   .p-#{$spacer}, .py-#{$spacer}, .pt-#{$spacer} { padding-top: rem($spacer); }
-  // Negative paddings:
-  // Just kidding. There's no such thing.
 }
 
 .mb-auto,
