@@ -124,13 +124,7 @@ a {
 @media (hover: hover) {
   :root:not(:hover) {
     a {
-      color: $text;
-    }
-
-    .bg--dark {
-      a {
-        color: $contrast-inverse;
-      }
+      color: currentColor;
     }
   }
 }
