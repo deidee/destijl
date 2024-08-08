@@ -13,15 +13,14 @@
 
 @import "components/alerts";
 @import "components/avatar";
-@import "base";
+@import "components/base";
 @import "components/bg";
 @import "components/blockquotes";
 @import "components/buttons";
 @import "components/clients";
 @import "components/code";
-@import "colors";
+@import "components/colors";
 @import "components/cols";
-@import "dev";
 @import "components/flags";
 @import "components/flex";
 @import "fonts";
@@ -49,14 +48,14 @@
 @import "components/socials";
 @import "components/spacers";
 @import "components/stickers";
-@import "sticky";
+@import "components/sticky";
 @import "components/svg";
 @import "components/symbol";
 @import "components/tables";
 @import "components/testimonials";
 @import "components/top";
 @import "transitions";
-@import "type";
+@import "components/type";
 
 @import "brands/a22b";
 @import "brands/heticoon";
@@ -77,5 +76,5 @@
 @import "sections/cv";
 @import "sections/personalia";
 
-@import "darkmode";
-
+@import "modes/dark";
+@import "modes/dev";

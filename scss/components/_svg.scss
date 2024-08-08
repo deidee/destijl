@@ -1,8 +1,11 @@
 
 svg {
-  fill: currentColor;
   max-width: 100%;
   vertical-align: bottom;
+
+  &:not([fill]) {
+    fill: currentColor;
+  }
 
   &:not([height]) {
     height: auto;
