@@ -1,6 +1,5 @@
 
-.bg--black {
-  background-color: $black;
+%bg--dark {
   color: $white;
 
   h1, h2, h3, h4, h5, h6 {
@@ -8,68 +7,72 @@
   }
 }
 
-.bg--contain {
-  background-size: contain;
-}
-
-.bg--cover {
-  background-size: cover;
-}
-
-.bg--dark {
-  background-color: $dark;
-  color: $white;
-
-  h1, h2, h3, h4, h5, h6 {
+.bg {
+  &--acjs {
+    background-color: #221e1f;
     color: $white;
   }
-}
 
-.bg--darken {
-  background-color: $darken;
-  color: $white;
+  &--black {
+    @extend %bg--dark;
+    background-color: $black;
+  }
 
-  h1, h2, h3, h4, h5, h6 {
+  &--contain {
+    background-size: contain;
+  }
+
+  &--cover {
+    background-size: cover;
+  }
+
+  &--dark {
+    @extend %bg--dark;
+    background-color: $dark;
+  }
+
+  &--darken {
+    @extend %bg--dark;
+    background-color: $darken;
+  }
+
+  &--dejade {
+    background-color: $dejade;
+    background-color: var(--dejade);
     color: $white;
   }
-}
 
-.bg--white {
-  background-color: $white;
-  color: $dark;
-
-  h1, h2, h3, h4, h5, h6 {
-    color: $black;
+  &--facebook {
+    background-color: $bc-facebook;
+    color: $white;
   }
-}
 
-.bg--light {
-  background-color: $light;
-  color: $text;
-}
+  &--light {
+    background-color: $light;
+    color: $text;
+  }
 
-.bg--dejade {
-  background-color: $dejade;
-  background-color: var(--dejade);
-  color: $white;
-}
+  &--linkedin {
+    background-color: $bc-linkedin;
+    color: $white;
+  }
 
-.bg--facebook {
-  background-color: $bc-facebook;
-  color: $white;
-}
+  &--mimesia {
+    background-color: $bc-mimesia-blue;
+    color: $white;
+  }
 
-.bg--twitter {
-  background-color: $bc-twitter;
-  color: $white;
-}
+  &--twitter {
+    background-color: $bc-twitter;
+    color: $white;
+  }
 
-.bg--linkedin {
-  background-color: $bc-linkedin;
-  color: $white;
-}
+  &--white {
+    background-color: $white;
+    color: $dark;
 
-.bg--mimesia {
-  background-color: $bc-mimesia-blue;
-  color: $white;
+    h1, h2, h3, h4, h5, h6 {
+      color: $black;
+    }
+  }
 }
