@@ -1,6 +1,7 @@
 
 svg {
   max-width: 100%;
+  overflow: visible; // Risky take. Needs testing on all SVGs in production.
   vertical-align: bottom;
 
   &:not([fill]) {
