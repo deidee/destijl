@@ -25,7 +25,11 @@ h1, .h1 {
 h2, .h2 {
   font-size: $font-size-xl;
   line-height: rem(24px);
-  margin: rem(12px) 0;
+  margin: rem(24px) 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 h3, .h3 {

@@ -119,6 +119,12 @@ a {
       color: $bc-twitter !important;
     }
   }
+
+  &[href*="x.com"] {
+    &:hover {
+      color: $black !important;
+    }
+  }
 }
 
 @media (hover: hover) {
