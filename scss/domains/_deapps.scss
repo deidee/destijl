@@ -1,0 +1,30 @@
+
+html.deapps {
+  .app {
+    border: rem(1) solid;
+    border-radius: rem(12);
+    border-bottom-color: transparentize($black, .75);
+    border-left-color: transparentize($black, .875);
+    border-right-color: transparentize($black, .875);
+    border-top-color: transparentize($white, .5);
+    box-shadow: 0 rem(6) rem(8) rem(-4) transparentize($black, .75);
+    display: inline-flex;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      background:
+              linear-gradient(180deg,
+                      transparentize($white, .75),
+                      transparentize($black, .75) 100%);
+      bottom: 0;
+      content: "";
+      display: block;
+      left: 0;
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
