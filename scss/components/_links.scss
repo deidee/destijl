@@ -25,6 +25,13 @@ a {
     }
   }
 
+  &[href*="anbi-collectief.nl"],
+  &[href*="anbicollectief.nl"] {
+    &:hover {
+      color: $bc-anbicollectief-blue !important;
+    }
+  }
+
   &[href*="behance.net"] {
     &:hover {
       color: $bc-behance !important;
