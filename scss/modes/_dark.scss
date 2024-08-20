@@ -1,16 +1,22 @@
 
-@media screen and (prefers-color-scheme: dark) {
-  :root {
-    --bgcolor: #{$dark};
-    --text: #{$light};
-    --contrast: #{$white};
-    --contrast-inverse: #{$black};
-  }
-}
-
-[data-mode~="dark"] {
+@mixin dark-mode {
   --bgcolor: #{$dark};
   --text: #{$light};
   --contrast: #{$white};
   --contrast-inverse: #{$black};
+
+  // TODO: Consider normalizing this. Perhaps make it into a class of some sort?
+  img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"] {
+    filter: invert(100%);
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    @include dark-mode;
+  }
+}
+
+[data-mode~="dark"] {
+  @include dark-mode;
 }
