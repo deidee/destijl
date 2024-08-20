@@ -1,0 +1,14 @@
+
+canvas {
+  max-width: 100%;
+  vertical-align: bottom;
+
+  &:not([height]) {
+    height: 20rem;
+  }
+
+  &:not([width]) {
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+
+.glyph {
+  font-size: 6rem;
+  line-height: 1;
+  margin-bottom: rem(24);
+  user-select: none;
+
+  @include breakpoint-up(m) {
+    font-size: 9rem;
+  }
+
+  @include breakpoint-up(l) {
+    font-size: 12rem;
+  }
+}
