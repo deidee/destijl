@@ -1,0 +1,238 @@
+
+@mixin transition($property...) {
+    transition-duration: $transition-duration;
+    transition-property: $property;
+    transition-timing-function: ease-in-out;
+}
+
+$off-white: #fafafa;
+$randomColor: var(--gh-random-color);
+
+.logo {
+    &--galeriehelder {
+        @include transition(fill);
+
+        overflow: visible;
+
+        .square {
+            @include transition(filter opacity transform);
+
+            transform-box: view-box;
+            transform-origin: center;
+        }
+    }
+}
+
+.cube {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-style: preserve-3d;
+    transition-duration: 2s;
+    //transform: rotateX(-15deg) rotateY(20deg);
+    width: 100%;
+
+    &-container {
+        margin: 0 auto;
+        perspective: 45em;
+        position: relative;
+        //width: 15rem;
+        //width: 24rem;
+        width: 100%;
+
+        &::after {
+            content: '';
+            display: block;
+            padding-top: 100%;
+        }
+    }
+
+    &[data-fx="randomColor"] {
+        &:active,
+        &:focus,
+        &:hover {
+            svg {
+                fill: var(--gh-random-color);
+            }
+        }
+    }
+
+    &[data-sfx="randomColor"] {
+        svg {
+            animation-duration: 3s;
+            animation-name: cubeRandomColor;
+        }
+    }
+
+    &[data-fx="rotateX"] {
+        &:active,
+        &:focus,
+        &:hover {
+            transform: rotateX(360deg);
+        }
+    }
+
+    &[data-sfx="rotateX"] {
+        animation-name: cubeRotateX;
+    }
+
+    &[data-fx="rotateY"] {
+        &:active,
+        &:focus,
+        &:hover {
+            transform: rotateY(360deg);
+        }
+    }
+
+    &[data-sfx="rotateY"] {
+        animation-name: cubeRotateY;
+    }
+
+    &[data-fx="spin"] {
+        &:active,
+        &:focus,
+        &:hover {
+            transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg) rotate(180deg);
+        }
+    }
+
+    &[data-sfx="spin"] {
+        animation-name: cubeSpin;
+    }
+
+    &[data-fx="transparantize"] {
+        &:active,
+        &:focus,
+        &:hover {
+            .cube__side {
+                background-color: transparentize($off-white, .5);
+            }
+        }
+    }
+
+    &[data-sfx="transparantize"] {
+        .cube__side {
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-name: cubeTransparantize;
+        }
+    }
+
+    // Disable on load effects for larger screens.
+    &[data-sfx] {
+        @include breakpoint-up(l) {
+            animation: none;
+
+            svg,
+            .cube__side {
+                animation: none;
+            }
+        }
+    }
+
+    &__side {
+        @include transition(background-color);
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        background-color: transparentize($off-white, 0);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+
+        // Note the double rotation. This was inspired by https://github.com/zachstronaut/quintessential-css-cube/blob/master/src/qube.css.
+        &:nth-child(1) {
+            //transform: rotateY(0deg) translateZ(7.5em);
+            transform: rotateX(90deg) translateY(50%) rotateX(-90deg);
+        }
+
+        &:nth-child(2) {
+            //transform: rotateY(90deg) translateZ(7.5em);
+            transform: translateX(-50%) rotateY(-90deg);
+        }
+
+        &:nth-child(3) {
+            //transform: rotateY(180deg) translateZ(7.5em);
+            transform: rotateY(180deg) rotateX(90deg) translateY(50%) rotateX(-90deg);
+        }
+
+        &:nth-child(4) {
+            //transform: rotateY(-90deg) translateZ(7.5em);
+            transform: translateX(50%) rotateY(90deg);
+        }
+
+        &:nth-child(5) {
+            //transform: rotateX(-90deg) translateZ(7.5em);
+            transform: translateY(-50%) rotateX(90deg);
+        }
+
+        &:nth-child(6) {
+            //transform: rotateX(90deg) translateZ(7.5em);
+            transform: translateY(50%) rotateX(-90deg);
+        }
+    }
+}
+
+@keyframes cubeRandomColor {
+    from {
+        fill: currentColor;
+    }
+
+    50% {
+        fill: var(--gh-random-color);
+    }
+
+    to {
+        fill: currentColor;
+    }
+}
+
+@keyframes cubeRotateX {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes cubeRotateY {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes cubeSpin {
+    from {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) rotate(0deg);
+    }
+
+    to {
+        transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg) rotate(180deg);
+    }
+}
+
+@keyframes cubeTransparantize {
+    from {
+        background-color: transparentize($off-white, 0);
+    }
+
+    50% {
+        background-color: transparentize($off-white, .5);
+    }
+
+    to {
+        background-color: transparentize($off-white, 0);
+    }
+}
