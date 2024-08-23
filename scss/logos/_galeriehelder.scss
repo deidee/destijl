@@ -23,6 +23,7 @@ $randomColor: var(--gh-random-color);
     }
 }
 
+
 .cube {
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -37,17 +38,15 @@ $randomColor: var(--gh-random-color);
     width: 100%;
 
     &-container {
-        margin: 0 auto;
         perspective: 45em;
         position: relative;
         //width: 15rem;
-        //width: 24rem;
-        width: 100%;
 
         &::after {
             content: '';
             display: block;
             padding-top: 100%;
+            position: static;
         }
     }
 
