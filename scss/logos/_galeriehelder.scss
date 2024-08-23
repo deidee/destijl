@@ -76,7 +76,7 @@ $randomColor: var(--gh-random-color);
     }
 
     &[data-sfx="rotateX"] {
-        animation-name: cubeRotateX;
+        transform: rotateX(360deg);
     }
 
     &[data-fx="rotateY"] {
@@ -88,7 +88,7 @@ $randomColor: var(--gh-random-color);
     }
 
     &[data-sfx="rotateY"] {
-        animation-name: cubeRotateY;
+        transform: rotateY(360deg);
     }
 
     &[data-fx="spin"] {
@@ -100,7 +100,7 @@ $randomColor: var(--gh-random-color);
     }
 
     &[data-sfx="spin"] {
-        animation-name: cubeSpin;
+        transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg) rotate(180deg);
     }
 
     &[data-fx="transparantize"] {
@@ -115,9 +115,7 @@ $randomColor: var(--gh-random-color);
 
     &[data-sfx="transparantize"] {
         .cube__side {
-            animation-duration: 2s;
-            animation-iteration-count: 1;
-            animation-name: cubeTransparantize;
+            background-color: transparentize($off-white, .5);
         }
     }
 
