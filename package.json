@@ -1,6 +1,6 @@
 {
   "name": "@deidee/destijl",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "destijl is het digitale stijlblad van deidee voor websites van deidee. Het is de implementatie van de huisstijl van deidee voor online media.",
   "main": "index.js",
   "scripts": {

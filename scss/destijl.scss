@@ -7,9 +7,12 @@
 
 @import "variables";
 
+@import "placeholders";
 @import "mixins";
 
 @import "preset";
+
+//@import "view-transition";
 
 @import "components/alerts";
 @import "components/avatar";
@@ -22,6 +25,7 @@
 @import "components/code";
 @import "components/colors";
 @import "components/cols";
+@import "components/denaam";
 @import "components/display";
 @import "components/flags";
 @import "components/flex";
@@ -52,6 +56,7 @@
 @import "components/screen";
 @import "components/selection";
 @import "shame";
+@import "components/skipper";
 @import "components/socials";
 @import "components/spacers";
 @import "components/stickers";

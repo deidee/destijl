@@ -1,0 +1,8 @@
+
+.skipper {
+  position: absolute;
+
+  &:not(:focus):not(:hover) {
+    opacity: 0;
+  }
+}
