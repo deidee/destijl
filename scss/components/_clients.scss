@@ -18,7 +18,11 @@
 
       @media screen and (prefers-color-scheme: dark) {
         filter: grayscale(1);
-        opacity: 1;
+
+        [data-mode~="default"] &,
+        [data-mode~="light"] & {
+          filter: grayscale(0);
+        }
       }
     }
 
@@ -31,6 +35,11 @@
 
       @media screen and (prefers-color-scheme: dark) {
         filter: invert(1);
+
+        [data-mode~="default"] &,
+        [data-mode~="light"] & {
+          filter: invert(0);
+        }
       }
     }
   }

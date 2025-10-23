@@ -1,0 +1,17 @@
+
+@mixin default-mode {
+  --bgcolor: #{$blank};
+  --text: #{$dark};
+  --contrast: #{$black};
+  --contrast-inverse: #{$white};
+}
+
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    @include default-mode;
+  }
+}
+
+[data-mode~="default"], [data-mode~="light"] {
+  @include default-mode;
+}

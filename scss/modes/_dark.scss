@@ -8,6 +8,11 @@
   // TODO: Consider normalizing this. Perhaps make it into a class of some sort?
   img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"] {
     filter: invert(100%);
+
+    [data-mode~="default"] &,
+    [data-mode~="light"] & {
+      filter: invert(0%) !important;
+    }
   }
 }
 
