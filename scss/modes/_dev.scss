@@ -1,5 +1,5 @@
 
-html[data-mode~="dev"] {
+[data-mode~="dev"] {
   background-image: repeating-linear-gradient(
                   transparent,
                   transparent calc(24px - #{$dp}),

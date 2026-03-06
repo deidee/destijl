@@ -1,18 +1,18 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(74, 155, 81);
-  --dejade-deselectie: rgba(74, 247, 158, 0.5);
-  --dejade-degyro: rgb(74, 155, 81);
-  --dejade-deklik: rgb(74, 155, 81);
-  --dejade-demuis: rgb(74, 155, 81);
-  --dejade-deplek: rgb(74, 155, 81);
-  --dejade-depuls: rgb(74, 155, 81);
-  --dejade-derand: rgb(74, 155, 81);
-  --dejade-detijd: rgb(74, 155, 81);
+  --dejade: rgb(105, 217, 79);
+  --dejade-deselectie: rgba(7, 139, 182, 0.5);
+  --dejade-degyro: rgb(105, 217, 79);
+  --dejade-deklik: rgb(105, 217, 79);
+  --dejade-demuis: rgb(105, 217, 79);
+  --dejade-deplek: rgb(105, 217, 79);
+  --dejade-depuls: rgb(105, 217, 79);
+  --dejade-derand: rgb(105, 217, 79);
+  --dejade-detijd: rgb(105, 217, 79);
 }
 
 .bg-dejade {
-  background-color: rgb(74, 155, 81);
+  background-color: rgb(105, 217, 79);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -38,7 +38,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(74, 155, 81);
+  border-color: rgb(105, 217, 79);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -64,7 +64,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(74, 155, 81);
+  fill: rgb(105, 217, 79);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -90,7 +90,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(74, 155, 81);
+  stroke: rgb(105, 217, 79);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -116,7 +116,7 @@
 }
 
 .text-dejade {
-  color: rgb(74, 155, 81);
+  color: rgb(105, 217, 79);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4747,7 +4747,7 @@ html {
   background-color: rgba(0, 0, 0, 0.875);
 }
 .bg--dejade {
-  background-color: rgb(74, 155, 81);
+  background-color: rgb(105, 217, 79);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -5488,7 +5488,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(74, 155, 81);
+  color: rgb(105, 217, 79);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5496,7 +5496,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(111, 243, 172);
+  color: rgb(9, 223, 65);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -5760,6 +5760,7 @@ a + .fa-lock {
   flex: 1 0 100%;
 }
 :root {
+  color-scheme: light dark;
   --dppx: 1;
   --dp: 1px;
   --bgcolor: #fafafa;
@@ -6887,88 +6888,88 @@ html.begrippen .index li {
   text-align: center;
 }
 html.begrippen .index li:nth-of-type(1) a:not(:hover) {
-  background-color: rgba(67, 195, 44, 0.5);
+  background-color: rgba(122, 204, 70, 0.5);
 }
 html.begrippen .index li:nth-of-type(2) a:not(:hover) {
-  background-color: rgba(111, 231, 146, 0.5);
+  background-color: rgba(74, 137, 27, 0.5);
 }
 html.begrippen .index li:nth-of-type(3) a:not(:hover) {
-  background-color: rgba(80, 151, 12, 0.5);
+  background-color: rgba(36, 131, 67, 0.5);
 }
 html.begrippen .index li:nth-of-type(4) a:not(:hover) {
-  background-color: rgba(44, 149, 59, 0.5);
+  background-color: rgba(91, 223, 103, 0.5);
 }
 html.begrippen .index li:nth-of-type(5) a:not(:hover) {
-  background-color: rgba(28, 140, 73, 0.5);
+  background-color: rgba(8, 139, 113, 0.5);
 }
 html.begrippen .index li:nth-of-type(6) a:not(:hover) {
-  background-color: rgba(4, 232, 177, 0.5);
+  background-color: rgba(93, 180, 185, 0.5);
 }
 html.begrippen .index li:nth-of-type(7) a:not(:hover) {
-  background-color: rgba(38, 214, 191, 0.5);
+  background-color: rgba(111, 176, 99, 0.5);
 }
 html.begrippen .index li:nth-of-type(8) a:not(:hover) {
-  background-color: rgba(57, 222, 105, 0.5);
+  background-color: rgba(16, 199, 166, 0.5);
 }
 html.begrippen .index li:nth-of-type(9) a:not(:hover) {
-  background-color: rgba(31, 205, 31, 0.5);
+  background-color: rgba(72, 134, 29, 0.5);
 }
 html.begrippen .index li:nth-of-type(10) a:not(:hover) {
-  background-color: rgba(24, 182, 183, 0.5);
+  background-color: rgba(55, 200, 107, 0.5);
 }
 html.begrippen .index li:nth-of-type(11) a:not(:hover) {
-  background-color: rgba(116, 204, 93, 0.5);
+  background-color: rgba(99, 162, 98, 0.5);
 }
 html.begrippen .index li:nth-of-type(12) a:not(:hover) {
-  background-color: rgba(74, 223, 156, 0.5);
+  background-color: rgba(18, 162, 154, 0.5);
 }
 html.begrippen .index li:nth-of-type(13) a:not(:hover) {
-  background-color: rgba(87, 178, 153, 0.5);
+  background-color: rgba(36, 190, 64, 0.5);
 }
 html.begrippen .index li:nth-of-type(14) a:not(:hover) {
-  background-color: rgba(9, 135, 58, 0.5);
+  background-color: rgba(79, 149, 57, 0.5);
 }
 html.begrippen .index li:nth-of-type(15) a:not(:hover) {
-  background-color: rgba(43, 197, 1, 0.5);
+  background-color: rgba(66, 142, 149, 0.5);
 }
 html.begrippen .index li:nth-of-type(16) a:not(:hover) {
-  background-color: rgba(106, 199, 152, 0.5);
+  background-color: rgba(6, 232, 91, 0.5);
 }
 html.begrippen .index li:nth-of-type(17) a:not(:hover) {
-  background-color: rgba(125, 162, 6, 0.5);
+  background-color: rgba(31, 213, 46, 0.5);
 }
 html.begrippen .index li:nth-of-type(18) a:not(:hover) {
-  background-color: rgba(7, 178, 39, 0.5);
+  background-color: rgba(125, 146, 167, 0.5);
 }
 html.begrippen .index li:nth-of-type(19) a:not(:hover) {
-  background-color: rgba(120, 193, 87, 0.5);
+  background-color: rgba(6, 242, 159, 0.5);
 }
 html.begrippen .index li:nth-of-type(20) a:not(:hover) {
-  background-color: rgba(73, 254, 87, 0.5);
+  background-color: rgba(13, 234, 139, 0.5);
 }
 html.begrippen .index li:nth-of-type(21) a:not(:hover) {
-  background-color: rgba(113, 226, 30, 0.5);
+  background-color: rgba(48, 139, 15, 0.5);
 }
 html.begrippen .index li:nth-of-type(22) a:not(:hover) {
-  background-color: rgba(101, 170, 19, 0.5);
+  background-color: rgba(13, 129, 191, 0.5);
 }
 html.begrippen .index li:nth-of-type(23) a:not(:hover) {
-  background-color: rgba(95, 151, 115, 0.5);
+  background-color: rgba(42, 211, 64, 0.5);
 }
 html.begrippen .index li:nth-of-type(24) a:not(:hover) {
-  background-color: rgba(85, 140, 140, 0.5);
+  background-color: rgba(83, 198, 23, 0.5);
 }
 html.begrippen .index li:nth-of-type(25) a:not(:hover) {
-  background-color: rgba(68, 245, 183, 0.5);
+  background-color: rgba(6, 161, 174, 0.5);
 }
 html.begrippen .index li:nth-of-type(26) a:not(:hover) {
-  background-color: rgba(49, 139, 3, 0.5);
+  background-color: rgba(36, 180, 8, 0.5);
 }
 html.begrippen .index li:nth-of-type(27) a:not(:hover) {
-  background-color: rgba(80, 228, 135, 0.5);
+  background-color: rgba(5, 217, 161, 0.5);
 }
 html.begrippen .index a {
-  background-color: rgb(112, 165, 14);
+  background-color: rgb(126, 253, 81);
   border: 0.25rem solid rgba(0, 0, 0, 0.875);
   color: #fff;
   display: block;
@@ -7072,13 +7073,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(41, 160, 30);
+  fill: rgb(62, 253, 191);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(114, 160, 190);
+  fill: rgb(56, 142, 70);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(43, 171, 77);
+  fill: rgb(103, 242, 148);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
@@ -7335,16 +7336,16 @@ html.vragen .question {
   }
 }
 @media screen and (prefers-color-scheme: dark) {
-  html {
+  :root {
     --bgcolor: #222;
     --text: #dedede;
     --contrast: #fff;
     --contrast-inverse: #000;
   }
-  html img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"] {
+  :root img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"] {
     filter: invert(100%);
   }
-  [data-mode~=default] html img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"], [data-mode~=light] html img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"] {
+  [data-mode~=default] :root img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"], [data-mode~=light] :root img[src="https://thefashionweek.nl/wp-content/uploads/2022/09/THEFASHIONWEEK_ZWART-300x49.png"] {
     filter: invert(0%) !important;
   }
 }
@@ -7361,14 +7362,6 @@ html.vragen .question {
   filter: invert(0%) !important;
 }
 
-@media screen and (prefers-color-scheme: light) {
-  html {
-    --bgcolor: #fafafa;
-    --text: #222;
-    --contrast: #000;
-    --contrast-inverse: #fff;
-  }
-}
 [data-mode~=default], [data-mode~=light] {
   --bgcolor: #fafafa;
   --text: #222;
@@ -7376,10 +7369,10 @@ html.vragen .question {
   --contrast-inverse: #fff;
 }
 
-html[data-mode~=dev] {
+[data-mode~=dev] {
   background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px), url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M0%200h8v16h8V8H0z%22%20opacity%3D%22.07%22%2F%3E%3C%2Fsvg%3E");
 }
-html[data-mode~=dev] [class|=col] {
+[data-mode~=dev] [class|=col] {
   background-color: rgba(255, 0, 0, 0.125);
   background-clip: content-box;
 }
