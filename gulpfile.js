@@ -37,6 +37,16 @@ gulp.task('twig', function () {
                     let b = Math.round(191 * Math.random());
                     return 'rgb(' + r + ', ' + g + ', ' + b + ')';
                 }),
+                fonts: {
+                    defont: 'defont',
+                    x5: '×5',
+                    periodictype: 'Periodic Type',
+                    mmxx: 'MMXX',
+                    unst: 'unst',
+                    distribution: 'Distribution',
+                    primitives: 'Primitives',
+                    ligatureluurs: 'Ligatureluurs'
+                },
                 heticoon: {
                     data: [
                         [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],

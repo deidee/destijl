@@ -1,0 +1,26 @@
+{% extends 'layout/default.html.twig' %}
+{% block title %}Demo workspace{% endblock %}
+{% block header %}
+    {% include '_header.html.twig' with {current: 'diensten'} %}
+    {% include '_page-title.html.twig' with {page: 'diensten'} %}
+{% endblock %}
+{% block main %}
+<main>
+    <div class="workspace">
+        <div class="row">
+            <div class="col-l-1o8">
+                [models]
+            </div>
+            <div class="col-l-3o8">
+                [form]
+            </div>
+            <div class="col-l-1o2">
+                [index]
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block footer %}
+    {% include '_footer-complex.html.twig' %}
+{% endblock %}
