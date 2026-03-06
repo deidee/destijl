@@ -1,6 +1,7 @@
 
 .workspace {
   @extend .bg--grid;
+  box-shadow: inset 0 0 .75rem rgba(0, 0, 0, .25);
   flex-grow: 1;
   padding: .75rem;
 }
