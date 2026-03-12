@@ -1,7 +1,8 @@
 
 svg {
+  height: auto; // Make sure we don't break logos with this.
   max-width: 100%;
-  overflow: visible; // Risky take. Needs testing on all SVGs in production.
+  overflow: visible;
   vertical-align: bottom;
 
   &:not([fill]) {
