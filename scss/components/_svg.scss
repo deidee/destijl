@@ -1,6 +1,6 @@
 
 svg {
-  height: auto; // Make sure we don't break logos with this.
+  //height: auto; // Disabled because it broke detint color swatches.
   max-width: 100%;
   overflow: visible;
   vertical-align: bottom;

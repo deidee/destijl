@@ -1,18 +1,18 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(102, 153, 174);
-  --dejade-deselectie: rgba(33, 219, 172, 0.5);
-  --dejade-degyro: rgb(102, 153, 174);
-  --dejade-deklik: rgb(102, 153, 174);
-  --dejade-demuis: rgb(102, 153, 174);
-  --dejade-deplek: rgb(102, 153, 174);
-  --dejade-depuls: rgb(102, 153, 174);
-  --dejade-derand: rgb(102, 153, 174);
-  --dejade-detijd: rgb(102, 153, 174);
+  --dejade: rgb(61, 164, 179);
+  --dejade-deselectie: rgba(38, 184, 137, 0.5);
+  --dejade-degyro: rgb(61, 164, 179);
+  --dejade-deklik: rgb(61, 164, 179);
+  --dejade-demuis: rgb(61, 164, 179);
+  --dejade-deplek: rgb(61, 164, 179);
+  --dejade-depuls: rgb(61, 164, 179);
+  --dejade-derand: rgb(61, 164, 179);
+  --dejade-detijd: rgb(61, 164, 179);
 }
 
 .bg-dejade {
-  background-color: rgb(102, 153, 174);
+  background-color: rgb(61, 164, 179);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -38,7 +38,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(102, 153, 174);
+  border-color: rgb(61, 164, 179);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -64,7 +64,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(102, 153, 174);
+  fill: rgb(61, 164, 179);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -90,7 +90,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(102, 153, 174);
+  stroke: rgb(61, 164, 179);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -116,7 +116,7 @@
 }
 
 .text-dejade {
-  color: rgb(102, 153, 174);
+  color: rgb(61, 164, 179);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4747,7 +4747,7 @@ html {
   background-color: rgba(0, 0, 0, 0.875);
 }
 .bg--dejade {
-  background-color: rgb(102, 153, 174);
+  background-color: rgb(61, 164, 179);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4757,7 +4757,7 @@ html {
 }
 .bg--grid, .workspace, .logo-container {
   background-color: #fff;
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M0%200h8v16h8V8H0z%22%20opacity%3D%22.07%22%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,url-encode('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path d=\"M0 0h8v16h8V8H0z\" opacity=\".07\"/></svg>')");
 }
 .bg--light {
   background-color: #dedede;
@@ -5488,7 +5488,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(102, 153, 174);
+  color: rgb(61, 164, 179);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5496,7 +5496,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(115, 210, 56);
+  color: rgb(41, 166, 60);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -6532,7 +6532,6 @@ input[type=search]::-webkit-search-decoration {
 }
 
 svg {
-  height: auto;
   max-width: 100%;
   overflow: visible;
   vertical-align: bottom;
@@ -6896,88 +6895,88 @@ html.begrippen .index li {
   text-align: center;
 }
 html.begrippen .index li:nth-of-type(1) a:not(:hover) {
-  background-color: rgba(82, 171, 35, 0.5);
+  background-color: rgba(117, 236, 183, 0.5);
 }
 html.begrippen .index li:nth-of-type(2) a:not(:hover) {
-  background-color: rgba(34, 218, 133, 0.5);
+  background-color: rgba(65, 211, 115, 0.5);
 }
 html.begrippen .index li:nth-of-type(3) a:not(:hover) {
-  background-color: rgba(86, 240, 33, 0.5);
+  background-color: rgba(124, 154, 168, 0.5);
 }
 html.begrippen .index li:nth-of-type(4) a:not(:hover) {
-  background-color: rgba(95, 191, 118, 0.5);
+  background-color: rgba(121, 175, 90, 0.5);
 }
 html.begrippen .index li:nth-of-type(5) a:not(:hover) {
-  background-color: rgba(116, 232, 62, 0.5);
+  background-color: rgba(109, 217, 75, 0.5);
 }
 html.begrippen .index li:nth-of-type(6) a:not(:hover) {
-  background-color: rgba(58, 128, 78, 0.5);
+  background-color: rgba(33, 169, 11, 0.5);
 }
 html.begrippen .index li:nth-of-type(7) a:not(:hover) {
-  background-color: rgba(73, 134, 76, 0.5);
+  background-color: rgba(19, 240, 155, 0.5);
 }
 html.begrippen .index li:nth-of-type(8) a:not(:hover) {
-  background-color: rgba(39, 170, 152, 0.5);
+  background-color: rgba(49, 186, 167, 0.5);
 }
 html.begrippen .index li:nth-of-type(9) a:not(:hover) {
-  background-color: rgba(35, 166, 23, 0.5);
+  background-color: rgba(125, 188, 137, 0.5);
 }
 html.begrippen .index li:nth-of-type(10) a:not(:hover) {
-  background-color: rgba(29, 232, 135, 0.5);
+  background-color: rgba(4, 152, 104, 0.5);
 }
 html.begrippen .index li:nth-of-type(11) a:not(:hover) {
-  background-color: rgba(49, 170, 73, 0.5);
+  background-color: rgba(46, 232, 26, 0.5);
 }
 html.begrippen .index li:nth-of-type(12) a:not(:hover) {
-  background-color: rgba(81, 159, 187, 0.5);
+  background-color: rgba(77, 151, 81, 0.5);
 }
 html.begrippen .index li:nth-of-type(13) a:not(:hover) {
-  background-color: rgba(41, 193, 173, 0.5);
+  background-color: rgba(94, 204, 60, 0.5);
 }
 html.begrippen .index li:nth-of-type(14) a:not(:hover) {
-  background-color: rgba(109, 228, 56, 0.5);
+  background-color: rgba(106, 201, 51, 0.5);
 }
 html.begrippen .index li:nth-of-type(15) a:not(:hover) {
-  background-color: rgba(107, 209, 122, 0.5);
+  background-color: rgba(22, 228, 157, 0.5);
 }
 html.begrippen .index li:nth-of-type(16) a:not(:hover) {
-  background-color: rgba(2, 188, 136, 0.5);
+  background-color: rgba(86, 199, 55, 0.5);
 }
 html.begrippen .index li:nth-of-type(17) a:not(:hover) {
-  background-color: rgba(87, 171, 89, 0.5);
+  background-color: rgba(36, 247, 105, 0.5);
 }
 html.begrippen .index li:nth-of-type(18) a:not(:hover) {
-  background-color: rgba(99, 246, 188, 0.5);
+  background-color: rgba(122, 209, 165, 0.5);
 }
 html.begrippen .index li:nth-of-type(19) a:not(:hover) {
-  background-color: rgba(119, 172, 162, 0.5);
+  background-color: rgba(40, 240, 82, 0.5);
 }
 html.begrippen .index li:nth-of-type(20) a:not(:hover) {
-  background-color: rgba(36, 237, 158, 0.5);
+  background-color: rgba(92, 223, 33, 0.5);
 }
 html.begrippen .index li:nth-of-type(21) a:not(:hover) {
-  background-color: rgba(14, 238, 113, 0.5);
+  background-color: rgba(62, 234, 29, 0.5);
 }
 html.begrippen .index li:nth-of-type(22) a:not(:hover) {
-  background-color: rgba(55, 249, 74, 0.5);
+  background-color: rgba(104, 239, 84, 0.5);
 }
 html.begrippen .index li:nth-of-type(23) a:not(:hover) {
-  background-color: rgba(25, 149, 87, 0.5);
+  background-color: rgba(49, 151, 100, 0.5);
 }
 html.begrippen .index li:nth-of-type(24) a:not(:hover) {
-  background-color: rgba(21, 139, 45, 0.5);
+  background-color: rgba(123, 177, 39, 0.5);
 }
 html.begrippen .index li:nth-of-type(25) a:not(:hover) {
-  background-color: rgba(91, 204, 188, 0.5);
+  background-color: rgba(25, 128, 145, 0.5);
 }
 html.begrippen .index li:nth-of-type(26) a:not(:hover) {
-  background-color: rgba(102, 172, 29, 0.5);
+  background-color: rgba(95, 197, 63, 0.5);
 }
 html.begrippen .index li:nth-of-type(27) a:not(:hover) {
-  background-color: rgba(77, 140, 129, 0.5);
+  background-color: rgba(115, 253, 119, 0.5);
 }
 html.begrippen .index a {
-  background-color: rgb(6, 213, 29);
+  background-color: rgb(46, 237, 62);
   border: 0.25rem solid rgba(0, 0, 0, 0.875);
   color: #fff;
   display: block;
@@ -7081,13 +7080,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(84, 167, 158);
+  fill: rgb(37, 242, 126);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(57, 214, 127);
+  fill: rgb(84, 249, 125);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(17, 169, 166);
+  fill: rgb(34, 253, 67);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
@@ -7378,7 +7377,7 @@ html.vragen .question {
 }
 
 [data-mode~=dev] {
-  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px), url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M0%200h8v16h8V8H0z%22%20opacity%3D%22.07%22%2F%3E%3C%2Fsvg%3E");
+  background-image: repeating-linear-gradient(transparent, transparent calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) calc(24px - var(--dp)), rgba(0, 255, 255, 0.5) 24px), url("data:image/svg+xml,url-encode('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\"><path d=\"M0 0h8v16h8V8H0z\" opacity=\".07\"/></svg>')");
 }
 [data-mode~=dev] [class|=col] {
   background-color: rgba(255, 0, 0, 0.125);
