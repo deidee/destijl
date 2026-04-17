@@ -3,6 +3,8 @@
 
 %input {
   background-color: $white;
+  border-bottom: rem(4px) solid transparent;
+  border-top: rem(4px) solid transparent;
   line-height: 1.5;
   padding-bottom: rem(8px);
   padding-top: rem(8px);
