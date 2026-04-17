@@ -2,6 +2,7 @@
 // TODO: Consider adding styling for checkboxes, radio buttons, ranges, and whatnot.
 
 %input {
+  background-clip: padding-box;
   background-color: $white;
   border-bottom: rem(4px) solid transparent;
   border-top: rem(4px) solid transparent;
