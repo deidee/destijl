@@ -1,5 +1,10 @@
 
 .alert {
+  background-color: deJade(.5);
+  border: rem(1px) solid deJade();
+  margin-bottom: 1.5rem;
+  padding: rem(11px);
+
   // Discuss a tiny (technical) detail.
   // TODO: Consider adding to meta data profile.
   &-bikeshed {
