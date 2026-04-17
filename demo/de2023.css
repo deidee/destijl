@@ -1,18 +1,18 @@
 @charset "UTF-8";
 :root {
-  --dejade: rgb(61, 164, 179);
-  --dejade-deselectie: rgba(38, 184, 137, 0.5);
-  --dejade-degyro: rgb(61, 164, 179);
-  --dejade-deklik: rgb(61, 164, 179);
-  --dejade-demuis: rgb(61, 164, 179);
-  --dejade-deplek: rgb(61, 164, 179);
-  --dejade-depuls: rgb(61, 164, 179);
-  --dejade-derand: rgb(61, 164, 179);
-  --dejade-detijd: rgb(61, 164, 179);
+  --dejade: rgb(123, 199, 148);
+  --dejade-deselectie: rgba(65, 171, 27, 0.5);
+  --dejade-degyro: rgb(123, 199, 148);
+  --dejade-deklik: rgb(123, 199, 148);
+  --dejade-demuis: rgb(123, 199, 148);
+  --dejade-deplek: rgb(123, 199, 148);
+  --dejade-depuls: rgb(123, 199, 148);
+  --dejade-derand: rgb(123, 199, 148);
+  --dejade-detijd: rgb(123, 199, 148);
 }
 
 .bg-dejade {
-  background-color: rgb(61, 164, 179);
+  background-color: rgb(123, 199, 148);
   background-color: var(--dejade);
 }
 .bg-dejade.js-degyro, .bg-dejade[data-degyro] {
@@ -38,7 +38,7 @@
 }
 
 .border-dejade {
-  border-color: rgb(61, 164, 179);
+  border-color: rgb(123, 199, 148);
   border-color: var(--dejade);
 }
 .border-dejade.js-degyro, .border-dejade[data-degyro] {
@@ -64,7 +64,7 @@
 }
 
 .fill-dejade {
-  fill: rgb(61, 164, 179);
+  fill: rgb(123, 199, 148);
   fill: var(--dejade);
 }
 .fill-dejade.js-degyro, .fill-dejade[data-degyro] {
@@ -90,7 +90,7 @@
 }
 
 .stroke-dejade {
-  stroke: rgb(61, 164, 179);
+  stroke: rgb(123, 199, 148);
   stroke: var(--dejade);
 }
 .stroke-dejade.js-degyro, .stroke-dejade[data-degyro] {
@@ -116,7 +116,7 @@
 }
 
 .text-dejade {
-  color: rgb(61, 164, 179);
+  color: rgb(123, 199, 148);
   color: var(--dejade);
 }
 .text-dejade.js-degyro, .text-dejade[data-degyro] {
@@ -4747,7 +4747,7 @@ html {
   background-color: rgba(0, 0, 0, 0.875);
 }
 .bg--dejade {
-  background-color: rgb(61, 164, 179);
+  background-color: rgb(123, 199, 148);
   background-color: var(--dejade);
   color: #fff;
 }
@@ -4911,7 +4911,6 @@ pre[class*=language-]:first-child {
 
 [class|=cols],
 [class*=" cols-"], .cols {
-  column-count: 2;
   column-gap: 1.5rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
@@ -5438,11 +5437,18 @@ img {
   vertical-align: bottom;
 }
 
-textarea, input:not([type]), input[type=email],
+textarea, input:not([type]), input[type=date],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
 input[type=search],
 input[type=tel],
 input[type=text],
-input[type=url] {
+input[type=time],
+input[type=url],
+input[type=week] {
   background-color: #fff;
   line-height: 1.5;
   padding-bottom: 0.5rem;
@@ -5451,11 +5457,18 @@ input[type=url] {
   vertical-align: bottom;
   width: 100%;
 }
-textarea:not(:focus), input:not(:focus):not([type]), input[type=email]:not(:focus),
+textarea:not(:focus), input:not(:focus):not([type]), input[type=date]:not(:focus),
+input[type=datetime-local]:not(:focus),
+input[type=email]:not(:focus),
+input[type=month]:not(:focus),
+input[type=number]:not(:focus),
+input[type=password]:not(:focus),
 input[type=search]:not(:focus),
 input[type=tel]:not(:focus),
 input[type=text]:not(:focus),
-input[type=url]:not(:focus) {
+input[type=time]:not(:focus),
+input[type=url]:not(:focus),
+input[type=week]:not(:focus) {
   text-overflow: ellipsis;
 }
 
@@ -5488,7 +5501,7 @@ textarea {
 
 a {
   background-color: transparent;
-  color: rgb(61, 164, 179);
+  color: rgb(123, 199, 148);
   color: var(--dejade);
   position: relative;
   transition-duration: 0.25s;
@@ -5496,7 +5509,7 @@ a {
   transition-timing-function: ease-in;
 }
 a:hover {
-  color: rgb(41, 166, 60);
+  color: rgb(74, 154, 10);
 }
 a[aria-current] {
   color: var(--contrast);
@@ -6895,88 +6908,88 @@ html.begrippen .index li {
   text-align: center;
 }
 html.begrippen .index li:nth-of-type(1) a:not(:hover) {
-  background-color: rgba(117, 236, 183, 0.5);
+  background-color: rgba(5, 203, 161, 0.5);
 }
 html.begrippen .index li:nth-of-type(2) a:not(:hover) {
-  background-color: rgba(65, 211, 115, 0.5);
+  background-color: rgba(31, 183, 55, 0.5);
 }
 html.begrippen .index li:nth-of-type(3) a:not(:hover) {
-  background-color: rgba(124, 154, 168, 0.5);
+  background-color: rgba(34, 236, 28, 0.5);
 }
 html.begrippen .index li:nth-of-type(4) a:not(:hover) {
-  background-color: rgba(121, 175, 90, 0.5);
+  background-color: rgba(90, 223, 38, 0.5);
 }
 html.begrippen .index li:nth-of-type(5) a:not(:hover) {
-  background-color: rgba(109, 217, 75, 0.5);
+  background-color: rgba(34, 216, 177, 0.5);
 }
 html.begrippen .index li:nth-of-type(6) a:not(:hover) {
-  background-color: rgba(33, 169, 11, 0.5);
+  background-color: rgba(28, 133, 34, 0.5);
 }
 html.begrippen .index li:nth-of-type(7) a:not(:hover) {
-  background-color: rgba(19, 240, 155, 0.5);
+  background-color: rgba(60, 249, 189, 0.5);
 }
 html.begrippen .index li:nth-of-type(8) a:not(:hover) {
-  background-color: rgba(49, 186, 167, 0.5);
+  background-color: rgba(63, 213, 100, 0.5);
 }
 html.begrippen .index li:nth-of-type(9) a:not(:hover) {
-  background-color: rgba(125, 188, 137, 0.5);
+  background-color: rgba(25, 165, 60, 0.5);
 }
 html.begrippen .index li:nth-of-type(10) a:not(:hover) {
-  background-color: rgba(4, 152, 104, 0.5);
+  background-color: rgba(90, 135, 29, 0.5);
 }
 html.begrippen .index li:nth-of-type(11) a:not(:hover) {
-  background-color: rgba(46, 232, 26, 0.5);
+  background-color: rgba(87, 223, 165, 0.5);
 }
 html.begrippen .index li:nth-of-type(12) a:not(:hover) {
-  background-color: rgba(77, 151, 81, 0.5);
+  background-color: rgba(112, 217, 133, 0.5);
 }
 html.begrippen .index li:nth-of-type(13) a:not(:hover) {
-  background-color: rgba(94, 204, 60, 0.5);
+  background-color: rgba(88, 234, 83, 0.5);
 }
 html.begrippen .index li:nth-of-type(14) a:not(:hover) {
-  background-color: rgba(106, 201, 51, 0.5);
+  background-color: rgba(74, 194, 162, 0.5);
 }
 html.begrippen .index li:nth-of-type(15) a:not(:hover) {
-  background-color: rgba(22, 228, 157, 0.5);
+  background-color: rgba(90, 229, 33, 0.5);
 }
 html.begrippen .index li:nth-of-type(16) a:not(:hover) {
-  background-color: rgba(86, 199, 55, 0.5);
+  background-color: rgba(54, 240, 84, 0.5);
 }
 html.begrippen .index li:nth-of-type(17) a:not(:hover) {
-  background-color: rgba(36, 247, 105, 0.5);
+  background-color: rgba(120, 139, 29, 0.5);
 }
 html.begrippen .index li:nth-of-type(18) a:not(:hover) {
-  background-color: rgba(122, 209, 165, 0.5);
+  background-color: rgba(5, 143, 182, 0.5);
 }
 html.begrippen .index li:nth-of-type(19) a:not(:hover) {
-  background-color: rgba(40, 240, 82, 0.5);
+  background-color: rgba(66, 180, 47, 0.5);
 }
 html.begrippen .index li:nth-of-type(20) a:not(:hover) {
-  background-color: rgba(92, 223, 33, 0.5);
+  background-color: rgba(46, 197, 5, 0.5);
 }
 html.begrippen .index li:nth-of-type(21) a:not(:hover) {
-  background-color: rgba(62, 234, 29, 0.5);
+  background-color: rgba(10, 141, 8, 0.5);
 }
 html.begrippen .index li:nth-of-type(22) a:not(:hover) {
-  background-color: rgba(104, 239, 84, 0.5);
+  background-color: rgba(73, 194, 124, 0.5);
 }
 html.begrippen .index li:nth-of-type(23) a:not(:hover) {
-  background-color: rgba(49, 151, 100, 0.5);
+  background-color: rgba(69, 185, 10, 0.5);
 }
 html.begrippen .index li:nth-of-type(24) a:not(:hover) {
-  background-color: rgba(123, 177, 39, 0.5);
+  background-color: rgba(62, 146, 6, 0.5);
 }
 html.begrippen .index li:nth-of-type(25) a:not(:hover) {
-  background-color: rgba(25, 128, 145, 0.5);
+  background-color: rgba(26, 232, 32, 0.5);
 }
 html.begrippen .index li:nth-of-type(26) a:not(:hover) {
-  background-color: rgba(95, 197, 63, 0.5);
+  background-color: rgba(121, 218, 184, 0.5);
 }
 html.begrippen .index li:nth-of-type(27) a:not(:hover) {
-  background-color: rgba(115, 253, 119, 0.5);
+  background-color: rgba(85, 221, 23, 0.5);
 }
 html.begrippen .index a {
-  background-color: rgb(46, 237, 62);
+  background-color: rgb(28, 184, 108);
   border: 0.25rem solid rgba(0, 0, 0, 0.875);
   color: #fff;
   display: block;
@@ -7080,13 +7093,13 @@ html.ontwerp[data-ontwerp=dutch] svg.circle {
   fill: #171611;
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.triangle {
-  fill: rgb(37, 242, 126);
+  fill: rgb(62, 230, 171);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.square {
-  fill: rgb(84, 249, 125);
+  fill: rgb(104, 205, 6);
 }
 html.ontwerp[data-ontwerp=identiteiten] svg.circle {
-  fill: rgb(34, 253, 67);
+  fill: rgb(53, 135, 141);
 }
 html.ontwerp[data-ontwerp=interactie] svg.triangle {
   fill: var(--dejade-demuis);
