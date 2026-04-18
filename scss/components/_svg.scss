@@ -3,6 +3,7 @@ svg {
   //height: auto; // Disabled because it broke detint color swatches.
   max-width: 100%;
   overflow: visible;
+  print-color-adjust: exact;
   vertical-align: bottom;
 
   &:not([fill]) {
