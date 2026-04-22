@@ -1,0 +1,147 @@
+<form action="/demo" method="post" enctype="multipart/form-data" autocomplete="on"
+      oninput="rangeValue.value = volume.value; total.value = (qty.value || 0) * (price.value || 0)">
+
+    <input type="hidden" name="token" value="demo-token">
+
+    <fieldset>
+        <legend>Basic text-like inputs</legend>
+
+        <label for="text">Text</label>
+        <input id="text" name="text" type="text" placeholder="Jane Doe">
+
+        <label for="search">Search</label>
+        <input id="search" name="search" type="search" placeholder="Search term">
+
+        <label for="tel">Telephone</label>
+        <input id="tel" name="tel" type="tel" autocomplete="tel" placeholder="+31 6 12345678">
+
+        <label for="url">URL</label>
+        <input id="url" name="url" type="url" placeholder="https://example.com">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com">
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="new-password">
+
+        <label for="textarea">Textarea</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="40" placeholder="Write something..."></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Date and time</legend>
+
+        <label for="date">Date</label>
+        <input id="date" name="date" type="date">
+
+        <label for="time">Time</label>
+        <input id="time" name="time" type="time">
+
+        <label for="datetime">Datetime-local</label>
+        <input id="datetime" name="datetime" type="datetime-local">
+
+        <label for="month">Month</label>
+        <input id="month" name="month" type="month">
+
+        <label for="week">Week</label>
+        <input id="week" name="week" type="week">
+    </fieldset>
+
+    <fieldset>
+        <legend>Numbers and measurements</legend>
+
+        <label for="number">Number</label>
+        <input id="number" name="number" type="number" min="0" max="100" step="1">
+
+        <label for="qty">Quantity</label>
+        <input id="qty" name="qty" type="number" min="0" value="1">
+
+        <label for="price">Price</label>
+        <input id="price" name="price" type="number" min="0" step="0.01" value="9.99">
+
+        <label for="volume">Range</label>
+        <input id="volume" name="volume" type="range" min="0" max="100" value="50">
+        <output id="rangeValue" name="rangeValue" for="volume">50</output>
+
+        <label for="color">Color</label>
+        <input id="color" name="color" type="color" value="#3366ff">
+
+        <label for="meter">Meter</label>
+        <meter id="meter" min="0" max="100" low="30" high="80" optimum="90" value="65">65%</meter>
+
+        <label for="progress">Progress</label>
+        <progress id="progress" max="100" value="35">35%</progress>
+
+        <label for="total">Calculated total</label>
+        <output id="total" name="total" for="qty price">9.99</output>
+    </fieldset>
+
+    <fieldset>
+        <legend>Choices</legend>
+
+        <label for="select">Select</label>
+        <select id="select" name="select">
+            <option value="">Please choose</option>
+            <option>One</option>
+            <option>Two</option>
+            <option>Three</option>
+        </select>
+
+        <label for="select-multiple">Select multiple</label>
+        <select id="select-multiple" name="selectMultiple[]" multiple size="4">
+            <option>Alpha</option>
+            <option>Beta</option>
+            <option>Gamma</option>
+            <option>Delta</option>
+        </select>
+
+        <label for="country">Datalist</label>
+        <input id="country" name="country" list="countries" placeholder="Start typing...">
+        <datalist id="countries">
+            <option value="Netherlands">
+            <option value="Belgium">
+            <option value="Germany">
+            <option value="France">
+        </datalist>
+
+        <p>
+            <strong>Checkboxes</strong><br>
+            <label><input type="checkbox" name="features[]" value="news" checked> News</label>
+            <label><input type="checkbox" name="features[]" value="events"> Events</label>
+            <label><input type="checkbox" name="features[]" value="offers"> Offers</label>
+        </p>
+
+        <p>
+            <strong>Radio buttons</strong><br>
+            <label><input type="radio" name="contact" value="email" checked> Email</label>
+            <label><input type="radio" name="contact" value="phone"> Phone</label>
+            <label><input type="radio" name="contact" value="post"> Post</label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Files and extra controls</legend>
+
+        <label for="file">File</label>
+        <input id="file" name="file" type="file">
+
+        <label for="avatar">Image file</label>
+        <input id="avatar" name="avatar" type="file" accept="image/*">
+
+        <label for="readonly">Readonly</label>
+        <input id="readonly" name="readonly" type="text" value="Cannot edit this" readonly>
+
+        <label for="disabled">Disabled</label>
+        <input id="disabled" name="disabled" type="text" value="Unavailable" disabled>
+    </fieldset>
+
+    <fieldset>
+        <legend>Buttons</legend>
+
+        <input type="button" value="Plain input button">
+        <button type="button">Button element</button>
+        <button type="submit">Submit</button>
+        <input type="submit" value="Submit input">
+        <input type="reset" value="Reset">
+    </fieldset>
+</form>

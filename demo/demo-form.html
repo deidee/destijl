@@ -1,0 +1,286 @@
+<!doctype html>
+<html class="page" data-mode="dev" dir="ltr" lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo form</title>
+    <link rel="publisher" href="https://deidee.nl/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="de2023.css">
+    <link rel="stylesheet" href="detype.css">
+    <script defer src="https://pro.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-yBZ34R8uZDBb7pIwm+whKmsCiRDZXCW1vPPn/3Gz0xm4E95frfRNrOmAUfGbSGqN" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+
+    <header class="py-12">
+    <div class="container">
+        <div class="row py-12">
+            <div class="col-s-3o4">
+                
+                    <div class="flex-row flex-wrap">
+                        
+                            <a class="mr-12" href="./demo-web.html">Web</a>
+                        
+                            <a class="mr-12" href="./demo-beeldmerken.html">beeldmerken</a>
+                        
+                            <a class="mr-12" href="./demo-diensten.html">diensten</a>
+                        
+                            <a class="mr-12" href="./demo-products.html">producten</a>
+                        
+                            <a class="mr-12" href="./demo-vragen.html">vragen</a>
+                        
+                            <a class="mr-12" href="./demo-clients.html">opdrachtgevers</a>
+                        
+                            <a class="mr-12" href="./demo-contact.html">contact</a>
+                        
+                    </div>
+                
+            </div>
+            <div class="col-s-1o4">
+                <div class="text-right">
+                    <div class="quicksearch">
+                        <label><input type="search" name="q"></label>
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1><a href="./demo-homer.html">demode</a><abbr title="van">/</abbr><wbr>dev</h1>
+        </div>
+    </div>
+</div>
+
+
+    <main id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-l-1o2 offset-l-1o4">
+                    <form action="/demo" method="post" enctype="multipart/form-data" autocomplete="on"
+      oninput="rangeValue.value = volume.value; total.value = (qty.value || 0) * (price.value || 0)">
+
+    <input type="hidden" name="token" value="demo-token">
+
+    <fieldset>
+        <legend>Basic text-like inputs</legend>
+
+        <label for="text">Text</label>
+        <input id="text" name="text" type="text" placeholder="Jane Doe">
+
+        <label for="search">Search</label>
+        <input id="search" name="search" type="search" placeholder="Search term">
+
+        <label for="tel">Telephone</label>
+        <input id="tel" name="tel" type="tel" autocomplete="tel" placeholder="+31 6 12345678">
+
+        <label for="url">URL</label>
+        <input id="url" name="url" type="url" placeholder="https://example.com">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="jane@example.com">
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="new-password">
+
+        <label for="textarea">Textarea</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="40" placeholder="Write something..."></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Date and time</legend>
+
+        <label for="date">Date</label>
+        <input id="date" name="date" type="date">
+
+        <label for="time">Time</label>
+        <input id="time" name="time" type="time">
+
+        <label for="datetime">Datetime-local</label>
+        <input id="datetime" name="datetime" type="datetime-local">
+
+        <label for="month">Month</label>
+        <input id="month" name="month" type="month">
+
+        <label for="week">Week</label>
+        <input id="week" name="week" type="week">
+    </fieldset>
+
+    <fieldset>
+        <legend>Numbers and measurements</legend>
+
+        <label for="number">Number</label>
+        <input id="number" name="number" type="number" min="0" max="100" step="1">
+
+        <label for="qty">Quantity</label>
+        <input id="qty" name="qty" type="number" min="0" value="1">
+
+        <label for="price">Price</label>
+        <input id="price" name="price" type="number" min="0" step="0.01" value="9.99">
+
+        <label for="volume">Range</label>
+        <input id="volume" name="volume" type="range" min="0" max="100" value="50">
+        <output id="rangeValue" name="rangeValue" for="volume">50</output>
+
+        <label for="color">Color</label>
+        <input id="color" name="color" type="color" value="#3366ff">
+
+        <label for="meter">Meter</label>
+        <meter id="meter" min="0" max="100" low="30" high="80" optimum="90" value="65">65%</meter>
+
+        <label for="progress">Progress</label>
+        <progress id="progress" max="100" value="35">35%</progress>
+
+        <label for="total">Calculated total</label>
+        <output id="total" name="total" for="qty price">9.99</output>
+    </fieldset>
+
+    <fieldset>
+        <legend>Choices</legend>
+
+        <label for="select">Select</label>
+        <select id="select" name="select">
+            <option value="">Please choose</option>
+            <option>One</option>
+            <option>Two</option>
+            <option>Three</option>
+        </select>
+
+        <label for="select-multiple">Select multiple</label>
+        <select id="select-multiple" name="selectMultiple[]" multiple size="4">
+            <option>Alpha</option>
+            <option>Beta</option>
+            <option>Gamma</option>
+            <option>Delta</option>
+        </select>
+
+        <label for="country">Datalist</label>
+        <input id="country" name="country" list="countries" placeholder="Start typing...">
+        <datalist id="countries">
+            <option value="Netherlands">
+            <option value="Belgium">
+            <option value="Germany">
+            <option value="France">
+        </datalist>
+
+        <p>
+            <strong>Checkboxes</strong><br>
+            <label><input type="checkbox" name="features[]" value="news" checked> News</label>
+            <label><input type="checkbox" name="features[]" value="events"> Events</label>
+            <label><input type="checkbox" name="features[]" value="offers"> Offers</label>
+        </p>
+
+        <p>
+            <strong>Radio buttons</strong><br>
+            <label><input type="radio" name="contact" value="email" checked> Email</label>
+            <label><input type="radio" name="contact" value="phone"> Phone</label>
+            <label><input type="radio" name="contact" value="post"> Post</label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Files and extra controls</legend>
+
+        <label for="file">File</label>
+        <input id="file" name="file" type="file">
+
+        <label for="avatar">Image file</label>
+        <input id="avatar" name="avatar" type="file" accept="image/*">
+
+        <label for="readonly">Readonly</label>
+        <input id="readonly" name="readonly" type="text" value="Cannot edit this" readonly>
+
+        <label for="disabled">Disabled</label>
+        <input id="disabled" name="disabled" type="text" value="Unavailable" disabled>
+    </fieldset>
+
+    <fieldset>
+        <legend>Buttons</legend>
+
+        <input type="button" value="Plain input button">
+        <button type="button">Button element</button>
+        <button type="submit">Submit</button>
+        <input type="submit" value="Submit input">
+        <input type="reset" value="Reset">
+    </fieldset>
+</form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer class="footer-complex">
+    <a href="#top" class="top">▲</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-m-1o2 col-l-1o4">
+                <div><a href="#">Privacy</a></div>
+                <div><a href="#">Voorwaarden</a></div>
+                <div><a href="#">Cookies</a></div>
+                <!--<div class="mt-24">☺ 2026 <a href="https://deidee.nl/">deidee</a></div>-->
+            </div>
+            <div class="col-m-1o2 col-l-1o4">
+                <div>tel: <a href="tel:+31624699186"><data value="0624699186">06 246 99 186</data></a></div>
+                <div>mailto: <a href="mailto:info@deidee.nl">info@deidee.nl</a></div>
+                <div>https: <a href="https://deidee.nl/">//deidee.nl/</a></div>
+            </div>
+            <div class="col-m-1o2 col-l-3o8 col-xl-1o4">
+                <dl>
+                    <dt><abbr title="Kamer van Koophandel">kvk</abbr></dt>
+                    <dd><a href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=273132690000">27313269</a></dd>
+                </dl>
+                <dl>
+                    <dt><abbr lang="en" title="International Bank Account Number">iban</abbr></dt>
+                    <dd><data value="NL14ABNA0413695026">NL14 ABNA0413 6950 26</data></dd>
+                </dl>
+                <dl>
+                    <dt><abbr>btw</abbr></dt>
+                    <dd>NL144413784B01</dd>
+                </dl>
+            </div>
+            <div class="col-m-1o2 col-l-1o8 col-xl-1o4">
+                <div><a href="https://www.linkedin.com/company/deidee">LinkedIn</a></div>
+                <div><a href="https://twitter.com/deideenl">Twitter</a></div>
+                <div><a href="https://www.facebook.com/deideecom">Facebook</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    "use strict";
+
+    const html = document.documentElement;
+    html.style.setProperty("--dejade", "green");
+
+    const devicePixelRatio = window.devicePixelRatio || 1;
+    html.style.setProperty("--dppx", devicePixelRatio.toString());
+    html.style.setProperty("--dp", 1 / devicePixelRatio + 'px');
+
+    document.addEventListener("DOMContentLoaded", function() {
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+
+        window.addEventListener('resize', function() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+        });
+
+        document.onmousemove = function(e) {
+            let r = Math.round(127 * e.clientY / height);
+            let g = Math.round(((e.clientY / height) + (e.clientX / width)) / 2 * 128 + 127);
+            let b = Math.round(191 * e.clientX / width);
+            let rgb = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+
+            html.style.setProperty("--dejade", rgb);
+        };
+    });
+
+</script>
+</body>
+</html>
