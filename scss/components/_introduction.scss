@@ -1,6 +1,8 @@
 
+@use "../desoep" as *;
+
 .introduction {
-  font-size: rem(24);
+  font-size: de-rem(24);
   line-height: 1;
 
   p {

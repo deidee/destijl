@@ -1,9 +1,11 @@
 
+@use "../desoep" as *;
+
 main {
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: rem(24px);
-  padding-top: rem(24px);
+  padding-bottom: de-rem(24px);
+  padding-top: de-rem(24px);
 }

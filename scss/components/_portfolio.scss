@@ -1,6 +1,8 @@
 
+@use "../desoep" as *;
+
 .portfolio {
-  margin-bottom: rem(48);
+  margin-bottom: de-rem(48);
   
   &-description {
     margin-top: auto;
@@ -12,18 +14,18 @@
   }
 
   &-figure {
-    margin-bottom: rem(24);
+    margin-bottom: de-rem(24);
   }
 
   &-info {
     display: flex;
     flex-direction: column;
-    margin-bottom: rem(24);
+    margin-bottom: de-rem(24);
   }
 
   &-item {
-    margin-bottom: rem(48);
-    padding-bottom: rem(48);
+    margin-bottom: de-rem(48);
+    padding-bottom: de-rem(48);
   }
 
   &-screenshot {

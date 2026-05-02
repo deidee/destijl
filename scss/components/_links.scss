@@ -1,4 +1,7 @@
 
+@use "sass:color";
+@use "../desoep" as *;
+
 a {
   background-color: transparent;
   color: $dejade;
@@ -11,7 +14,7 @@ a {
 
   &:hover {
     color: deJade();
-    //text-shadow: 0 rem(1) rem(1) transparentize($black, .5);
+    //text-shadow: 0 de-rem(1) de-rem(1) color.adjust($black, $alpha: -.5);
   }
 
   &[aria-current] {

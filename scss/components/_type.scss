@@ -1,10 +1,12 @@
 
+@use "../desoep" as *;
+
 // TODO: Consider https://www.bbc.co.uk/gel/guidelines/typography for naming inspiration.
 
 abbr {
   font-feature-settings: 'smcp' 1;
   font-variant-caps: small-caps;
-  letter-spacing: rem(1);
+  letter-spacing: de-rem(1);
 }
 
 // Be strong!
@@ -18,14 +20,14 @@ cite, i, var {
 
 h1, .h1 {
   font-size: $font-size-xxl;
-  line-height: rem(48px);
-  margin: rem(12px) 0;
+  line-height: de-rem(48px);
+  margin: de-rem(12px) 0;
 }
 
 h2, .h2 {
   font-size: $font-size-xl;
-  line-height: rem(24px);
-  margin: rem(24px) 0;
+  line-height: de-rem(24px);
+  margin: de-rem(24px) 0;
 
   &:first-child {
     margin-top: 0;
@@ -34,14 +36,14 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: $font-size-l;
-  line-height: rem(24px);
-  margin: rem(12px) 0;
+  line-height: de-rem(24px);
+  margin: de-rem(12px) 0;
 }
 
 h4, .h4 {
   font-size: $font-size-m;
   font-weight: $font-weight-bold;
-  line-height: rem(24px);
+  line-height: de-rem(24px);
   margin: 0;
 }
 
@@ -95,8 +97,8 @@ sub, sup {
 }
 
 .text-s {
-  font-size: rem(14);
-  line-height: rem(24);
+  font-size: de-rem(14);
+  line-height: de-rem(24);
 }
 
 :lang(zh) {

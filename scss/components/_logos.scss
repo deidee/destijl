@@ -1,4 +1,7 @@
 
+@use "../desoep" as *;
+@use "bg" as *;
+
 .logo-container {
   @extend .bg--grid;
 
@@ -9,10 +12,10 @@
     background-color: $white;
     align-items: center;
     display: flex;
-    height: rem(480 - 48);
+    height: de-rem(480 - 48);
     justify-content: center;
-    margin-bottom: rem(24);
-    padding: rem(48 + 12);
+    margin-bottom: de-rem(24);
+    padding: de-rem(48 + 12);
     pointer-events: none;
     transition: background-color $transition-timing-function $transition-duration;
   }

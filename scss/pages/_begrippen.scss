@@ -1,11 +1,13 @@
 
+@use "../desoep" as *;
+
 html.begrippen {
 
   .index {
     li {
       line-height: 2;
       list-style: none;
-      margin: 0 0 rem(16) 0;
+      margin: 0 0 de-rem(16) 0;
       text-align: center;
 
       @for $i from 1 through 27 {
@@ -17,10 +19,10 @@ html.begrippen {
 
     a {
       background-color: deJade();
-      border: rem(4) solid $darken;
+      border: de-rem(4) solid $darken;
       color: $white;
       display: block;
-      height: rem(32);
+      height: de-rem(32);
       line-height: 1.5;
       //text-shadow: $text-shadow;
       transition-duration: $transition-duration;
@@ -38,10 +40,10 @@ html.begrippen {
       h2 {
         background: $contrast;
         color: $contrast-inverse;
-        margin-right: rem(48);
+        margin-right: de-rem(48);
         margin-top: 0;
         overflow: visible;
-        padding: rem(12);
+        padding: de-rem(12);
         position: absolute;
         right: 100%;
         text-align: right;

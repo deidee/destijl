@@ -1,0 +1,17 @@
+
+// Metaforisch de soep waar elk component van kan drinken.
+
+@forward "@deidee/dejade/scss/variables";
+@forward "@deidee/dejade/scss/dejade";
+@forward "@deidee/desass/src/sass/mixins";
+@forward "@deidee/desass/src/sass/style" as de-*;
+@forward "@deidee/hetpalet/scss/hetpalet";
+@forward "@deidee/deflex/scss/functions";
+@forward "@deidee/deflex/scss/mixins";
+@forward "@deidee/deflex/scss/deflex"; // TODO: Phase out (and replace with deGrid via hetCDN)?
+@forward "brand-colors/dist/latest/scss/brand-colors.latest";
+
+@forward "variables";
+
+@forward "placeholders";
+@forward "mixins";

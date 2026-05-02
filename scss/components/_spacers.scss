@@ -1,27 +1,29 @@
 
+@use "../desoep" as *;
+
 // TODO: Breakpoints.
 
 @each $spacer in $spacers {
   // Borders:
-  .b-#{$spacer}, .bx-#{$spacer}, .bl-#{$spacer} { border-left: rem($spacer) solid; }
-  .b-#{$spacer}, .bx-#{$spacer}, .br-#{$spacer} { border-right: rem($spacer) solid; }
-  .b-#{$spacer}, .by-#{$spacer}, .bb-#{$spacer} { border-bottom: rem($spacer) solid; }
-  .b-#{$spacer}, .by-#{$spacer}, .bt-#{$spacer} { border-top: rem($spacer) solid; }
+  .b-#{$spacer}, .bx-#{$spacer}, .bl-#{$spacer} { border-left: de-rem($spacer) solid; }
+  .b-#{$spacer}, .bx-#{$spacer}, .br-#{$spacer} { border-right: de-rem($spacer) solid; }
+  .b-#{$spacer}, .by-#{$spacer}, .bb-#{$spacer} { border-bottom: de-rem($spacer) solid; }
+  .b-#{$spacer}, .by-#{$spacer}, .bt-#{$spacer} { border-top: de-rem($spacer) solid; }
   // Margins:
-  .m-#{$spacer}, .mx-#{$spacer}, .ml-#{$spacer} { margin-left: rem($spacer); }
-  .m-#{$spacer}, .mx-#{$spacer}, .mr-#{$spacer} { margin-right: rem($spacer); }
-  .m-#{$spacer}, .my-#{$spacer}, .mb-#{$spacer} { margin-bottom: rem($spacer); }
-  .m-#{$spacer}, .my-#{$spacer}, .mt-#{$spacer} { margin-top: rem($spacer); }
+  .m-#{$spacer}, .mx-#{$spacer}, .ml-#{$spacer} { margin-left: de-rem($spacer); }
+  .m-#{$spacer}, .mx-#{$spacer}, .mr-#{$spacer} { margin-right: de-rem($spacer); }
+  .m-#{$spacer}, .my-#{$spacer}, .mb-#{$spacer} { margin-bottom: de-rem($spacer); }
+  .m-#{$spacer}, .my-#{$spacer}, .mt-#{$spacer} { margin-top: de-rem($spacer); }
   // Negative margins:
-  .nm-#{$spacer}, .nmx-#{$spacer}, .nml-#{$spacer} { margin-left: rem($spacer * -1); }
-  .nm-#{$spacer}, .nmx-#{$spacer}, .nmr-#{$spacer} { margin-right: rem($spacer * -1); }
-  .nm-#{$spacer}, .nmy-#{$spacer}, .nmb-#{$spacer} { margin-bottom: rem($spacer * -1); }
-  .nm-#{$spacer}, .nmy-#{$spacer}, .nmt-#{$spacer} { margin-top: rem($spacer * -1); }
+  .nm-#{$spacer}, .nmx-#{$spacer}, .nml-#{$spacer} { margin-left: de-rem($spacer * -1); }
+  .nm-#{$spacer}, .nmx-#{$spacer}, .nmr-#{$spacer} { margin-right: de-rem($spacer * -1); }
+  .nm-#{$spacer}, .nmy-#{$spacer}, .nmb-#{$spacer} { margin-bottom: de-rem($spacer * -1); }
+  .nm-#{$spacer}, .nmy-#{$spacer}, .nmt-#{$spacer} { margin-top: de-rem($spacer * -1); }
   // Paddings:
-  .p-#{$spacer}, .px-#{$spacer}, .pl-#{$spacer} { padding-left: rem($spacer); }
-  .p-#{$spacer}, .px-#{$spacer}, .pr-#{$spacer} { padding-right: rem($spacer); }
-  .p-#{$spacer}, .py-#{$spacer}, .pb-#{$spacer} { padding-bottom: rem($spacer); }
-  .p-#{$spacer}, .py-#{$spacer}, .pt-#{$spacer} { padding-top: rem($spacer); }
+  .p-#{$spacer}, .px-#{$spacer}, .pl-#{$spacer} { padding-left: de-rem($spacer); }
+  .p-#{$spacer}, .px-#{$spacer}, .pr-#{$spacer} { padding-right: de-rem($spacer); }
+  .p-#{$spacer}, .py-#{$spacer}, .pb-#{$spacer} { padding-bottom: de-rem($spacer); }
+  .p-#{$spacer}, .py-#{$spacer}, .pt-#{$spacer} { padding-top: de-rem($spacer); }
 }
 
 .mb-auto,

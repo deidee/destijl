@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 [data-mode~="dev"] {
   background-image: repeating-linear-gradient(
                   transparent,

@@ -1,10 +1,12 @@
 
+@use "../desoep" as *;
+
 html.delogo,
 html.delogos {
 
   .introduction {
-    margin-bottom: rem(48);
-    margin-top: rem(-48);
+    margin-bottom: de-rem(48);
+    margin-top: de-rem(-48);
   }
 
   main > section {
@@ -12,13 +14,13 @@ html.delogos {
     padding-top: 2rem;
 
     h2 {
-      margin-bottom: rem(32);
-      margin-top: rem(32);
+      margin-bottom: de-rem(32);
+      margin-top: de-rem(32);
     }
 
     h3 {
-      margin-bottom: rem(24);
-      margin-top: rem(24);
+      margin-bottom: de-rem(24);
+      margin-top: de-rem(24);
     }
 
     .row {

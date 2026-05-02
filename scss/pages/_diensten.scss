@@ -1,7 +1,9 @@
 
+@use "../desoep" as *;
+
 html.diensten {
   .legend {
-    margin-top: rem(24);
+    margin-top: de-rem(24);
 
     &-line {
       align-items: center;
@@ -9,7 +11,7 @@ html.diensten {
     }
 
     svg {
-      margin-right: rem(12);
+      margin-right: de-rem(12);
       vertical-align: center;
       width: auto;
     }

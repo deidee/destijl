@@ -1,14 +1,16 @@
 
+@use "../desoep" as *;
+
 %button {
   background-clip: padding-box;
   background-color: $black;
-  border-bottom: rem(6px) solid transparent;
-  border-top: rem(6px) solid transparent;
+  border-bottom: de-rem(6px) solid transparent;
+  border-top: de-rem(6px) solid transparent;
   color: $white;
   cursor: pointer;
   height: 3rem;
   line-height: 1.5;
-  padding: rem(6px) rem(16px);
+  padding: de-rem(6px) de-rem(16px);
   text-align: center;
 
   &:disabled {

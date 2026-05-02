@@ -1,24 +1,43 @@
 
 'use strict';
 
-let gulp = require('gulp');
-let pipeline = require('readable-stream').pipeline;
-let header = require('gulp-header');
-let rename = require('gulp-rename');
-let sass = require('gulp-sass/legacy')(require('sass'));
-let sourcemaps = require('gulp-sourcemaps');
-let twig = require('gulp-twig');
+const gulp = require('gulp');
+const header = require('gulp-header');
+const rename = require('gulp-rename');
+const gulpSass = require('gulp-sass')(require('sass'));
+const twig = require('gulp-twig');
 
-gulp.task('sass', function () {
-    // TODO: Bring back sourcemap without breaking the pipeline.
-    return gulp.src('./scss/**/*.scss')
+const sassOptions = {
+    loadPaths: ['node_modules']
+};
+
+const sassInput = ['./scss/**/*.scss', '!./scss/**/_*.scss'];
+
+gulp.task('sass:demo', function () {
+    return gulp.src(sassInput)
         .pipe(header('$debug: true;\n'))
-        .pipe(sass({includePaths: ['node_modules'], outputStyle: 'expanded'}))
-        .pipe(gulp.dest('./demo'))
+        .pipe(gulpSass.sync({
+            ...sassOptions,
+            style: 'expanded'
+        }).on('error', gulpSass.logError))
+        .pipe(gulp.dest('./demo'));
+});
+
+gulp.task('sass:dist', function () {
+    return gulp.src(sassInput)
         .pipe(header('$debug: false;\n'))
-        .pipe(sass({includePaths: ['node_modules'], outputStyle: 'compressed'}))
+        .pipe(gulpSass.sync({
+            ...sassOptions,
+            style: 'compressed'
+        }).on('error', gulpSass.logError))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('sass', gulp.parallel('sass:demo', 'sass:dist'));
+
+gulp.task('sass:watch', function () {
+    return gulp.watch('./scss/**/*.scss', gulp.series('sass'));
 });
 
 gulp.task('twig', function () {
@@ -146,10 +165,6 @@ gulp.task('twig', function () {
                 ]
             }}))
         .pipe(gulp.dest('demo'));
-});
-
-gulp.task('sass:watch', function () {
-    gulp.watch('./scss/**/*.scss', gulp.series('sass'));
 });
 
 gulp.task('default', gulp.series('sass', 'twig'));

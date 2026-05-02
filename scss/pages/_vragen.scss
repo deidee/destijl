@@ -1,7 +1,9 @@
 
+@use "../desoep" as *;
+
 html.vragen {
   .question {
-    margin-bottom: rem(24);
-    margin-top: rem(24);
+    margin-bottom: de-rem(24);
+    margin-top: de-rem(24);
   }
 }

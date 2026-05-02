@@ -1,6 +1,8 @@
 
+@use "../desoep" as *;
+
 .screen {
-  border: rem(12) solid $dark;
-  border-radius: rem(4);
+  border: de-rem(12) solid $dark;
+  border-radius: de-rem(4);
   overflow: hidden;
 }

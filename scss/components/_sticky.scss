@@ -1,5 +1,7 @@
 
+@use "../desoep" as *;
+
 .sticky {
   position: sticky;
-  top: rem(24);
+  top: de-rem(24);
 }

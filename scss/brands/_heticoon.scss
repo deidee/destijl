@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 .heticoon {
   max-width: 100%; // Fix for old iPad. TODO: Consider adding this for all SVG.
   overflow: visible;
@@ -9,7 +11,7 @@
 
   rect {
     stroke: $darken;
-    stroke-width: rem(3);
+    stroke-width: de-rem(3);
     transform-box: fill-box;
     transform-origin: center;
     transition-duration: $transition-duration;
@@ -18,6 +20,6 @@
   }
 
   @include media-breakpoint-up(l) {
-    margin: rem(48);
+    margin: de-rem(48);
   }
 }

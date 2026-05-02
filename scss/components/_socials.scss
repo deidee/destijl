@@ -1,10 +1,12 @@
 
+@use "../desoep" as *;
+
 .socials {
-  margin-left: rem(-4);
-  margin-right: rem(-4);
+  margin-left: de-rem(-4);
+  margin-right: de-rem(-4);
 
   > * {
-    margin-left: rem(4);
-    margin-right: rem(4);
+    margin-left: de-rem(4);
+    margin-right: de-rem(4);
   }
 }

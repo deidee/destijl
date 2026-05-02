@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 ::selection {
   background-color: var(--dejade-deselectie);
 }

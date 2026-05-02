@@ -1,9 +1,11 @@
 
+@use "../desoep" as *;
+
 html.rgb {
   h2,
   h3 {
-    margin-bottom: rem(24);
-    margin-top: rem(24);
+    margin-bottom: de-rem(24);
+    margin-top: de-rem(24);
   }
 
   .fail {

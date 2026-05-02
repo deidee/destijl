@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 html.web {
   .stickers {
     @include media-breakpoint-up(l) {

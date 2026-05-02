@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 svg {
   //height: auto; // Disabled because it broke detint color swatches.
   max-width: 100%;

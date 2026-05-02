@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 .product {
   background-color: $contrast;
   color: $light;
@@ -9,16 +11,16 @@
   }
 
   figcaption {
-    padding: rem(12);
+    padding: de-rem(12);
   }
 
   &-details {
     position: sticky;
-    top: rem(24);
+    top: de-rem(24);
   }
 
   &-group {
-    margin-bottom: rem(24);
+    margin-bottom: de-rem(24);
   }
 
   &-image {

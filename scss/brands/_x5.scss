@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 img[src^="https://x5.acjs.net/images/x5-"] {
   //height: calc(var(--dp) * 48);
   image-rendering: pixelated;

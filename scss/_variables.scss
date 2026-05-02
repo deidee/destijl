@@ -1,12 +1,15 @@
 
+@use "sass:color";
+@use "@deidee/desass/src/sass/style" as de;
+
 // Debug.
-$debug: false !default;
+//$debug: false !default;
 $dev: false !default;
 
 // Colors.
 $black: #000;
 $dark: #222;
-$darken: transparentize($black, .125);
+$darken: color.adjust($black, $alpha: -.125);
 $white: #fff;
 $blank: #fafafa;
 $light: #dedede;
@@ -26,13 +29,13 @@ $font-family-sans: 'Mona Sans', 'Avenir Next LT W04', Calibri, sans-serif, serif
 $font-family-serif: 'Sabon LT W04', 'Times New Roman', Times, serif, sans-serif;
 $sans: $font-family-sans;
 $serif: $font-family-serif;
-$font-size-xs: rem(10px);
-$font-size-s: rem(12px);
-$font-size-m: rem(16px);
-$font-size-l: rem(24px);
-$font-size-xl: rem(32px);
-$font-size-xxl: rem(48px);
-$font-size-3xl: rem(64px);
+$font-size-xs: de.rem(10px);
+$font-size-s: de.rem(12px);
+$font-size-m: de.rem(16px);
+$font-size-l: de.rem(24px);
+$font-size-xl: de.rem(32px);
+$font-size-xxl: de.rem(48px);
+$font-size-3xl: de.rem(64px);
 $font-weight-thin: 100;
 $font-weight-normal: normal;
 $font-weight-medium: 500;
@@ -44,7 +47,7 @@ $dppx: var(--dppx);
 $dp: var(--dp);
 
 // Layout.
-$gutter: 1.5rem;
+//$gutter: 1.5rem;
 $spacers: (0, 1, 2, 4, 8, 12, 16, 24, 32, 48);
 
 // Interaction.

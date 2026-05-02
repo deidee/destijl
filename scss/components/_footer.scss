@@ -1,21 +1,24 @@
 
+@use "../desoep" as *;
+@use "sass:color";
+
 body > footer {
   //background-color: $black;
-  //color: transparentize($white, .5);
+  //color: color.adjust($white, $alpha: -.5);
   margin-top: auto; // Make sure footer is at the bottom, even when there is no <main>.
-  padding: rem(12px) 0;
+  padding: de-rem(12px) 0;
   text-align: center;
 
   [class^="col"] {
-    padding-bottom: rem(12);
-    padding-top: rem(12);
+    padding-bottom: de-rem(12);
+    padding-top: de-rem(12);
     position: relative;
 
     &::before {
       background-color: $text;
       content: '';
       display: block;
-      height: rem(1);
+      height: de-rem(1);
       left: $half-gutter;
       position: absolute;
       right: $half-gutter;
@@ -34,13 +37,13 @@ body > footer {
     }
 
     dd {
-      padding-left: rem(12px);
+      padding-left: de-rem(12px);
       text-align: left;
       width: 75%;
     }
 
     dt {
-      padding-right: rem(12px);
+      padding-right: de-rem(12px);
       text-align: right;
       width: 25%;
     }
@@ -62,7 +65,7 @@ body > footer {
       }
 
       dt {
-        margin: 0 rem(12px) 0 rem(24px);
+        margin: 0 de-rem(12px) 0 de-rem(24px);
       }
     }
   }

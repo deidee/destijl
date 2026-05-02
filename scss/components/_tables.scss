@@ -1,7 +1,9 @@
 
+@use "sass:color";
 @use "sass:math";
+@use "../desoep" as *;
 
-$table-hover-color: transparentize($black, 1 - math.div(1, 16));
+$table-hover-color: color.adjust($black, $alpha: -1 * (1 - math.div(1, 16)));
 
 col,
 tr {
@@ -20,8 +22,8 @@ table {
   border-collapse: collapse;
   display: table;
   empty-cells: hide;
-  margin-bottom: rem(24);
-  margin-top: rem(24);
+  margin-bottom: de-rem(24);
+  margin-top: de-rem(24);
   width: 100%;
 
   &:hover {
@@ -33,8 +35,8 @@ table {
 
 td, th {
   display: table-cell;
-  padding-left: rem(8);
-  padding-right: rem(8);
+  padding-left: de-rem(8);
+  padding-right: de-rem(8);
   position: relative;
   text-align: start;
   vertical-align: baseline;
@@ -49,7 +51,7 @@ thead {
       bottom: 0;
       content: '';
       display: block;
-      height: rem(1);
+      height: de-rem(1);
       left: 0;
       position: absolute;
       right: 0;

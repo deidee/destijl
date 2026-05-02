@@ -1,13 +1,16 @@
 
+@use "sass:color";
+@use "../desoep" as *;
+
 html.deapps {
   .app {
-    border: rem(1) solid;
-    border-radius: rem(12);
-    border-bottom-color: transparentize($black, .75);
-    border-left-color: transparentize($black, .875);
-    border-right-color: transparentize($black, .875);
-    border-top-color: transparentize($white, .5);
-    box-shadow: 0 rem(6) rem(8) rem(-4) transparentize($black, .75);
+    border: de-rem(1) solid;
+    border-radius: de-rem(12);
+    border-bottom-color: color.adjust($black, $alpha: -.75);
+    border-left-color: color.adjust($black, $alpha: -.875);
+    border-right-color: color.adjust($black, $alpha: -.875);
+    border-top-color: color.adjust($white, $alpha: -.5);
+    box-shadow: 0 de-rem(6) de-rem(8) de-rem(-4) color.adjust($black, $alpha: -.75);
     display: inline-flex;
     overflow: hidden;
     position: relative;
@@ -15,8 +18,8 @@ html.deapps {
     &::after {
       background:
               linear-gradient(180deg,
-                      transparentize($white, .75),
-                      transparentize($black, .75) 100%);
+              color.adjust($white, $alpha: -.75),
+              color.adjust($black, $alpha: -.75) 100%);
       bottom: 0;
       content: "";
       display: block;

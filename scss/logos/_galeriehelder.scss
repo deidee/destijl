@@ -1,4 +1,7 @@
 
+@use "sass:color";
+@use "../desoep" as *;
+
 @mixin transition($property...) {
     transition-duration: $transition-duration;
     transition-property: $property;
@@ -108,14 +111,14 @@ $randomColor: var(--gh-random-color);
         &:focus,
         &:hover {
             .cube__side {
-                background-color: transparentize($off-white, .5);
+                background-color: color.adjust($off-white, $alpha: -.5);
             }
         }
     }
 
     &[data-sfx="transparantize"] {
         .cube__side {
-            background-color: transparentize($off-white, .5);
+            background-color: color.adjust($off-white, $alpha: -.5);
         }
     }
 
@@ -136,7 +139,7 @@ $randomColor: var(--gh-random-color);
         animation-duration: 2s;
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
-        background-color: transparentize($off-white, 0);
+        background-color: color.adjust($off-white, $alpha: 0);
         background-position: center;
         background-size: cover;
         height: 100%;
@@ -222,14 +225,14 @@ $randomColor: var(--gh-random-color);
 
 @keyframes cubeTransparantize {
     from {
-        background-color: transparentize($off-white, 0);
+        background-color: color.adjust($off-white, $alpha: 0);
     }
 
     50% {
-        background-color: transparentize($off-white, .5);
+        background-color: color.adjust($off-white, $alpha: -.5);
     }
 
     to {
-        background-color: transparentize($off-white, 0);
+        background-color: color.adjust($off-white, $alpha: 0);
     }
 }

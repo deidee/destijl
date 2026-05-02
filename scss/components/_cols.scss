@@ -1,9 +1,12 @@
 
+@use "sass:map";
+@use "../desoep" as *;
+
 %cols {
   //column-count: 2;
-  column-gap: rem(24);
-  margin-bottom: rem(24);
-  margin-top: rem(24);
+  column-gap: de-rem(24);
+  margin-bottom: de-rem(24);
+  margin-top: de-rem(24);
 }
 
 .cols,
@@ -12,7 +15,7 @@
   @extend %cols;
 }
 
-@each $breakpoint in map-keys($breakpoints) {
+@each $breakpoint in map.keys($breakpoints) {
 
   @include media-breakpoint-up($breakpoint, $breakpoints) {
 

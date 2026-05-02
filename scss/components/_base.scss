@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 body {
   color: $text;
   display: flex;

@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 // For our brand names, a space between words is too much, but no space is too little.
 .de-naam {
   word-spacing: -.0625em;

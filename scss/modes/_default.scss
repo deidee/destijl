@@ -1,4 +1,6 @@
 
+@use "../desoep" as *;
+
 @mixin default-mode {
   --bgcolor: #{$blank};
   --text: #{$dark};
