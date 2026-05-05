@@ -69,6 +69,11 @@
     color: $white;
   }
 
+  &--transparent {
+    background: transparent;
+    fill: transparent;
+  }
+
   &--twitter {
     background-color: $bc-twitter;
     color: $white;
